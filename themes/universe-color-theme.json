@@ -2,10 +2,13 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "editor.background": "#263238",
-    "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "focusBorder": "#ad82f2",
+    "foreground": "#d4dae1",
+    "widget.shadow": "#18232f",
+    "selection.background": "#7f57e0",
+    "descriptionForeground": "#d4dae1",
+    "errorForeground": "#ec5f5f",
+    "editor.background": "#1C2938"
   },
   "tokenColors": [
     {

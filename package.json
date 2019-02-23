@@ -17,5 +17,8 @@
         "path": "./themes/Dreamer VSCode Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }

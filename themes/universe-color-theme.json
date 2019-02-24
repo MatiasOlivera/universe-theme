@@ -75,7 +75,24 @@
     "sideBarTitle.foreground": "#f1e5ff",
     "sideBarSectionHeader.background": "#10171E",
     "sideBarSectionHeader.border": "#10171E",
-    "sideBarSectionHeader.foreground": "#f1e5ff"
+    "sideBarSectionHeader.foreground": "#f1e5ff",
+    "editorGroup.border": "#1c232a",
+    "editorGroup.dropBackground": "#1c232a",
+    "editorGroupHeader.noTabsBackground": "#1C2938",
+    "editorGroupHeader.tabsBackground": "#18232F",
+    "editorGroupHeader.tabsBorder": "#1C2938",
+    "editorGroup.emptyBackground": "#1c232a",
+    "editorGroup.focusedEmptyBorder": "#29343d",
+    "tab.activeBackground": "#1C2938",
+    "tab.activeForeground": "#f6f8fa",
+    "tab.border": "#1c232a",
+    "tab.activeBorderTop": "#f4da55",
+    "tab.unfocusedActiveBorderTop": "#ebc83c",
+    "tab.inactiveBackground": "#29343d",
+    "tab.inactiveForeground": "#f6f8fa",
+    "tab.unfocusedActiveForeground": "#d4dae1",
+    "tab.unfocusedInactiveForeground": "#d4dae1",
+    "editorPane.background": "#1c232a"
   },
   "tokenColors": [
     {

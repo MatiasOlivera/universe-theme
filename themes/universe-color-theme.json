@@ -7,7 +7,14 @@
     "widget.shadow": "#18232f",
     "selection.background": "#7f57e0",
     "descriptionForeground": "#d4dae1",
-    "errorForeground": "#ec5f5f",
+    "errorForeground": "#febcbc",
+    "textBlockQuote.background": "#29294d",
+    "textBlockQuote.border": "#6272d0",
+    "textCodeBlock.background": "#213147",
+    "textLink.activeForeground": "#74b9e9",
+    "textLink.foreground": "#4e9cd9",
+    "textPreformat.foreground": "#e97b97",
+    "textSeparator.foreground": "#96a2af",
     "editor.background": "#1C2938"
   },
   "tokenColors": [

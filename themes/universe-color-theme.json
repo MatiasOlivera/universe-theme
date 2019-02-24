@@ -42,7 +42,8 @@
     "scrollbarSlider.hoverBackground": "#5237a4",
     "badge.foreground": "#dceff9",
     "badge.background": "#243953",
-    "editor.background": "#1C2938"
+    "editor.background": "#1C2938",
+    "progressBar.background": "#ad82f2",
   },
   "tokenColors": [
     {

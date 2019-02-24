@@ -146,7 +146,10 @@
     "editorGutter.modifiedBackground": "#a9d9f6",
     "editorGutter.addedBackground": "#a8f1c5",
     "editorGutter.deletedBackground": "#febcbc",
-    "editorGutter.commentRangeForeground": "#d4dae1"
+    "editorGutter.commentRangeForeground": "#d4dae1",
+    "diffEditor.insertedTextBackground": "#294668",
+    "diffEditor.removedTextBackground": "#213147",
+    "diffEditor.border": "#10171E",
   },
   "tokenColors": [
     {

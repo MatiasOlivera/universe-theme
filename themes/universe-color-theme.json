@@ -44,6 +44,23 @@
     "badge.background": "#243953",
     "editor.background": "#1C2938",
     "progressBar.background": "#ad82f2",
+    "list.activeSelectionBackground": "#f4da55",
+    "list.activeSelectionForeground": "#3d2e12",
+    "list.dropBackground": "#ad82f2",
+    "list.focusBackground": "#6941c8",
+    "list.focusForeground": "#f1e5ff",
+    "list.highlightForeground": "#f1e5ff",
+    "list.hoverBackground": "#6941c8",
+    "list.hoverForeground": "#f1e5ff",
+    "list.inactiveSelectionBackground": "#6941c8",
+    "list.inactiveSelectionForeground": "#f1e5ff",
+    "list.inactiveFocusBackground": "#5237a4",
+    "list.invalidItemForeground": "#2e2354",
+    "list.errorForeground": "#febcbc",
+    "list.warningForeground": "#f9f1a1",
+    "listFilterWidget.background": "#5237a4",
+    "listFilterWidget.outline": "#6941c8",
+    "listFilterWidget.noMatchesOutline": "#ad2349"
   },
   "tokenColors": [
     {

@@ -60,7 +60,14 @@
     "list.warningForeground": "#f9f1a1",
     "listFilterWidget.background": "#5237a4",
     "listFilterWidget.outline": "#6941c8",
-    "listFilterWidget.noMatchesOutline": "#ad2349"
+    "listFilterWidget.noMatchesOutline": "#ad2349",
+    "activityBar.background": "#10171E",
+    "activityBar.dropBackground": "#1A2237",
+    "activityBar.foreground": "#f4da55",
+    "activityBar.inactiveForeground": "#4d5a68",
+    "activityBar.border": "#10171E",
+    "activityBarBadge.background": "#5237a4",
+    "activityBarBadge.foreground": "#f1e5ff"
   },
   "tokenColors": [
     {

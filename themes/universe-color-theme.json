@@ -15,6 +15,9 @@
     "textLink.foreground": "#4e9cd9",
     "textPreformat.foreground": "#e97b97",
     "textSeparator.foreground": "#96a2af",
+    "button.background": "#432c85",
+    "button.foreground": "#f1e5ff",
+    "button.hoverBackground": "#5237a4",
     "editor.background": "#1C2938"
   },
   "tokenColors": [

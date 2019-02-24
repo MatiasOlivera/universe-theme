@@ -18,6 +18,10 @@
     "button.background": "#432c85",
     "button.foreground": "#f1e5ff",
     "button.hoverBackground": "#5237a4",
+    "dropdown.background": "#243953",
+    "dropdown.listBackground": "#243953",
+    "dropdown.border": "#213147",
+    "dropdown.foreground": "#dceff9",
     "editor.background": "#1C2938"
   },
   "tokenColors": [

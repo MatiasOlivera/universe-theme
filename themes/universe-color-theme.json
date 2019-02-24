@@ -36,6 +36,10 @@
     "inputValidation.warningBackground": "#3d2e12",
     "inputValidation.warningForeground": "#f9f7d5",
     "inputValidation.warningBorder": "#4c3912",
+    "scrollbar.shadow": "#1C2938",
+    "scrollbarSlider.activeBackground": "#5237a4",
+    "scrollbarSlider.background": "#432c85",
+    "scrollbarSlider.hoverBackground": "#5237a4",
     "editor.background": "#1C2938"
   },
   "tokenColors": [

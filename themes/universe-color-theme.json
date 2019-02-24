@@ -67,7 +67,15 @@
     "activityBar.inactiveForeground": "#4d5a68",
     "activityBar.border": "#10171E",
     "activityBarBadge.background": "#5237a4",
-    "activityBarBadge.foreground": "#f1e5ff"
+    "activityBarBadge.foreground": "#f1e5ff",
+    "sideBar.background": "#10171E",
+    "sideBar.foreground": "#f1e5ff",
+    "sideBar.border": "#10171E",
+    "sideBar.dropBackground": "#1A2237",
+    "sideBarTitle.foreground": "#f1e5ff",
+    "sideBarSectionHeader.background": "#10171E",
+    "sideBarSectionHeader.border": "#10171E",
+    "sideBarSectionHeader.foreground": "#f1e5ff"
   },
   "tokenColors": [
     {

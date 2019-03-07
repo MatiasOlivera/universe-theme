@@ -150,6 +150,22 @@
     "diffEditor.insertedTextBackground": "#294668",
     "diffEditor.removedTextBackground": "#213147",
     "diffEditor.border": "#10171E",
+    "editorWidget.background": "#10171E",
+    "editorWidget.border": "#29343d",
+    "editorWidget.resizeBorder": "#9668eb",
+    "editorSuggestWidget.background": "#10171E",
+    "editorSuggestWidget.border": "#29343d",
+    "editorSuggestWidget.foreground": "#f1e5ff",
+    "editorSuggestWidget.highlightForeground": "#f4da55",
+    "editorSuggestWidget.selectedBackground": "#5237a4",
+    "editorHoverWidget.background": "#10171E",
+    "editorHoverWidget.border": "#29343d",
+    "debugExceptionWidget.background": "#4e1717",
+    "debugExceptionWidget.border": "#701617",
+    "editorMarkerNavigation.background": "#18232F",
+    "editorMarkerNavigationError.background": "#f58a8a",
+    "editorMarkerNavigationWarning.background": "#f7e87a",
+    "editorMarkerNavigationInfo.background": "#b5c7fa"
   },
   "tokenColors": [
     {

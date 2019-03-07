@@ -189,7 +189,13 @@
     "merge.commonContentBackground": "#1c232a",
     "editorOverviewRuler.currentContentForeground": "#a8f1c5",
     "editorOverviewRuler.incomingContentForeground": "#ddc3fc",
-    "editorOverviewRuler.commonContentForeground": "#d4dae1"
+    "editorOverviewRuler.commonContentForeground": "#d4dae1",
+    "panel.background": "#18232F",
+    "panel.border": "#10171E",
+    "panel.dropBackground": "#6941c8",
+    "panelTitle.activeBorder": "#f4da55",
+    "panelTitle.activeForeground": "#f6f8fa",
+    "panelTitle.inactiveForeground": "#96a2af"
   },
   "tokenColors": [
     {

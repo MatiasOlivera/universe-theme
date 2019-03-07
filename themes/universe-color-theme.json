@@ -179,7 +179,17 @@
     "peekViewResult.selectionForeground": "#f1e5ff",
     "peekViewTitle.background": "#18232F",
     "peekViewTitleDescription.foreground": "#d4dae1",
-    "peekViewTitleLabel.foreground": "#f1e5ff"
+    "peekViewTitleLabel.foreground": "#f1e5ff",
+    "merge.currentHeaderBackground": "#223d3f",
+    "merge.currentContentBackground": "#2e5758",
+    "merge.incomingHeaderBackground": "#29294d",
+    "merge.incomingContentBackground": "#353767",
+    "merge.border": "#18232F",
+    "merge.commonHeaderBackground": "#29343d",
+    "merge.commonContentBackground": "#1c232a",
+    "editorOverviewRuler.currentContentForeground": "#a8f1c5",
+    "editorOverviewRuler.incomingContentForeground": "#ddc3fc",
+    "editorOverviewRuler.commonContentForeground": "#d4dae1"
   },
   "tokenColors": [
     {

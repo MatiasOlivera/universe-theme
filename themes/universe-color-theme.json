@@ -258,7 +258,11 @@
     "terminal.ansiYellow": "#FFCB6B",
     "terminal.selectionBackground": "#7f57e0",
     "terminalCursor.background": "#5237a4",
-    "terminalCursor.foreground": "#f1e5ff"
+    "terminalCursor.foreground": "#f1e5ff",
+    "debugToolBar.background": "#10171E",
+    "debugToolBar.border": "#10171E",
+    "editor.stackFrameHighlightBackground": "#6941c8",
+    "editor.focusedStackFrameHighlightBackground": "#6941c8"
   },
   "tokenColors": [
     {

@@ -262,7 +262,11 @@
     "debugToolBar.background": "#10171E",
     "debugToolBar.border": "#10171E",
     "editor.stackFrameHighlightBackground": "#6941c8",
-    "editor.focusedStackFrameHighlightBackground": "#6941c8"
+    "editor.focusedStackFrameHighlightBackground": "#6941c8",
+    "welcomePage.background": "#1c2938",
+    "welcomePage.buttonBackground": "#18232f",
+    "welcomePage.buttonHoverBackground": "#432c85",
+    "walkThrough.embeddedEditorBackground": "#1c2938"
   },
   "tokenColors": [
     {

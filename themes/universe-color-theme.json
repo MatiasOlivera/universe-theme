@@ -224,6 +224,14 @@
     "menu.selectionBackground": "#f4da55",
     "menu.selectionBorder": "#f4da55",
     "menu.separatorBackground": "#18232f",
+    "notificationCenter.border": "#213147",
+    "notificationCenterHeader.foreground": "#dceff9",
+    "notificationCenterHeader.background": "#213147",
+    "notificationToast.border": "#213147",
+    "notifications.foreground": "#dceff9",
+    "notifications.background": "#213147",
+    "notifications.border": "#18232f",
+    "notificationLink.foreground": "#4e9cd9"
   },
   "tokenColors": [
     {

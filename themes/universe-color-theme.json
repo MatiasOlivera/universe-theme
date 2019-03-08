@@ -266,7 +266,14 @@
     "welcomePage.background": "#1c2938",
     "welcomePage.buttonBackground": "#18232f",
     "welcomePage.buttonHoverBackground": "#432c85",
-    "walkThrough.embeddedEditorBackground": "#1c2938"
+    "walkThrough.embeddedEditorBackground": "#1c2938",
+    "gitDecoration.addedResourceForeground": "#a8f1c5",
+    "gitDecoration.modifiedResourceForeground": "#a9d9f6",
+    "gitDecoration.deletedResourceForeground": "#febcbc",
+    "gitDecoration.untrackedResourceForeground": "#ddc3fc",
+    "gitDecoration.ignoredResourceForeground": "#d4dae1",
+    "gitDecoration.conflictingResourceForeground": "#f9f1a1",
+    "gitDecoration.submoduleResourceForeground": "#f6f8fa"
   },
   "tokenColors": [
     {

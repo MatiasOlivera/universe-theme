@@ -293,7 +293,11 @@
     "breadcrumb.foreground": "#d4dae1",
     "breadcrumb.focusForeground": "#f6f8fa",
     "breadcrumb.activeSelectionForeground": "#f6f8fa",
-    "breadcrumbPicker.background": "#10171E"
+    "breadcrumbPicker.background": "#10171E",
+    "editor.snippetTabstopHighlightBackground": "#5237a4",
+    "editor.snippetTabstopHighlightBorder": "#6941c8",
+    "editor.snippetFinalTabstopHighlightBackground": "#5237a4",
+    "editor.snippetFinalTabstopHighlightBorder": "#6941c8"
   },
   "tokenColors": [
     {

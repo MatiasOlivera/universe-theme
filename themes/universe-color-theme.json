@@ -231,7 +231,10 @@
     "notifications.foreground": "#dceff9",
     "notifications.background": "#213147",
     "notifications.border": "#18232f",
-    "notificationLink.foreground": "#4e9cd9"
+    "notificationLink.foreground": "#4e9cd9",
+    "extensionButton.prominentForeground": "#3d2e12",
+    "extensionButton.prominentBackground": "#f4da55",
+    "extensionButton.prominentHoverBackground": "#f7e87a"
   },
   "tokenColors": [
     {

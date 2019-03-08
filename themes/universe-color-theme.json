@@ -273,7 +273,22 @@
     "gitDecoration.untrackedResourceForeground": "#ddc3fc",
     "gitDecoration.ignoredResourceForeground": "#d4dae1",
     "gitDecoration.conflictingResourceForeground": "#f9f1a1",
-    "gitDecoration.submoduleResourceForeground": "#f6f8fa"
+    "gitDecoration.submoduleResourceForeground": "#f6f8fa",
+    "settings.headerForeground": "#f6f8fa",
+    "settings.modifiedItemIndicator": "#f4da55",
+    "settings.dropdownBackground": "#18232f",
+    "settings.dropdownForeground": "#f6f8fa",
+    "settings.dropdownBorder": "#18232f",
+    "settings.dropdownListBorder": "#10171E",
+    "settings.checkboxBackground": "#18232f",
+    "settings.checkboxForeground": "#f6f8fa",
+    "settings.checkboxBorder": "#18232f",
+    "settings.textInputBackground": "#18232f",
+    "settings.textInputForeground": "#f6f8fa",
+    "settings.textInputBorder": "#18232f",
+    "settings.numberInputBackground": "#18232f",
+    "settings.numberInputForeground": "#f6f8fa",
+    "settings.numberInputBorder": "#18232f"
   },
   "tokenColors": [
     {

@@ -288,7 +288,12 @@
     "settings.textInputBorder": "#18232f",
     "settings.numberInputBackground": "#18232f",
     "settings.numberInputForeground": "#f6f8fa",
-    "settings.numberInputBorder": "#18232f"
+    "settings.numberInputBorder": "#18232f",
+    "breadcrumb.background": "#1c2938",
+    "breadcrumb.foreground": "#d4dae1",
+    "breadcrumb.focusForeground": "#f6f8fa",
+    "breadcrumb.activeSelectionForeground": "#f6f8fa",
+    "breadcrumbPicker.background": "#10171E"
   },
   "tokenColors": [
     {

@@ -19,10 +19,14 @@
     ]
   },
   "devDependencies": {
+    "nodemon": "^1.18.10",
     "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
   },
   "scripts": {
+    "build": "npm run ts:build && npm run node:build",
+    "node:build": "node dist/index.js",
+    "node:watch": "nodemon dist/index.js",
     "ts:build": "tsc",
     "ts:watch": "tsc --watch"
   }

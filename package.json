@@ -19,6 +19,7 @@
     ]
   },
   "devDependencies": {
+    "nodemon": "^1.18.10",
     "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
   },

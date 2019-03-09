@@ -19,6 +19,11 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "ts:build": "tsc",
+    "ts:watch": "tsc --watch"
   }
 }

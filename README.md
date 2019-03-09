@@ -1,6 +1,6 @@
 # README
 
-## This is the README for your extension "dreamer"
+## This is the README for your extension "universe"
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 

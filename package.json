@@ -1,7 +1,7 @@
 {
-  "name": "dreamer",
-  "displayName": "dreamer-vscode-theme",
-  "description": "A dark theme for dreamers or for people that loves to sleep. Inspired by Twitter's night mode",
+  "name": "universe-theme",
+  "displayName": "Universe",
+  "description": "A dark theme for passionate developers",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.31.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dreamer VSCode Theme",
+        "label": "Universe",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dreamer VSCode Theme-color-theme.json"
+        "path": "./themes/universe-color-theme.json"
       }
     ]
   },

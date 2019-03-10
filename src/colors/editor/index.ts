@@ -22,6 +22,7 @@ import mergeConflictColors from './merge.conflict.colors';
 import panelColors from './panel.colors';
 import statusBarColors from './status.bar.colors';
 import titleBarColors from './title.bar.colors';
+import menuBarColors from './menu.bar.colors';
 
 export default {
   baseColors,
@@ -47,5 +48,6 @@ export default {
   mergeConflictColors,
   panelColors,
   statusBarColors,
-  titleBarColors
+  titleBarColors,
+  menuBarColors
 };

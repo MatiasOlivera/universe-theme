@@ -2,13 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "editorGroup.border": "#151f2b",
-    "editorGroup.dropBackground": "#2e2354",
-    "editorGroupHeader.noTabsBackground": "#1c2938",
-    "editorGroupHeader.tabsBackground": "#151f2b",
-    "editorGroupHeader.tabsBorder": "#1c2938",
-    "editorGroup.emptyBackground": "#1c2938",
-    "editorGroup.focusedEmptyBorder": "#ad82f2",
     "tab.activeBackground": "#1c2938",
     "tab.activeForeground": "#f6f8fa",
     "tab.border": "#0f161e",

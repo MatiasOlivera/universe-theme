@@ -9,6 +9,7 @@ import progressBarColors from './progress.bar.colors';
 import listColors from './list.colors';
 import activityBarColors from './activity.bar.colors';
 import sideBarColors from './side.bar.colors';
+import editorGroupColors from './editor.group.colors';
 
 export default {
   baseColors,
@@ -21,5 +22,6 @@ export default {
   progressBarColors,
   listColors,
   activityBarColors,
-  sideBarColors
+  sideBarColors,
+  editorGroupColors
 };

@@ -20,6 +20,7 @@ import widgetColors from './widget.colors';
 import peekViewColors from './peek.view.colors';
 import mergeConflictColors from './merge.conflict.colors';
 import panelColors from './panel.colors';
+import statusBarColors from './status.bar.colors';
 
 export default {
   baseColors,
@@ -43,5 +44,6 @@ export default {
   widgetColors,
   peekViewColors,
   mergeConflictColors,
-  panelColors
+  panelColors,
+  statusBarColors
 };

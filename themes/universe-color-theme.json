@@ -2,10 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "dropdown.background": "#1c2938",
-    "dropdown.listBackground": "#1c2938",
-    "dropdown.border": "#233345",
-    "dropdown.foreground": "#f6f8fa",
     "input.background": "#233345",
     "input.border": "#293c52",
     "input.foreground": "#f6f8fa",

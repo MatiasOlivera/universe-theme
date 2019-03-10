@@ -16,6 +16,7 @@ import overviewRulerColors from './overview.ruler.colors';
 import squigglesColors from './squiggles.colors';
 import gutterColors from './gutter.colors';
 import diffColors from './diff.colors';
+import widgetColors from './widget.colors';
 
 export default {
   baseColors,
@@ -35,5 +36,6 @@ export default {
   overviewRulerColors,
   squigglesColors,
   gutterColors,
-  diffColors
+  diffColors,
+  widgetColors
 };

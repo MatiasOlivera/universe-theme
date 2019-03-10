@@ -17,6 +17,7 @@ import squigglesColors from './squiggles.colors';
 import gutterColors from './gutter.colors';
 import diffColors from './diff.colors';
 import widgetColors from './widget.colors';
+import peekViewColors from './peek.view.colors';
 
 export default {
   baseColors,
@@ -37,5 +38,6 @@ export default {
   squigglesColors,
   gutterColors,
   diffColors,
-  widgetColors
+  widgetColors,
+  peekViewColors
 };

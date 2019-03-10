@@ -2,11 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "editorGutter.background": "#1C2938",
-    "editorGutter.modifiedBackground": "#a9d9f6",
-    "editorGutter.addedBackground": "#a8f1c5",
-    "editorGutter.deletedBackground": "#febcbc",
-    "editorGutter.commentRangeForeground": "#d4dae1",
     "diffEditor.insertedTextBackground": "#233345",
     "diffEditor.removedTextBackground": "#293c52",
     "diffEditor.border": "#151f2b",

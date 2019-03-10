@@ -19,6 +19,7 @@ import diffColors from './diff.colors';
 import widgetColors from './widget.colors';
 import peekViewColors from './peek.view.colors';
 import mergeConflictColors from './merge.conflict.colors';
+import panelColors from './panel.colors';
 
 export default {
   baseColors,
@@ -41,5 +42,6 @@ export default {
   diffColors,
   widgetColors,
   peekViewColors,
-  mergeConflictColors
+  mergeConflictColors,
+  panelColors
 };

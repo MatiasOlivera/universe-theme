@@ -2,12 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "panel.background": "#151f2b",
-    "panel.border": "#0f161e",
-    "panel.dropBackground": "#2e2354",
-    "panelTitle.activeBorder": "#f4da55",
-    "panelTitle.activeForeground": "#f6f8fa",
-    "panelTitle.inactiveForeground": "#96a2af",
     "statusBar.background": "#0f161e",
     "statusBar.foreground": "#96a2af",
     "statusBar.border": "#080c11",

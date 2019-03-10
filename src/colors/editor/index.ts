@@ -12,6 +12,7 @@ import sideBarColors from './side.bar.colors';
 import editorGroupColors from './editor.group.colors';
 import tabColors from './tab.colors';
 import editorColors from './editor.colors';
+import overviewRulerColors from './overview.ruler.colors';
 
 export default {
   baseColors,
@@ -27,5 +28,6 @@ export default {
   sideBarColors,
   editorGroupColors,
   tabColors,
-  editorColors
+  editorColors,
+  overviewRulerColors
 };

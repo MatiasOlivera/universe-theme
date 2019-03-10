@@ -8,6 +8,7 @@ import badgeColors from './badge.colors';
 import progressBarColors from './progress.bar.colors';
 import listColors from './list.colors';
 import activityBarColors from './activity.bar.colors';
+import sideBarColors from './side.bar.colors';
 
 export default {
   baseColors,
@@ -19,5 +20,6 @@ export default {
   badgeColors,
   progressBarColors,
   listColors,
-  activityBarColors
+  activityBarColors,
+  sideBarColors
 };

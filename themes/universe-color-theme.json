@@ -2,13 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#0f161e",
-    "activityBar.dropBackground": "#2e2354",
-    "activityBar.foreground": "#f4da55",
-    "activityBar.inactiveForeground": "#4d5a68",
-    "activityBar.border": "#080c11",
-    "activityBarBadge.background": "#5237a4",
-    "activityBarBadge.foreground": "#f1e5ff",
     "sideBar.background": "#151f2b",
     "sideBar.foreground": "#f6f8fa",
     "sideBar.border": "#0f161e",

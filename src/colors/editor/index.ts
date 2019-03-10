@@ -7,6 +7,7 @@ import scrollbarColors from './scrollbar.colors';
 import badgeColors from './badge.colors';
 import progressBarColors from './progress.bar.colors';
 import listColors from './list.colors';
+import activityBarColors from './activity.bar.colors';
 
 export default {
   baseColors,
@@ -17,5 +18,6 @@ export default {
   scrollbarColors,
   badgeColors,
   progressBarColors,
-  listColors
+  listColors,
+  activityBarColors
 };

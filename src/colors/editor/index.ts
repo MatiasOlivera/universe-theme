@@ -21,6 +21,7 @@ import peekViewColors from './peek.view.colors';
 import mergeConflictColors from './merge.conflict.colors';
 import panelColors from './panel.colors';
 import statusBarColors from './status.bar.colors';
+import titleBarColors from './title.bar.colors';
 
 export default {
   baseColors,
@@ -45,5 +46,6 @@ export default {
   peekViewColors,
   mergeConflictColors,
   panelColors,
-  statusBarColors
+  statusBarColors,
+  titleBarColors
 };

@@ -2,11 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "titleBar.activeBackground": "#0f161e",
-    "titleBar.activeForeground": "#d4dae1",
-    "titleBar.inactiveBackground": "#0f161e",
-    "titleBar.inactiveForeground": "#96a2af",
-    "titleBar.border": "#080c11",
     "menubar.selectionForeground": "#f6f8fa",
     "menubar.selectionBackground": "#233345",
     "menubar.selectionBorder": "#1c2938",

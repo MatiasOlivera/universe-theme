@@ -2,9 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "diffEditor.insertedTextBackground": "#233345",
-    "diffEditor.removedTextBackground": "#293c52",
-    "diffEditor.border": "#151f2b",
     "editorWidget.background": "#233345",
     "editorWidget.border": "#151f2b",
     "editorWidget.resizeBorder": "#ad82f2",

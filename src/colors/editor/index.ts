@@ -15,6 +15,7 @@ import editorColors from './editor.colors';
 import overviewRulerColors from './overview.ruler.colors';
 import squigglesColors from './squiggles.colors';
 import gutterColors from './gutter.colors';
+import diffColors from './diff.colors';
 
 export default {
   baseColors,
@@ -33,5 +34,6 @@ export default {
   editorColors,
   overviewRulerColors,
   squigglesColors,
-  gutterColors
+  gutterColors,
+  diffColors
 };

@@ -11,6 +11,7 @@ import activityBarColors from './activity.bar.colors';
 import sideBarColors from './side.bar.colors';
 import editorGroupColors from './editor.group.colors';
 import tabColors from './tab.colors';
+import editorColors from './editor.colors';
 
 export default {
   baseColors,
@@ -25,5 +26,6 @@ export default {
   activityBarColors,
   sideBarColors,
   editorGroupColors,
-  tabColors
+  tabColors,
+  editorColors
 };

@@ -6,6 +6,7 @@ import inputColors from './input.colors';
 import scrollbarColors from './scrollbar.colors';
 import badgeColors from './badge.colors';
 import progressBarColors from './progress.bar.colors';
+import listColors from './list.colors';
 
 export default {
   baseColors,
@@ -15,5 +16,6 @@ export default {
   inputColors,
   scrollbarColors,
   badgeColors,
-  progressBarColors
+  progressBarColors,
+  listColors
 };

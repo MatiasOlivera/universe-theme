@@ -13,6 +13,7 @@ import editorGroupColors from './editor.group.colors';
 import tabColors from './tab.colors';
 import editorColors from './editor.colors';
 import overviewRulerColors from './overview.ruler.colors';
+import squigglesColors from './squiggles.colors';
 
 export default {
   baseColors,
@@ -29,5 +30,6 @@ export default {
   editorGroupColors,
   tabColors,
   editorColors,
-  overviewRulerColors
+  overviewRulerColors,
+  squigglesColors
 };

@@ -2,10 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "editorError.foreground": "#f58a8a",
-    "editorWarning.foreground": "#f7e87a",
-    "editorInfo.foreground": "#b5c7fa",
-    "editorHint.foreground": "#c6a2f8",
     "editorUnnecessaryCode.opacity": "#000000c0",
     "editorGutter.background": "#1C2938",
     "editorGutter.modifiedBackground": "#a9d9f6",

@@ -2,10 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "scrollbar.shadow": "#1c2938",
-    "scrollbarSlider.activeBackground": "#6941c8",
-    "scrollbarSlider.background": "#5237a4",
-    "scrollbarSlider.hoverBackground": "#6941c8",
     "badge.foreground": "#3d2e12",
     "badge.background": "#f4da55",
     "progressBar.background": "#ad82f2",

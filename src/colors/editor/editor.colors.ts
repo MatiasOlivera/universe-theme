@@ -49,6 +49,9 @@ const editorColors: EditorColors = {
   editorRuler: {
     foreground: '#364f6c'
   },
+  editorUnnecessaryCode: {
+    opacity: '#000000c0'
+  },
   editorWhitespace: {
     foreground: '#62717f'
   }

@@ -4,6 +4,7 @@ import buttonColors from './button.colors';
 import dropdownColors from './dropdown.colors';
 import inputColors from './input.colors';
 import scrollbarColors from './scrollbar.colors';
+import badgeColors from './badge.colors';
 
 export default {
   baseColors,
@@ -11,5 +12,6 @@ export default {
   buttonColors,
   dropdownColors,
   inputColors,
-  scrollbarColors
+  scrollbarColors,
+  badgeColors
 };

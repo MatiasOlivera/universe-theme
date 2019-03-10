@@ -2,8 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "badge.foreground": "#3d2e12",
-    "badge.background": "#f4da55",
     "progressBar.background": "#ad82f2",
     "list.activeSelectionBackground": "#5237a4",
     "list.activeSelectionForeground": "#f1e5ff",

@@ -2,12 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "focusBorder": "#f4da55",
-    "foreground": "#d4dae1",
-    "widget.shadow": "#151f2b",
-    "selection.background": "#7f57e0",
-    "descriptionForeground": "#d4dae1",
-    "errorForeground": "#febcbc",
     "textBlockQuote.background": "#2e2354",
     "textBlockQuote.border": "#432c85",
     "textCodeBlock.background": "#2e2354",

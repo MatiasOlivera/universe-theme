@@ -18,6 +18,7 @@ import gutterColors from './gutter.colors';
 import diffColors from './diff.colors';
 import widgetColors from './widget.colors';
 import peekViewColors from './peek.view.colors';
+import mergeConflictColors from './merge.conflict.colors';
 
 export default {
   baseColors,
@@ -39,5 +40,6 @@ export default {
   gutterColors,
   diffColors,
   widgetColors,
-  peekViewColors
+  peekViewColors,
+  mergeConflictColors
 };

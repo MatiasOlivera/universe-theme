@@ -30,6 +30,7 @@ import terminalColors from './terminal.colors';
 import debugColors from './debug.colors';
 import welcomePageColors from './welcome.page.colors';
 import gitColors from './git.colors';
+import settingColors from './setting.colors';
 
 export default {
   baseColors,
@@ -63,5 +64,6 @@ export default {
   terminalColors,
   debugColors,
   welcomePageColors,
-  gitColors
+  gitColors,
+  settingColors
 };

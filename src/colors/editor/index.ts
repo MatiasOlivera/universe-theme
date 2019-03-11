@@ -29,6 +29,7 @@ import quickPickerColors from './quick.picker.colors';
 import terminalColors from './terminal.colors';
 import debugColors from './debug.colors';
 import welcomePageColors from './welcome.page.colors';
+import gitColors from './git.colors';
 
 export default {
   baseColors,
@@ -61,5 +62,6 @@ export default {
   quickPickerColors,
   terminalColors,
   debugColors,
-  welcomePageColors
+  welcomePageColors,
+  gitColors
 };

@@ -2,13 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "gitDecoration.addedResourceForeground": "#a8f1c5",
-    "gitDecoration.modifiedResourceForeground": "#a9d9f6",
-    "gitDecoration.deletedResourceForeground": "#febcbc",
-    "gitDecoration.untrackedResourceForeground": "#ddc3fc",
-    "gitDecoration.ignoredResourceForeground": "#d4dae1",
-    "gitDecoration.conflictingResourceForeground": "#f9f1a1",
-    "gitDecoration.submoduleResourceForeground": "#f6f8fa",
     "settings.headerForeground": "#f6f8fa",
     "settings.modifiedItemIndicator": "#f4da55",
     "settings.dropdownBackground": "#233345",

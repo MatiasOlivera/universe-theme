@@ -27,6 +27,7 @@ import notificationColors from './notification.colors';
 import extensionButtonColors from './extension.button.colors';
 import quickPickerColors from './quick.picker.colors';
 import terminalColors from './terminal.colors';
+import debugColors from './debug.colors';
 
 export default {
   baseColors,
@@ -57,5 +58,6 @@ export default {
   notificationColors,
   extensionButtonColors,
   quickPickerColors,
-  terminalColors
+  terminalColors,
+  debugColors
 };

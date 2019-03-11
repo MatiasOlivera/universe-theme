@@ -2,10 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "debugToolBar.background": "#233345",
-    "debugToolBar.border": "#233345",
-    "editor.stackFrameHighlightBackground": "#6941c8",
-    "editor.focusedStackFrameHighlightBackground": "#6941c8",
     "welcomePage.background": "#1c2938",
     "welcomePage.buttonBackground": "#151f2b",
     "welcomePage.buttonHoverBackground": "#432c85",

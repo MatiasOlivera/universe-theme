@@ -2,8 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "pickerGroup.border": "#151f2b",
-    "pickerGroup.foreground": "#f6f8fa",
     "terminal.background": "#151f2b",
     "terminal.border": "#0f161e",
     "terminal.foreground": "#f6f8fa",

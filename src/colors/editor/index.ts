@@ -25,6 +25,7 @@ import titleBarColors from './title.bar.colors';
 import menuBarColors from './menu.bar.colors';
 import notificationColors from './notification.colors';
 import extensionButtonColors from './extension.button.colors';
+import quickPickerColors from './quick.picker.colors';
 
 export default {
   baseColors,
@@ -53,5 +54,6 @@ export default {
   titleBarColors,
   menuBarColors,
   notificationColors,
-  extensionButtonColors
+  extensionButtonColors,
+  quickPickerColors
 };

@@ -23,6 +23,7 @@ import panelColors from './panel.colors';
 import statusBarColors from './status.bar.colors';
 import titleBarColors from './title.bar.colors';
 import menuBarColors from './menu.bar.colors';
+import notificationColors from './notification.colors';
 
 export default {
   baseColors,
@@ -49,5 +50,6 @@ export default {
   panelColors,
   statusBarColors,
   titleBarColors,
-  menuBarColors
+  menuBarColors,
+  notificationColors
 };

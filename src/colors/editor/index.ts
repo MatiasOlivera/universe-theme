@@ -24,6 +24,7 @@ import statusBarColors from './status.bar.colors';
 import titleBarColors from './title.bar.colors';
 import menuBarColors from './menu.bar.colors';
 import notificationColors from './notification.colors';
+import extensionButtonColors from './extension.button.colors';
 
 export default {
   baseColors,
@@ -51,5 +52,6 @@ export default {
   statusBarColors,
   titleBarColors,
   menuBarColors,
-  notificationColors
+  notificationColors,
+  extensionButtonColors
 };

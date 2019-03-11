@@ -2,9 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "extensionButton.prominentForeground": "#3d2e12",
-    "extensionButton.prominentBackground": "#f4da55",
-    "extensionButton.prominentHoverBackground": "#f7e87a",
     "pickerGroup.border": "#151f2b",
     "pickerGroup.foreground": "#f6f8fa",
     "terminal.background": "#151f2b",

@@ -2,10 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "welcomePage.background": "#1c2938",
-    "welcomePage.buttonBackground": "#151f2b",
-    "welcomePage.buttonHoverBackground": "#432c85",
-    "walkThrough.embeddedEditorBackground": "#1c2938",
     "gitDecoration.addedResourceForeground": "#a8f1c5",
     "gitDecoration.modifiedResourceForeground": "#a9d9f6",
     "gitDecoration.deletedResourceForeground": "#febcbc",

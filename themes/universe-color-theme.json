@@ -2,11 +2,6 @@
   "name": "Universe",
   "type": "dark",
   "colors": {
-    "breadcrumb.background": "#1c2938",
-    "breadcrumb.foreground": "#d4dae1",
-    "breadcrumb.focusForeground": "#f6f8fa",
-    "breadcrumb.activeSelectionForeground": "#f6f8fa",
-    "breadcrumbPicker.background": "#233345",
     "editor.snippetTabstopHighlightBackground": "#5237a4",
     "editor.snippetTabstopHighlightBorder": "#6941c8",
     "editor.snippetFinalTabstopHighlightBackground": "#5237a4",

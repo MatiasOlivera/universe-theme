@@ -32,6 +32,7 @@ import welcomePageColors from './welcome.page.colors';
 import gitColors from './git.colors';
 import settingColors from './setting.colors';
 import breadcrumbColors from './breadcrumb.colors';
+import snippetColors from './snippet.colors';
 
 export default {
   baseColors,
@@ -67,5 +68,6 @@ export default {
   welcomePageColors,
   gitColors,
   settingColors,
-  breadcrumbColors
+  breadcrumbColors,
+  snippetColors
 };

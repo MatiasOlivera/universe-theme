@@ -1,12 +1,7 @@
 {
   "name": "Universe",
   "type": "dark",
-  "colors": {
-    "editor.snippetTabstopHighlightBackground": "#5237a4",
-    "editor.snippetTabstopHighlightBorder": "#6941c8",
-    "editor.snippetFinalTabstopHighlightBackground": "#5237a4",
-    "editor.snippetFinalTabstopHighlightBorder": "#6941c8"
-  },
+  "colors": {},
   "tokenColors": [
     {
       "name": "Comment",

@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { blue_2 } from '../palette/blue.colors';
 import { red_2 } from '../palette/red.colors';
 
 const widgetColors: EditorColors = {
@@ -17,7 +18,7 @@ const widgetColors: EditorColors = {
     background: red_2
   },
   editorMarkerNavigationInfo: {
-    background: '#b5c7fa'
+    background: blue_2
   },
   editorMarkerNavigationWarning: {
     background: '#f7e87a'

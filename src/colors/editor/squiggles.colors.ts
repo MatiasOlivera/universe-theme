@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { blue_2 } from '../palette/blue.colors';
 import { red_2 } from '../palette/red.colors';
 
 const squigglesColors: EditorColors = {
@@ -9,7 +10,7 @@ const squigglesColors: EditorColors = {
     foreground: '#c6a2f8'
   },
   editorInfo: {
-    foreground: '#b5c7fa'
+    foreground: blue_2
   },
   editorWarning: {
     foreground: '#f7e87a'

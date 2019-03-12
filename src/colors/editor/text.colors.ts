@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
+import { pink_2 } from '../palette/pink.colors';
 import { slate_3 } from '../palette/slate.colors';
 import { violet_1, violet_2, violet_8, violet_9 } from '../palette/violet.colors';
 
@@ -16,7 +16,7 @@ const textColors: EditorColors = {
     foreground: violet_2
   },
   textPreformat: {
-    foreground: background_6
+    foreground: pink_2
   },
   textSeparator: {
     foreground: slate_3

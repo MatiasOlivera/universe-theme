@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_7 } from '../palette/background.colors';
+import { background_6, background_7 } from '../palette/background.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_0, violet_5, violet_7 } from '../palette/violet.colors';
 
@@ -21,7 +21,7 @@ const terminalColors: EditorColors = {
     ansiRed: '#F07178',
     ansiWhite: '#EEFFFF',
     ansiYellow: '#FFCB6B',
-    background: '#151f2b',
+    background: background_6,
     border: background_7,
     foreground: slate_0,
     selectionBackground: violet_5

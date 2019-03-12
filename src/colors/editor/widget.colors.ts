@@ -1,18 +1,19 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_4 } from '../palette/background.colors';
+import { background_4, background_6 } from '../palette/background.colors';
 import { blue_2 } from '../palette/blue.colors';
 import { red_2 } from '../palette/red.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_3, violet_7 } from '../palette/violet.colors';
+import { yellow_2, yellow_3 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
     background: background_4,
-    border: '#151f2b'
+    border: background_6
   },
   editorHoverWidget: {
     background: background_4,
-    border: '#151f2b'
+    border: background_6
   },
   editorMarkerNavigation: {
     background: background_4
@@ -24,18 +25,18 @@ const widgetColors: EditorColors = {
     background: blue_2
   },
   editorMarkerNavigationWarning: {
-    background: '#f7e87a'
+    background: yellow_2
   },
   editorSuggestWidget: {
     background: background_4,
-    border: '#151f2b',
+    border: background_6,
     foreground: slate_0,
-    highlightForeground: '#f4da55',
+    highlightForeground: yellow_3,
     selectedBackground: violet_7
   },
   editorWidget: {
     background: background_4,
-    border: '#151f2b',
+    border: background_6,
     resizeBorder: violet_3
   }
 };

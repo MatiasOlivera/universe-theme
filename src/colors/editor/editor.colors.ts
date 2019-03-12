@@ -1,7 +1,8 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_0, background_1, background_5 } from '../palette/background.colors';
+import { background_0, background_1, background_5, background_6 } from '../palette/background.colors';
 import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
+import { yellow_3, yellow_9 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
   editor: {
@@ -15,7 +16,7 @@ const editorColors: EditorColors = {
     foreground: slate_0,
     hoverHighlightBackground: violet_7,
     inactiveSelectionBackground: violet_8,
-    lineHighlightBackground: '#151f2b',
+    lineHighlightBackground: background_6,
     rangeHighlightBackground: violet_7,
     rangeHighlightBorder: violet_6,
     selectionBackground: violet_7,
@@ -35,8 +36,8 @@ const editorColors: EditorColors = {
     foreground: slate_1
   },
   editorCursor: {
-    background: '#3d2e12',
-    foreground: '#f4da55'
+    background: yellow_9,
+    foreground: yellow_3
   },
   editorIndentGuide: {
     activeBackground: background_0,

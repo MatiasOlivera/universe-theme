@@ -1,10 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_0, background_1, background_5 } from '../palette/background.colors';
 import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const editorColors: EditorColors = {
   editor: {
-    background: '#1c2938',
+    background: background_5,
     findMatchBackground: violet_7,
     findMatchBorder: violet_6,
     findMatchHighlightBackground: violet_8,
@@ -38,8 +39,8 @@ const editorColors: EditorColors = {
     foreground: '#f4da55'
   },
   editorIndentGuide: {
-    activeBackground: '#5076a1',
-    background: '#364f6c'
+    activeBackground: background_0,
+    background: background_1
   },
   editorLineNumber: {
     activeForeground: slate_1,
@@ -49,7 +50,7 @@ const editorColors: EditorColors = {
     activeForeground: violet_0
   },
   editorRuler: {
-    foreground: '#364f6c'
+    foreground: background_1
   },
   editorUnnecessaryCode: {
     opacity: '#000000c0'

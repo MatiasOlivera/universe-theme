@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_3, background_4 } from '../palette/background.colors';
 import { blue_0, blue_8, blue_9 } from '../palette/blue.colors';
 import { red_0, red_8, red_9 } from '../palette/red.colors';
 import { slate_0, slate_3 } from '../palette/slate.colors';
@@ -7,8 +8,8 @@ import { yellow_0 } from '../palette/yellow.colors';
 
 const inputColors: EditorColors = {
   input: {
-    background: '#233345',
-    border: '#293c52',
+    background: background_4,
+    border: background_3,
     foreground: slate_0,
     placeholderForeground: slate_3
   },

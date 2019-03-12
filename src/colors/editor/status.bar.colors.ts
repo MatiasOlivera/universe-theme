@@ -1,17 +1,18 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_7, background_8 } from '../palette/background.colors';
 import { slate_3 } from '../palette/slate.colors';
 import { violet_8, violet_9 } from '../palette/violet.colors';
 
 const statusBarColors: EditorColors = {
   statusBar: {
-    background: '#0f161e',
-    border: '#080c11',
-    debuggingBackground: '#0f161e',
-    debuggingBorder: '#080c11',
+    background: background_7,
+    border: background_8,
+    debuggingBackground: background_7,
+    debuggingBorder: background_8,
     debuggingForeground: slate_3,
     foreground: slate_3,
-    noFolderBackground: '#0f161e',
-    noFolderBorder: '#080c11',
+    noFolderBackground: background_7,
+    noFolderBorder: background_8,
     noFolderForeground: slate_3
   },
   statusBarItem: {

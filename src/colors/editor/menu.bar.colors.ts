@@ -1,9 +1,10 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_4, background_5 } from '../palette/background.colors';
 import { slate_0 } from '../palette/slate.colors';
 
 const menuBarColors: EditorColors = {
   menu: {
-    background: '#233345',
+    background: background_4,
     foreground: slate_0,
     selectionBackground: '#f4da55',
     selectionBorder: '#f4da55',
@@ -11,8 +12,8 @@ const menuBarColors: EditorColors = {
     separatorBackground: '#151f2b'
   },
   menubar: {
-    selectionBackground: '#233345',
-    selectionBorder: '#1c2938',
+    selectionBackground: background_4,
+    selectionBorder: background_5,
     selectionForeground: slate_0
   }
 };

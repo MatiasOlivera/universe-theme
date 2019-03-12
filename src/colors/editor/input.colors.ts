@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { blue_0, blue_8, blue_9 } from '../palette/blue.colors';
 import { red_0, red_8, red_9 } from '../palette/red.colors';
 import { yellow_0 } from '../palette/yellow.colors';
 
@@ -16,9 +17,9 @@ const inputColors: EditorColors = {
     errorBackground: red_9,
     errorBorder: red_8,
     errorForeground: red_0,
-    infoBackground: '#213147',
-    infoBorder: '#243953',
-    infoForeground: '#dceff9',
+    infoBackground: blue_9,
+    infoBorder: blue_8,
+    infoForeground: blue_0,
     warningBackground: '#3d2e12',
     warningBorder: '#4c3912',
     warningForeground: yellow_0

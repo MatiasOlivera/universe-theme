@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { blue_1 } from '../palette/blue.colors';
 import { green_1 } from '../palette/green.colors';
 import { red_1 } from '../palette/red.colors';
 
@@ -8,7 +9,7 @@ const gutterColors: EditorColors = {
     background: '#1C2938',
     commentRangeForeground: '#d4dae1',
     deletedBackground: red_1,
-    modifiedBackground: '#a9d9f6'
+    modifiedBackground: blue_1
   }
 };
 

@@ -1,9 +1,10 @@
 import { EditorColors } from '../../types/colors-types';
+import { yellow_3, yellow_9 } from '../palette/yellow.colors';
 
 const badgeColors: EditorColors = {
   badge: {
-    foreground: '#3d2e12',
-    background: '#f4da55'
+    foreground: yellow_9,
+    background: yellow_3
   }
 };
 

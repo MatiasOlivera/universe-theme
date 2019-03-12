@@ -1,37 +1,43 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_4, background_6 } from '../palette/background.colors';
+import { blue_2 } from '../palette/blue.colors';
+import { red_2 } from '../palette/red.colors';
+import { slate_0 } from '../palette/slate.colors';
+import { violet_3, violet_7 } from '../palette/violet.colors';
+import { yellow_2, yellow_3 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
-    background: '#233345',
-    border: '#151f2b'
+    background: background_4,
+    border: background_6
   },
   editorHoverWidget: {
-    background: '#233345',
-    border: '#151f2b'
+    background: background_4,
+    border: background_6
   },
   editorMarkerNavigation: {
-    background: '#233345'
+    background: background_4
   },
   editorMarkerNavigationError: {
-    background: '#f58a8a'
+    background: red_2
   },
   editorMarkerNavigationInfo: {
-    background: '#b5c7fa'
+    background: blue_2
   },
   editorMarkerNavigationWarning: {
-    background: '#f7e87a'
+    background: yellow_2
   },
   editorSuggestWidget: {
-    background: '#233345',
-    border: '#151f2b',
-    foreground: '#f6f8fa',
-    highlightForeground: '#f4da55',
-    selectedBackground: '#5237a4'
+    background: background_4,
+    border: background_6,
+    foreground: slate_0,
+    highlightForeground: yellow_3,
+    selectedBackground: violet_7
   },
   editorWidget: {
-    background: '#233345',
-    border: '#151f2b',
-    resizeBorder: '#ad82f2'
+    background: background_4,
+    border: background_6,
+    resizeBorder: violet_3
   }
 };
 

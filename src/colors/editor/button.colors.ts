@@ -1,10 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
+import { yellow_2, yellow_3, yellow_9 } from '../palette/yellow.colors';
 
 const buttonColors: EditorColors = {
   button: {
-    background: '#f4da55',
-    foreground: '#3d2e12',
-    hoverBackground: '#f7e87a'
+    background: yellow_3,
+    foreground: yellow_9,
+    hoverBackground: yellow_2
   }
 };
 

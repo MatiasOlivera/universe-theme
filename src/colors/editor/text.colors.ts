@@ -1,22 +1,25 @@
 import { EditorColors } from '../../types/colors-types';
+import { pink_2 } from '../palette/pink.colors';
+import { slate_3 } from '../palette/slate.colors';
+import { violet_1, violet_2, violet_8, violet_9 } from '../palette/violet.colors';
 
 const textColors: EditorColors = {
   textBlockQuote: {
-    background: '#2e2354',
-    border: '#432c85'
+    background: violet_9,
+    border: violet_8
   },
   textCodeBlock: {
-    background: '#2e2354'
+    background: violet_9
   },
   textLink: {
-    activeForeground: '#ddc3fc',
-    foreground: '#c6a2f8'
+    activeForeground: violet_1,
+    foreground: violet_2
   },
   textPreformat: {
-    foreground: '#f5a2b6'
+    foreground: pink_2
   },
   textSeparator: {
-    foreground: '#96a2af'
+    foreground: slate_3
   }
 };
 

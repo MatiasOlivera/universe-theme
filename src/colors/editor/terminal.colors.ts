@@ -1,4 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_6, background_7 } from '../palette/background.colors';
+import { slate_0 } from '../palette/slate.colors';
+import { violet_0, violet_5, violet_7 } from '../palette/violet.colors';
 
 const terminalColors: EditorColors = {
   terminal: {
@@ -18,14 +21,14 @@ const terminalColors: EditorColors = {
     ansiRed: '#F07178',
     ansiWhite: '#EEFFFF',
     ansiYellow: '#FFCB6B',
-    background: '#151f2b',
-    border: '#0f161e',
-    foreground: '#f6f8fa',
-    selectionBackground: '#7f57e0'
+    background: background_6,
+    border: background_7,
+    foreground: slate_0,
+    selectionBackground: violet_5
   },
   terminalCursor: {
-    background: '#5237a4',
-    foreground: '#f1e5ff'
+    background: violet_7,
+    foreground: violet_0
   }
 };
 

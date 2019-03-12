@@ -1,15 +1,19 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_6, background_7 } from '../palette/background.colors';
+import { slate_0, slate_3 } from '../palette/slate.colors';
+import { violet_9 } from '../palette/violet.colors';
+import { yellow_3 } from '../palette/yellow.colors';
 
 const panelColors: EditorColors = {
   panel: {
-    background: '#151f2b',
-    border: '#0f161e',
-    dropBackground: '#2e2354'
+    background: background_6,
+    border: background_7,
+    dropBackground: violet_9
   },
   panelTitle: {
-    activeBorder: '#f4da55',
-    activeForeground: '#f6f8fa',
-    inactiveForeground: '#96a2af'
+    activeBorder: yellow_3,
+    activeForeground: slate_0,
+    inactiveForeground: slate_3
   }
 };
 

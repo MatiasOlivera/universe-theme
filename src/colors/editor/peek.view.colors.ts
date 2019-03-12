@@ -1,33 +1,36 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_4, background_5 } from '../palette/background.colors';
+import { slate_0, slate_1 } from '../palette/slate.colors';
+import { violet_0, violet_4, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const peekViewColors: EditorColors = {
   peekView: {
-    border: '#9668eb'
+    border: violet_4
   },
   peekViewEditor: {
-    background: '#1c2938',
-    matchHighlightBackground: '#5237a4',
-    matchHighlightBorder: '#6941c8'
+    background: background_5,
+    matchHighlightBackground: violet_7,
+    matchHighlightBorder: violet_6
   },
   peekViewEditorGutter: {
-    background: '#1c2938'
+    background: background_5
   },
   peekViewResult: {
-    background: '#233345',
-    fileForeground: '#f6f8fa',
-    lineForeground: '#d4dae1',
-    matchHighlightBackground: '#432c85',
-    selectionBackground: '#5237a4',
-    selectionForeground: '#f1e5ff'
+    background: background_4,
+    fileForeground: slate_0,
+    lineForeground: slate_1,
+    matchHighlightBackground: violet_8,
+    selectionBackground: violet_7,
+    selectionForeground: violet_0
   },
   peekViewTitle: {
-    background: '#1c2938'
+    background: background_5
   },
   peekViewTitleDescription: {
-    foreground: '#d4dae1'
+    foreground: slate_1
   },
   peekViewTitleLabel: {
-    foreground: '#f6f8fa'
+    foreground: slate_0
   }
 };
 

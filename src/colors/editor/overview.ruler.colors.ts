@@ -1,20 +1,26 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_6 } from '../palette/background.colors';
+import { blue_1 } from '../palette/blue.colors';
+import { green_1 } from '../palette/green.colors';
+import { red_1 } from '../palette/red.colors';
+import { violet_1 } from '../palette/violet.colors';
+import { yellow_1 } from '../palette/yellow.colors';
 
 const overviewRulerColors: EditorColors = {
   editorOverviewRuler: {
-    addedForeground: '#a8f1c5',
-    border: '#151f2b',
-    bracketMatchForeground: '#ddc3fc',
-    deletedForeground: '#febcbc',
-    errorForeground: '#febcbc',
-    findMatchForeground: '#ddc3fc',
-    infoForeground: '#a9d9f6',
-    modifiedForeground: '#a9d9f6',
-    rangeHighlightForeground: '#ddc3fc',
-    selectionHighlightForeground: '#ddc3fc',
-    warningForeground: '#f9f1a1',
-    wordHighlightForeground: '#ddc3fc',
-    wordHighlightStrongForeground: '#ddc3fc'
+    addedForeground: green_1,
+    border: background_6,
+    bracketMatchForeground: violet_1,
+    deletedForeground: red_1,
+    errorForeground: red_1,
+    findMatchForeground: violet_1,
+    infoForeground: blue_1,
+    modifiedForeground: blue_1,
+    rangeHighlightForeground: violet_1,
+    selectionHighlightForeground: violet_1,
+    warningForeground: yellow_1,
+    wordHighlightForeground: violet_1,
+    wordHighlightStrongForeground: violet_1
   }
 };
 

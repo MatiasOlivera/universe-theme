@@ -1,19 +1,25 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_6 } from '../palette/background.colors';
+import { blue_8, blue_9 } from '../palette/blue.colors';
+import { cyan_8, cyan_9 } from '../palette/cyan.colors';
+import { green_1 } from '../palette/green.colors';
+import { slate_1, slate_8, slate_9 } from '../palette/slate.colors';
+import { violet_1 } from '../palette/violet.colors';
 
 const mergeConflictColors: EditorColors = {
   editorOverviewRuler: {
-    commonContentForeground: '#d4dae1',
-    currentContentForeground: '#a8f1c5',
-    incomingContentForeground: '#ddc3fc'
+    commonContentForeground: slate_1,
+    currentContentForeground: green_1,
+    incomingContentForeground: violet_1
   },
   merge: {
-    border: '#151f2b',
-    commonContentBackground: '#1c232a',
-    commonHeaderBackground: '#29343d',
-    currentContentBackground: '#2e5758',
-    currentHeaderBackground: '#223d3f',
-    incomingContentBackground: '#353767',
-    incomingHeaderBackground: '#29294d'
+    border: background_6,
+    commonContentBackground: slate_9,
+    commonHeaderBackground: slate_8,
+    currentContentBackground: cyan_8,
+    currentHeaderBackground: cyan_9,
+    incomingContentBackground: blue_8,
+    incomingHeaderBackground: blue_9
   }
 };
 

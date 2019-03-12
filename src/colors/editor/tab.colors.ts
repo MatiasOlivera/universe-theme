@@ -1,19 +1,22 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_5, background_6, background_7 } from '../palette/background.colors';
+import { slate_0, slate_1 } from '../palette/slate.colors';
+import { yellow_3, yellow_4 } from '../palette/yellow.colors';
 
 const tabColors: EditorColors = {
   editorPane: {
-    background: '#1c2938'
+    background: background_5
   },
   tab: {
-    activeBackground: '#1c2938',
-    activeBorderTop: '#f4da55',
-    activeForeground: '#f6f8fa',
-    border: '#0f161e',
-    inactiveBackground: '#151f2b',
-    inactiveForeground: '#d4dae1',
-    unfocusedActiveBorderTop: '#ebc83c',
-    unfocusedActiveForeground: '#d4dae1',
-    unfocusedInactiveForeground: '#d4dae1'
+    activeBackground: background_5,
+    activeBorderTop: yellow_3,
+    activeForeground: slate_0,
+    border: background_7,
+    inactiveBackground: background_6,
+    inactiveForeground: slate_1,
+    unfocusedActiveBorderTop: yellow_4,
+    unfocusedActiveForeground: slate_1,
+    unfocusedInactiveForeground: slate_1
   }
 };
 

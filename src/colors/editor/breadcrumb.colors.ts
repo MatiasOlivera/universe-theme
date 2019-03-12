@@ -1,14 +1,16 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_4, background_5 } from '../palette/background.colors';
+import { slate_0, slate_1 } from '../palette/slate.colors';
 
 const breadcrumbColors: EditorColors = {
   breadcrumb: {
-    activeSelectionForeground: '#f6f8fa',
-    background: '#1c2938',
-    focusForeground: '#f6f8fa',
-    foreground: '#d4dae1'
+    activeSelectionForeground: slate_0,
+    background: background_5,
+    focusForeground: slate_0,
+    foreground: slate_1
   },
   breadcrumbPicker: {
-    background: '#233345'
+    background: background_4
   }
 };
 

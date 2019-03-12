@@ -1,9 +1,10 @@
 import { EditorColors } from '../../types/colors-types';
+import { green_1 } from '../palette/green.colors';
 
 const mergeConflictColors: EditorColors = {
   editorOverviewRuler: {
     commonContentForeground: '#d4dae1',
-    currentContentForeground: '#a8f1c5',
+    currentContentForeground: green_1,
     incomingContentForeground: '#ddc3fc'
   },
   merge: {

@@ -1,10 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
+import { green_1 } from '../palette/green.colors';
 import { red_1 } from '../palette/red.colors';
 import { yellow_1 } from '../palette/yellow.colors';
 
 const overviewRulerColors: EditorColors = {
   editorOverviewRuler: {
-    addedForeground: '#a8f1c5',
+    addedForeground: green_1,
     border: '#151f2b',
     bracketMatchForeground: '#ddc3fc',
     deletedForeground: red_1,

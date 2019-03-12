@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0, slate_1 } from '../palette/slate.colors';
 import { violet_0, violet_4, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const peekViewColors: EditorColors = {
@@ -15,8 +16,8 @@ const peekViewColors: EditorColors = {
   },
   peekViewResult: {
     background: '#233345',
-    fileForeground: '#f6f8fa',
-    lineForeground: '#d4dae1',
+    fileForeground: slate_0,
+    lineForeground: slate_1,
     matchHighlightBackground: violet_8,
     selectionBackground: violet_7,
     selectionForeground: violet_0
@@ -25,10 +26,10 @@ const peekViewColors: EditorColors = {
     background: '#1c2938'
   },
   peekViewTitleDescription: {
-    foreground: '#d4dae1'
+    foreground: slate_1
   },
   peekViewTitleLabel: {
-    foreground: '#f6f8fa'
+    foreground: slate_0
   }
 };
 

@@ -1,9 +1,10 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0 } from '../palette/slate.colors';
 
 const menuBarColors: EditorColors = {
   menu: {
     background: '#233345',
-    foreground: '#f6f8fa',
+    foreground: slate_0,
     selectionBackground: '#f4da55',
     selectionBorder: '#f4da55',
     selectionForeground: '#3d2e12',
@@ -12,7 +13,7 @@ const menuBarColors: EditorColors = {
   menubar: {
     selectionBackground: '#233345',
     selectionBorder: '#1c2938',
-    selectionForeground: '#f6f8fa'
+    selectionForeground: slate_0
   }
 };
 

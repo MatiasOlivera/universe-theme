@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0, slate_3 } from '../palette/slate.colors';
 import { violet_9 } from '../palette/violet.colors';
 
 const panelColors: EditorColors = {
@@ -9,8 +10,8 @@ const panelColors: EditorColors = {
   },
   panelTitle: {
     activeBorder: '#f4da55',
-    activeForeground: '#f6f8fa',
-    inactiveForeground: '#96a2af'
+    activeForeground: slate_0,
+    inactiveForeground: slate_3
   }
 };
 

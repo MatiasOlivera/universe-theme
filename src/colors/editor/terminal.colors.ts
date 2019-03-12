@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0 } from '../palette/slate.colors';
 import { violet_0, violet_5, violet_7 } from '../palette/violet.colors';
 
 const terminalColors: EditorColors = {
@@ -21,7 +22,7 @@ const terminalColors: EditorColors = {
     ansiYellow: '#FFCB6B',
     background: '#151f2b',
     border: '#0f161e',
-    foreground: '#f6f8fa',
+    foreground: slate_0,
     selectionBackground: violet_5
   },
   terminalCursor: {

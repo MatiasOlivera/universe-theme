@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
 
 const notificationColors: EditorColors = {
@@ -7,7 +8,7 @@ const notificationColors: EditorColors = {
   },
   notificationCenterHeader: {
     background: '#151f2b',
-    foreground: '#f6f8fa'
+    foreground: slate_0
   },
   notificationLink: {
     foreground: violet_2
@@ -18,7 +19,7 @@ const notificationColors: EditorColors = {
   notifications: {
     background: '#233345',
     border: '#151f2b',
-    foreground: '#f6f8fa'
+    foreground: slate_0
   }
 };
 

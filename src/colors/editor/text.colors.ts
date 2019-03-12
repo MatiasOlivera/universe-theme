@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_3 } from '../palette/slate.colors';
 import { violet_1, violet_2, violet_8, violet_9 } from '../palette/violet.colors';
 
 const textColors: EditorColors = {
@@ -17,7 +18,7 @@ const textColors: EditorColors = {
     foreground: '#f5a2b6'
   },
   textSeparator: {
-    foreground: '#96a2af'
+    foreground: slate_3
   }
 };
 

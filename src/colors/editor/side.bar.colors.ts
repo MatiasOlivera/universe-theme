@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0 } from '../palette/slate.colors';
 import { violet_9 } from '../palette/violet.colors';
 
 const sideBarColors: EditorColors = {
@@ -6,15 +7,15 @@ const sideBarColors: EditorColors = {
     background: '#151f2b',
     border: '#0f161e',
     dropBackground: violet_9,
-    foreground: '#f6f8fa'
+    foreground: slate_0
   },
   sideBarSectionHeader: {
     background: '#151f2b',
     border: '#0f161e',
-    foreground: '#f6f8fa'
+    foreground: slate_0
   },
   sideBarTitle: {
-    foreground: '#f6f8fa'
+    foreground: slate_0
   }
 };
 

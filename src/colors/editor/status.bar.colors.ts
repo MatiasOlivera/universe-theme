@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_3 } from '../palette/slate.colors';
 import { violet_8, violet_9 } from '../palette/violet.colors';
 
 const statusBarColors: EditorColors = {
@@ -7,11 +8,11 @@ const statusBarColors: EditorColors = {
     border: '#080c11',
     debuggingBackground: '#0f161e',
     debuggingBorder: '#080c11',
-    debuggingForeground: '#96a2af',
-    foreground: '#96a2af',
+    debuggingForeground: slate_3,
+    foreground: slate_3,
     noFolderBackground: '#0f161e',
     noFolderBorder: '#080c11',
-    noFolderForeground: '#96a2af'
+    noFolderForeground: slate_3
   },
   statusBarItem: {
     activeBackground: violet_9,

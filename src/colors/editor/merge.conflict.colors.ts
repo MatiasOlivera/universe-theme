@@ -2,18 +2,19 @@ import { EditorColors } from '../../types/colors-types';
 import { blue_8, blue_9 } from '../palette/blue.colors';
 import { cyan_8, cyan_9 } from '../palette/cyan.colors';
 import { green_1 } from '../palette/green.colors';
+import { slate_1, slate_8, slate_9 } from '../palette/slate.colors';
 import { violet_1 } from '../palette/violet.colors';
 
 const mergeConflictColors: EditorColors = {
   editorOverviewRuler: {
-    commonContentForeground: '#d4dae1',
+    commonContentForeground: slate_1,
     currentContentForeground: green_1,
     incomingContentForeground: violet_1
   },
   merge: {
     border: '#151f2b',
-    commonContentBackground: '#1c232a',
-    commonHeaderBackground: '#29343d',
+    commonContentBackground: slate_9,
+    commonHeaderBackground: slate_8,
     currentContentBackground: cyan_8,
     currentHeaderBackground: cyan_9,
     incomingContentBackground: blue_8,

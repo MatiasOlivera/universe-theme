@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_6 } from '../palette/slate.colors';
 import { violet_0, violet_7, violet_9 } from '../palette/violet.colors';
 
 const activityBarColors: EditorColors = {
@@ -6,7 +7,7 @@ const activityBarColors: EditorColors = {
     background: '#0f161e',
     dropBackground: violet_9,
     foreground: '#f4da55',
-    inactiveForeground: '#4d5a68',
+    inactiveForeground: slate_6,
     border: '#080c11'
   },
   activityBarBadge: {

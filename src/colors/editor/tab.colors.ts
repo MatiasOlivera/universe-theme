@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0, slate_1 } from '../palette/slate.colors';
 
 const tabColors: EditorColors = {
   editorPane: {
@@ -7,13 +8,13 @@ const tabColors: EditorColors = {
   tab: {
     activeBackground: '#1c2938',
     activeBorderTop: '#f4da55',
-    activeForeground: '#f6f8fa',
+    activeForeground: slate_0,
     border: '#0f161e',
     inactiveBackground: '#151f2b',
-    inactiveForeground: '#d4dae1',
+    inactiveForeground: slate_1,
     unfocusedActiveBorderTop: '#ebc83c',
-    unfocusedActiveForeground: '#d4dae1',
-    unfocusedInactiveForeground: '#d4dae1'
+    unfocusedActiveForeground: slate_1,
+    unfocusedInactiveForeground: slate_1
   }
 };
 

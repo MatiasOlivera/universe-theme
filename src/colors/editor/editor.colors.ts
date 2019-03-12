@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const editorColors: EditorColors = {
@@ -10,7 +11,7 @@ const editorColors: EditorColors = {
     findMatchHighlightBorder: violet_6,
     findRangeHighlightBackground: violet_7,
     findRangeHighlightBorder: violet_6,
-    foreground: '#f6f8fa',
+    foreground: slate_0,
     hoverHighlightBackground: violet_7,
     inactiveSelectionBackground: violet_8,
     lineHighlightBackground: '#151f2b',
@@ -30,7 +31,7 @@ const editorColors: EditorColors = {
     border: violet_7
   },
   editorCodeLens: {
-    foreground: '#d4dae1'
+    foreground: slate_1
   },
   editorCursor: {
     background: '#3d2e12',
@@ -41,8 +42,8 @@ const editorColors: EditorColors = {
     background: '#364f6c'
   },
   editorLineNumber: {
-    activeForeground: '#d4dae1',
-    foreground: '#62717f'
+    activeForeground: slate_1,
+    foreground: slate_5
   },
   editorLink: {
     activeForeground: violet_0
@@ -54,7 +55,7 @@ const editorColors: EditorColors = {
     opacity: '#000000c0'
   },
   editorWhitespace: {
-    foreground: '#62717f'
+    foreground: slate_5
   }
 };
 

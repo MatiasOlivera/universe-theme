@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { red_1, red_5 } from '../palette/red.colors';
 
 const listColors: EditorColors = {
   list: {
@@ -14,13 +15,13 @@ const listColors: EditorColors = {
     inactiveSelectionForeground: '#f1e5ff',
     inactiveFocusBackground: '#6941c8',
     invalidItemForeground: '#2e2354',
-    errorForeground: '#febcbc',
+    errorForeground: red_1,
     warningForeground: '#f9f1a1'
   },
   listFilterWidget: {
     background: '#5237a4',
     outline: '#6941c8',
-    noMatchesOutline: '#cb2021'
+    noMatchesOutline: red_5
   }
 };
 

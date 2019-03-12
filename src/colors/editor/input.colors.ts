@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { red_0, red_8, red_9 } from '../palette/red.colors';
 
 const inputColors: EditorColors = {
   input: {
@@ -11,9 +12,9 @@ const inputColors: EditorColors = {
     activeBorder: '#ad82f2'
   },
   inputValidation: {
-    errorBackground: '#4e1717',
-    errorBorder: '#701617',
-    errorForeground: '#ffeeee',
+    errorBackground: red_9,
+    errorBorder: red_8,
+    errorForeground: red_0,
     infoBackground: '#213147',
     infoBorder: '#243953',
     infoForeground: '#dceff9',

@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { red_2 } from '../palette/red.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
@@ -13,7 +14,7 @@ const widgetColors: EditorColors = {
     background: '#233345'
   },
   editorMarkerNavigationError: {
-    background: '#f58a8a'
+    background: red_2
   },
   editorMarkerNavigationInfo: {
     background: '#b5c7fa'

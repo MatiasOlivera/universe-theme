@@ -1,8 +1,9 @@
 import { EditorColors } from '../../types/colors-types';
+import { red_2 } from '../palette/red.colors';
 
 const squigglesColors: EditorColors = {
   editorError: {
-    foreground: '#f58a8a'
+    foreground: red_2
   },
   editorHint: {
     foreground: '#c6a2f8'

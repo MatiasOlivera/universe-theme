@@ -1,4 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
+import { violet_8, violet_9 } from '../palette/violet.colors';
 
 const statusBarColors: EditorColors = {
   statusBar: {
@@ -13,11 +14,11 @@ const statusBarColors: EditorColors = {
     noFolderForeground: '#96a2af'
   },
   statusBarItem: {
-    activeBackground: '#2e2354',
-    hostBackground: '#2e2354',
-    hoverBackground: '#432c85',
-    prominentBackground: '#2e2354',
-    prominentHoverBackground: '#432c85'
+    activeBackground: violet_9,
+    hostBackground: violet_9,
+    hoverBackground: violet_8,
+    prominentBackground: violet_9,
+    prominentHoverBackground: violet_8
   }
 };
 

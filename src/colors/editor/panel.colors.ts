@@ -1,10 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
+import { violet_9 } from '../palette/violet.colors';
 
 const panelColors: EditorColors = {
   panel: {
     background: '#151f2b',
     border: '#0f161e',
-    dropBackground: '#2e2354'
+    dropBackground: violet_9
   },
   panelTitle: {
     activeBorder: '#f4da55',

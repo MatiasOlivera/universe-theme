@@ -1,11 +1,12 @@
 import { EditorColors } from '../../types/colors-types';
+import { violet_6, violet_7 } from '../palette/violet.colors';
 
 const snippetColors: EditorColors = {
   editor: {
-    snippetFinalTabstopHighlightBackground: '#5237a4',
-    snippetFinalTabstopHighlightBorder: '#6941c8',
-    snippetTabstopHighlightBackground: '#5237a4',
-    snippetTabstopHighlightBorder: '#6941c8'
+    snippetFinalTabstopHighlightBackground: violet_7,
+    snippetFinalTabstopHighlightBorder: violet_6,
+    snippetTabstopHighlightBackground: violet_7,
+    snippetTabstopHighlightBorder: violet_6
   }
 };
 

@@ -1,6 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { blue_0, blue_8, blue_9 } from '../palette/blue.colors';
 import { red_0, red_8, red_9 } from '../palette/red.colors';
+import { violet_3 } from '../palette/violet.colors';
 import { yellow_0 } from '../palette/yellow.colors';
 
 const inputColors: EditorColors = {
@@ -11,7 +12,7 @@ const inputColors: EditorColors = {
     placeholderForeground: '#96a2af'
   },
   inputOption: {
-    activeBorder: '#ad82f2'
+    activeBorder: violet_3
   },
   inputValidation: {
     errorBackground: red_9,

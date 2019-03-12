@@ -1,32 +1,33 @@
 import { EditorColors } from '../../types/colors-types';
+import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const editorColors: EditorColors = {
   editor: {
     background: '#1c2938',
-    findMatchBackground: '#5237a4',
-    findMatchBorder: '#6941c8',
-    findMatchHighlightBackground: '#432c85',
-    findMatchHighlightBorder: '#6941c8',
-    findRangeHighlightBackground: '#5237a4',
-    findRangeHighlightBorder: '#6941c8',
+    findMatchBackground: violet_7,
+    findMatchBorder: violet_6,
+    findMatchHighlightBackground: violet_8,
+    findMatchHighlightBorder: violet_6,
+    findRangeHighlightBackground: violet_7,
+    findRangeHighlightBorder: violet_6,
     foreground: '#f6f8fa',
-    hoverHighlightBackground: '#5237a4',
-    inactiveSelectionBackground: '#432c85',
+    hoverHighlightBackground: violet_7,
+    inactiveSelectionBackground: violet_8,
     lineHighlightBackground: '#151f2b',
-    rangeHighlightBackground: '#5237a4',
-    rangeHighlightBorder: '#6941c8',
-    selectionBackground: '#5237a4',
-    selectionForeground: '#f1e5ff',
-    selectionHighlightBackground: '#5237a4',
-    selectionHighlightBorder: '#6941c8',
-    wordHighlightBackground: '#5237a4',
-    wordHighlightBorder: '#6941c8',
-    wordHighlightStrongBackground: '#5237a4',
-    wordHighlightStrongBorder: '#6941c8'
+    rangeHighlightBackground: violet_7,
+    rangeHighlightBorder: violet_6,
+    selectionBackground: violet_7,
+    selectionForeground: violet_0,
+    selectionHighlightBackground: violet_7,
+    selectionHighlightBorder: violet_6,
+    wordHighlightBackground: violet_7,
+    wordHighlightBorder: violet_6,
+    wordHighlightStrongBackground: violet_7,
+    wordHighlightStrongBorder: violet_6
   },
   editorBracketMatch: {
-    background: '#5237a4',
-    border: '#5237a4'
+    background: violet_7,
+    border: violet_7
   },
   editorCodeLens: {
     foreground: '#d4dae1'
@@ -44,7 +45,7 @@ const editorColors: EditorColors = {
     foreground: '#62717f'
   },
   editorLink: {
-    activeForeground: '#f1e5ff'
+    activeForeground: violet_0
   },
   editorRuler: {
     foreground: '#364f6c'

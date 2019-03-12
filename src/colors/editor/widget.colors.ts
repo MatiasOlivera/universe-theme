@@ -1,6 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { red_2 } from '../palette/red.colors';
+import { violet_3, violet_7 } from '../palette/violet.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
@@ -28,12 +29,12 @@ const widgetColors: EditorColors = {
     border: '#151f2b',
     foreground: '#f6f8fa',
     highlightForeground: '#f4da55',
-    selectedBackground: '#5237a4'
+    selectedBackground: violet_7
   },
   editorWidget: {
     background: '#233345',
     border: '#151f2b',
-    resizeBorder: '#ad82f2'
+    resizeBorder: violet_3
   }
 };
 

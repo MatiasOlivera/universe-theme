@@ -1,13 +1,14 @@
 import { EditorColors } from '../../types/colors-types';
+import { violet_0, violet_4, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 
 const peekViewColors: EditorColors = {
   peekView: {
-    border: '#9668eb'
+    border: violet_4
   },
   peekViewEditor: {
     background: '#1c2938',
-    matchHighlightBackground: '#5237a4',
-    matchHighlightBorder: '#6941c8'
+    matchHighlightBackground: violet_7,
+    matchHighlightBorder: violet_6
   },
   peekViewEditorGutter: {
     background: '#1c2938'
@@ -16,9 +17,9 @@ const peekViewColors: EditorColors = {
     background: '#233345',
     fileForeground: '#f6f8fa',
     lineForeground: '#d4dae1',
-    matchHighlightBackground: '#432c85',
-    selectionBackground: '#5237a4',
-    selectionForeground: '#f1e5ff'
+    matchHighlightBackground: violet_8,
+    selectionBackground: violet_7,
+    selectionForeground: violet_0
   },
   peekViewTitle: {
     background: '#1c2938'

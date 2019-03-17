@@ -2,10 +2,10 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_2 } from '../palette/cyan.colors';
 import { green_2 } from '../palette/green.colors';
-import { orange_2 } from '../palette/orange.colors';
+import { orange_1 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
-import { yellow_2 } from '../palette/yellow.colors';
+import { yellow_1 } from '../palette/yellow.colors';
 
 const cssColors: TokenColors = [
   /**
@@ -20,16 +20,16 @@ const cssColors: TokenColors = [
   },
   {
     name: 'ID',
-    scope: 'entity.other.attribute-name.id.css',
+    scope: 'entity.other.attribute-name.id',
     settings: {
-      foreground: yellow_2
+      foreground: yellow_1
     }
   },
   {
     name: 'Class',
-    scope: 'entity.other.attribute-name.class.css',
+    scope: 'entity.other.attribute-name.class',
     settings: {
-      foreground: orange_2
+      foreground: orange_1
     }
   },
   {

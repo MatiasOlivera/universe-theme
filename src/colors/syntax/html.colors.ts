@@ -1,36 +1,40 @@
 import { TokenColors } from '../../types/colors-types';
 import { cyan_2 } from '../palette/cyan.colors';
 import { pink_2 } from '../palette/pink.colors';
-import { violet_0, violet_2 } from '../palette/violet.colors';
+import { slate_0 } from '../palette/slate.colors';
+import { violet_2 } from '../palette/violet.colors';
+
+export const tagColor: string = violet_2;
+export const textColor: string = slate_0;
 
 const htmlColors: TokenColors = [
   {
     name: 'Tag',
-    scope: 'entity.name.tag.html',
+    scope: 'entity.name.tag',
     settings: {
-      foreground: violet_2
+      foreground: tagColor
     }
   },
   {
     name: 'Tag angle brackets',
     scope: [
-      'punctuation.definition.tag.begin.html',
-      'punctuation.definition.tag.end.html'
+      'punctuation.definition.tag.begin',
+      'punctuation.definition.tag.end'
     ],
     settings: {
-      foreground: violet_2
+      foreground: tagColor
     }
   },
   {
     name: 'Attribute',
-    scope: 'entity.other.attribute-name.html',
+    scope: 'entity.other.attribute-name',
     settings: {
       foreground: pink_2
     }
   },
   {
     name: 'Value',
-    scope: ['string.quoted.single.html', 'string.quoted.double.html'],
+    scope: ['string.quoted.single', 'string.quoted.double'],
     settings: {
       foreground: cyan_2
     }
@@ -39,12 +43,12 @@ const htmlColors: TokenColors = [
     name: 'Text',
     scope: 'text.html.derivative',
     settings: {
-      foreground: violet_0
+      foreground: textColor
     }
   },
   {
     name: 'Special character',
-    scope: 'constant.character.entity.numeric.decimal.html',
+    scope: 'constant.character.entity.numeric.decimal',
     settings: {
       foreground: pink_2
     }

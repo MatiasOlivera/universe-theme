@@ -2,11 +2,11 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_2 } from '../palette/cyan.colors';
 import { green_1, green_2 } from '../palette/green.colors';
-import { orange_2 } from '../palette/orange.colors';
+import { orange_1, orange_2 } from '../palette/orange.colors';
 import { pink_1, pink_2 } from '../palette/pink.colors';
 import { red_2 } from '../palette/red.colors';
 import { slate_0, slate_3 } from '../palette/slate.colors';
-import { violet_2 } from '../palette/violet.colors';
+import { violet_1, violet_2 } from '../palette/violet.colors';
 
 const commonColors: TokenColors = [
   /**
@@ -21,7 +21,7 @@ const commonColors: TokenColors = [
   },
   {
     name: 'Language variable',
-    scope: 'variable.language',
+    scope: ['variable.language', 'support.variable'],
     settings: {
       foreground: violet_2
     }
@@ -53,7 +53,7 @@ const commonColors: TokenColors = [
    */
   {
     name: 'String',
-    scope: 'string.quoted',
+    scope: 'string',
     settings: {
       foreground: green_2
     }
@@ -94,6 +94,24 @@ const commonColors: TokenColors = [
     name: 'Variable property value',
     scope: 'variable.other.property',
     settings: {
+      foreground: pink_1
+    }
+  },
+
+  /**
+   * Objects
+   */
+  {
+    name: 'Object property',
+    scope: 'meta.object-literal.key',
+    settings: {
+      foreground: green_1
+    }
+  },
+  {
+    name: 'Access to object property',
+    scope: 'support.variable.property',
+    settings: {
       foreground: pink_2
     }
   },
@@ -108,13 +126,25 @@ const commonColors: TokenColors = [
       foreground: blue_2
     }
   },
+  {
+    name: 'Function parameter',
+    scope: 'variable.parameter',
+    settings: {
+      foreground: pink_1
+    }
+  },
 
   /**
    * Classes
    */
   {
     name: 'Class name',
-    scope: ['entity.name.class', 'variable.other.class'],
+    scope: [
+      'entity.name.class',
+      'variable.other.class',
+      'entity.name.type.class',
+      'entity.other.inherited-class'
+    ],
     settings: {
       foreground: cyan_2
     }
@@ -128,14 +158,38 @@ const commonColors: TokenColors = [
   },
 
   /**
+   * Types
+   */
+  {
+    name: 'Primitive type',
+    scope: 'support.type.primitive',
+    settings: {
+      foreground: violet_1
+    }
+  },
+  {
+    name: 'Module name',
+    scope: 'entity.name.type.module',
+    settings: {
+      foreground: pink_1
+    }
+  },
+  {
+    name: 'Custom type',
+    scope: 'entity.name.type',
+    settings: {
+      foreground: orange_1
+    }
+  },
+
+  /**
    * Other
    */
   {
     name: 'Comment',
     scope: ['comment', 'punctuation.definition.comment'],
     settings: {
-      foreground: slate_3,
-      fontStyle: 'italic'
+      foreground: slate_3
     }
   },
   {

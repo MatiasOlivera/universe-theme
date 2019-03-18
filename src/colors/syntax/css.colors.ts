@@ -7,6 +7,9 @@ import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
 import { yellow_1 } from '../palette/yellow.colors';
 
+export const idColor: string = yellow_1;
+export const classColor: string = orange_1;
+
 const cssColors: TokenColors = [
   /**
    * Selectors
@@ -20,16 +23,16 @@ const cssColors: TokenColors = [
   },
   {
     name: 'ID',
-    scope: 'entity.other.attribute-name.id',
+    scope: 'entity.other.attribute-name.id.css',
     settings: {
-      foreground: yellow_1
+      foreground: idColor
     }
   },
   {
     name: 'Class',
-    scope: 'entity.other.attribute-name.class',
+    scope: 'entity.other.attribute-name.class.css',
     settings: {
-      foreground: orange_1
+      foreground: classColor
     }
   },
   {

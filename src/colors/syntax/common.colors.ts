@@ -208,7 +208,7 @@ const commonColors: TokenColors = [
     name: 'Symbols',
     scope: 'punctuation',
     settings: {
-      foreground: slate_0
+      fontStyle: '' // Inherit the element color
     }
   }
 ];

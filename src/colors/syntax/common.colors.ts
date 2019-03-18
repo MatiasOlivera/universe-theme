@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_2 } from '../palette/cyan.colors';
-import { green_1, green_2 } from '../palette/green.colors';
+import { green_1 } from '../palette/green.colors';
 import { orange_1, orange_2 } from '../palette/orange.colors';
 import { pink_1, pink_2 } from '../palette/pink.colors';
 import { red_2 } from '../palette/red.colors';
@@ -53,9 +53,14 @@ const commonColors: TokenColors = [
    */
   {
     name: 'String',
-    scope: 'string',
+    scope: [
+      'string',
+      'string.quoted.single',
+      'string.quoted.double',
+      'string.quoted.template'
+    ],
     settings: {
-      foreground: green_2
+      foreground: green_1
     }
   },
   {

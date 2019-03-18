@@ -1,6 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
-import { green_2 } from '../palette/green.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
 
@@ -20,13 +19,6 @@ const jsonColors: TokenColors = [
     scope: 'constant.numeric.json',
     settings: {
       foreground: blue_2
-    }
-  },
-  {
-    name: 'String',
-    scope: 'string.quoted.double.json',
-    settings: {
-      foreground: green_2
     }
   },
 

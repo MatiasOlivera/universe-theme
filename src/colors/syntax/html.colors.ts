@@ -1,5 +1,4 @@
 import { TokenColors } from '../../types/colors-types';
-import { cyan_2 } from '../palette/cyan.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
@@ -30,13 +29,6 @@ const htmlColors: TokenColors = [
     scope: 'entity.other.attribute-name',
     settings: {
       foreground: pink_2
-    }
-  },
-  {
-    name: 'Value',
-    scope: ['string.quoted.single', 'string.quoted.double'],
-    settings: {
-      foreground: cyan_2
     }
   },
   {

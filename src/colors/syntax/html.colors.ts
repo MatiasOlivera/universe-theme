@@ -1,10 +1,13 @@
 import { TokenColors } from '../../types/colors-types';
+import { orange_1 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
+import { yellow_1 } from '../palette/yellow.colors';
 
 export const tagColor: string = violet_2;
 export const textColor: string = slate_0;
+export const directiveColor: string = yellow_1;
 
 const htmlColors: TokenColors = [
   {
@@ -26,7 +29,7 @@ const htmlColors: TokenColors = [
   },
   {
     name: 'Attribute',
-    scope: 'entity.other.attribute-name',
+    scope: ['meta.tag', 'meta.tag.inline.any'],
     settings: {
       foreground: pink_2
     }
@@ -40,9 +43,31 @@ const htmlColors: TokenColors = [
   },
   {
     name: 'Special character',
-    scope: 'constant.character.entity.numeric.decimal',
+    scope: 'constant.character.entity',
     settings: {
       foreground: pink_2
+    }
+  },
+
+  /**
+   * Components
+   */
+  {
+    name: 'Component tag',
+    scope: 'entity.name.tag.other',
+    settings: {
+      foreground: orange_1
+    }
+  },
+  {
+    name: 'Component directives',
+    scope: [
+      'punctuation.definition.generic.begin.html',
+      'punctuation.definition.generic.end.html',
+      'meta.attribute.unrecognized'
+    ],
+    settings: {
+      foreground: directiveColor
     }
   }
 ];

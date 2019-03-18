@@ -4,6 +4,7 @@ import htmlColors from './html.colors';
 import jsonColors from './json.colors';
 import pugColors from './pug.colors';
 import tsColors from './ts.colors';
+import vueColors from './vue.colors';
 import ymlColors from './yml.colors';
 
 export default {
@@ -13,5 +14,6 @@ export default {
   jsonColors,
   pugColors,
   tsColors,
+  vueColors,
   ymlColors
 };

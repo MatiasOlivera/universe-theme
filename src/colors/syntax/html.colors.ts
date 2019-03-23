@@ -1,11 +1,12 @@
 import { TokenColors } from '../../types/colors-types';
 import { orange_1 } from '../palette/orange.colors';
-import { pink_2 } from '../palette/pink.colors';
+import { pink_1, pink_2 } from '../palette/pink.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
 import { yellow_1 } from '../palette/yellow.colors';
 
 export const tagColor: string = violet_2;
+export const componentColor: string = orange_1;
 export const textColor: string = slate_0;
 export const directiveColor: string = yellow_1;
 
@@ -31,7 +32,7 @@ const htmlColors: TokenColors = [
     name: 'Attribute',
     scope: ['meta.tag', 'meta.tag.inline.any'],
     settings: {
-      foreground: pink_2
+      foreground: pink_1
     }
   },
   {
@@ -56,7 +57,7 @@ const htmlColors: TokenColors = [
     name: 'Component tag',
     scope: 'entity.name.tag.other',
     settings: {
-      foreground: orange_1
+      foreground: componentColor
     }
   },
   {

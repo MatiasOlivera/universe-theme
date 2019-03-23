@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { blue_1 } from '../palette/blue.colors';
+import { blue_200 } from '../palette/blue.colors';
 import { green_200 } from '../palette/green.colors';
 import { red_200 } from '../palette/red.colors';
 import { slate_0, slate_1 } from '../palette/slate.colors';
@@ -12,7 +12,7 @@ const gitColors: EditorColors = {
     conflictingResourceForeground: yellow_200,
     deletedResourceForeground: red_200,
     ignoredResourceForeground: slate_1,
-    modifiedResourceForeground: blue_1,
+    modifiedResourceForeground: blue_200,
     submoduleResourceForeground: slate_0,
     untrackedResourceForeground: violet_1
   }

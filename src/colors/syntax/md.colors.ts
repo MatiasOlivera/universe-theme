@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_0, blue_1 } from '../palette/blue.colors';
+import { blue_100, blue_200 } from '../palette/blue.colors';
 import { green_100, green_200 } from '../palette/green.colors';
 import { orange_100, orange_200 } from '../palette/orange.colors';
 import { pink_0, pink_1 } from '../palette/pink.colors';
@@ -89,7 +89,7 @@ const mdColors: TokenColors = [
       'string.other.link.title.markdown'
     ],
     settings: {
-      foreground: blue_0
+      foreground: blue_100
     }
   },
   {
@@ -99,7 +99,7 @@ const mdColors: TokenColors = [
       'markup.underline.link.image.markdown'
     ],
     settings: {
-      foreground: blue_1
+      foreground: blue_200
     }
   },
   {
@@ -110,7 +110,7 @@ const mdColors: TokenColors = [
       'punctuation.definition.metadata.markdown'
     ],
     settings: {
-      foreground: blue_0
+      foreground: blue_100
     }
   },
 

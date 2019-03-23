@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_2 } from '../palette/blue.colors';
+import { blue_300 } from '../palette/blue.colors';
 import { green_200 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_1 } from '../palette/pink.colors';
@@ -91,14 +91,14 @@ const commonColors: TokenColors = [
     name: 'Function definition',
     scope: 'entity.name.function',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
   {
     name: 'Language function',
     scope: 'support.function',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
   {

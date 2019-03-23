@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_2 } from '../palette/blue.colors';
+import { blue_300 } from '../palette/blue.colors';
 import { green_300 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
@@ -53,7 +53,7 @@ const cssColors: TokenColors = [
     name: 'Pseudo-element',
     scope: 'entity.other.attribute-name.pseudo-element.css',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
 
@@ -89,14 +89,14 @@ const cssColors: TokenColors = [
     name: 'Number',
     scope: 'constant.numeric.css',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
   {
     name: 'Unit',
     scope: 'keyword.other.unit',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
   {

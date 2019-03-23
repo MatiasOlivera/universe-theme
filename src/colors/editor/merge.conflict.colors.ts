@@ -1,6 +1,6 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_6 } from '../palette/background.colors';
-import { blue_8, blue_9 } from '../palette/blue.colors';
+import { blue_800, blue_900 } from '../palette/blue.colors';
 import { green_200 } from '../palette/green.colors';
 import { slate_1, slate_8, slate_9 } from '../palette/slate.colors';
 import { teal_800, teal_900 } from '../palette/teal.colors';
@@ -18,8 +18,8 @@ const mergeConflictColors: EditorColors = {
     commonHeaderBackground: slate_8,
     currentContentBackground: teal_800,
     currentHeaderBackground: teal_900,
-    incomingContentBackground: blue_8,
-    incomingHeaderBackground: blue_9
+    incomingContentBackground: blue_800,
+    incomingHeaderBackground: blue_900
   }
 };
 

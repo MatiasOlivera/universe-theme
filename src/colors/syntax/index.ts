@@ -1,4 +1,5 @@
 import commonColors from './common.colors';
+import configColors from './config.colors';
 import cssColors from './css.colors';
 import htmlColors from './html.colors';
 import jsonColors from './json.colors';
@@ -11,6 +12,7 @@ import ymlColors from './yml.colors';
 
 export default {
   commonColors,
+  configColors,
   cssColors,
   htmlColors,
   jsonColors,

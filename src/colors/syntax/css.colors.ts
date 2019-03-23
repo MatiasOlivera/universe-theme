@@ -100,13 +100,6 @@ const cssColors: TokenColors = [
     }
   },
   {
-    name: 'Function',
-    scope: 'support.function',
-    settings: {
-      foreground: blue_2
-    }
-  },
-  {
     name: 'Function parameter',
     scope: 'variable.parameter.css',
     settings: {

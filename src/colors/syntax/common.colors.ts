@@ -2,11 +2,11 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_2 } from '../palette/cyan.colors';
 import { green_1 } from '../palette/green.colors';
-import { orange_1, orange_2 } from '../palette/orange.colors';
+import { orange_1 } from '../palette/orange.colors';
 import { pink_1, pink_2 } from '../palette/pink.colors';
 import { red_2 } from '../palette/red.colors';
-import { slate_0, slate_3 } from '../palette/slate.colors';
-import { violet_1, violet_2 } from '../palette/violet.colors';
+import { slate_3 } from '../palette/slate.colors';
+import { violet_2 } from '../palette/violet.colors';
 
 const commonColors: TokenColors = [
   /**
@@ -27,13 +27,6 @@ const commonColors: TokenColors = [
     }
   },
   {
-    name: 'Language constant',
-    scope: 'constant.language',
-    settings: {
-      foreground: violet_2
-    }
-  },
-  {
     name: 'Language class',
     scope: 'support.class',
     settings: {
@@ -45,29 +38,6 @@ const commonColors: TokenColors = [
     scope: 'storage.modifier',
     settings: {
       foreground: violet_2
-    }
-  },
-
-  /**
-   * Scalars
-   */
-  {
-    name: 'String',
-    scope: [
-      'string',
-      'string.quoted.single',
-      'string.quoted.double',
-      'string.quoted.template'
-    ],
-    settings: {
-      foreground: green_1
-    }
-  },
-  {
-    name: 'Number',
-    scope: 'constant.numeric',
-    settings: {
-      foreground: orange_2
     }
   },
 
@@ -110,7 +80,7 @@ const commonColors: TokenColors = [
     name: 'Object property',
     scope: 'meta.object-literal.key',
     settings: {
-      foreground: green_1
+      foreground: pink_1
     }
   },
   {
@@ -127,6 +97,13 @@ const commonColors: TokenColors = [
   {
     name: 'Function definition',
     scope: 'entity.name.function',
+    settings: {
+      foreground: blue_2
+    }
+  },
+  {
+    name: 'Language function',
+    scope: 'support.function',
     settings: {
       foreground: blue_2
     }
@@ -166,10 +143,29 @@ const commonColors: TokenColors = [
    * Types
    */
   {
+    name: 'String',
+    scope: [
+      'string',
+      'string.quoted.single',
+      'string.quoted.double',
+      'string.quoted.template'
+    ],
+    settings: {
+      foreground: green_1
+    }
+  },
+  {
+    name: 'Number',
+    scope: 'constant.numeric',
+    settings: {
+      foreground: orange_1
+    }
+  },
+  {
     name: 'Primitive type',
     scope: 'support.type.primitive',
     settings: {
-      foreground: violet_1
+      foreground: orange_1
     }
   },
   {
@@ -177,6 +173,13 @@ const commonColors: TokenColors = [
     scope: 'entity.name.type.module',
     settings: {
       foreground: pink_1
+    }
+  },
+  {
+    name: 'Language constant (boolean, null)',
+    scope: 'constant.language',
+    settings: {
+      foreground: violet_2
     }
   },
   {

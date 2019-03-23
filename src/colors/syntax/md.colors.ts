@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_0, blue_1 } from '../palette/blue.colors';
 import { cyan_1 } from '../palette/cyan.colors';
 import { green_0, green_1 } from '../palette/green.colors';
-import { orange_0, orange_1 } from '../palette/orange.colors';
+import { orange_100, orange_200 } from '../palette/orange.colors';
 import { pink_0, pink_1 } from '../palette/pink.colors';
 import { violet_1, violet_2 } from '../palette/violet.colors';
 
@@ -48,7 +48,7 @@ const mdColors: TokenColors = [
     name: 'MD: Italic text',
     scope: 'markup.italic.markdown',
     settings: {
-      foreground: orange_1,
+      foreground: orange_200,
       fontStyle: 'italic'
     }
   },
@@ -56,7 +56,7 @@ const mdColors: TokenColors = [
     name: 'MD: Italic puntuation (__text__)',
     scope: 'punctuation.definition.italic.markdown',
     settings: {
-      foreground: orange_0
+      foreground: orange_100
     }
   },
 

@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_1, cyan_2 } from '../palette/cyan.colors';
 import { green_1 } from '../palette/green.colors';
-import { orange_1 } from '../palette/orange.colors';
+import { orange_200 } from '../palette/orange.colors';
 import { pink_1 } from '../palette/pink.colors';
 import { red_300 } from '../palette/red.colors';
 import { slate_3 } from '../palette/slate.colors';
@@ -151,14 +151,14 @@ const commonColors: TokenColors = [
     name: 'Number',
     scope: 'constant.numeric',
     settings: {
-      foreground: orange_1
+      foreground: orange_200
     }
   },
   {
     name: 'Primitive type',
     scope: 'support.type.primitive',
     settings: {
-      foreground: orange_1
+      foreground: orange_200
     }
   },
   {
@@ -179,7 +179,7 @@ const commonColors: TokenColors = [
     name: 'Custom type',
     scope: 'entity.name.type',
     settings: {
-      foreground: orange_1
+      foreground: orange_200
     }
   },
 

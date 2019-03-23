@@ -1,13 +1,13 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_5, background_6 } from '../palette/background.colors';
-import { violet_3, violet_9 } from '../palette/violet.colors';
+import { purple_400, purple_900 } from '../palette/purple.colors';
 
 const editorGroupColors: EditorColors = {
   editorGroup: {
     border: background_6,
-    dropBackground: violet_9,
+    dropBackground: purple_900,
     emptyBackground: background_5,
-    focusedEmptyBorder: violet_3
+    focusedEmptyBorder: purple_400
   },
   editorGroupHeader: {
     noTabsBackground: background_5,

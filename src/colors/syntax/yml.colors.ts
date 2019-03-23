@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { green_300 } from '../palette/green.colors';
 import { pink_2 } from '../palette/pink.colors';
-import { violet_2 } from '../palette/violet.colors';
+import { purple_300 } from '../palette/purple.colors';
 
 const ymlColors: TokenColors = [
   /**
@@ -12,7 +12,7 @@ const ymlColors: TokenColors = [
     name: 'Boolean',
     scope: 'constant.language.boolean.yaml',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   },
   {

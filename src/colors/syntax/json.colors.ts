@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { pink_2 } from '../palette/pink.colors';
-import { violet_2 } from '../palette/violet.colors';
+import { purple_300 } from '../palette/purple.colors';
 
 const jsonColors: TokenColors = [
   /**
@@ -11,7 +11,7 @@ const jsonColors: TokenColors = [
     name: 'Boolean',
     scope: 'constant.language.json',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   },
   {

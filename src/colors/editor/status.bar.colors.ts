@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_7, background_8 } from '../palette/background.colors';
+import { purple_800, purple_900 } from '../palette/purple.colors';
 import { slate_3 } from '../palette/slate.colors';
-import { violet_8, violet_9 } from '../palette/violet.colors';
 
 const statusBarColors: EditorColors = {
   statusBar: {
@@ -16,11 +16,11 @@ const statusBarColors: EditorColors = {
     noFolderForeground: slate_3
   },
   statusBarItem: {
-    activeBackground: violet_9,
-    hostBackground: violet_9,
-    hoverBackground: violet_8,
-    prominentBackground: violet_9,
-    prominentHoverBackground: violet_8
+    activeBackground: purple_900,
+    hostBackground: purple_900,
+    hoverBackground: purple_800,
+    prominentBackground: purple_900,
+    prominentHoverBackground: purple_800
   }
 };
 

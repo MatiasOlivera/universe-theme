@@ -1,36 +1,36 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_0, background_1, background_5, background_6 } from '../palette/background.colors';
+import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
 import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
-import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
 import { yellow_400, yellow_900 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
   editor: {
     background: background_5,
-    findMatchBackground: violet_7,
-    findMatchBorder: violet_6,
-    findMatchHighlightBackground: violet_8,
-    findMatchHighlightBorder: violet_6,
-    findRangeHighlightBackground: violet_7,
-    findRangeHighlightBorder: violet_6,
+    findMatchBackground: purple_700,
+    findMatchBorder: purple_600,
+    findMatchHighlightBackground: purple_800,
+    findMatchHighlightBorder: purple_600,
+    findRangeHighlightBackground: purple_700,
+    findRangeHighlightBorder: purple_600,
     foreground: slate_0,
-    hoverHighlightBackground: violet_7,
-    inactiveSelectionBackground: violet_8,
+    hoverHighlightBackground: purple_700,
+    inactiveSelectionBackground: purple_800,
     lineHighlightBackground: background_6,
-    rangeHighlightBackground: violet_7,
-    rangeHighlightBorder: violet_6,
-    selectionBackground: violet_7,
-    selectionForeground: violet_0,
-    selectionHighlightBackground: violet_7,
-    selectionHighlightBorder: violet_6,
-    wordHighlightBackground: violet_7,
-    wordHighlightBorder: violet_6,
-    wordHighlightStrongBackground: violet_7,
-    wordHighlightStrongBorder: violet_6
+    rangeHighlightBackground: purple_700,
+    rangeHighlightBorder: purple_600,
+    selectionBackground: purple_700,
+    selectionForeground: purple_100,
+    selectionHighlightBackground: purple_700,
+    selectionHighlightBorder: purple_600,
+    wordHighlightBackground: purple_700,
+    wordHighlightBorder: purple_600,
+    wordHighlightStrongBackground: purple_700,
+    wordHighlightStrongBorder: purple_600
   },
   editorBracketMatch: {
-    background: violet_7,
-    border: violet_7
+    background: purple_700,
+    border: purple_700
   },
   editorCodeLens: {
     foreground: slate_1
@@ -48,7 +48,7 @@ const editorColors: EditorColors = {
     foreground: slate_5
   },
   editorLink: {
-    activeForeground: violet_0
+    activeForeground: purple_100
   },
   editorRuler: {
     foreground: background_1

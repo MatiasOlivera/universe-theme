@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { violet_2 } from '../palette/violet.colors';
+import { purple_300 } from '../palette/purple.colors';
 
 const tsColors: TokenColors = [
   /**
@@ -9,7 +9,7 @@ const tsColors: TokenColors = [
     name: 'JSON object',
     scope: 'support.constant.json',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   }
 ];

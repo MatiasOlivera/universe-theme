@@ -1,6 +1,6 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_5, background_6 } from '../palette/background.colors';
-import { violet_8 } from '../palette/violet.colors';
+import { purple_800 } from '../palette/purple.colors';
 
 const welcomePageColors: EditorColors = {
   walkThrough: {
@@ -9,7 +9,7 @@ const welcomePageColors: EditorColors = {
   welcomePage: {
     background: background_5,
     buttonBackground: background_6,
-    buttonHoverBackground: violet_8
+    buttonHoverBackground: purple_800
   }
 };
 

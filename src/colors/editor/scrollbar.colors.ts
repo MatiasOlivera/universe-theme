@@ -1,15 +1,15 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_5 } from '../palette/background.colors';
-import { violet_6, violet_7 } from '../palette/violet.colors';
+import { purple_600, purple_700 } from '../palette/purple.colors';
 
 const scrollbarColors: EditorColors = {
   scrollbar: {
     shadow: background_5
   },
   scrollbarSlider: {
-    activeBackground: violet_6,
-    background: violet_7,
-    hoverBackground: violet_6
+    activeBackground: purple_600,
+    background: purple_700,
+    hoverBackground: purple_600
   }
 };
 

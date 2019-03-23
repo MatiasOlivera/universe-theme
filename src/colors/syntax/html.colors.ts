@@ -1,11 +1,11 @@
 import { TokenColors } from '../../types/colors-types';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_1 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
 import { slate_0 } from '../palette/slate.colors';
-import { violet_2 } from '../palette/violet.colors';
 import { yellow_200 } from '../palette/yellow.colors';
 
-export const tagColor: string = violet_2;
+export const tagColor: string = purple_300;
 export const componentColor: string = orange_200;
 export const textColor: string = slate_0;
 export const directiveColor: string = yellow_200;

@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_6, background_7 } from '../palette/background.colors';
+import { purple_100, purple_600, purple_700 } from '../palette/purple.colors';
 import { slate_0 } from '../palette/slate.colors';
-import { violet_0, violet_5, violet_7 } from '../palette/violet.colors';
 
 const terminalColors: EditorColors = {
   terminal: {
@@ -24,11 +24,11 @@ const terminalColors: EditorColors = {
     background: background_6,
     border: background_7,
     foreground: slate_0,
-    selectionBackground: violet_5
+    selectionBackground: purple_600
   },
   terminalCursor: {
-    background: violet_7,
-    foreground: violet_0
+    background: purple_700,
+    foreground: purple_100
   }
 };
 

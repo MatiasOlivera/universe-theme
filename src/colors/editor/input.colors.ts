@@ -1,9 +1,9 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_3, background_4 } from '../palette/background.colors';
 import { blue_100, blue_800, blue_900 } from '../palette/blue.colors';
+import { purple_400 } from '../palette/purple.colors';
 import { red_100, red_800, red_900 } from '../palette/red.colors';
 import { slate_0, slate_3 } from '../palette/slate.colors';
-import { violet_3 } from '../palette/violet.colors';
 import { yellow_100, yellow_800, yellow_900 } from '../palette/yellow.colors';
 
 const inputColors: EditorColors = {
@@ -14,7 +14,7 @@ const inputColors: EditorColors = {
     placeholderForeground: slate_3
   },
   inputOption: {
-    activeBorder: violet_3
+    activeBorder: purple_400
   },
   inputValidation: {
     errorBackground: red_900,

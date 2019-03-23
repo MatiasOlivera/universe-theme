@@ -3,8 +3,8 @@ import { blue_100, blue_200 } from '../palette/blue.colors';
 import { green_100, green_200 } from '../palette/green.colors';
 import { orange_100, orange_200 } from '../palette/orange.colors';
 import { pink_0, pink_1 } from '../palette/pink.colors';
+import { purple_200, purple_300 } from '../palette/purple.colors';
 import { teal_200 } from '../palette/teal.colors';
-import { violet_1, violet_2 } from '../palette/violet.colors';
 
 const mdColors: TokenColors = [
   /**
@@ -14,14 +14,14 @@ const mdColors: TokenColors = [
     name: 'MD: Heading',
     scope: 'markup.heading.markdown',
     settings: {
-      foreground: violet_1
+      foreground: purple_200
     }
   },
   {
     name: 'MD: Heading punctuation (# title)',
     scope: 'punctuation.definition.heading.markdown',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   },
 
@@ -136,7 +136,7 @@ const mdColors: TokenColors = [
     name: 'MD: List puntuation',
     scope: 'punctuation.definition.list.begin.markdown',
     settings: {
-      foreground: violet_1
+      foreground: purple_200
     }
   }
 ];

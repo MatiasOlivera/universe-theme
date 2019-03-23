@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { pink_1 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
 import { slate_0 } from '../palette/slate.colors';
-import { violet_2 } from '../palette/violet.colors';
 
 /**
  * Extensions: .ini, .editorconfig
@@ -19,7 +19,7 @@ const configColors: TokenColors = [
     name: 'Property',
     scope: 'keyword.other.definition.ini',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   },
   {

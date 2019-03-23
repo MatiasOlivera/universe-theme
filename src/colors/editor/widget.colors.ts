@@ -1,9 +1,9 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_4, background_6 } from '../palette/background.colors';
 import { blue_300 } from '../palette/blue.colors';
+import { purple_400, purple_700 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
 import { slate_0 } from '../palette/slate.colors';
-import { violet_3, violet_7 } from '../palette/violet.colors';
 import { yellow_300, yellow_400 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
@@ -32,12 +32,12 @@ const widgetColors: EditorColors = {
     border: background_6,
     foreground: slate_0,
     highlightForeground: yellow_400,
-    selectedBackground: violet_7
+    selectedBackground: purple_700
   },
   editorWidget: {
     background: background_4,
     border: background_6,
-    resizeBorder: violet_3
+    resizeBorder: purple_400
   }
 };
 

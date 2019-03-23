@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_700, background_800 } from '../palette/background.colors';
+import { gray_100, gray_400 } from '../palette/gray.colors';
 import { purple_900 } from '../palette/purple.colors';
-import { slate_0, slate_3 } from '../palette/slate.colors';
 import { yellow_400 } from '../palette/yellow.colors';
 
 const panelColors: EditorColors = {
@@ -12,8 +12,8 @@ const panelColors: EditorColors = {
   },
   panelTitle: {
     activeBorder: yellow_400,
-    activeForeground: slate_0,
-    inactiveForeground: slate_3
+    activeForeground: gray_100,
+    inactiveForeground: gray_400
   }
 };
 

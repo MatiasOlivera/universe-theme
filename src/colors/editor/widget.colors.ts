@@ -3,7 +3,7 @@ import { background_500, background_700 } from '../palette/background.colors';
 import { blue_300 } from '../palette/blue.colors';
 import { purple_400, purple_700 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
-import { slate_0 } from '../palette/slate.colors';
+import { gray_100 } from '../palette/gray.colors';
 import { yellow_300, yellow_400 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
@@ -30,7 +30,7 @@ const widgetColors: EditorColors = {
   editorSuggestWidget: {
     background: background_500,
     border: background_700,
-    foreground: slate_0,
+    foreground: gray_100,
     highlightForeground: yellow_400,
     selectedBackground: purple_700
   },

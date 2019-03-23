@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_100, background_200, background_600, background_700 } from '../palette/background.colors';
+import { gray_100, gray_200, gray_600 } from '../palette/gray.colors';
 import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
-import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { yellow_400, yellow_900 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
@@ -13,7 +13,7 @@ const editorColors: EditorColors = {
     findMatchHighlightBorder: purple_600,
     findRangeHighlightBackground: purple_700,
     findRangeHighlightBorder: purple_600,
-    foreground: slate_0,
+    foreground: gray_100,
     hoverHighlightBackground: purple_700,
     inactiveSelectionBackground: purple_800,
     lineHighlightBackground: background_700,
@@ -33,7 +33,7 @@ const editorColors: EditorColors = {
     border: purple_700
   },
   editorCodeLens: {
-    foreground: slate_1
+    foreground: gray_200
   },
   editorCursor: {
     background: yellow_900,
@@ -44,8 +44,8 @@ const editorColors: EditorColors = {
     background: background_200
   },
   editorLineNumber: {
-    activeForeground: slate_1,
-    foreground: slate_5
+    activeForeground: gray_200,
+    foreground: gray_600
   },
   editorLink: {
     activeForeground: purple_100
@@ -57,7 +57,7 @@ const editorColors: EditorColors = {
     opacity: '#000000c0'
   },
   editorWhitespace: {
-    foreground: slate_5
+    foreground: gray_600
   }
 };
 

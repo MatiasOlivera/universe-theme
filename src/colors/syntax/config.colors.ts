@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { pink_200 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
-import { slate_0 } from '../palette/slate.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 /**
  * Extensions: .ini, .editorconfig
@@ -12,7 +12,7 @@ const configColors: TokenColors = [
     name: 'Group title',
     scope: 'entity.name.section.group-title.ini',
     settings: {
-      foreground: slate_0
+      foreground: gray_100
     }
   },
   {
@@ -33,7 +33,7 @@ const configColors: TokenColors = [
     name: 'Separator',
     scope: 'punctuation.separator.key-value.ini',
     settings: {
-      foreground: slate_0
+      foreground: gray_100
     }
   }
 ];

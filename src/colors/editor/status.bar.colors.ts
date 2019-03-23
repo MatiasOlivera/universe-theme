@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_800, background_900 } from '../palette/background.colors';
+import { gray_400 } from '../palette/gray.colors';
 import { purple_800, purple_900 } from '../palette/purple.colors';
-import { slate_3 } from '../palette/slate.colors';
 
 const statusBarColors: EditorColors = {
   statusBar: {
@@ -9,11 +9,11 @@ const statusBarColors: EditorColors = {
     border: background_900,
     debuggingBackground: background_800,
     debuggingBorder: background_900,
-    debuggingForeground: slate_3,
-    foreground: slate_3,
+    debuggingForeground: gray_400,
+    foreground: gray_400,
     noFolderBackground: background_800,
     noFolderBorder: background_900,
-    noFolderForeground: slate_3
+    noFolderForeground: gray_400
   },
   statusBarItem: {
     activeBackground: purple_900,

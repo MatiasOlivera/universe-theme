@@ -1,14 +1,14 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_800, background_900 } from '../palette/background.colors';
-import { slate_1, slate_3 } from '../palette/slate.colors';
+import { gray_200, gray_400 } from '../palette/gray.colors';
 
 const titleBarColors: EditorColors = {
   titleBar: {
     activeBackground: background_800,
-    activeForeground: slate_1,
+    activeForeground: gray_200,
     border: background_900,
     inactiveBackground: background_800,
-    inactiveForeground: slate_3
+    inactiveForeground: gray_400
   }
 };
 

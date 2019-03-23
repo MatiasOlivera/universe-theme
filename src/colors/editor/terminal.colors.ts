@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_700, background_800 } from '../palette/background.colors';
 import { purple_100, purple_600, purple_700 } from '../palette/purple.colors';
-import { slate_0 } from '../palette/slate.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 const terminalColors: EditorColors = {
   terminal: {
@@ -23,7 +23,7 @@ const terminalColors: EditorColors = {
     ansiYellow: '#FFCB6B',
     background: background_700,
     border: background_800,
-    foreground: slate_0,
+    foreground: gray_100,
     selectionBackground: purple_600
   },
   terminalCursor: {

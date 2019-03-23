@@ -1,11 +1,11 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
+import { gray_400 } from '../palette/gray.colors';
 import { green_200 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_200 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
-import { slate_3 } from '../palette/slate.colors';
 import { teal_200, teal_300 } from '../palette/teal.colors';
 
 const commonColors: TokenColors = [
@@ -190,7 +190,7 @@ const commonColors: TokenColors = [
     name: 'Comment',
     scope: ['comment', 'punctuation.definition.comment'],
     settings: {
-      foreground: slate_3
+      foreground: gray_400
     }
   },
   {

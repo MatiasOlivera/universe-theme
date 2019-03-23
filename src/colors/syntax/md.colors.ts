@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_0, blue_1 } from '../palette/blue.colors';
 import { cyan_1 } from '../palette/cyan.colors';
-import { green_0, green_1 } from '../palette/green.colors';
+import { green_100, green_200 } from '../palette/green.colors';
 import { orange_100, orange_200 } from '../palette/orange.colors';
 import { pink_0, pink_1 } from '../palette/pink.colors';
 import { violet_1, violet_2 } from '../palette/violet.colors';
@@ -68,14 +68,14 @@ const mdColors: TokenColors = [
     name: 'MD: Quote',
     scope: 'markup.quote.markdown',
     settings: {
-      foreground: green_1
+      foreground: green_200
     }
   },
   {
     name: 'MD: Quote puntuaction (> text)',
     scope: 'punctuation.definition.quote.begin.markdown',
     settings: {
-      foreground: green_0
+      foreground: green_100
     }
   },
 

@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { cyan_2 } from '../palette/cyan.colors';
-import { green_2 } from '../palette/green.colors';
+import { green_300 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
@@ -46,7 +46,7 @@ const cssColors: TokenColors = [
     name: 'Pseudo-class',
     scope: 'entity.other.attribute-name.pseudo-class.css',
     settings: {
-      foreground: green_2
+      foreground: green_300
     }
   },
   {

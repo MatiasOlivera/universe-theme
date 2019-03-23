@@ -1,6 +1,6 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
-import { green_2 } from '../palette/green.colors';
+import { green_300 } from '../palette/green.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
 
@@ -26,7 +26,7 @@ const ymlColors: TokenColors = [
     name: 'String',
     scope: 'string.unquoted.plain.out.yaml',
     settings: {
-      foreground: green_2
+      foreground: green_300
     }
   },
 

@@ -2,8 +2,8 @@ import * as deepmerge from 'deepmerge';
 import { flatten } from 'flat';
 import { join } from 'path';
 
-import { editorColors } from './colors';
-import { Dictionary, EditorColors } from './types/colors-types';
+import { editorColors, syntaxColors } from './colors';
+import { Dictionary, EditorColors, TokenColors } from './types/colors-types';
 import { exists, mkdir, writeFile } from './utils/fs-promisify';
 
 async function build() {
@@ -11,13 +11,17 @@ async function build() {
   const themeFile: string = join(themeDir, 'universe-color-theme.json');
 
   const _editorColors = Object.values(editorColors);
-  const colors = flat(merge(_editorColors));
+  const colors: EditorColors = flat(merge(_editorColors));
+
+  const tokenColors: TokenColors = Array.prototype.concat(
+    ...Object.values(syntaxColors)
+  );
 
   let theme: Theme = {
     name: 'Universe',
     type: 'dark',
     colors,
-    tokenColors: []
+    tokenColors
   };
 
   await createDirectory(themeDir);
@@ -51,7 +55,7 @@ interface Theme {
   name: string;
   type: 'dark' | 'light';
   colors: EditorColors;
-  tokenColors: any;
+  tokenColors: TokenColors;
 }
 
 export default build;

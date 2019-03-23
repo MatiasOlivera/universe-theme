@@ -4,7 +4,7 @@ import { cyan_1, cyan_2 } from '../palette/cyan.colors';
 import { green_1 } from '../palette/green.colors';
 import { orange_1 } from '../palette/orange.colors';
 import { pink_1 } from '../palette/pink.colors';
-import { red_2 } from '../palette/red.colors';
+import { red_300 } from '../palette/red.colors';
 import { slate_3 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
 
@@ -197,7 +197,7 @@ const commonColors: TokenColors = [
     name: 'Invalid',
     scope: ['invalid', 'invalid.illegal'],
     settings: {
-      foreground: red_2
+      foreground: red_300
     }
   },
   {

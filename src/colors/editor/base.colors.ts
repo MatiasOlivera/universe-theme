@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
+import { background_700 } from '../palette/background.colors';
 import { purple_600 } from '../palette/purple.colors';
 import { red_200 } from '../palette/red.colors';
 import { slate_1 } from '../palette/slate.colors';
@@ -14,7 +14,7 @@ const baseColors: EditorColors = {
     background: purple_600
   },
   widget: {
-    shadow: background_6
+    shadow: background_700
   }
 };
 

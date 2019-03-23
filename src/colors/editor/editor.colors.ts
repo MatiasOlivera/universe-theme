@@ -1,12 +1,12 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_0, background_1, background_5, background_6 } from '../palette/background.colors';
+import { background_100, background_200, background_600, background_700 } from '../palette/background.colors';
 import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
 import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { yellow_400, yellow_900 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
   editor: {
-    background: background_5,
+    background: background_600,
     findMatchBackground: purple_700,
     findMatchBorder: purple_600,
     findMatchHighlightBackground: purple_800,
@@ -16,7 +16,7 @@ const editorColors: EditorColors = {
     foreground: slate_0,
     hoverHighlightBackground: purple_700,
     inactiveSelectionBackground: purple_800,
-    lineHighlightBackground: background_6,
+    lineHighlightBackground: background_700,
     rangeHighlightBackground: purple_700,
     rangeHighlightBorder: purple_600,
     selectionBackground: purple_700,
@@ -40,8 +40,8 @@ const editorColors: EditorColors = {
     foreground: yellow_400
   },
   editorIndentGuide: {
-    activeBackground: background_0,
-    background: background_1
+    activeBackground: background_100,
+    background: background_200
   },
   editorLineNumber: {
     activeForeground: slate_1,
@@ -51,7 +51,7 @@ const editorColors: EditorColors = {
     activeForeground: purple_100
   },
   editorRuler: {
-    foreground: background_1
+    foreground: background_200
   },
   editorUnnecessaryCode: {
     opacity: '#000000c0'

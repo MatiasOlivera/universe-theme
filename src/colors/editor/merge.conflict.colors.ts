@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
+import { background_700 } from '../palette/background.colors';
 import { blue_800, blue_900 } from '../palette/blue.colors';
 import { green_200 } from '../palette/green.colors';
 import { purple_200 } from '../palette/purple.colors';
@@ -13,7 +13,7 @@ const mergeConflictColors: EditorColors = {
     incomingContentForeground: purple_200
   },
   merge: {
-    border: background_6,
+    border: background_700,
     commonContentBackground: slate_9,
     commonHeaderBackground: slate_8,
     currentContentBackground: teal_800,

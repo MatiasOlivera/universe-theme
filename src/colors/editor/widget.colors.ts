@@ -1,5 +1,5 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_4, background_6 } from '../palette/background.colors';
+import { background_500, background_700 } from '../palette/background.colors';
 import { blue_300 } from '../palette/blue.colors';
 import { purple_400, purple_700 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
@@ -8,15 +8,15 @@ import { yellow_300, yellow_400 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
-    background: background_4,
-    border: background_6
+    background: background_500,
+    border: background_700
   },
   editorHoverWidget: {
-    background: background_4,
-    border: background_6
+    background: background_500,
+    border: background_700
   },
   editorMarkerNavigation: {
-    background: background_4
+    background: background_500
   },
   editorMarkerNavigationError: {
     background: red_300
@@ -28,15 +28,15 @@ const widgetColors: EditorColors = {
     background: yellow_300
   },
   editorSuggestWidget: {
-    background: background_4,
-    border: background_6,
+    background: background_500,
+    border: background_700,
     foreground: slate_0,
     highlightForeground: yellow_400,
     selectedBackground: purple_700
   },
   editorWidget: {
-    background: background_4,
-    border: background_6,
+    background: background_500,
+    border: background_700,
     resizeBorder: purple_400
   }
 };

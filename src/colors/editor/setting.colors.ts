@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_3, background_4, background_5 } from '../palette/background.colors';
 import { slate_0 } from '../palette/slate.colors';
-import { yellow_3 } from '../palette/yellow.colors';
+import { yellow_400 } from '../palette/yellow.colors';
 
 const settingColors: EditorColors = {
   settings: {
@@ -13,7 +13,7 @@ const settingColors: EditorColors = {
     dropdownForeground: slate_0,
     dropdownListBorder: background_5,
     headerForeground: slate_0,
-    modifiedItemIndicator: yellow_3,
+    modifiedItemIndicator: yellow_400,
     numberInputBackground: background_4,
     numberInputBorder: background_3,
     numberInputForeground: slate_0,

@@ -2,7 +2,7 @@ import { EditorColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
 import { red_300 } from '../palette/red.colors';
 import { violet_2 } from '../palette/violet.colors';
-import { yellow_2 } from '../palette/yellow.colors';
+import { yellow_300 } from '../palette/yellow.colors';
 
 const squigglesColors: EditorColors = {
   editorError: {
@@ -15,7 +15,7 @@ const squigglesColors: EditorColors = {
     foreground: blue_2
   },
   editorWarning: {
-    foreground: yellow_2
+    foreground: yellow_300
   }
 };
 

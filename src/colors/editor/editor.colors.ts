@@ -2,7 +2,7 @@ import { EditorColors } from '../../types/colors-types';
 import { background_0, background_1, background_5, background_6 } from '../palette/background.colors';
 import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
 import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
-import { yellow_3, yellow_9 } from '../palette/yellow.colors';
+import { yellow_400, yellow_900 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
   editor: {
@@ -36,8 +36,8 @@ const editorColors: EditorColors = {
     foreground: slate_1
   },
   editorCursor: {
-    background: yellow_9,
-    foreground: yellow_3
+    background: yellow_900,
+    foreground: yellow_400
   },
   editorIndentGuide: {
     activeBackground: background_0,

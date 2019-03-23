@@ -4,7 +4,7 @@ import { blue_1 } from '../palette/blue.colors';
 import { green_1 } from '../palette/green.colors';
 import { red_200 } from '../palette/red.colors';
 import { violet_1 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
 const overviewRulerColors: EditorColors = {
   editorOverviewRuler: {
@@ -18,7 +18,7 @@ const overviewRulerColors: EditorColors = {
     modifiedForeground: blue_1,
     rangeHighlightForeground: violet_1,
     selectionHighlightForeground: violet_1,
-    warningForeground: yellow_1,
+    warningForeground: yellow_200,
     wordHighlightForeground: violet_1,
     wordHighlightStrongForeground: violet_1
   }

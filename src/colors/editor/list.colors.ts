@@ -1,7 +1,7 @@
 import { EditorColors } from '../../types/colors-types';
 import { red_200, red_600 } from '../palette/red.colors';
 import { violet_0, violet_6, violet_7, violet_9 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
 const listColors: EditorColors = {
   list: {
@@ -18,7 +18,7 @@ const listColors: EditorColors = {
     inactiveFocusBackground: violet_6,
     invalidItemForeground: violet_9,
     errorForeground: red_200,
-    warningForeground: yellow_1
+    warningForeground: yellow_200
   },
   listFilterWidget: {
     background: violet_7,

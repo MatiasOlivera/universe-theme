@@ -4,7 +4,7 @@ import { blue_0, blue_8, blue_9 } from '../palette/blue.colors';
 import { red_100, red_800, red_900 } from '../palette/red.colors';
 import { slate_0, slate_3 } from '../palette/slate.colors';
 import { violet_3 } from '../palette/violet.colors';
-import { yellow_0, yellow_8, yellow_9 } from '../palette/yellow.colors';
+import { yellow_100, yellow_800, yellow_900 } from '../palette/yellow.colors';
 
 const inputColors: EditorColors = {
   input: {
@@ -23,9 +23,9 @@ const inputColors: EditorColors = {
     infoBackground: blue_9,
     infoBorder: blue_8,
     infoForeground: blue_0,
-    warningBackground: yellow_9,
-    warningBorder: yellow_8,
-    warningForeground: yellow_0
+    warningBackground: yellow_900,
+    warningBorder: yellow_800,
+    warningForeground: yellow_100
   }
 };
 

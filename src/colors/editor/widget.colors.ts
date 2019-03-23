@@ -4,7 +4,7 @@ import { blue_2 } from '../palette/blue.colors';
 import { red_300 } from '../palette/red.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_3, violet_7 } from '../palette/violet.colors';
-import { yellow_2, yellow_3 } from '../palette/yellow.colors';
+import { yellow_300, yellow_400 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
@@ -25,13 +25,13 @@ const widgetColors: EditorColors = {
     background: blue_2
   },
   editorMarkerNavigationWarning: {
-    background: yellow_2
+    background: yellow_300
   },
   editorSuggestWidget: {
     background: background_4,
     border: background_6,
     foreground: slate_0,
-    highlightForeground: yellow_3,
+    highlightForeground: yellow_400,
     selectedBackground: violet_7
   },
   editorWidget: {

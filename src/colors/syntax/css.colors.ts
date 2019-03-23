@@ -5,9 +5,9 @@ import { green_2 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
 import { violet_2 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
-export const idColor: string = yellow_1;
+export const idColor: string = yellow_200;
 export const classColor: string = orange_200;
 
 const cssColors: TokenColors = [

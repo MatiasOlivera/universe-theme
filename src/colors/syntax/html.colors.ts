@@ -1,6 +1,6 @@
 import { TokenColors } from '../../types/colors-types';
 import { orange_1 } from '../palette/orange.colors';
-import { pink_1, pink_2 } from '../palette/pink.colors';
+import { pink_1 } from '../palette/pink.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
 import { yellow_1 } from '../palette/yellow.colors';
@@ -46,7 +46,7 @@ const htmlColors: TokenColors = [
     name: 'Special character',
     scope: 'constant.character.entity',
     settings: {
-      foreground: pink_2
+      foreground: pink_1
     }
   },
 

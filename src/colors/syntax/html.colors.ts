@@ -1,6 +1,6 @@
 import { TokenColors } from '../../types/colors-types';
 import { orange_200 } from '../palette/orange.colors';
-import { pink_1 } from '../palette/pink.colors';
+import { pink_200 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { slate_0 } from '../palette/slate.colors';
 import { yellow_200 } from '../palette/yellow.colors';
@@ -32,7 +32,7 @@ const htmlColors: TokenColors = [
     name: 'Attribute',
     scope: ['meta.tag', 'meta.tag.inline.any'],
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {
@@ -46,7 +46,7 @@ const htmlColors: TokenColors = [
     name: 'Special character',
     scope: 'constant.character.entity',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
 

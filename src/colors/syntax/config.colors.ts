@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { pink_1 } from '../palette/pink.colors';
+import { pink_200 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { slate_0 } from '../palette/slate.colors';
 
@@ -26,7 +26,7 @@ const configColors: TokenColors = [
     name: 'Value',
     scope: 'source.ini',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {

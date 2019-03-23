@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { green_200 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
-import { pink_1 } from '../palette/pink.colors';
+import { pink_200 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
 import { slate_3 } from '../palette/slate.colors';
@@ -48,14 +48,14 @@ const commonColors: TokenColors = [
     name: 'Variable',
     scope: 'variable',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {
     name: 'Constant',
     scope: 'variable.other.constant',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
 
@@ -66,14 +66,14 @@ const commonColors: TokenColors = [
     name: 'Object variable',
     scope: 'variable.other.object',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {
     name: 'Variable property value',
     scope: 'variable.other.property',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {
@@ -105,7 +105,7 @@ const commonColors: TokenColors = [
     name: 'Function parameter',
     scope: 'variable.parameter',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
 
@@ -165,7 +165,7 @@ const commonColors: TokenColors = [
     name: 'Module name',
     scope: 'entity.name.type.module',
     settings: {
-      foreground: pink_1
+      foreground: pink_200
     }
   },
   {

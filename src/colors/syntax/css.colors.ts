@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { green_300 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
-import { pink_2 } from '../palette/pink.colors';
+import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { teal_300 } from '../palette/teal.colors';
 import { yellow_200 } from '../palette/yellow.colors';
@@ -64,14 +64,14 @@ const cssColors: TokenColors = [
     name: 'Property name',
     scope: 'support.type.property-name.css',
     settings: {
-      foreground: pink_2
+      foreground: pink_300
     }
   },
   {
     name: 'Vendor property name',
     scope: 'support.type.vendored.property-name.css',
     settings: {
-      foreground: pink_2
+      foreground: pink_300
     }
   },
 

@@ -2,7 +2,7 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_100, blue_200 } from '../palette/blue.colors';
 import { green_100, green_200 } from '../palette/green.colors';
 import { orange_100, orange_200 } from '../palette/orange.colors';
-import { pink_0, pink_1 } from '../palette/pink.colors';
+import { pink_100, pink_200 } from '../palette/pink.colors';
 import { purple_200, purple_300 } from '../palette/purple.colors';
 import { teal_200 } from '../palette/teal.colors';
 
@@ -32,7 +32,7 @@ const mdColors: TokenColors = [
     name: 'MD: Bold text',
     scope: 'markup.bold.markdown',
     settings: {
-      foreground: pink_1,
+      foreground: pink_200,
       fontStyle: 'bold'
     }
   },
@@ -40,7 +40,7 @@ const mdColors: TokenColors = [
     name: 'MD: Bold puntuation (**text**)',
     scope: 'punctuation.definition.bold.markdown',
     settings: {
-      foreground: pink_0
+      foreground: pink_100
     }
   },
 

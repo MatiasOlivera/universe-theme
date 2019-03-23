@@ -1,9 +1,9 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
-import { cyan_2 } from '../palette/cyan.colors';
+import { cyan_1, cyan_2 } from '../palette/cyan.colors';
 import { green_1 } from '../palette/green.colors';
 import { orange_1 } from '../palette/orange.colors';
-import { pink_1, pink_2 } from '../palette/pink.colors';
+import { pink_1 } from '../palette/pink.colors';
 import { red_2 } from '../palette/red.colors';
 import { slate_3 } from '../palette/slate.colors';
 import { violet_2 } from '../palette/violet.colors';
@@ -46,7 +46,7 @@ const commonColors: TokenColors = [
    */
   {
     name: 'Variable',
-    scope: ['variable', 'string.unquoted'],
+    scope: 'variable',
     settings: {
       foreground: pink_1
     }
@@ -58,6 +58,10 @@ const commonColors: TokenColors = [
       foreground: pink_1
     }
   },
+
+  /**
+   * Objects
+   */
   {
     name: 'Object variable',
     scope: 'variable.other.object',
@@ -72,22 +76,11 @@ const commonColors: TokenColors = [
       foreground: pink_1
     }
   },
-
-  /**
-   * Objects
-   */
   {
     name: 'Object property',
-    scope: 'meta.object-literal.key',
+    scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: pink_1
-    }
-  },
-  {
-    name: 'Access to object property',
-    scope: 'support.variable.property',
-    settings: {
-      foreground: pink_2
+      foreground: cyan_1
     }
   },
 

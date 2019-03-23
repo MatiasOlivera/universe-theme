@@ -1,11 +1,11 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
-import { cyan_1, cyan_2 } from '../palette/cyan.colors';
 import { green_200 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_1 } from '../palette/pink.colors';
 import { red_300 } from '../palette/red.colors';
 import { slate_3 } from '../palette/slate.colors';
+import { teal_200, teal_300 } from '../palette/teal.colors';
 import { violet_2 } from '../palette/violet.colors';
 
 const commonColors: TokenColors = [
@@ -80,7 +80,7 @@ const commonColors: TokenColors = [
     name: 'Object property',
     scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: cyan_1
+      foreground: teal_200
     }
   },
 
@@ -121,14 +121,14 @@ const commonColors: TokenColors = [
       'entity.other.inherited-class'
     ],
     settings: {
-      foreground: cyan_2
+      foreground: teal_300
     }
   },
   {
     name: 'Instance',
     scope: 'entity.name.type.instance',
     settings: {
-      foreground: cyan_2
+      foreground: teal_300
     }
   },
 

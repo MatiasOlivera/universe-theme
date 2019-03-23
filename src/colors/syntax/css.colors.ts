@@ -1,9 +1,9 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_2 } from '../palette/blue.colors';
-import { cyan_2 } from '../palette/cyan.colors';
 import { green_300 } from '../palette/green.colors';
 import { orange_200 } from '../palette/orange.colors';
 import { pink_2 } from '../palette/pink.colors';
+import { teal_300 } from '../palette/teal.colors';
 import { violet_2 } from '../palette/violet.colors';
 import { yellow_200 } from '../palette/yellow.colors';
 
@@ -82,7 +82,7 @@ const cssColors: TokenColors = [
     name: 'Property value',
     scope: 'meta.property-value.css',
     settings: {
-      foreground: cyan_2
+      foreground: teal_300
     }
   },
   {
@@ -103,7 +103,7 @@ const cssColors: TokenColors = [
     name: 'Function parameter',
     scope: 'variable.parameter.css',
     settings: {
-      foreground: cyan_2
+      foreground: teal_300
     }
   }
 ];

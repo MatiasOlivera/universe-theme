@@ -1,9 +1,9 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_0, blue_1 } from '../palette/blue.colors';
-import { cyan_1 } from '../palette/cyan.colors';
 import { green_100, green_200 } from '../palette/green.colors';
 import { orange_100, orange_200 } from '../palette/orange.colors';
 import { pink_0, pink_1 } from '../palette/pink.colors';
+import { teal_200 } from '../palette/teal.colors';
 import { violet_1, violet_2 } from '../palette/violet.colors';
 
 const mdColors: TokenColors = [
@@ -121,14 +121,14 @@ const mdColors: TokenColors = [
     name: 'MD: Inline code',
     scope: 'markup.inline.raw.string.markdown',
     settings: {
-      foreground: cyan_1
+      foreground: teal_200
     }
   },
   {
     name: 'MD: Block code',
     scope: 'markup.raw.block.markdown',
     settings: {
-      foreground: cyan_1
+      foreground: teal_200
     }
   },
 

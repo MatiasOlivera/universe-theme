@@ -1,5 +1,4 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_300 } from '../palette/blue.colors';
 import { green_300 } from '../palette/green.colors';
 import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
@@ -18,7 +17,7 @@ const cssColors: TokenColors = [
     name: 'Tag',
     scope: ['entity.name.tag.css', 'meta.selector.css'],
     settings: {
-      foreground: purple_300
+      foreground: pink_300
     }
   },
   {
@@ -46,14 +45,14 @@ const cssColors: TokenColors = [
     name: 'Pseudo-class',
     scope: 'entity.other.attribute-name.pseudo-class.css',
     settings: {
-      foreground: green_300
+      foreground: teal_300
     }
   },
   {
     name: 'Pseudo-element',
     scope: 'entity.other.attribute-name.pseudo-element.css',
     settings: {
-      foreground: blue_300
+      foreground: teal_300
     }
   },
 
@@ -64,14 +63,14 @@ const cssColors: TokenColors = [
     name: 'Property name',
     scope: 'support.type.property-name.css',
     settings: {
-      foreground: pink_300
+      foreground: purple_300
     }
   },
   {
     name: 'Vendor property name',
     scope: 'support.type.vendored.property-name.css',
     settings: {
-      foreground: pink_300
+      foreground: purple_300
     }
   },
 
@@ -82,28 +81,28 @@ const cssColors: TokenColors = [
     name: 'Property value',
     scope: 'meta.property-value.css',
     settings: {
-      foreground: teal_300
+      foreground: green_300
+    }
+  },
+  {
+    name: 'Function parameter',
+    scope: ['variable.parameter.css', 'variable.parameter.url.css'],
+    settings: {
+      foreground: green_300
     }
   },
   {
     name: 'Number',
     scope: 'constant.numeric.css',
     settings: {
-      foreground: blue_300
+      foreground: green_300
     }
   },
   {
     name: 'Unit',
     scope: 'keyword.other.unit',
     settings: {
-      foreground: blue_300
-    }
-  },
-  {
-    name: 'Function parameter',
-    scope: 'variable.parameter.css',
-    settings: {
-      foreground: teal_300
+      foreground: purple_300
     }
   }
 ];

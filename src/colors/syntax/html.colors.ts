@@ -3,12 +3,11 @@ import { gray_100 } from '../palette/gray.colors';
 import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
-import { yellow_300 } from '../palette/yellow.colors';
 
 export const tagColor: string = purple_300;
 export const componentColor: string = orange_300;
 export const textColor: string = gray_100;
-export const directiveColor: string = yellow_300;
+export const directiveColor: string = orange_300;
 
 const htmlColors: TokenColors = [
   {

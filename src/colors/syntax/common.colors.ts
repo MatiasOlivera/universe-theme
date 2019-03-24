@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_300 } from '../palette/blue.colors';
 import { gray_500 } from '../palette/gray.colors';
 import { green_300 } from '../palette/green.colors';
+import { indigo_300 } from '../palette/indigo.colors';
 import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
@@ -80,7 +80,7 @@ const commonColors: TokenColors = [
     name: 'Object property',
     scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: teal_300
+      foreground: red_300
     }
   },
 
@@ -91,14 +91,14 @@ const commonColors: TokenColors = [
     name: 'Function definition',
     scope: 'entity.name.function',
     settings: {
-      foreground: blue_300
+      foreground: indigo_300
     }
   },
   {
     name: 'Language function',
     scope: 'support.function',
     settings: {
-      foreground: blue_300
+      foreground: indigo_300
     }
   },
   {
@@ -133,6 +133,17 @@ const commonColors: TokenColors = [
   },
 
   /**
+   * Modules
+   */
+  {
+    name: 'Module name',
+    scope: 'entity.name.type.module',
+    settings: {
+      foreground: indigo_300
+    }
+  },
+
+  /**
    * Types
    */
   {
@@ -162,17 +173,10 @@ const commonColors: TokenColors = [
     }
   },
   {
-    name: 'Module name',
-    scope: 'entity.name.type.module',
-    settings: {
-      foreground: pink_300
-    }
-  },
-  {
     name: 'Language constant (boolean, null)',
     scope: 'constant.language',
     settings: {
-      foreground: purple_300
+      foreground: orange_300
     }
   },
   {

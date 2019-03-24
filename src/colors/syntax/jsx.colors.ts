@@ -1,5 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_300 } from '../palette/blue.colors';
+import { indigo_300 } from '../palette/indigo.colors';
 import { componentColor, directiveColor, tagColor, textColor } from './html.colors';
 
 const jsxColors: TokenColors = [
@@ -26,7 +26,7 @@ const jsxColors: TokenColors = [
     scope: 'entity.other.attribute-name.jsx',
     settings: {
       // Pink is used in variables and method arguments
-      foreground: blue_300
+      foreground: indigo_300
     }
   },
   {

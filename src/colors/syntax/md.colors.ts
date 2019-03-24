@@ -3,7 +3,7 @@ import { blue_200, blue_300 } from '../palette/blue.colors';
 import { green_200, green_300 } from '../palette/green.colors';
 import { orange_200, orange_300 } from '../palette/orange.colors';
 import { pink_200, pink_300 } from '../palette/pink.colors';
-import { purple_300 } from '../palette/purple.colors';
+import { purple_200, purple_300 } from '../palette/purple.colors';
 import { teal_300 } from '../palette/teal.colors';
 
 const mdColors: TokenColors = [
@@ -21,7 +21,7 @@ const mdColors: TokenColors = [
     name: 'MD: Heading punctuation (# title)',
     scope: 'punctuation.definition.heading.markdown',
     settings: {
-      foreground: purple_300
+      foreground: purple_200
     }
   },
 

@@ -1,25 +1,25 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
-import { blue_8, blue_9 } from '../palette/blue.colors';
-import { cyan_8, cyan_9 } from '../palette/cyan.colors';
-import { green_1 } from '../palette/green.colors';
-import { slate_1, slate_8, slate_9 } from '../palette/slate.colors';
-import { violet_1 } from '../palette/violet.colors';
+import { background_700 } from '../palette/background.colors';
+import { blue_800, blue_900 } from '../palette/blue.colors';
+import { gray_200, gray_800, gray_900 } from '../palette/gray.colors';
+import { green_200 } from '../palette/green.colors';
+import { purple_200 } from '../palette/purple.colors';
+import { teal_800, teal_900 } from '../palette/teal.colors';
 
 const mergeConflictColors: EditorColors = {
   editorOverviewRuler: {
-    commonContentForeground: slate_1,
-    currentContentForeground: green_1,
-    incomingContentForeground: violet_1
+    commonContentForeground: gray_200,
+    currentContentForeground: green_200,
+    incomingContentForeground: purple_200
   },
   merge: {
-    border: background_6,
-    commonContentBackground: slate_9,
-    commonHeaderBackground: slate_8,
-    currentContentBackground: cyan_8,
-    currentHeaderBackground: cyan_9,
-    incomingContentBackground: blue_8,
-    incomingHeaderBackground: blue_9
+    border: background_700,
+    commonContentBackground: gray_900,
+    commonHeaderBackground: gray_800,
+    currentContentBackground: teal_800,
+    currentHeaderBackground: teal_900,
+    incomingContentBackground: blue_800,
+    incomingHeaderBackground: blue_900
   }
 };
 

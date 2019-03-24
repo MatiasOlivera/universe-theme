@@ -1,63 +1,63 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_0, background_1, background_5, background_6 } from '../palette/background.colors';
-import { slate_0, slate_1, slate_5 } from '../palette/slate.colors';
-import { violet_0, violet_6, violet_7, violet_8 } from '../palette/violet.colors';
-import { yellow_3, yellow_9 } from '../palette/yellow.colors';
+import { background_100, background_200, background_600, background_700 } from '../palette/background.colors';
+import { gray_100, gray_200, gray_600 } from '../palette/gray.colors';
+import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
+import { yellow_400, yellow_900 } from '../palette/yellow.colors';
 
 const editorColors: EditorColors = {
   editor: {
-    background: background_5,
-    findMatchBackground: violet_7,
-    findMatchBorder: violet_6,
-    findMatchHighlightBackground: violet_8,
-    findMatchHighlightBorder: violet_6,
-    findRangeHighlightBackground: violet_7,
-    findRangeHighlightBorder: violet_6,
-    foreground: slate_0,
-    hoverHighlightBackground: violet_7,
-    inactiveSelectionBackground: violet_8,
-    lineHighlightBackground: background_6,
-    rangeHighlightBackground: violet_7,
-    rangeHighlightBorder: violet_6,
-    selectionBackground: violet_7,
-    selectionForeground: violet_0,
-    selectionHighlightBackground: violet_7,
-    selectionHighlightBorder: violet_6,
-    wordHighlightBackground: violet_7,
-    wordHighlightBorder: violet_6,
-    wordHighlightStrongBackground: violet_7,
-    wordHighlightStrongBorder: violet_6
+    background: background_600,
+    findMatchBackground: purple_700,
+    findMatchBorder: purple_600,
+    findMatchHighlightBackground: purple_800,
+    findMatchHighlightBorder: purple_600,
+    findRangeHighlightBackground: purple_700,
+    findRangeHighlightBorder: purple_600,
+    foreground: gray_100,
+    hoverHighlightBackground: purple_700,
+    inactiveSelectionBackground: purple_800,
+    lineHighlightBackground: background_700,
+    rangeHighlightBackground: purple_700,
+    rangeHighlightBorder: purple_600,
+    selectionBackground: purple_700,
+    selectionForeground: purple_100,
+    selectionHighlightBackground: purple_700,
+    selectionHighlightBorder: purple_600,
+    wordHighlightBackground: purple_700,
+    wordHighlightBorder: purple_600,
+    wordHighlightStrongBackground: purple_700,
+    wordHighlightStrongBorder: purple_600
   },
   editorBracketMatch: {
-    background: violet_7,
-    border: violet_7
+    background: purple_700,
+    border: purple_700
   },
   editorCodeLens: {
-    foreground: slate_1
+    foreground: gray_200
   },
   editorCursor: {
-    background: yellow_9,
-    foreground: yellow_3
+    background: yellow_900,
+    foreground: yellow_400
   },
   editorIndentGuide: {
-    activeBackground: background_0,
-    background: background_1
+    activeBackground: background_100,
+    background: background_200
   },
   editorLineNumber: {
-    activeForeground: slate_1,
-    foreground: slate_5
+    activeForeground: gray_200,
+    foreground: gray_600
   },
   editorLink: {
-    activeForeground: violet_0
+    activeForeground: purple_100
   },
   editorRuler: {
-    foreground: background_1
+    foreground: background_200
   },
   editorUnnecessaryCode: {
     opacity: '#000000c0'
   },
   editorWhitespace: {
-    foreground: slate_5
+    foreground: gray_600
   }
 };
 

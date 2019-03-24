@@ -1,13 +1,13 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_4, background_5 } from '../palette/background.colors';
-import { slate_0 } from '../palette/slate.colors';
+import { background_500, background_600 } from '../palette/background.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 const dropdownColors: EditorColors = {
   dropdown: {
-    background: background_5,
-    border: background_4,
-    foreground: slate_0,
-    listBackground: background_5
+    background: background_600,
+    border: background_500,
+    foreground: gray_100,
+    listBackground: background_600
   }
 };
 

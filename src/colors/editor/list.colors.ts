@@ -1,29 +1,29 @@
 import { EditorColors } from '../../types/colors-types';
-import { red_1, red_5 } from '../palette/red.colors';
-import { violet_0, violet_6, violet_7, violet_9 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { purple_100, purple_600, purple_700, purple_900 } from '../palette/purple.colors';
+import { red_200, red_600 } from '../palette/red.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
 const listColors: EditorColors = {
   list: {
-    activeSelectionBackground: violet_7,
-    activeSelectionForeground: violet_0,
-    dropBackground: violet_9,
-    focusBackground: violet_7,
-    focusForeground: violet_0,
-    highlightForeground: violet_0,
-    hoverBackground: violet_6,
-    hoverForeground: violet_0,
-    inactiveSelectionBackground: violet_6,
-    inactiveSelectionForeground: violet_0,
-    inactiveFocusBackground: violet_6,
-    invalidItemForeground: violet_9,
-    errorForeground: red_1,
-    warningForeground: yellow_1
+    activeSelectionBackground: purple_700,
+    activeSelectionForeground: purple_100,
+    dropBackground: purple_900,
+    focusBackground: purple_700,
+    focusForeground: purple_100,
+    highlightForeground: purple_100,
+    hoverBackground: purple_600,
+    hoverForeground: purple_100,
+    inactiveSelectionBackground: purple_600,
+    inactiveSelectionForeground: purple_100,
+    inactiveFocusBackground: purple_600,
+    invalidItemForeground: purple_900,
+    errorForeground: red_200,
+    warningForeground: yellow_200
   },
   listFilterWidget: {
-    background: violet_7,
-    outline: violet_6,
-    noMatchesOutline: red_5
+    background: purple_700,
+    outline: purple_600,
+    noMatchesOutline: red_600
   }
 };
 

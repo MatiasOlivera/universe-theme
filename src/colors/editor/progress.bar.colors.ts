@@ -1,9 +1,9 @@
 import { EditorColors } from '../../types/colors-types';
-import { violet_3 } from '../palette/violet.colors';
+import { purple_400 } from '../palette/purple.colors';
 
 const progressBarColors: EditorColors = {
   progressBar: {
-    background: violet_3
+    background: purple_400
   }
 };
 

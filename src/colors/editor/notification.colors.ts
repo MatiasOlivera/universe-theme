@@ -1,26 +1,26 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_4, background_5, background_6 } from '../palette/background.colors';
-import { slate_0 } from '../palette/slate.colors';
-import { violet_2 } from '../palette/violet.colors';
+import { background_500, background_600, background_700 } from '../palette/background.colors';
+import { purple_300 } from '../palette/purple.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 const notificationColors: EditorColors = {
   notificationCenter: {
-    border: background_5
+    border: background_600
   },
   notificationCenterHeader: {
-    background: background_6,
-    foreground: slate_0
+    background: background_700,
+    foreground: gray_100
   },
   notificationLink: {
-    foreground: violet_2
+    foreground: purple_300
   },
   notificationToast: {
-    border: background_5
+    border: background_600
   },
   notifications: {
-    background: background_4,
-    border: background_6,
-    foreground: slate_0
+    background: background_500,
+    border: background_700,
+    foreground: gray_100
   }
 };
 

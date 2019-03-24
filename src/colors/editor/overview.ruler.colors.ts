@@ -1,26 +1,26 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
-import { blue_1 } from '../palette/blue.colors';
-import { green_1 } from '../palette/green.colors';
-import { red_1 } from '../palette/red.colors';
-import { violet_1 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { background_700 } from '../palette/background.colors';
+import { blue_200 } from '../palette/blue.colors';
+import { green_200 } from '../palette/green.colors';
+import { purple_200 } from '../palette/purple.colors';
+import { red_200 } from '../palette/red.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
 const overviewRulerColors: EditorColors = {
   editorOverviewRuler: {
-    addedForeground: green_1,
-    border: background_6,
-    bracketMatchForeground: violet_1,
-    deletedForeground: red_1,
-    errorForeground: red_1,
-    findMatchForeground: violet_1,
-    infoForeground: blue_1,
-    modifiedForeground: blue_1,
-    rangeHighlightForeground: violet_1,
-    selectionHighlightForeground: violet_1,
-    warningForeground: yellow_1,
-    wordHighlightForeground: violet_1,
-    wordHighlightStrongForeground: violet_1
+    addedForeground: green_200,
+    border: background_700,
+    bracketMatchForeground: purple_200,
+    deletedForeground: red_200,
+    errorForeground: red_200,
+    findMatchForeground: purple_200,
+    infoForeground: blue_200,
+    modifiedForeground: blue_200,
+    rangeHighlightForeground: purple_200,
+    selectionHighlightForeground: purple_200,
+    warningForeground: yellow_200,
+    wordHighlightForeground: purple_200,
+    wordHighlightStrongForeground: purple_200
   }
 };
 

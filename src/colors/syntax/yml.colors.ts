@@ -1,8 +1,8 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_2 } from '../palette/blue.colors';
-import { green_2 } from '../palette/green.colors';
-import { pink_2 } from '../palette/pink.colors';
-import { violet_2 } from '../palette/violet.colors';
+import { blue_300 } from '../palette/blue.colors';
+import { green_300 } from '../palette/green.colors';
+import { pink_300 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
 
 const ymlColors: TokenColors = [
   /**
@@ -12,21 +12,21 @@ const ymlColors: TokenColors = [
     name: 'Boolean',
     scope: 'constant.language.boolean.yaml',
     settings: {
-      foreground: violet_2
+      foreground: purple_300
     }
   },
   {
     name: 'Number',
     scope: 'constant.numeric.integer.yaml',
     settings: {
-      foreground: blue_2
+      foreground: blue_300
     }
   },
   {
     name: 'String',
     scope: 'string.unquoted.plain.out.yaml',
     settings: {
-      foreground: green_2
+      foreground: green_300
     }
   },
 
@@ -37,7 +37,7 @@ const ymlColors: TokenColors = [
     name: 'Property name',
     scope: 'entity.name.tag.yaml',
     settings: {
-      foreground: pink_2
+      foreground: pink_300
     }
   }
 ];

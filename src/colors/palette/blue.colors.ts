@@ -1,23 +1,21 @@
-export const blue_0: string = '#dceff9';
-export const blue_1: string = '#a9d9f6';
-export const blue_2: string = '#74b9e9';
-export const blue_3: string = '#4e9cd9';
-export const blue_4: string = '#357bb9';
-export const blue_5: string = '#2c649c';
-export const blue_6: string = '#2b5581';
-export const blue_7: string = '#294668';
-export const blue_8: string = '#243953';
-export const blue_9: string = '#213147';
+export const blue_100 = '#ebf8ff';
+export const blue_200 = '#bee3f8';
+export const blue_300 = '#90cdf4';
+export const blue_400 = '#63b3ed';
+export const blue_500 = '#4299e1';
+export const blue_600 = '#3182ce';
+export const blue_700 = '#2b6cb0';
+export const blue_800 = '#2c5282';
+export const blue_900 = '#2a4365';
 
 export default {
-  blue_0,
-  blue_1,
-  blue_2,
-  blue_3,
-  blue_4,
-  blue_5,
-  blue_6,
-  blue_7,
-  blue_8,
-  blue_9
+  blue_100,
+  blue_200,
+  blue_300,
+  blue_400,
+  blue_500,
+  blue_600,
+  blue_700,
+  blue_800,
+  blue_900
 };

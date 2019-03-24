@@ -1,18 +1,18 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_5, background_6 } from '../palette/background.colors';
-import { violet_3, violet_9 } from '../palette/violet.colors';
+import { background_600, background_700 } from '../palette/background.colors';
+import { purple_400, purple_900 } from '../palette/purple.colors';
 
 const editorGroupColors: EditorColors = {
   editorGroup: {
-    border: background_6,
-    dropBackground: violet_9,
-    emptyBackground: background_5,
-    focusedEmptyBorder: violet_3
+    border: background_700,
+    dropBackground: purple_900,
+    emptyBackground: background_600,
+    focusedEmptyBorder: purple_400
   },
   editorGroupHeader: {
-    noTabsBackground: background_5,
-    tabsBackground: background_6,
-    tabsBorder: background_5
+    noTabsBackground: background_600,
+    tabsBackground: background_700,
+    tabsBorder: background_600
   }
 };
 

@@ -1,21 +1,21 @@
 import { EditorColors } from '../../types/colors-types';
-import { blue_2 } from '../palette/blue.colors';
-import { red_2 } from '../palette/red.colors';
-import { violet_2 } from '../palette/violet.colors';
-import { yellow_2 } from '../palette/yellow.colors';
+import { blue_300 } from '../palette/blue.colors';
+import { purple_300 } from '../palette/purple.colors';
+import { red_300 } from '../palette/red.colors';
+import { yellow_300 } from '../palette/yellow.colors';
 
 const squigglesColors: EditorColors = {
   editorError: {
-    foreground: red_2
+    foreground: red_300
   },
   editorHint: {
-    foreground: violet_2
+    foreground: purple_300
   },
   editorInfo: {
-    foreground: blue_2
+    foreground: blue_300
   },
   editorWarning: {
-    foreground: yellow_2
+    foreground: yellow_300
   }
 };
 

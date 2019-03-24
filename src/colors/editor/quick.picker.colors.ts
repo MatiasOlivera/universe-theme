@@ -1,11 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
-import { slate_0 } from '../palette/slate.colors';
+import { background_700 } from '../palette/background.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 const quickPickerColors: EditorColors = {
   pickerGroup: {
-    border: background_6,
-    foreground: slate_0
+    border: background_700,
+    foreground: gray_100
   }
 };
 

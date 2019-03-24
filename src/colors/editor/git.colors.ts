@@ -1,20 +1,20 @@
 import { EditorColors } from '../../types/colors-types';
-import { blue_1 } from '../palette/blue.colors';
-import { green_1 } from '../palette/green.colors';
-import { red_1 } from '../palette/red.colors';
-import { slate_0, slate_1 } from '../palette/slate.colors';
-import { violet_1 } from '../palette/violet.colors';
-import { yellow_1 } from '../palette/yellow.colors';
+import { blue_200 } from '../palette/blue.colors';
+import { gray_100, gray_200 } from '../palette/gray.colors';
+import { green_200 } from '../palette/green.colors';
+import { purple_200 } from '../palette/purple.colors';
+import { red_200 } from '../palette/red.colors';
+import { yellow_200 } from '../palette/yellow.colors';
 
 const gitColors: EditorColors = {
   gitDecoration: {
-    addedResourceForeground: green_1,
-    conflictingResourceForeground: yellow_1,
-    deletedResourceForeground: red_1,
-    ignoredResourceForeground: slate_1,
-    modifiedResourceForeground: blue_1,
-    submoduleResourceForeground: slate_0,
-    untrackedResourceForeground: violet_1
+    addedResourceForeground: green_200,
+    conflictingResourceForeground: yellow_200,
+    deletedResourceForeground: red_200,
+    ignoredResourceForeground: gray_200,
+    modifiedResourceForeground: blue_200,
+    submoduleResourceForeground: gray_100,
+    untrackedResourceForeground: purple_200
   }
 };
 

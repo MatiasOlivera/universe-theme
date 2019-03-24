@@ -1,22 +1,22 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6, background_7 } from '../palette/background.colors';
-import { slate_0 } from '../palette/slate.colors';
-import { violet_9 } from '../palette/violet.colors';
+import { background_700, background_800 } from '../palette/background.colors';
+import { purple_900 } from '../palette/purple.colors';
+import { gray_100 } from '../palette/gray.colors';
 
 const sideBarColors: EditorColors = {
   sideBar: {
-    background: background_6,
-    border: background_7,
-    dropBackground: violet_9,
-    foreground: slate_0
+    background: background_700,
+    border: background_800,
+    dropBackground: purple_900,
+    foreground: gray_100
   },
   sideBarSectionHeader: {
-    background: background_6,
-    border: background_7,
-    foreground: slate_0
+    background: background_700,
+    border: background_800,
+    foreground: gray_100
   },
   sideBarTitle: {
-    foreground: slate_0
+    foreground: gray_100
   }
 };
 

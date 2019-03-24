@@ -1,20 +1,20 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_6 } from '../palette/background.colors';
-import { red_1 } from '../palette/red.colors';
-import { slate_1 } from '../palette/slate.colors';
-import { violet_5 } from '../palette/violet.colors';
-import { yellow_3 } from '../palette/yellow.colors';
+import { background_700 } from '../palette/background.colors';
+import { gray_200 } from '../palette/gray.colors';
+import { purple_600 } from '../palette/purple.colors';
+import { red_200 } from '../palette/red.colors';
+import { yellow_400 } from '../palette/yellow.colors';
 
 const baseColors: EditorColors = {
-  descriptionForeground: slate_1,
-  errorForeground: red_1,
-  focusBorder: yellow_3,
-  foreground: slate_1,
+  descriptionForeground: gray_200,
+  errorForeground: red_200,
+  focusBorder: yellow_400,
+  foreground: gray_200,
   selection: {
-    background: violet_5
+    background: purple_600
   },
   widget: {
-    shadow: background_6
+    shadow: background_700
   }
 };
 

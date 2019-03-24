@@ -1,26 +1,26 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_7, background_8 } from '../palette/background.colors';
-import { slate_3 } from '../palette/slate.colors';
-import { violet_8, violet_9 } from '../palette/violet.colors';
+import { background_800, background_900 } from '../palette/background.colors';
+import { gray_400 } from '../palette/gray.colors';
+import { purple_800, purple_900 } from '../palette/purple.colors';
 
 const statusBarColors: EditorColors = {
   statusBar: {
-    background: background_7,
-    border: background_8,
-    debuggingBackground: background_7,
-    debuggingBorder: background_8,
-    debuggingForeground: slate_3,
-    foreground: slate_3,
-    noFolderBackground: background_7,
-    noFolderBorder: background_8,
-    noFolderForeground: slate_3
+    background: background_800,
+    border: background_900,
+    debuggingBackground: background_800,
+    debuggingBorder: background_900,
+    debuggingForeground: gray_400,
+    foreground: gray_400,
+    noFolderBackground: background_800,
+    noFolderBorder: background_900,
+    noFolderForeground: gray_400
   },
   statusBarItem: {
-    activeBackground: violet_9,
-    hostBackground: violet_9,
-    hoverBackground: violet_8,
-    prominentBackground: violet_9,
-    prominentHoverBackground: violet_8
+    activeBackground: purple_900,
+    hostBackground: purple_900,
+    hoverBackground: purple_800,
+    prominentBackground: purple_900,
+    prominentHoverBackground: purple_800
   }
 };
 

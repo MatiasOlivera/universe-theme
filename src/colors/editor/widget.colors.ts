@@ -1,43 +1,43 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_4, background_6 } from '../palette/background.colors';
-import { blue_2 } from '../palette/blue.colors';
-import { red_2 } from '../palette/red.colors';
-import { slate_0 } from '../palette/slate.colors';
-import { violet_3, violet_7 } from '../palette/violet.colors';
-import { yellow_2, yellow_3 } from '../palette/yellow.colors';
+import { background_500, background_700 } from '../palette/background.colors';
+import { blue_300 } from '../palette/blue.colors';
+import { purple_400, purple_700 } from '../palette/purple.colors';
+import { red_300 } from '../palette/red.colors';
+import { gray_100 } from '../palette/gray.colors';
+import { yellow_300, yellow_400 } from '../palette/yellow.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
-    background: background_4,
-    border: background_6
+    background: background_500,
+    border: background_700
   },
   editorHoverWidget: {
-    background: background_4,
-    border: background_6
+    background: background_500,
+    border: background_700
   },
   editorMarkerNavigation: {
-    background: background_4
+    background: background_500
   },
   editorMarkerNavigationError: {
-    background: red_2
+    background: red_300
   },
   editorMarkerNavigationInfo: {
-    background: blue_2
+    background: blue_300
   },
   editorMarkerNavigationWarning: {
-    background: yellow_2
+    background: yellow_300
   },
   editorSuggestWidget: {
-    background: background_4,
-    border: background_6,
-    foreground: slate_0,
-    highlightForeground: yellow_3,
-    selectedBackground: violet_7
+    background: background_500,
+    border: background_700,
+    foreground: gray_100,
+    highlightForeground: yellow_400,
+    selectedBackground: purple_700
   },
   editorWidget: {
-    background: background_4,
-    border: background_6,
-    resizeBorder: violet_3
+    background: background_500,
+    border: background_700,
+    resizeBorder: purple_400
   }
 };
 

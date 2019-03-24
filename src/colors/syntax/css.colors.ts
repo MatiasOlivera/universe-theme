@@ -1,14 +1,14 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { green_300 } from '../palette/green.colors';
-import { orange_200 } from '../palette/orange.colors';
+import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { teal_300 } from '../palette/teal.colors';
-import { yellow_200 } from '../palette/yellow.colors';
+import { yellow_300 } from '../palette/yellow.colors';
 
-export const idColor: string = yellow_200;
-export const classColor: string = orange_200;
+export const idColor: string = yellow_300;
+export const classColor: string = orange_300;
 
 const cssColors: TokenColors = [
   /**

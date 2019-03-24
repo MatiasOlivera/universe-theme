@@ -1,12 +1,12 @@
 import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
-import { gray_400 } from '../palette/gray.colors';
-import { green_200 } from '../palette/green.colors';
-import { orange_200 } from '../palette/orange.colors';
-import { pink_200 } from '../palette/pink.colors';
+import { gray_500 } from '../palette/gray.colors';
+import { green_300 } from '../palette/green.colors';
+import { orange_300 } from '../palette/orange.colors';
+import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
-import { teal_200, teal_300 } from '../palette/teal.colors';
+import { teal_300 } from '../palette/teal.colors';
 
 const commonColors: TokenColors = [
   /**
@@ -48,14 +48,14 @@ const commonColors: TokenColors = [
     name: 'Variable',
     scope: 'variable',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {
     name: 'Constant',
     scope: 'variable.other.constant',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
 
@@ -66,21 +66,21 @@ const commonColors: TokenColors = [
     name: 'Object variable',
     scope: 'variable.other.object',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {
     name: 'Variable property value',
     scope: 'variable.other.property',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {
     name: 'Object property',
     scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: teal_200
+      foreground: teal_300
     }
   },
 
@@ -105,7 +105,7 @@ const commonColors: TokenColors = [
     name: 'Function parameter',
     scope: 'variable.parameter',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
 
@@ -144,28 +144,28 @@ const commonColors: TokenColors = [
       'string.quoted.template'
     ],
     settings: {
-      foreground: green_200
+      foreground: green_300
     }
   },
   {
     name: 'Number',
     scope: 'constant.numeric',
     settings: {
-      foreground: orange_200
+      foreground: orange_300
     }
   },
   {
     name: 'Primitive type',
     scope: 'support.type.primitive',
     settings: {
-      foreground: orange_200
+      foreground: orange_300
     }
   },
   {
     name: 'Module name',
     scope: 'entity.name.type.module',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {
@@ -179,7 +179,7 @@ const commonColors: TokenColors = [
     name: 'Custom type',
     scope: 'entity.name.type',
     settings: {
-      foreground: orange_200
+      foreground: orange_300
     }
   },
 
@@ -190,7 +190,7 @@ const commonColors: TokenColors = [
     name: 'Comment',
     scope: ['comment', 'punctuation.definition.comment'],
     settings: {
-      foreground: gray_400
+      foreground: gray_500
     }
   },
   {

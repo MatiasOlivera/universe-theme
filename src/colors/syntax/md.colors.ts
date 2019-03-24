@@ -1,10 +1,10 @@
 import { TokenColors } from '../../types/colors-types';
-import { blue_100, blue_200 } from '../palette/blue.colors';
-import { green_100, green_200 } from '../palette/green.colors';
-import { orange_100, orange_200 } from '../palette/orange.colors';
-import { pink_100, pink_200 } from '../palette/pink.colors';
-import { purple_200, purple_300 } from '../palette/purple.colors';
-import { teal_200 } from '../palette/teal.colors';
+import { blue_200, blue_300 } from '../palette/blue.colors';
+import { green_200, green_300 } from '../palette/green.colors';
+import { orange_200, orange_300 } from '../palette/orange.colors';
+import { pink_200, pink_300 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
+import { teal_300 } from '../palette/teal.colors';
 
 const mdColors: TokenColors = [
   /**
@@ -14,7 +14,7 @@ const mdColors: TokenColors = [
     name: 'MD: Heading',
     scope: 'markup.heading.markdown',
     settings: {
-      foreground: purple_200
+      foreground: purple_300
     }
   },
   {
@@ -32,7 +32,7 @@ const mdColors: TokenColors = [
     name: 'MD: Bold text',
     scope: 'markup.bold.markdown',
     settings: {
-      foreground: pink_200,
+      foreground: pink_300,
       fontStyle: 'bold'
     }
   },
@@ -40,7 +40,7 @@ const mdColors: TokenColors = [
     name: 'MD: Bold puntuation (**text**)',
     scope: 'punctuation.definition.bold.markdown',
     settings: {
-      foreground: pink_100
+      foreground: pink_200
     }
   },
 
@@ -48,7 +48,7 @@ const mdColors: TokenColors = [
     name: 'MD: Italic text',
     scope: 'markup.italic.markdown',
     settings: {
-      foreground: orange_200,
+      foreground: orange_300,
       fontStyle: 'italic'
     }
   },
@@ -56,7 +56,7 @@ const mdColors: TokenColors = [
     name: 'MD: Italic puntuation (__text__)',
     scope: 'punctuation.definition.italic.markdown',
     settings: {
-      foreground: orange_100
+      foreground: orange_200
     }
   },
 
@@ -68,14 +68,14 @@ const mdColors: TokenColors = [
     name: 'MD: Quote',
     scope: 'markup.quote.markdown',
     settings: {
-      foreground: green_200
+      foreground: green_300
     }
   },
   {
     name: 'MD: Quote puntuaction (> text)',
     scope: 'punctuation.definition.quote.begin.markdown',
     settings: {
-      foreground: green_100
+      foreground: green_200
     }
   },
 
@@ -89,7 +89,7 @@ const mdColors: TokenColors = [
       'string.other.link.title.markdown'
     ],
     settings: {
-      foreground: blue_100
+      foreground: blue_200
     }
   },
   {
@@ -99,7 +99,7 @@ const mdColors: TokenColors = [
       'markup.underline.link.image.markdown'
     ],
     settings: {
-      foreground: blue_200
+      foreground: blue_300
     }
   },
   {
@@ -110,7 +110,7 @@ const mdColors: TokenColors = [
       'punctuation.definition.metadata.markdown'
     ],
     settings: {
-      foreground: blue_100
+      foreground: blue_200
     }
   },
 
@@ -121,14 +121,14 @@ const mdColors: TokenColors = [
     name: 'MD: Inline code',
     scope: 'markup.inline.raw.string.markdown',
     settings: {
-      foreground: teal_200
+      foreground: teal_300
     }
   },
   {
     name: 'MD: Block code',
     scope: 'markup.raw.block.markdown',
     settings: {
-      foreground: teal_200
+      foreground: teal_300
     }
   },
 
@@ -136,7 +136,7 @@ const mdColors: TokenColors = [
     name: 'MD: List puntuation',
     scope: 'punctuation.definition.list.begin.markdown',
     settings: {
-      foreground: purple_200
+      foreground: purple_300
     }
   }
 ];

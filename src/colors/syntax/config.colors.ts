@@ -1,7 +1,7 @@
 import { TokenColors } from '../../types/colors-types';
-import { pink_200 } from '../palette/pink.colors';
-import { purple_300 } from '../palette/purple.colors';
 import { gray_100 } from '../palette/gray.colors';
+import { pink_300 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
 
 /**
  * Extensions: .ini, .editorconfig
@@ -26,7 +26,7 @@ const configColors: TokenColors = [
     name: 'Value',
     scope: 'source.ini',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {

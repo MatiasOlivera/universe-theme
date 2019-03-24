@@ -1,14 +1,14 @@
 import { TokenColors } from '../../types/colors-types';
-import { orange_200 } from '../palette/orange.colors';
-import { pink_200 } from '../palette/pink.colors';
-import { purple_300 } from '../palette/purple.colors';
 import { gray_100 } from '../palette/gray.colors';
-import { yellow_200 } from '../palette/yellow.colors';
+import { orange_300 } from '../palette/orange.colors';
+import { pink_300 } from '../palette/pink.colors';
+import { purple_300 } from '../palette/purple.colors';
+import { yellow_300 } from '../palette/yellow.colors';
 
 export const tagColor: string = purple_300;
-export const componentColor: string = orange_200;
+export const componentColor: string = orange_300;
 export const textColor: string = gray_100;
-export const directiveColor: string = yellow_200;
+export const directiveColor: string = yellow_300;
 
 const htmlColors: TokenColors = [
   {
@@ -32,7 +32,7 @@ const htmlColors: TokenColors = [
     name: 'Attribute',
     scope: ['meta.tag', 'meta.tag.inline.any'],
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
   {
@@ -46,7 +46,7 @@ const htmlColors: TokenColors = [
     name: 'Special character',
     scope: 'constant.character.entity',
     settings: {
-      foreground: pink_200
+      foreground: pink_300
     }
   },
 

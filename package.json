@@ -2,7 +2,7 @@
   "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme for passionate developers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "@types/flat": "0.0.28",
     "@types/node": "^11.11.0",

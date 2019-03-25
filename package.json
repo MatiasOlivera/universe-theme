@@ -40,11 +40,17 @@
     "Themes"
   ],
   "keywords": [
-    "VScode",
+    "VS code",
     "theme",
     "dark theme",
     "universe",
-    "universe theme"
+    "universe theme",
+    "twitter",
+    "night mode",
+    "tailwind",
+    "tema",
+    "tema oscuro",
+    "universo"
   ],
   "contributes": {
     "themes": [

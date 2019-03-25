@@ -1,4 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+.prettierrc.json
+src/**
+dist/**
+nodemon.json
+tsconfig.json

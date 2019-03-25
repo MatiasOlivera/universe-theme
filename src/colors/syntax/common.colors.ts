@@ -80,7 +80,7 @@ const commonColors: TokenColors = [
     name: 'Object property',
     scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: red_300
+      foreground: teal_300
     }
   },
 

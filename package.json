@@ -1,23 +1,8 @@
 {
-  "name": "universe-theme",
+  "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme for passionate developers",
   "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.31.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Universe",
-        "uiTheme": "vs-dark",
-        "path": "./theme/universe-color-theme.json"
-      }
-    ]
-  },
   "devDependencies": {
     "@types/flat": "0.0.28",
     "@types/node": "^11.11.0",
@@ -32,6 +17,48 @@
     "node:build": "node dist/index.js",
     "node:watch": "nodemon dist/index.js",
     "ts:build": "tsc",
-    "ts:watch": "tsc --watch"
+    "ts:watch": "tsc --watch",
+    "publish": "vsce publish"
+  },
+  "publisher": "MatiasOlivera",
+  "icon": "static/icon/universe-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatiasOlivera/universe-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/MatiasOlivera/universe-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#293c52",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VS code",
+    "theme",
+    "dark theme",
+    "universe",
+    "universe theme",
+    "twitter",
+    "night mode",
+    "tailwind",
+    "tema",
+    "tema oscuro",
+    "universo"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Universe",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe-color-theme.json"
+      }
+    ]
   }
 }

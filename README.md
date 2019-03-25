@@ -2,6 +2,8 @@
 
 A dark theme for passionate developers
 
+![Theme preview](https://github.com/MatiasOlivera/universe-theme/blob/master/static/images/preview.png?raw=true)
+
 ## 🚀 Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`

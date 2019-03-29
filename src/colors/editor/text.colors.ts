@@ -1,19 +1,20 @@
 import { EditorColors } from '../../types/colors-types';
+import { background_400 } from '../palette/background.colors';
 import { gray_400 } from '../palette/gray.colors';
 import { pink_300 } from '../palette/pink.colors';
-import { purple_200, purple_300, purple_800, purple_900 } from '../palette/purple.colors';
+import { purple_300, purple_400, purple_900 } from '../palette/purple.colors';
 
 const textColors: EditorColors = {
   textBlockQuote: {
-    background: purple_900,
-    border: purple_800
+    background: background_400,
+    border: purple_900
   },
   textCodeBlock: {
-    background: purple_900
+    background: background_400
   },
   textLink: {
-    activeForeground: purple_200,
-    foreground: purple_300
+    activeForeground: purple_300,
+    foreground: purple_400
   },
   textPreformat: {
     foreground: pink_300

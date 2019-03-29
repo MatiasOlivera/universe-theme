@@ -1,10 +1,10 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_700 } from '../palette/background.colors';
 import { gray_100 } from '../palette/gray.colors';
+import { modalBorder } from './modal.colors';
 
 const quickPickerColors: EditorColors = {
   pickerGroup: {
-    border: background_700,
+    border: modalBorder,
     foreground: gray_100
   }
 };

@@ -1,12 +1,12 @@
-export const background_100 = '#3d5979';
-export const background_200 = '#364f6c';
-export const background_300 = '#30465f';
-export const background_400 = '#293c52';
-export const background_500 = '#233345';
-export const background_600 = '#1c2938';
-export const background_700 = '#151f2b';
-export const background_800 = '#0f161e';
-export const background_900 = '#080c11';
+export const background_100 = '#172B3A';
+export const background_200 = '#142736';
+export const background_300 = '#122431';
+export const background_400 = '#0F202D';
+export const background_500 = '#0D1D29';
+export const background_600 = '#0B1A25';
+export const background_700 = '#091621';
+export const background_800 = '#08141C';
+export const background_900 = '#061018';
 
 export default {
   background_100,

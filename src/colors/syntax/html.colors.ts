@@ -1,5 +1,6 @@
 import { TokenColors } from '../../types/colors-types';
 import { gray_100 } from '../palette/gray.colors';
+import { indigo_300 } from '../palette/indigo.colors';
 import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
@@ -7,6 +8,7 @@ import { purple_300 } from '../palette/purple.colors';
 export const tagColor: string = purple_300;
 export const componentColor: string = orange_300;
 export const textColor: string = gray_100;
+export const attributeColor: string = indigo_300;
 export const directiveColor: string = orange_300;
 
 const htmlColors: TokenColors = [
@@ -31,7 +33,7 @@ const htmlColors: TokenColors = [
     name: 'Attribute',
     scope: ['meta.tag', 'meta.tag.inline.any'],
     settings: {
-      foreground: pink_300
+      foreground: attributeColor
     }
   },
   {

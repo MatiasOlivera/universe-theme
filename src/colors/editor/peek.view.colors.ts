@@ -1,6 +1,6 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_500, background_600 } from '../palette/background.colors';
-import { gray_100, gray_200 } from '../palette/gray.colors';
+import { background_600, background_700 } from '../palette/background.colors';
+import { gray_100, gray_200, gray_500 } from '../palette/gray.colors';
 import { purple_100, purple_500, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
 
 const peekViewColors: EditorColors = {
@@ -16,7 +16,7 @@ const peekViewColors: EditorColors = {
     background: background_600
   },
   peekViewResult: {
-    background: background_500,
+    background: background_700,
     fileForeground: gray_100,
     lineForeground: gray_200,
     matchHighlightBackground: purple_800,
@@ -24,13 +24,13 @@ const peekViewColors: EditorColors = {
     selectionForeground: purple_100
   },
   peekViewTitle: {
-    background: background_600
+    background: background_700
   },
   peekViewTitleDescription: {
-    foreground: gray_200
+    foreground: gray_500
   },
   peekViewTitleLabel: {
-    foreground: gray_100
+    foreground: gray_200
   }
 };
 

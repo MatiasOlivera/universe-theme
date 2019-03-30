@@ -30,7 +30,7 @@ const commonColors: TokenColors = [
     name: 'Language class',
     scope: 'support.class',
     settings: {
-      foreground: purple_300
+      foreground: blue_300
     }
   },
   {
@@ -116,19 +116,18 @@ const commonColors: TokenColors = [
     name: 'Class name',
     scope: [
       'entity.name.class',
-      'variable.other.class',
       'entity.name.type.class',
       'entity.other.inherited-class'
     ],
     settings: {
-      foreground: teal_300
+      foreground: blue_300
     }
   },
   {
     name: 'Instance',
-    scope: 'entity.name.type.instance',
+    scope: ['entity.name.type.instance', 'variable.other.class'],
     settings: {
-      foreground: teal_300
+      foreground: blue_300
     }
   },
 

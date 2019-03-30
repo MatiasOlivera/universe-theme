@@ -7,6 +7,7 @@ import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
+import { teal_300 } from '../palette/teal.colors';
 
 const commonColors: TokenColors = [
   /**
@@ -78,7 +79,11 @@ const commonColors: TokenColors = [
   },
   {
     name: 'Object property',
-    scope: ['string.unquoted', 'meta.object-literal.key'],
+    scope: [
+      'string.unquoted',
+      'meta.object-literal.key',
+      'variable.object.property'
+    ],
     settings: {
       foreground: indigo_300
     }
@@ -168,21 +173,21 @@ const commonColors: TokenColors = [
     name: 'Primitive type',
     scope: 'support.type.primitive',
     settings: {
-      foreground: orange_300
+      foreground: teal_300
     }
   },
   {
     name: 'Language constant (boolean, null)',
     scope: 'constant.language',
     settings: {
-      foreground: orange_300
+      foreground: purple_300
     }
   },
   {
     name: 'Custom type',
     scope: 'entity.name.type',
     settings: {
-      foreground: orange_300
+      foreground: teal_300
     }
   },
 

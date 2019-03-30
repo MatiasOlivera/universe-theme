@@ -2,11 +2,11 @@ import { TokenColors } from '../../types/colors-types';
 import { blue_300 } from '../palette/blue.colors';
 import { gray_500 } from '../palette/gray.colors';
 import { green_300 } from '../palette/green.colors';
+import { indigo_300 } from '../palette/indigo.colors';
 import { orange_300 } from '../palette/orange.colors';
 import { pink_300 } from '../palette/pink.colors';
 import { purple_300 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
-import { teal_300 } from '../palette/teal.colors';
 
 const commonColors: TokenColors = [
   /**
@@ -80,7 +80,7 @@ const commonColors: TokenColors = [
     name: 'Object property',
     scope: ['string.unquoted', 'meta.object-literal.key'],
     settings: {
-      foreground: teal_300
+      foreground: indigo_300
     }
   },
 

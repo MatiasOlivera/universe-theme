@@ -9,9 +9,11 @@
   [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
   [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
   ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=241236&color=4E3766)
-</div>
 
-![Theme preview](https://github.com/MatiasOlivera/universe-theme/blob/master/static/images/preview.png?raw=true)
+  ![Theme preview](https://github.com/MatiasOlivera/universe-theme/blob/master/static/images/preview.png?raw=true)
+
+  [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+</div>
 
 ## 🚀 Installation
 

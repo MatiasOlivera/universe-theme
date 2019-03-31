@@ -21,7 +21,7 @@
     "publish": "vsce publish"
   },
   "publisher": "MatiasOlivera",
-  "icon": "static/icon/universe-logo.png",
+  "icon": "static/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/MatiasOlivera/universe-theme"

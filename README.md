@@ -1,6 +1,10 @@
-# Universe theme
+<div align="center">
+  <img alt="icon" src="https://github.com/MatiasOlivera/universe-theme/blob/develop/static/icon.png?raw=true"/>
 
-A dark theme for passionate developers
+  # Universe theme
+
+  A dark theme for passionate developers. Made in planet earth
+</div>
 
 ![Theme preview](https://github.com/MatiasOlivera/universe-theme/blob/master/static/images/preview.png?raw=true)
 

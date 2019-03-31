@@ -14,7 +14,7 @@ const menuBarColors: EditorColors = {
   },
   menubar: {
     selectionBackground: modalBackground,
-    selectionBorder: modalBorder,
+    selectionBorder: modalBackground,
     selectionForeground: gray_100
   }
 };

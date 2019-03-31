@@ -15,6 +15,17 @@
   [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
 </div>
 
+---
+
+**This theme was crafted with the accessibility in mind**, for all and especially those with visual impairment. It achieves the accessibility standards outlined in the WCAG 2.0, specifically the ones related to the text contrast ratio.
+
+**Why is it important to me?** Well, you probably **read source code during long periods of time** and you should not force yourself to read some text with poor contrast.
+Even if you don't have visual impairments, **there are other factors that could affect the text readability, like direct sunlight, dark rooms**, etc. so it will help you anyway.
+
+If you want to learn more, check this [guide](https://usecontrast.com/guide)
+
+---
+
 ## 🚀 Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
@@ -45,13 +56,6 @@ If you want support for another `language` / `library` / `framework`, please ope
 ## ✨ Color reference
 
 The syntax highlight palette was inspired by **Tailwind v1 colors**.
-
-**This theme was crafted with the accessibility in mind**, for all and especially those with visual impairment. It achieves the accessibility standards outlined in the WCAG 2.0, specifically the ones related to the text contrast ratio.
-
-**Why is it important to me?** Well, you probably **read source code during long periods of time** and you should not force yourself to read some text with poor contrast.
-Even if you don't have visual impairments, **there are other factors that could affect the text readability, like direct sunlight, dark rooms**, etc. so it will help you anyway.
-
-If you want to learn more, check this [guide](https://usecontrast.com/guide)
 
 ## 👩‍🚀 Contributing
 

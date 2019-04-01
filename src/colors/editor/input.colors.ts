@@ -6,11 +6,15 @@ import { purple_400 } from '../palette/purple.colors';
 import { red_100, red_800, red_900 } from '../palette/red.colors';
 import { yellow_100, yellow_800, yellow_900 } from '../palette/yellow.colors';
 
+export const inputBackground: string = background_500;
+export const inputBorder: string = background_400;
+export const inputForeground: string = gray_100;
+
 const inputColors: EditorColors = {
   input: {
-    background: background_500,
-    border: background_400,
-    foreground: gray_100,
+    background: inputBackground,
+    border: inputBorder,
+    foreground: inputForeground,
     placeholderForeground: gray_400
   },
   inputOption: {

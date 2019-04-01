@@ -6,3 +6,6 @@ src/**
 dist/**
 nodemon.json
 tsconfig.json
+static/images/**
+static/screenshots/**
+LICENSE.md

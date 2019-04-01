@@ -1,31 +1,34 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_100, background_200, background_600, background_700 } from '../palette/background.colors';
-import { gray_100, gray_200, gray_600 } from '../palette/gray.colors';
+import { background_600, background_700 } from '../palette/background.colors';
+import { gray_100, gray_200, gray_600, gray_800 } from '../palette/gray.colors';
+import { opacity_50, opacity_80 } from '../palette/opacity';
 import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
 import { yellow_400, yellow_900 } from '../palette/yellow.colors';
+
+export const highlightOpacity: string = opacity_50;
 
 const editorColors: EditorColors = {
   editor: {
     background: background_600,
     findMatchBackground: purple_700,
     findMatchBorder: purple_600,
-    findMatchHighlightBackground: purple_800,
+    findMatchHighlightBackground: `${purple_800}${highlightOpacity}`,
     findMatchHighlightBorder: purple_600,
-    findRangeHighlightBackground: purple_700,
+    findRangeHighlightBackground: `${purple_700}${highlightOpacity}`,
     findRangeHighlightBorder: purple_600,
     foreground: gray_100,
-    hoverHighlightBackground: purple_700,
-    inactiveSelectionBackground: purple_800,
+    hoverHighlightBackground: `${purple_700}${highlightOpacity}`,
+    inactiveSelectionBackground: `${purple_800}${highlightOpacity}`,
     lineHighlightBackground: background_700,
-    rangeHighlightBackground: purple_700,
+    rangeHighlightBackground: `${purple_700}${highlightOpacity}`,
     rangeHighlightBorder: purple_600,
     selectionBackground: purple_700,
     selectionForeground: purple_100,
-    selectionHighlightBackground: purple_700,
+    selectionHighlightBackground: `${purple_700}${highlightOpacity}`,
     selectionHighlightBorder: purple_600,
-    wordHighlightBackground: purple_700,
+    wordHighlightBackground: `${purple_700}${highlightOpacity}`,
     wordHighlightBorder: purple_600,
-    wordHighlightStrongBackground: purple_700,
+    wordHighlightStrongBackground: `${purple_700}${highlightOpacity}`,
     wordHighlightStrongBorder: purple_600
   },
   editorBracketMatch: {
@@ -40,8 +43,8 @@ const editorColors: EditorColors = {
     foreground: yellow_400
   },
   editorIndentGuide: {
-    activeBackground: background_100,
-    background: background_200
+    activeBackground: gray_600,
+    background: gray_800
   },
   editorLineNumber: {
     activeForeground: gray_200,
@@ -51,10 +54,10 @@ const editorColors: EditorColors = {
     activeForeground: purple_100
   },
   editorRuler: {
-    foreground: background_200
+    foreground: gray_800
   },
   editorUnnecessaryCode: {
-    opacity: '#000000c0'
+    opacity: `${gray_100}${opacity_80}`
   },
   editorWhitespace: {
     foreground: gray_600

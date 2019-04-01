@@ -1,7 +1,8 @@
 import { EditorColors } from '../../types/colors-types';
 import { background_700, background_800 } from '../palette/background.colors';
-import { purple_100, purple_600, purple_700 } from '../palette/purple.colors';
 import { gray_100 } from '../palette/gray.colors';
+import { purple_100, purple_600, purple_700 } from '../palette/purple.colors';
+import { highlightOpacity } from './editor.colors';
 
 const terminalColors: EditorColors = {
   terminal: {
@@ -24,7 +25,7 @@ const terminalColors: EditorColors = {
     background: background_700,
     border: background_800,
     foreground: gray_100,
-    selectionBackground: purple_600
+    selectionBackground: `${purple_600}${highlightOpacity}`
   },
   terminalCursor: {
     background: purple_700,

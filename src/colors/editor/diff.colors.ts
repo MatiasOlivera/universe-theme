@@ -1,10 +1,13 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_400, background_500, background_700 } from '../palette/background.colors';
+import { background_700 } from '../palette/background.colors';
+import { green_900 } from '../palette/green.colors';
+import { opacity_30 } from '../palette/opacity';
+import { red_900 } from '../palette/red.colors';
 
 const diffColors: EditorColors = {
   diffEditor: {
-    insertedTextBackground: background_500,
-    removedTextBackground: background_400,
+    insertedTextBackground: `${green_900}${opacity_30}`,
+    removedTextBackground: `${red_900}${opacity_30}`,
     border: background_700
   }
 };

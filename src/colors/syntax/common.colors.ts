@@ -1,4 +1,5 @@
 import { TokenColors } from '../../types/colors-types';
+import { blue_300 } from '../palette/blue.colors';
 import { gray_500 } from '../palette/gray.colors';
 import { green_300 } from '../palette/green.colors';
 import { indigo_300 } from '../palette/indigo.colors';
@@ -30,7 +31,7 @@ const commonColors: TokenColors = [
     name: 'Language class',
     scope: 'support.class',
     settings: {
-      foreground: purple_300
+      foreground: blue_300
     }
   },
   {
@@ -78,9 +79,13 @@ const commonColors: TokenColors = [
   },
   {
     name: 'Object property',
-    scope: ['string.unquoted', 'meta.object-literal.key'],
+    scope: [
+      'string.unquoted',
+      'meta.object-literal.key',
+      'variable.object.property'
+    ],
     settings: {
-      foreground: teal_300
+      foreground: indigo_300
     }
   },
 
@@ -91,14 +96,14 @@ const commonColors: TokenColors = [
     name: 'Function definition',
     scope: 'entity.name.function',
     settings: {
-      foreground: indigo_300
+      foreground: blue_300
     }
   },
   {
     name: 'Language function',
     scope: 'support.function',
     settings: {
-      foreground: indigo_300
+      foreground: blue_300
     }
   },
   {
@@ -116,19 +121,18 @@ const commonColors: TokenColors = [
     name: 'Class name',
     scope: [
       'entity.name.class',
-      'variable.other.class',
       'entity.name.type.class',
       'entity.other.inherited-class'
     ],
     settings: {
-      foreground: teal_300
+      foreground: blue_300
     }
   },
   {
     name: 'Instance',
-    scope: 'entity.name.type.instance',
+    scope: ['entity.name.type.instance', 'variable.other.class'],
     settings: {
-      foreground: teal_300
+      foreground: blue_300
     }
   },
 
@@ -139,7 +143,7 @@ const commonColors: TokenColors = [
     name: 'Module name',
     scope: 'entity.name.type.module',
     settings: {
-      foreground: indigo_300
+      foreground: blue_300
     }
   },
 
@@ -169,21 +173,21 @@ const commonColors: TokenColors = [
     name: 'Primitive type',
     scope: 'support.type.primitive',
     settings: {
-      foreground: orange_300
+      foreground: teal_300
     }
   },
   {
     name: 'Language constant (boolean, null)',
     scope: 'constant.language',
     settings: {
-      foreground: orange_300
+      foreground: purple_300
     }
   },
   {
     name: 'Custom type',
     scope: 'entity.name.type',
     settings: {
-      foreground: orange_300
+      foreground: teal_300
     }
   },
 

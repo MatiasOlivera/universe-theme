@@ -3,38 +3,10 @@
   "displayName": "Universe",
   "description": "A dark theme for passionate developers",
   "version": "0.0.2",
-  "devDependencies": {
-    "@types/flat": "0.0.28",
-    "@types/node": "^11.11.0",
-    "deepmerge": "^3.2.0",
-    "flat": "^4.1.0",
-    "nodemon": "^1.18.10",
-    "prettier": "^1.16.4",
-    "typescript": "^3.3.3333"
-  },
-  "scripts": {
-    "build": "npm run ts:build && npm run node:build",
-    "node:build": "node dist/index.js",
-    "node:watch": "nodemon dist/index.js",
-    "ts:build": "tsc",
-    "ts:watch": "tsc --watch",
-    "publish": "vsce publish"
-  },
-  "publisher": "MatiasOlivera",
   "icon": "static/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MatiasOlivera/universe-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/MatiasOlivera/universe-theme/issues"
-  },
   "galleryBanner": {
-    "color": "#293c52",
+    "color": "#160923",
     "theme": "dark"
-  },
-  "engines": {
-    "vscode": "^1.31.0"
   },
   "categories": [
     "Themes"
@@ -45,13 +17,18 @@
     "dark theme",
     "universe",
     "universe theme",
-    "twitter",
     "night mode",
     "tailwind",
     "tema",
     "tema oscuro",
     "universo"
   ],
+  "publisher": "MatiasOlivera",
+  "author": {
+    "name": "Matías Olivera",
+    "email": "matiasolivera@outlook.com",
+    "url": "https://github.com/MatiasOlivera"
+  },
   "contributes": {
     "themes": [
       {
@@ -60,5 +37,34 @@
         "path": "./theme/universe-color-theme.json"
       }
     ]
-  }
+  },
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "homepage": "https://github.com/MatiasOlivera/universe-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatiasOlivera/universe-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/MatiasOlivera/universe-theme/issues"
+  },
+  "scripts": {
+    "build": "npm run ts:build && npm run node:build",
+    "node:build": "node dist/index.js",
+    "node:watch": "nodemon dist/index.js",
+    "ts:build": "tsc",
+    "ts:watch": "tsc --watch",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/flat": "0.0.28",
+    "@types/node": "^11.11.0",
+    "deepmerge": "^3.2.0",
+    "flat": "^4.1.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "license": "SEE LICENCE IN LICENSE.md"
 }

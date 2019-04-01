@@ -94,6 +94,9 @@ The syntax highlight palette was inspired by **Tailwind v1 colors**.
 #### Which font is used in the preview image?
 It's [Iosevka](https://typeof.net/Iosevka/)
 
+#### Which icons do you recommend to use?
+I love Ayu icons. You need to install the `Ayu theme`
+
 #### What are the recommended editor settings?
 
 ```json

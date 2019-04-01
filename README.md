@@ -31,7 +31,7 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
 2. Search for **Universe** theme published by MatiasOlivera
 3. Click **Install** to install it.
-4. Code > Preferences > Color Theme > **Universe**
+4. Select **Universe** in the quick picker (or click on **Set color theme**)
 5. Happy coding! 🔥
 
 ## 🌌 Support

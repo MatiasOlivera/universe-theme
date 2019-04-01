@@ -57,6 +57,45 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 The syntax highlight palette was inspired by **Tailwind v1 colors**.
 
+## FAQ
+*Frequently Asked Questions.*
+
+#### Which font is used in the preview image?
+It's [Iosevka](https://typeof.net/Iosevka/)
+
+#### What are the recommended editor settings?
+
+```json
+"workbench.colorTheme": "Universe",
+"editor.fontFamily": "Iosevka",
+"editor.fontWeight": "500",
+"window.titleBarStyle": "custom",
+"editor.scrollBeyondLastLine": false,
+```
+
+#### What are the recommended settings to use with Bracket Pair Colorizer?
+
+```json
+"bracket-pair-colorizer-2.colors": ["#ecc94b", "#4fd1c5", "#f687b3"],
+"bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+"bracket-pair-colorizer-2.forceIterationColorCycle": true,
+"bracket-pair-colorizer-2.highlightActiveScope": true,
+"editor.matchBrackets": false,
+"bracket-pair-colorizer-2.activeScopeCSS": ["opacity: 0"],
+"bracket-pair-colorizer-2.showBracketsInGutter": false,
+"bracket-pair-colorizer-2.showBracketsInRuler": false,
+"bracket-pair-colorizer-2.showVerticalScopeLine": true,
+"bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+"bracket-pair-colorizer-2.scopeLineCSS": [
+  "borderStyle : solid",
+  "borderWidth : 2px",
+  "borderColor : {color}",
+  "opacity: 0.5"
+],
+```
+
+> [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) is an extension that hightlight matching brackets
+
 ## 👩‍🚀 Contributing
 
 ### With feedback

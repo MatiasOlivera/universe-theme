@@ -53,6 +53,37 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 
 If you want support for another `language` / `library` / `framework`, please open an issue and let me know
 
+## 🌠 Screenshots
+
+### Frontend
+
+#### HTML
+![HTML](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/html.png?raw=true)
+
+#### CSS
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/css.png?raw=true)
+
+#### Javascript
+![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/javascript.png?raw=true)
+
+#### Angular
+![Angular HTML](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/angular-html.png?raw=true)
+![Angular Javascript](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/angular-js.png?raw=true)
+
+#### React
+![React](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/react.png?raw=true)
+
+#### Vue
+![Vue](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/vue.png?raw=true)
+
+### Backend
+
+#### Node.js
+![Node.js](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/backend/node.png?raw=true)
+
+#### PHP
+![PHP](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/backend/php.png?raw=true)
+
 ## ✨ Color reference
 
 The syntax highlight palette was inspired by **Tailwind v1 colors**.

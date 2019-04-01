@@ -32,9 +32,9 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 2. Search for **Universe** theme published by MatiasOlivera
 3. Click **Install** to install it.
 4. Select **Universe** in the quick picker (or click on **Set color theme**)
-5. Happy coding! 🔥
+5. Happy coding!
 
-## 🌌 Support
+## ☄️ Support
 
 | Description  | Extensions          | Support |
 |--------------|---------------------|---------|
@@ -57,7 +57,7 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 The syntax highlight palette was inspired by **Tailwind v1 colors**.
 
-## FAQ
+## 🌌 FAQ
 *Frequently Asked Questions.*
 
 #### Which font is used in the preview image?

@@ -208,11 +208,22 @@ const commonColors: TokenColors = [
       foreground: red_300
     }
   },
+
+  /**
+   * Punctuation
+   */
   {
     name: 'Symbols',
     scope: 'punctuation',
     settings: {
       fontStyle: '' // Inherit the element color
+    }
+  },
+  {
+    name: 'Punctuation for embedded section (eg: interpolated strings)',
+    scope: 'punctuation.section.embedded',
+    settings: {
+      foreground: purple_300
     }
   }
 ];

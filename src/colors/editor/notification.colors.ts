@@ -2,12 +2,12 @@ import { EditorColors } from '../../types/colors-types';
 import { background_300 } from '../palette/background.colors';
 import { gray_100, gray_200 } from '../palette/gray.colors';
 import { purple_300 } from '../palette/purple.colors';
-import { modalBackground, modalBorder } from './modal.colors';
+import { dialogBackground, dialogBorder } from './dialog.colors';
 
 const notificationColors: EditorColors = {
   // Notification center
   notificationCenter: {
-    border: modalBorder
+    border: dialogBorder
   },
   notificationCenterHeader: {
     background: background_300,
@@ -17,14 +17,14 @@ const notificationColors: EditorColors = {
     foreground: purple_300
   },
   notifications: {
-    background: modalBackground,
-    border: modalBorder,
+    background: dialogBackground,
+    border: dialogBorder,
     foreground: gray_100
   },
 
   // A notification
   notificationToast: {
-    border: modalBorder
+    border: dialogBorder
   }
 };
 

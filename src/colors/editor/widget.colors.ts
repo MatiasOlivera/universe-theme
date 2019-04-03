@@ -5,19 +5,19 @@ import { gray_100 } from '../palette/gray.colors';
 import { purple_400, purple_700 } from '../palette/purple.colors';
 import { red_300 } from '../palette/red.colors';
 import { yellow_300, yellow_400 } from '../palette/yellow.colors';
-import { modalBackground, modalBorder } from './modal.colors';
+import { dialogBackground, dialogBorder } from './dialog.colors';
 
 const widgetColors: EditorColors = {
   debugExceptionWidget: {
-    background: modalBackground,
-    border: modalBackground
+    background: dialogBackground,
+    border: dialogBackground
   },
   editorHoverWidget: {
-    background: modalBackground,
-    border: modalBorder
+    background: dialogBackground,
+    border: dialogBorder
   },
   editorMarkerNavigation: {
-    background: modalBackground
+    background: dialogBackground
   },
   editorMarkerNavigationError: {
     background: red_300
@@ -29,15 +29,15 @@ const widgetColors: EditorColors = {
     background: yellow_300
   },
   editorSuggestWidget: {
-    background: modalBackground,
-    border: modalBorder,
+    background: dialogBackground,
+    border: dialogBorder,
     foreground: gray_100,
     highlightForeground: yellow_400,
     selectedBackground: purple_700
   },
   editorWidget: {
-    background: modalBackground,
-    border: modalBorder,
+    background: dialogBackground,
+    border: dialogBorder,
     resizeBorder: purple_400
   },
   widget: {

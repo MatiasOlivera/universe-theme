@@ -1,11 +1,11 @@
 import { EditorColors } from '../../types/colors-types';
-import { background_500 } from '../palette/background.colors';
 import { purple_600 } from '../palette/purple.colors';
+import { dialogBackground } from './dialog.colors';
 
 const debugColors: EditorColors = {
   debugToolBar: {
-    background: background_500,
-    border: background_500
+    background: dialogBackground,
+    border: dialogBackground
   },
   editor: {
     focusedStackFrameHighlightBackground: purple_600,

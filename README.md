@@ -40,6 +40,7 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 |--------------|---------------------|---------|
 | Config files | .ini, .editorconfig | ✅       |
 | CSS          | .css                | ✅       |
+| Elixir       | .ex, .exs           | ✅       |
 | GraphQL      | .gql, .graphql      | ✅       |
 | HTML         | .html               | ✅       |
 | Javascript   | .js                 | ✅       |

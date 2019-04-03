@@ -2,7 +2,7 @@
   "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme for passionate developers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#160923",

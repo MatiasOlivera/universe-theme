@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] 2019-04-03
+
+### Fixed
+
+- Colorize punctuation from interpolated strings: it was difficult to differentiate an expression within a string. [#16](https://github.com/MatiasOlivera/universe-theme/pull/16)
+- Make the scrollbar semi-transparent: scrollbar markers weren't visible when covered by the scrollbar. [#18](https://github.com/MatiasOlivera/universe-theme/pull/18)
+- Use dialog colors in debug toolbar. [#19](https://github.com/MatiasOlivera/universe-theme/pull/19)
+- Use input colors in dropdowns in the Integrated Terminal and the Output panel. [#20](https://github.com/MatiasOlivera/universe-theme/pull/20)
+
 ## [1.0.0] 2019-04-01
 
 ### Changed

@@ -1,7 +1,7 @@
 {
   "name": "universe",
   "displayName": "Universe",
-  "description": "A dark theme for passionate developers",
+  "description": "A dark theme for passionate developers. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
   "version": "1.0.1",
   "icon": "static/icon.png",
   "galleryBanner": {

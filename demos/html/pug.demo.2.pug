@@ -1,0 +1,96 @@
+// https://devhints.io/pug
+
+// Basic document
+doctype html
+html(lang='en')
+  h1.class#id(name='hi')
+    | This is some text, hello there,
+    = name
+
+  - javascript()
+
+// Elements
+div
+  | Just a div
+.search
+  | A div, with class 'search'
+h1 A heading with text
+h1= page.title
+div.class
+div.class1.class2
+h1.header
+
+// Attributes
+input(type='text' name='q' autofocus)
+- var authenticated = true
+body(class=authenticated ? 'authed' : 'anon')
+
+// Iteration
+ul
+  each user in users
+    li= user
+
+// Comments
+// This comment will appear in the HTML
+//- This is a silent comment
+//-
+  Nesting inside a comment creates
+  a comment block
+
+// Includes (partials)
+include ./includes/head.pug
+include:markdown article.md
+
+// Layouts
+//- page.pug
+extends layout.pug
+
+block title
+  | hello
+
+block content
+  | hello
+//- layout.pug
+title
+  block title
+body
+  block content
+
+// Multiline text
+p.
+  This is text that doesn't need to
+  be prefixed by pipes.
+ 
+script.
+  // It's great for raw
+  // JavaScript and stuff
+  alert('hello')
+
+// Conditionals
+ if authenticated
+  a(href='/logout') Sign out
+else
+  a(href='/login') Sign in
+
+
+// Mixins
+mixin list
+  ul
+    ···
+ 
++list
+
+// Mixin attributes
+mixin pet(name)
+  span.pet= name
+ 
++pet('cat')
+
+// Mixin blocks
+mixin article(title)
+  article
+    h2.title= title
+    block
+ 
++article('hello there')
+  p Content goes here

@@ -1,3 +1,15 @@
-import build from './build';
+import { buildTheme, createThemesDirectory } from './build';
+import { universe } from './themes/universe';
 
-build();
+async function main() {
+  await createThemesDirectory();
+
+  buildTheme({
+    name: 'Universe',
+    filename: 'universe',
+    type: 'dark',
+    palette: universe
+  });
+}
+
+main();

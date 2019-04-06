@@ -4,29 +4,60 @@ import { join } from 'path';
 import { format, resolveConfig } from 'prettier';
 
 import { editorColors, syntaxColors } from './colors';
-import { Dictionary, EditorColors, TokenColors } from './types/colors-types';
+import {
+  ColorPalettes,
+  Dictionary,
+  EditorColors,
+  TokenColor,
+  TokenColors
+} from './types/colors-types';
 import { exists, mkdir, writeFile } from './utils/fs-promisify';
 
-async function build() {
-  const themeDir: string = join(__dirname, '../theme');
-  const themeFile: string = join(themeDir, 'universe-color-theme.json');
+interface ThemeVariant {
+  name: string;
+  filename: string;
+  type: 'dark' | 'light';
+  palette: ColorPalettes;
+}
 
-  const _editorColors = Object.values(editorColors);
-  const colors: EditorColors = flat(merge(_editorColors));
+const themesDirectory: string = join(__dirname, '../theme');
 
+export async function createThemesDirectory(
+  path: string = themesDirectory
+): Promise<void> {
+  if (!(await exists(path))) {
+    await mkdir(path);
+  }
+}
+
+export async function buildTheme(theme: ThemeVariant) {
+  const uiColors = Object.keys(editorColors).map((component) => {
+    return editorColors[component](theme.palette);
+  });
+  const colors: EditorColors = flat(merge(Object.values(uiColors)));
+
+  const syntax: TokenColor[][] = Object.keys(syntaxColors).map((language) => {
+    return syntaxColors[language](theme.palette);
+  });
   const tokenColors: TokenColors = Array.prototype.concat(
-    ...Object.values(syntaxColors)
+    ...Object.values(syntax)
   );
 
-  let theme: Theme = {
-    name: 'Universe',
-    type: 'dark',
+  let themeOptions: VsCodeTheme = {
+    name: theme.name,
+    type: theme.type,
     colors,
     tokenColors
   };
 
-  await createDirectory(themeDir);
-  await createTheme(themeFile, theme);
+  const themeFile: string = join(themesDirectory, `${theme.filename}.json`);
+
+  try {
+    await createTheme(themeFile, themeOptions);
+    console.log(`✅  *Big bang!* ${theme.name} was created successfully!`);
+  } catch (err) {
+    throw err;
+  }
 }
 
 function merge(array: Array<Dictionary>): Dictionary {
@@ -37,13 +68,10 @@ function flat(object: Dictionary<string | Dictionary>): Dictionary<string> {
   return flatten(object);
 }
 
-async function createDirectory(path: string): Promise<void> {
-  if (!(await exists(path))) {
-    await mkdir(path);
-  }
-}
-
-async function createTheme(themeFile: string, theme: Theme): Promise<void> {
+async function createTheme(
+  themeFile: string,
+  theme: VsCodeTheme
+): Promise<void> {
   try {
     const themeJSON = JSON.stringify(theme);
 
@@ -61,11 +89,9 @@ async function createTheme(themeFile: string, theme: Theme): Promise<void> {
   }
 }
 
-interface Theme {
+interface VsCodeTheme {
   name: string;
   type: 'dark' | 'light';
   colors: EditorColors;
   tokenColors: TokenColors;
 }
-
-export default build;

@@ -35,7 +35,7 @@
       {
         "label": "Universe",
         "uiTheme": "vs-dark",
-        "path": "./theme/universe-color-theme.json"
+        "path": "./theme/universe.json"
       }
     ]
   },

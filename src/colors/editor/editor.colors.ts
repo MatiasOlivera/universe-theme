@@ -1,5 +1,5 @@
 import { UIColors, ColorPalettes } from '../../types/colors-types';
-import { opacity_50, opacity_80 } from '../palette/opacity';
+import { opacity_50, opacity_80 } from '../opacity';
 
 interface EditorTokens {
   highlightOpacity: string;

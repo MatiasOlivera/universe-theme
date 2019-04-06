@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_50 } from '../palette/opacity';
+import { opacity_50 } from '../opacity';
 
 const overviewRulerColors: UIColors = (palette) => {
   const { green, background, purple, red, blue, yellow } = palette;

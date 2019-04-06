@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_60, opacity_50, opacity_40 } from '../palette/opacity';
+import { opacity_60, opacity_50, opacity_40 } from '../opacity';
 
 const scrollbarColors: UIColors = (palette) => {
   const { background, purple } = palette;

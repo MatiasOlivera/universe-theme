@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_50 } from '../palette/opacity';
+import { opacity_50 } from '../opacity';
 
 const mergeConflictColors: UIColors = (palette) => {
   const { gray, green, purple, background, teal, blue } = palette;

@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_50 } from '../palette/opacity';
+import { opacity_50 } from '../opacity';
 
 const panelColors: UIColors = (palette) => {
   const { background, purple, yellow, gray } = palette;

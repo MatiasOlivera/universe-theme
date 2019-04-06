@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_30 } from '../palette/opacity';
+import { opacity_30 } from '../opacity';
 
 const diffColors: UIColors = (palette) => {
   const { background, green, red } = palette;

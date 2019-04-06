@@ -1,21 +1,21 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_700, background_800 } from '../palette/background.colors';
-import { gray_100, gray_400 } from '../palette/gray.colors';
+import { UIColors } from '../../types/colors-types';
 import { opacity_50 } from '../palette/opacity';
-import { purple_900 } from '../palette/purple.colors';
-import { yellow_400 } from '../palette/yellow.colors';
 
-const panelColors: EditorColors = {
-  panel: {
-    background: background_700,
-    border: background_800,
-    dropBackground: `${purple_900}${opacity_50}`
-  },
-  panelTitle: {
-    activeBorder: yellow_400,
-    activeForeground: gray_100,
-    inactiveForeground: gray_400
-  }
+const panelColors: UIColors = (palette) => {
+  const { background, purple, yellow, gray } = palette;
+
+  return {
+    panel: {
+      background: background[6],
+      border: background[7],
+      dropBackground: `${purple[8]}${opacity_50}`
+    },
+    panelTitle: {
+      activeBorder: yellow[3],
+      activeForeground: gray[0],
+      inactiveForeground: gray[3]
+    }
+  };
 };
 
 export default panelColors;

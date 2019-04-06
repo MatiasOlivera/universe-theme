@@ -1,17 +1,17 @@
-import { EditorColors } from '../../types/colors-types';
-import { gray_200 } from '../palette/gray.colors';
-import { purple_600 } from '../palette/purple.colors';
-import { red_200 } from '../palette/red.colors';
-import { yellow_400 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const baseColors: EditorColors = {
-  descriptionForeground: gray_200,
-  errorForeground: red_200,
-  focusBorder: yellow_400,
-  foreground: gray_200,
-  selection: {
-    background: purple_600
-  }
+const baseColors: UIColors = (palette) => {
+  const { red, gray, yellow, purple } = palette;
+
+  return {
+    descriptionForeground: gray[1],
+    errorForeground: red[1],
+    focusBorder: yellow[3],
+    foreground: gray[1],
+    selection: {
+      background: purple[5]
+    }
+  };
 };
 
 export default baseColors;

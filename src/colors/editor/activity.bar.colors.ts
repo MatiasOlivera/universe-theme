@@ -1,21 +1,21 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_800, background_900 } from '../palette/background.colors';
-import { gray_700 } from '../palette/gray.colors';
-import { purple_100, purple_700, purple_900 } from '../palette/purple.colors';
-import { yellow_400 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const activityBarColors: EditorColors = {
-  activityBar: {
-    background: background_800,
-    dropBackground: purple_900,
-    foreground: yellow_400,
-    inactiveForeground: gray_700,
-    border: background_900
-  },
-  activityBarBadge: {
-    background: purple_700,
-    foreground: purple_100
-  }
+const activityBarColors: UIColors = (palette) => {
+  const { background, purple, yellow, gray } = palette;
+
+  return {
+    activityBar: {
+      background: background[7],
+      dropBackground: purple[8],
+      foreground: yellow[3],
+      inactiveForeground: gray[6],
+      border: background[8]
+    },
+    activityBarBadge: {
+      background: purple[6],
+      foreground: purple[0]
+    }
+  };
 };
 
 export default activityBarColors;

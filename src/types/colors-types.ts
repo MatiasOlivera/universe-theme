@@ -1,3 +1,7 @@
+export interface UIColors {
+  (palette: ColorPalettes): EditorColors;
+}
+
 export interface SyntaxColors {
   (palette: ColorPalettes): TokenColors;
 }

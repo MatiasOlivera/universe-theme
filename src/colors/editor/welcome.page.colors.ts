@@ -1,16 +1,18 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_600, background_700 } from '../palette/background.colors';
-import { purple_800 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const welcomePageColors: EditorColors = {
-  walkThrough: {
-    embeddedEditorBackground: background_600
-  },
-  welcomePage: {
-    background: background_600,
-    buttonBackground: background_700,
-    buttonHoverBackground: purple_800
-  }
+const welcomePageColors: UIColors = (palette) => {
+  const { background, purple } = palette;
+
+  return {
+    walkThrough: {
+      embeddedEditorBackground: background[5]
+    },
+    welcomePage: {
+      background: background[5],
+      buttonBackground: background[6],
+      buttonHoverBackground: purple[7]
+    }
+  };
 };
 
 export default welcomePageColors;

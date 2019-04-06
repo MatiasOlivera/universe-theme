@@ -1,14 +1,18 @@
-import { EditorColors } from '../../types/colors-types';
-import { gray_100 } from '../palette/gray.colors';
-import { inputBackground, inputBorder } from './input.colors';
+import { UIColors } from '../../types/colors-types';
+import { inputTokens } from './input.colors';
 
-const dropdownColors: EditorColors = {
-  dropdown: {
-    background: inputBackground,
-    border: inputBorder,
-    foreground: gray_100,
-    listBackground: inputBackground
-  }
+const dropdownColors: UIColors = (palette) => {
+  const { gray } = palette;
+  const { inputBackground, inputBorder } = inputTokens(palette);
+
+  return {
+    dropdown: {
+      background: inputBackground,
+      border: inputBorder,
+      foreground: gray[0],
+      listBackground: inputBackground
+    }
+  };
 };
 
 export default dropdownColors;

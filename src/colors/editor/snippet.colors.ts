@@ -1,13 +1,16 @@
-import { EditorColors } from '../../types/colors-types';
-import { purple_600, purple_700 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const snippetColors: EditorColors = {
-  editor: {
-    snippetFinalTabstopHighlightBackground: purple_700,
-    snippetFinalTabstopHighlightBorder: purple_600,
-    snippetTabstopHighlightBackground: purple_700,
-    snippetTabstopHighlightBorder: purple_600
-  }
+const snippetColors: UIColors = (palette) => {
+  const { purple } = palette;
+
+  return {
+    editor: {
+      snippetFinalTabstopHighlightBackground: purple[6],
+      snippetFinalTabstopHighlightBorder: purple[5],
+      snippetTabstopHighlightBackground: purple[6],
+      snippetTabstopHighlightBorder: purple[5]
+    }
+  };
 };
 
 export default snippetColors;

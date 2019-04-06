@@ -1,22 +1,22 @@
-import { EditorColors } from '../../types/colors-types';
-import { blue_300 } from '../palette/blue.colors';
-import { purple_300 } from '../palette/purple.colors';
-import { red_300 } from '../palette/red.colors';
-import { yellow_300 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const squigglesColors: EditorColors = {
-  editorError: {
-    foreground: red_300
-  },
-  editorHint: {
-    foreground: purple_300
-  },
-  editorInfo: {
-    foreground: blue_300
-  },
-  editorWarning: {
-    foreground: yellow_300
-  }
+const squigglesColors: UIColors = (palette) => {
+  const { red, purple, blue, yellow } = palette;
+
+  return {
+    editorError: {
+      foreground: red[2]
+    },
+    editorHint: {
+      foreground: purple[2]
+    },
+    editorInfo: {
+      foreground: blue[2]
+    },
+    editorWarning: {
+      foreground: yellow[2]
+    }
+  };
 };
 
 export default squigglesColors;

@@ -4,6 +4,7 @@
 .prettierrc.json
 src/**
 dist/**
+demos/**
 nodemon.json
 tsconfig.json
 static/images/**

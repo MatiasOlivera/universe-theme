@@ -1,3 +1,7 @@
+export interface SyntaxColors {
+  (palette: ColorPalettes): TokenColors;
+}
+
 export interface ColorPalettes {
   background: ColorPalette;
   blue: ColorPalette;

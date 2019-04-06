@@ -1,17 +1,20 @@
-import { TokenColors } from '../../types/colors-types';
-import { purple_300 } from '../palette/purple.colors';
+import { SyntaxColors } from '../../types/colors-types';
 
-const tsColors: TokenColors = [
-  /**
-   * Keywords
-   */
-  {
-    name: 'JSON object',
-    scope: 'support.constant.json',
-    settings: {
-      foreground: purple_300
+const tsColors: SyntaxColors = (palette) => {
+  const { purple } = palette;
+
+  return [
+    /**
+     * Keywords
+     */
+    {
+      name: 'JSON object',
+      scope: 'support.constant.json',
+      settings: {
+        foreground: purple[2]
+      }
     }
-  }
-];
+  ];
+};
 
 export default tsColors;

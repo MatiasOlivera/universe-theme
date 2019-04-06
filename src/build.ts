@@ -1,6 +1,7 @@
 import * as deepmerge from 'deepmerge';
 import { flatten } from 'flat';
 import { join } from 'path';
+import { format, resolveConfig } from 'prettier';
 
 import { editorColors, syntaxColors } from './colors';
 import { Dictionary, EditorColors, TokenColors } from './types/colors-types';
@@ -44,8 +45,17 @@ async function createDirectory(path: string): Promise<void> {
 
 async function createTheme(themeFile: string, theme: Theme): Promise<void> {
   try {
-    const json = JSON.stringify(theme);
-    await writeFile(themeFile, json);
+    const themeJSON = JSON.stringify(theme);
+
+    const prettierConfig = await resolveConfig(__dirname);
+
+    const formattedTheme = format(themeJSON, {
+      filepath: themeFile,
+      parser: 'json',
+      ...prettierConfig
+    });
+
+    await writeFile(themeFile, formattedTheme);
   } catch (error) {
     throw error;
   }

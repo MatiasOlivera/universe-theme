@@ -1,3 +1,37 @@
+export interface UIColors {
+  (palette: ColorPalettes): EditorColors;
+}
+
+export interface SyntaxColors {
+  (palette: ColorPalettes): TokenColors;
+}
+
+export interface ColorPalettes {
+  background: ColorPalette;
+  blue: ColorPalette;
+  gray: ColorPalette;
+  green: ColorPalette;
+  indigo: ColorPalette;
+  orange: ColorPalette;
+  pink: ColorPalette;
+  purple: ColorPalette;
+  red: ColorPalette;
+  teal: ColorPalette;
+  yellow: ColorPalette;
+}
+
+export type ColorPalette = [
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string
+];
+
 export type Dictionary<Value = any> = {
   [key: string]: Value;
 };

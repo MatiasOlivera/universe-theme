@@ -1,19 +1,21 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_600, background_700 } from '../palette/background.colors';
-import { purple_400, purple_900 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const editorGroupColors: EditorColors = {
-  editorGroup: {
-    border: background_700,
-    dropBackground: purple_900,
-    emptyBackground: background_600,
-    focusedEmptyBorder: purple_400
-  },
-  editorGroupHeader: {
-    noTabsBackground: background_600,
-    tabsBackground: background_700,
-    tabsBorder: background_600
-  }
+const editorGroupColors: UIColors = (palette) => {
+  const { background, purple } = palette;
+
+  return {
+    editorGroup: {
+      border: background[6],
+      dropBackground: purple[8],
+      emptyBackground: background[5],
+      focusedEmptyBorder: purple[3]
+    },
+    editorGroupHeader: {
+      noTabsBackground: background[5],
+      tabsBackground: background[6],
+      tabsBorder: background[5]
+    }
+  };
 };
 
 export default editorGroupColors;

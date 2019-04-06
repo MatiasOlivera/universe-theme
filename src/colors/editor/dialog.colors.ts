@@ -1,4 +1,15 @@
-import { background_200, background_400 } from '../palette/background.colors';
+import { ColorPalettes } from '../../types/colors-types';
 
-export const dialogBackground: string = background_400;
-export const dialogBorder: string = background_200;
+interface DialogColors {
+  dialogBackground: string;
+  dialogBorder: string;
+}
+
+export const dialogTokens = (palette: ColorPalettes): DialogColors => {
+  const { background } = palette;
+
+  return {
+    dialogBackground: background[3],
+    dialogBorder: background[1]
+  };
+};

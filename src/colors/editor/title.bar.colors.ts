@@ -1,15 +1,17 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_800, background_900 } from '../palette/background.colors';
-import { gray_200, gray_400 } from '../palette/gray.colors';
+import { UIColors } from '../../types/colors-types';
 
-const titleBarColors: EditorColors = {
-  titleBar: {
-    activeBackground: background_800,
-    activeForeground: gray_200,
-    border: background_900,
-    inactiveBackground: background_800,
-    inactiveForeground: gray_400
-  }
+const titleBarColors: UIColors = (palette) => {
+  const { background, gray } = palette;
+
+  return {
+    titleBar: {
+      activeBackground: background[7],
+      activeForeground: gray[1],
+      border: background[8],
+      inactiveBackground: background[7],
+      inactiveForeground: gray[3]
+    }
+  };
 };
 
 export default titleBarColors;

@@ -1,10 +1,13 @@
-import { EditorColors } from '../../types/colors-types';
-import { purple_400 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const progressBarColors: EditorColors = {
-  progressBar: {
-    background: purple_400
-  }
+const progressBarColors: UIColors = (palette) => {
+  const { purple } = palette;
+
+  return {
+    progressBar: {
+      background: purple[3]
+    }
+  };
 };
 
 export default progressBarColors;

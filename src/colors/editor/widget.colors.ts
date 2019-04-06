@@ -1,48 +1,47 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_700 } from '../palette/background.colors';
-import { blue_300 } from '../palette/blue.colors';
-import { gray_100 } from '../palette/gray.colors';
-import { purple_400, purple_700 } from '../palette/purple.colors';
-import { red_300 } from '../palette/red.colors';
-import { yellow_300, yellow_400 } from '../palette/yellow.colors';
-import { dialogBackground, dialogBorder } from './dialog.colors';
+import { UIColors } from '../../types/colors-types';
+import { dialogTokens } from './dialog.colors';
 
-const widgetColors: EditorColors = {
-  debugExceptionWidget: {
-    background: dialogBackground,
-    border: dialogBackground
-  },
-  editorHoverWidget: {
-    background: dialogBackground,
-    border: dialogBorder
-  },
-  editorMarkerNavigation: {
-    background: dialogBackground
-  },
-  editorMarkerNavigationError: {
-    background: red_300
-  },
-  editorMarkerNavigationInfo: {
-    background: blue_300
-  },
-  editorMarkerNavigationWarning: {
-    background: yellow_300
-  },
-  editorSuggestWidget: {
-    background: dialogBackground,
-    border: dialogBorder,
-    foreground: gray_100,
-    highlightForeground: yellow_400,
-    selectedBackground: purple_700
-  },
-  editorWidget: {
-    background: dialogBackground,
-    border: dialogBorder,
-    resizeBorder: purple_400
-  },
-  widget: {
-    shadow: background_700
-  }
+const widgetColors: UIColors = (palette) => {
+  const { red, blue, yellow, gray, purple, background } = palette;
+  const { dialogBackground, dialogBorder } = dialogTokens(palette);
+
+  return {
+    debugExceptionWidget: {
+      background: dialogBackground,
+      border: dialogBackground
+    },
+    editorHoverWidget: {
+      background: dialogBackground,
+      border: dialogBorder
+    },
+    editorMarkerNavigation: {
+      background: dialogBackground
+    },
+    editorMarkerNavigationError: {
+      background: red[2]
+    },
+    editorMarkerNavigationInfo: {
+      background: blue[2]
+    },
+    editorMarkerNavigationWarning: {
+      background: yellow[2]
+    },
+    editorSuggestWidget: {
+      background: dialogBackground,
+      border: dialogBorder,
+      foreground: gray[0],
+      highlightForeground: yellow[3],
+      selectedBackground: purple[6]
+    },
+    editorWidget: {
+      background: dialogBackground,
+      border: dialogBorder,
+      resizeBorder: purple[3]
+    },
+    widget: {
+      shadow: background[6]
+    }
+  };
 };
 
 export default widgetColors;

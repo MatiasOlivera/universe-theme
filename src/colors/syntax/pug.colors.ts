@@ -1,47 +1,52 @@
-import { TokenColors } from '../../types/colors-types';
-import { classColor, idColor } from './css.colors';
-import { tagColor, textColor } from './html.colors';
+import { SyntaxColors } from '../../types/colors-types';
+import { cssTokens } from './css.colors';
+import { htmlTokens } from './html.colors';
 
-const pugColors: TokenColors = [
-  /**
-   * Keywords
-   */
-  {
-    name: 'Constant',
-    scope: 'constant',
-    settings: {
-      foreground: tagColor
-    }
-  },
+const pugColors: SyntaxColors = (palette) => {
+  const { classColor, idColor } = cssTokens(palette);
+  const { tagColor, textColor } = htmlTokens(palette);
 
-  /**
-   * CSS
-   */
-  {
-    name: 'Pug ID',
-    scope: 'entity.other.attribute-name.id.pug',
-    settings: {
-      foreground: idColor
-    }
-  },
-  {
-    name: 'Pug class',
-    scope: 'entity.other.attribute-name.class.pug',
-    settings: {
-      foreground: classColor
-    }
-  },
+  return [
+    /**
+     * Keywords
+     */
+    {
+      name: 'Constant',
+      scope: 'constant',
+      settings: {
+        foreground: tagColor
+      }
+    },
 
-  /**
-   * Other
-   */
-  {
-    name: 'Text',
-    scope: 'text.pug',
-    settings: {
-      foreground: textColor
+    /**
+     * CSS
+     */
+    {
+      name: 'Pug ID',
+      scope: 'entity.other.attribute-name.id.pug',
+      settings: {
+        foreground: idColor
+      }
+    },
+    {
+      name: 'Pug class',
+      scope: 'entity.other.attribute-name.class.pug',
+      settings: {
+        foreground: classColor
+      }
+    },
+
+    /**
+     * Other
+     */
+    {
+      name: 'Text',
+      scope: 'text.pug',
+      settings: {
+        foreground: textColor
+      }
     }
-  }
-];
+  ];
+};
 
 export default pugColors;

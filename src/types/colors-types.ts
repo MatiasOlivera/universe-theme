@@ -18,6 +18,9 @@ export interface ColorPalettes {
   red: ColorPalette;
   teal: ColorPalette;
   yellow: ColorPalette;
+  gray: ColorPalette;
+  white: string;
+  black: string;
 }
 
 export type ColorPalette = [
@@ -29,7 +32,8 @@ export type ColorPalette = [
   string,
   string,
   string,
-  string
+  string,
+  string?
 ];
 
 export type Dictionary<Value = any> = {

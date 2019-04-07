@@ -1,4 +1,5 @@
 import { ColorPalette, ColorPalettes } from '../types/colors-types';
+import { black, gray, white } from './universe.next';
 
 const background: ColorPalette = [
   '#2E4759',
@@ -143,5 +144,8 @@ export const universe: ColorPalettes = {
   purple,
   red,
   teal,
-  yellow
+  yellow,
+  gray,
+  white,
+  black
 };

@@ -1,4 +1,4 @@
-import { UIColors, ColorPalettes } from '../../types/colors-types';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
 import { opacity_50, opacity_80 } from '../opacity';
 
 interface EditorTokens {
@@ -12,7 +12,7 @@ export const editorTokens = (palette: ColorPalettes): EditorTokens => {
 };
 
 const editorColors: UIColors = (palette) => {
-  const { background, purple, gray, yellow } = palette;
+  const { background, purple, blueGray, yellow } = palette;
   const { highlightOpacity } = editorTokens(palette);
 
   return {
@@ -24,7 +24,7 @@ const editorColors: UIColors = (palette) => {
       findMatchHighlightBorder: purple[5],
       findRangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
       findRangeHighlightBorder: purple[5],
-      foreground: gray[0],
+      foreground: blueGray[0],
       hoverHighlightBackground: `${purple[6]}${highlightOpacity}`,
       inactiveSelectionBackground: `${purple[7]}${highlightOpacity}`,
       lineHighlightBackground: background[6],
@@ -44,31 +44,31 @@ const editorColors: UIColors = (palette) => {
       border: purple[6]
     },
     editorCodeLens: {
-      foreground: gray[1]
+      foreground: blueGray[1]
     },
     editorCursor: {
       background: yellow[8],
       foreground: yellow[3]
     },
     editorIndentGuide: {
-      activeBackground: gray[5],
-      background: gray[7]
+      activeBackground: blueGray[5],
+      background: blueGray[7]
     },
     editorLineNumber: {
-      activeForeground: gray[1],
-      foreground: gray[5]
+      activeForeground: blueGray[1],
+      foreground: blueGray[5]
     },
     editorLink: {
       activeForeground: purple[0]
     },
     editorRuler: {
-      foreground: gray[7]
+      foreground: blueGray[7]
     },
     editorUnnecessaryCode: {
-      opacity: `${gray[0]}${opacity_80}`
+      opacity: `${blueGray[0]}${opacity_80}`
     },
     editorWhitespace: {
-      foreground: gray[5]
+      foreground: blueGray[5]
     }
   };
 };

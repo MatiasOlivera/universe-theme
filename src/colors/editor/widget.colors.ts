@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { dialogTokens } from './dialog.colors';
 
 const widgetColors: UIColors = (palette) => {
-  const { red, blue, yellow, gray, purple, background } = palette;
+  const { red, blue, yellow, blueGray, purple, background } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
@@ -29,7 +29,7 @@ const widgetColors: UIColors = (palette) => {
     editorSuggestWidget: {
       background: dialogBackground,
       border: dialogBorder,
-      foreground: gray[0],
+      foreground: blueGray[0],
       highlightForeground: yellow[3],
       selectedBackground: purple[6]
     },

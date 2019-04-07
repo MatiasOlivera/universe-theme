@@ -25,7 +25,7 @@ const terminalColors: UIColors = (palette) => {
       ansiYellow: '#FFCB6B',
       background: background[6],
       border: background[7],
-      foreground: gray[0],
+      foreground: blueGray[0],
       selectionBackground: `${purple[5]}${highlightOpacity}`
     },
     terminalCursor: {

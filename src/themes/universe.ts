@@ -25,7 +25,7 @@ const blue: ColorPalette = [
   '#2a4365'
 ];
 
-const gray: ColorPalette = [
+const blueGray: ColorPalette = [
   '#f7fafc',
   '#edf2f7',
   '#e2e8f0',
@@ -136,7 +136,7 @@ const yellow: ColorPalette = [
 export const universe: ColorPalettes = {
   background,
   blue,
-  gray,
+  blueGray,
   green,
   indigo,
   orange,

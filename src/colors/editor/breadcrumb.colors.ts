@@ -1,14 +1,14 @@
 import { UIColors } from '../../types/colors-types';
 
 const breadcrumbColors: UIColors = (palette) => {
-  const { gray, background } = palette;
+  const { blueGray, background } = palette;
 
   return {
     breadcrumb: {
-      activeSelectionForeground: gray[0],
+      activeSelectionForeground: blueGray[0],
       background: background[5],
-      focusForeground: gray[0],
-      foreground: gray[1]
+      focusForeground: blueGray[0],
+      foreground: blueGray[1]
     },
     breadcrumbPicker: {
       background: background[4]

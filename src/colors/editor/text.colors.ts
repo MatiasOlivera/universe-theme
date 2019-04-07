@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const textColors: UIColors = (palette) => {
-  const { background, purple, pink, gray } = palette;
+  const { background, purple, pink, blueGray } = palette;
 
   return {
     textBlockQuote: {
@@ -19,7 +19,7 @@ const textColors: UIColors = (palette) => {
       foreground: pink[2]
     },
     textSeparator: {
-      foreground: gray[3]
+      foreground: blueGray[3]
     }
   };
 };

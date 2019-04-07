@@ -28,7 +28,7 @@ const blue: ColorPalette = [
 ];
 
 // Blue Gray
-const gray: ColorPalette = [
+const blueGray: ColorPalette = [
   '#ECEFF1',
   '#CFD8DC',
   '#B0BEC5',
@@ -259,7 +259,7 @@ const _deepOrange: ColorPalette = [
 export const universeNext: ColorPalettes = {
   background,
   blue,
-  gray,
+  blueGray,
   green,
   indigo,
   orange,

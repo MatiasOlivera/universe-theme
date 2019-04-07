@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { editorTokens } from './editor.colors';
 
 const terminalColors: UIColors = (palette) => {
-  const { background, gray, purple } = palette;
+  const { background, gray, purple, white } = palette;
   const { highlightOpacity } = editorTokens(palette);
 
   return {
@@ -15,7 +15,7 @@ const terminalColors: UIColors = (palette) => {
       ansiBrightGreen: '#C3E88D',
       ansiBrightMagenta: '#C792EA',
       ansiBrightRed: '#F07178',
-      ansiBrightWhite: '#FFFFFF',
+      ansiBrightWhite: white,
       ansiBrightYellow: '#FFCB6B',
       ansiCyan: '#89DDFF',
       ansiGreen: '#C3E88D',

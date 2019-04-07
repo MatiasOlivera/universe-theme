@@ -1,11 +1,11 @@
 import { UIColors } from '../../types/colors-types';
 
 const extensionButtonColors: UIColors = (palette) => {
-  const { yellow } = palette;
+  const { yellow, black } = palette;
 
   return {
     extensionButton: {
-      prominentForeground: yellow[8],
+      prominentForeground: black,
       prominentBackground: yellow[3],
       prominentHoverBackground: yellow[2]
     }

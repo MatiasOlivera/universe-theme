@@ -1,11 +1,11 @@
 import { UIColors } from '../../types/colors-types';
 
 const badgeColors: UIColors = (palette) => {
-  const { yellow } = palette;
+  const { yellow, black } = palette;
 
   return {
     badge: {
-      foreground: yellow[8],
+      foreground: black,
       background: yellow[3]
     }
   };

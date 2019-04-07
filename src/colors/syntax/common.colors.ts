@@ -10,7 +10,8 @@ const commonColors: SyntaxColors = (palette) => {
     red,
     gray,
     teal,
-    orange
+    orange,
+    blueGray
   } = palette;
 
   return [
@@ -202,7 +203,7 @@ const commonColors: SyntaxColors = (palette) => {
       name: 'Comment',
       scope: ['comment', 'punctuation.definition.comment'],
       settings: {
-        foreground: gray[4]
+        foreground: blueGray[3]
       }
     },
     {

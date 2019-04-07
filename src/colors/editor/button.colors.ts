@@ -1,12 +1,12 @@
 import { UIColors } from '../../types/colors-types';
 
 const buttonColors: UIColors = (palette) => {
-  const { yellow } = palette;
+  const { yellow, gray } = palette;
 
   return {
     button: {
       background: yellow[3],
-      foreground: yellow[8],
+      foreground: gray[9],
       hoverBackground: yellow[2]
     }
   };

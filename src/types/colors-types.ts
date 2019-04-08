@@ -9,7 +9,7 @@ export interface SyntaxColors {
 export interface ColorPalettes {
   background: ColorPalette;
   blue: ColorPalette;
-  gray: ColorPalette;
+  blueGray: ColorPalette;
   green: ColorPalette;
   indigo: ColorPalette;
   orange: ColorPalette;
@@ -18,9 +18,13 @@ export interface ColorPalettes {
   red: ColorPalette;
   teal: ColorPalette;
   yellow: ColorPalette;
+  gray: ColorPalette;
+  white: string;
+  black: string;
 }
 
 export type ColorPalette = [
+  string,
   string,
   string,
   string,

@@ -10,7 +10,8 @@ const commonColors: SyntaxColors = (palette) => {
     red,
     gray,
     teal,
-    orange
+    orange,
+    blueGray
   } = palette;
 
   return [
@@ -53,14 +54,14 @@ const commonColors: SyntaxColors = (palette) => {
       name: 'Variable',
       scope: 'variable',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
     {
       name: 'Constant',
       scope: 'variable.other.constant',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
 
@@ -71,14 +72,14 @@ const commonColors: SyntaxColors = (palette) => {
       name: 'Object variable',
       scope: 'variable.other.object',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
     {
       name: 'Variable property value',
       scope: 'variable.other.property',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
     {
@@ -114,7 +115,7 @@ const commonColors: SyntaxColors = (palette) => {
       name: 'Function parameter',
       scope: 'variable.parameter',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
 
@@ -202,7 +203,7 @@ const commonColors: SyntaxColors = (palette) => {
       name: 'Comment',
       scope: ['comment', 'punctuation.definition.comment'],
       settings: {
-        foreground: gray[4]
+        foreground: blueGray[3]
       }
     },
     {

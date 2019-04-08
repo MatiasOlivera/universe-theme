@@ -16,7 +16,7 @@ const textColors: UIColors = (palette) => {
       foreground: purple[3]
     },
     textPreformat: {
-      foreground: pink[2]
+      foreground: pink[1]
     },
     textSeparator: {
       foreground: gray[3]

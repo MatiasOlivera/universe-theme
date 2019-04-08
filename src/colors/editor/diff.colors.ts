@@ -1,13 +1,13 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_30 } from '../opacity';
+import { opacity_20 } from '../opacity';
 
 const diffColors: UIColors = (palette) => {
   const { background, green, red } = palette;
 
   return {
     diffEditor: {
-      insertedTextBackground: `${green[8]}${opacity_30}`,
-      removedTextBackground: `${red[8]}${opacity_30}`,
+      insertedTextBackground: `${green[9]}${opacity_20}`,
+      removedTextBackground: `${red[9]}${opacity_20}`,
       border: background[6]
     }
   };

@@ -11,7 +11,7 @@ const menuBarColors: UIColors = (palette) => {
       foreground: gray[0],
       selectionBackground: yellow[3],
       selectionBorder: yellow[3],
-      selectionForeground: yellow[8],
+      selectionForeground: gray[9],
       separatorBackground: gray[6]
     },
     menubar: {

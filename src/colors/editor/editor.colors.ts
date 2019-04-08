@@ -1,4 +1,4 @@
-import { UIColors, ColorPalettes } from '../../types/colors-types';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
 import { opacity_50, opacity_80 } from '../opacity';
 
 interface EditorTokens {
@@ -12,7 +12,7 @@ export const editorTokens = (palette: ColorPalettes): EditorTokens => {
 };
 
 const editorColors: UIColors = (palette) => {
-  const { background, purple, gray, yellow } = palette;
+  const { background, purple, gray, yellow, blueGray } = palette;
   const { highlightOpacity } = editorTokens(palette);
 
   return {
@@ -55,8 +55,8 @@ const editorColors: UIColors = (palette) => {
       background: gray[7]
     },
     editorLineNumber: {
-      activeForeground: gray[1],
-      foreground: gray[5]
+      activeForeground: blueGray[1],
+      foreground: blueGray[5]
     },
     editorLink: {
       activeForeground: purple[0]

@@ -47,7 +47,7 @@ const editorColors: UIColors = (palette) => {
       foreground: blueGray[1]
     },
     editorCursor: {
-      background: yellow[8],
+      background: yellow[9],
       foreground: yellow[3]
     },
     editorIndentGuide: {

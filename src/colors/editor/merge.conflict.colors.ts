@@ -15,12 +15,12 @@ const mergeConflictColors: UIColors = (palette) => {
     },
     merge: {
       border: background[6],
-      commonContentBackground: `${gray[8]}${contentOpacity}`,
+      commonContentBackground: `${gray[9]}${contentOpacity}`,
       commonHeaderBackground: `${gray[7]}${headerOpacity}`,
       currentContentBackground: `${teal[7]}${contentOpacity}`,
-      currentHeaderBackground: `${teal[8]}${headerOpacity}`,
+      currentHeaderBackground: `${teal[9]}${headerOpacity}`,
       incomingContentBackground: `${blue[7]}${contentOpacity}`,
-      incomingHeaderBackground: `${blue[8]}${headerOpacity}`
+      incomingHeaderBackground: `${blue[9]}${headerOpacity}`
     }
   };
 };

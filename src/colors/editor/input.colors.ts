@@ -33,13 +33,13 @@ const inputColors: UIColors = (palette) => {
       activeBorder: purple[3]
     },
     inputValidation: {
-      errorBackground: red[8],
+      errorBackground: red[9],
       errorBorder: red[7],
       errorForeground: red[0],
-      infoBackground: blue[8],
+      infoBackground: blue[9],
       infoBorder: blue[7],
       infoForeground: blue[0],
-      warningBackground: yellow[8],
+      warningBackground: yellow[9],
       warningBorder: yellow[7],
       warningForeground: yellow[0]
     }

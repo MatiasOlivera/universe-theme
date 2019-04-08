@@ -16,10 +16,10 @@ const statusBarColors: UIColors = (palette) => {
       noFolderForeground: blueGray[3]
     },
     statusBarItem: {
-      activeBackground: purple[8],
-      hostBackground: purple[8],
+      activeBackground: purple[9],
+      hostBackground: purple[9],
       hoverBackground: purple[7],
-      prominentBackground: purple[8],
+      prominentBackground: purple[9],
       prominentHoverBackground: purple[7]
     }
   };

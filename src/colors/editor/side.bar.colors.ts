@@ -8,7 +8,7 @@ const sideBarColors: UIColors = (palette) => {
     sideBar: {
       background: background[6],
       border: background[7],
-      dropBackground: `${purple[8]}${opacity_50}`,
+      dropBackground: `${purple[9]}${opacity_50}`,
       foreground: blueGray[1]
     },
     sideBarSectionHeader: {

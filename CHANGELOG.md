@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] 2019-04-08
+
+### Changed
+
+- **New syntax colors**: the new palette is more consistent. Now it's using Material Design colors. The most important changes are that purple is more saturated and green is less saturated. [#26](https://github.com/MatiasOlivera/universe-theme/pull/26)
+
+### Fixed
+
+- **Differentiate the text using grayscale**, according to their importance. [#27](https://github.com/MatiasOlivera/universe-theme/pull/27)
+
 ## [1.0.1] 2019-04-03
 
 ### Fixed

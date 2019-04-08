@@ -1,18 +1,17 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_600 } from '../palette/background.colors';
-import { blue_200 } from '../palette/blue.colors';
-import { gray_200 } from '../palette/gray.colors';
-import { green_200 } from '../palette/green.colors';
-import { red_200 } from '../palette/red.colors';
+import { UIColors } from '../../types/colors-types';
 
-const gutterColors: EditorColors = {
-  editorGutter: {
-    addedBackground: green_200,
-    background: background_600,
-    commentRangeForeground: gray_200,
-    deletedBackground: red_200,
-    modifiedBackground: blue_200
-  }
+const gutterColors: UIColors = (palette) => {
+  const { green, background, blueGray, red, blue } = palette;
+
+  return {
+    editorGutter: {
+      addedBackground: green[1],
+      background: background[5],
+      commentRangeForeground: blueGray[1],
+      deletedBackground: red[1],
+      modifiedBackground: blue[1]
+    }
+  };
 };
 
 export default gutterColors;

@@ -1,12 +1,15 @@
-import { EditorColors } from '../../types/colors-types';
-import { yellow_300, yellow_400, yellow_900 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const extensionButtonColors: EditorColors = {
-  extensionButton: {
-    prominentForeground: yellow_900,
-    prominentBackground: yellow_400,
-    prominentHoverBackground: yellow_300
-  }
+const extensionButtonColors: UIColors = (palette) => {
+  const { yellow, gray } = palette;
+
+  return {
+    extensionButton: {
+      prominentForeground: gray[9],
+      prominentBackground: yellow[3],
+      prominentHoverBackground: yellow[2]
+    }
+  };
 };
 
 export default extensionButtonColors;

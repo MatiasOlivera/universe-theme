@@ -1,12 +1,16 @@
-import { EditorColors } from '../../types/colors-types';
-import { gray_100 } from '../palette/gray.colors';
-import { dialogBorder } from './dialog.colors';
+import { UIColors } from '../../types/colors-types';
+import { dialogTokens } from './dialog.colors';
 
-const quickPickerColors: EditorColors = {
-  pickerGroup: {
-    border: dialogBorder,
-    foreground: gray_100
-  }
+const quickPickerColors: UIColors = (palette) => {
+  const { blueGray } = palette;
+  const { dialogBorder } = dialogTokens(palette);
+
+  return {
+    pickerGroup: {
+      border: dialogBorder,
+      foreground: blueGray[0]
+    }
+  };
 };
 
 export default quickPickerColors;

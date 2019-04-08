@@ -1,0 +1,65 @@
+# https://www.howtographql.com
+
+type Query {
+  allPersons(last: Int): [Person!]!
+}
+
+type Mutation {
+  createPerson(name: String!, age: Int!): Person!
+}
+
+type Subscription {
+  newPerson: Person!
+}
+
+"""
+A person
+"""
+type Person {
+  name: String!
+  age: Int!
+  posts: [Post!]!
+}
+
+"""
+A post
+"""
+type Post {
+  title: String!
+  author: Person!
+}
+
+# Enum
+enum Weekday {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+  SUNDAY
+}
+
+# Interface
+interface Node {
+  id: ID!
+}
+
+type User implements Node {
+  id: ID!
+  name: String!
+  age: Int!
+}
+
+# Union
+type Adult {
+  name: String!
+  work: String!
+}
+
+type Child {
+  name: String!
+  school: String!
+}
+
+union Person = Adult | Child

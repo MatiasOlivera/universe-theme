@@ -1,30 +1,31 @@
-import { EditorColors } from '../../types/colors-types';
-import { purple_100, purple_600, purple_700, purple_900 } from '../palette/purple.colors';
-import { red_200, red_600 } from '../palette/red.colors';
-import { yellow_200 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const listColors: EditorColors = {
-  list: {
-    activeSelectionBackground: purple_700,
-    activeSelectionForeground: purple_100,
-    dropBackground: purple_900,
-    focusBackground: purple_700,
-    focusForeground: purple_100,
-    highlightForeground: purple_100,
-    hoverBackground: purple_600,
-    hoverForeground: purple_100,
-    inactiveSelectionBackground: purple_600,
-    inactiveSelectionForeground: purple_100,
-    inactiveFocusBackground: purple_600,
-    invalidItemForeground: purple_900,
-    errorForeground: red_200,
-    warningForeground: yellow_200
-  },
-  listFilterWidget: {
-    background: purple_700,
-    outline: purple_600,
-    noMatchesOutline: red_600
-  }
+const listColors: UIColors = (palette) => {
+  const { purple, red, yellow } = palette;
+
+  return {
+    list: {
+      activeSelectionBackground: purple[6],
+      activeSelectionForeground: purple[0],
+      dropBackground: purple[9],
+      focusBackground: purple[6],
+      focusForeground: purple[0],
+      highlightForeground: purple[0],
+      hoverBackground: purple[5],
+      hoverForeground: purple[0],
+      inactiveSelectionBackground: purple[5],
+      inactiveSelectionForeground: purple[0],
+      inactiveFocusBackground: purple[5],
+      invalidItemForeground: purple[9],
+      errorForeground: red[1],
+      warningForeground: yellow[1]
+    },
+    listFilterWidget: {
+      background: purple[6],
+      outline: purple[5],
+      noMatchesOutline: red[5]
+    }
+  };
 };
 
 export default listColors;

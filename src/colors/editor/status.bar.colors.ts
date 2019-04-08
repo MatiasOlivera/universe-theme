@@ -1,27 +1,27 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_800, background_900 } from '../palette/background.colors';
-import { gray_400 } from '../palette/gray.colors';
-import { purple_800, purple_900 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const statusBarColors: EditorColors = {
-  statusBar: {
-    background: background_800,
-    border: background_900,
-    debuggingBackground: background_800,
-    debuggingBorder: background_900,
-    debuggingForeground: gray_400,
-    foreground: gray_400,
-    noFolderBackground: background_800,
-    noFolderBorder: background_900,
-    noFolderForeground: gray_400
-  },
-  statusBarItem: {
-    activeBackground: purple_900,
-    hostBackground: purple_900,
-    hoverBackground: purple_800,
-    prominentBackground: purple_900,
-    prominentHoverBackground: purple_800
-  }
+const statusBarColors: UIColors = (palette) => {
+  const { background, blueGray, purple } = palette;
+
+  return {
+    statusBar: {
+      background: background[7],
+      border: background[8],
+      debuggingBackground: background[7],
+      debuggingBorder: background[8],
+      debuggingForeground: blueGray[3],
+      foreground: blueGray[3],
+      noFolderBackground: background[7],
+      noFolderBorder: background[8],
+      noFolderForeground: blueGray[3]
+    },
+    statusBarItem: {
+      activeBackground: purple[9],
+      hostBackground: purple[9],
+      hoverBackground: purple[7],
+      prominentBackground: purple[9],
+      prominentHoverBackground: purple[7]
+    }
+  };
 };
-
 export default statusBarColors;

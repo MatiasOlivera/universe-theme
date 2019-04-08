@@ -1,28 +1,26 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_700 } from '../palette/background.colors';
-import { blue_200 } from '../palette/blue.colors';
-import { green_200 } from '../palette/green.colors';
-import { opacity_50 } from '../palette/opacity';
-import { purple_200 } from '../palette/purple.colors';
-import { red_200 } from '../palette/red.colors';
-import { yellow_200 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
+import { opacity_50 } from '../opacity';
 
-const overviewRulerColors: EditorColors = {
-  editorOverviewRuler: {
-    addedForeground: green_200,
-    border: background_700,
-    bracketMatchForeground: purple_200,
-    deletedForeground: red_200,
-    errorForeground: red_200,
-    findMatchForeground: `${purple_200}${opacity_50}`,
-    infoForeground: blue_200,
-    modifiedForeground: blue_200,
-    rangeHighlightForeground: `${purple_200}${opacity_50}`,
-    selectionHighlightForeground: `${purple_200}${opacity_50}`,
-    warningForeground: yellow_200,
-    wordHighlightForeground: `${purple_200}${opacity_50}`,
-    wordHighlightStrongForeground: `${purple_200}${opacity_50}`
-  }
+const overviewRulerColors: UIColors = (palette) => {
+  const { green, background, purple, red, blue, yellow } = palette;
+
+  return {
+    editorOverviewRuler: {
+      addedForeground: green[1],
+      border: background[6],
+      bracketMatchForeground: purple[1],
+      deletedForeground: red[1],
+      errorForeground: red[1],
+      findMatchForeground: `${purple[1]}${opacity_50}`,
+      infoForeground: blue[1],
+      modifiedForeground: blue[1],
+      rangeHighlightForeground: `${purple[1]}${opacity_50}`,
+      selectionHighlightForeground: `${purple[1]}${opacity_50}`,
+      warningForeground: yellow[1],
+      wordHighlightForeground: `${purple[1]}${opacity_50}`,
+      wordHighlightStrongForeground: `${purple[1]}${opacity_50}`
+    }
+  };
 };
 
 export default overviewRulerColors;

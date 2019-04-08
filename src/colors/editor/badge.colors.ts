@@ -1,11 +1,14 @@
-import { EditorColors } from '../../types/colors-types';
-import { yellow_400, yellow_900 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const badgeColors: EditorColors = {
-  badge: {
-    foreground: yellow_900,
-    background: yellow_400
-  }
+const badgeColors: UIColors = (palette) => {
+  const { yellow, gray } = palette;
+
+  return {
+    badge: {
+      foreground: gray[9],
+      background: yellow[3]
+    }
+  };
 };
 
 export default badgeColors;

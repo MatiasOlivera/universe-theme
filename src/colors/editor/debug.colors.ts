@@ -1,16 +1,20 @@
-import { EditorColors } from '../../types/colors-types';
-import { purple_600 } from '../palette/purple.colors';
-import { dialogBackground } from './dialog.colors';
+import { UIColors } from '../../types/colors-types';
+import { dialogTokens } from './dialog.colors';
 
-const debugColors: EditorColors = {
-  debugToolBar: {
-    background: dialogBackground,
-    border: dialogBackground
-  },
-  editor: {
-    focusedStackFrameHighlightBackground: purple_600,
-    stackFrameHighlightBackground: purple_600
-  }
+const debugColors: UIColors = (palette) => {
+  const { purple } = palette;
+  const { dialogBackground } = dialogTokens(palette);
+
+  return {
+    debugToolBar: {
+      background: dialogBackground,
+      border: dialogBackground
+    },
+    editor: {
+      focusedStackFrameHighlightBackground: purple[5],
+      stackFrameHighlightBackground: purple[5]
+    }
+  };
 };
 
 export default debugColors;

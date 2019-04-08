@@ -1,8 +1,8 @@
 {
   "name": "universe",
   "displayName": "Universe",
-  "description": "A dark theme for passionate developers",
-  "version": "1.0.1",
+  "description": "A dark theme for passionate developers. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
+  "version": "1.1.0",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#160923",
@@ -12,16 +12,17 @@
     "Themes"
   ],
   "keywords": [
-    "VS code",
+    "vs code",
     "theme",
-    "dark theme",
+    "color theme",
+    "dark",
     "universe",
-    "universe theme",
-    "night mode",
-    "tailwind",
     "tema",
-    "tema oscuro",
-    "universo"
+    "oscuro",
+    "universo",
+    "blue",
+    "purple",
+    "accessible"
   ],
   "publisher": "MatiasOlivera",
   "author": {
@@ -34,7 +35,7 @@
       {
         "label": "Universe",
         "uiTheme": "vs-dark",
-        "path": "./theme/universe-color-theme.json"
+        "path": "./theme/universe.json"
       }
     ]
   },
@@ -60,6 +61,7 @@
   "devDependencies": {
     "@types/flat": "0.0.28",
     "@types/node": "^11.11.0",
+    "@types/prettier": "^1.16.1",
     "deepmerge": "^3.2.0",
     "flat": "^4.1.0",
     "nodemon": "^1.18.10",

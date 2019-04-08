@@ -1,31 +1,33 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_300 } from '../palette/background.colors';
-import { gray_100, gray_200 } from '../palette/gray.colors';
-import { purple_300 } from '../palette/purple.colors';
-import { dialogBackground, dialogBorder } from './dialog.colors';
+import { UIColors } from '../../types/colors-types';
+import { dialogTokens } from './dialog.colors';
 
-const notificationColors: EditorColors = {
-  // Notification center
-  notificationCenter: {
-    border: dialogBorder
-  },
-  notificationCenterHeader: {
-    background: background_300,
-    foreground: gray_200
-  },
-  notificationLink: {
-    foreground: purple_300
-  },
-  notifications: {
-    background: dialogBackground,
-    border: dialogBorder,
-    foreground: gray_100
-  },
+const notificationColors: UIColors = (palette) => {
+  const { background, blueGray, purple } = palette;
+  const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
-  // A notification
-  notificationToast: {
-    border: dialogBorder
-  }
+  return {
+    // Notification center
+    notificationCenter: {
+      border: dialogBorder
+    },
+    notificationCenterHeader: {
+      background: background[2],
+      foreground: blueGray[0]
+    },
+    notificationLink: {
+      foreground: purple[2]
+    },
+    notifications: {
+      background: dialogBackground,
+      border: dialogBorder,
+      foreground: blueGray[1]
+    },
+
+    // A notification
+    notificationToast: {
+      border: dialogBorder
+    }
+  };
 };
 
 export default notificationColors;

@@ -1,24 +1,25 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_700, background_800 } from '../palette/background.colors';
-import { gray_100 } from '../palette/gray.colors';
-import { opacity_50 } from '../palette/opacity';
-import { purple_900 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
+import { opacity_50 } from '../opacity';
 
-const sideBarColors: EditorColors = {
-  sideBar: {
-    background: background_700,
-    border: background_800,
-    dropBackground: `${purple_900}${opacity_50}`,
-    foreground: gray_100
-  },
-  sideBarSectionHeader: {
-    background: background_700,
-    border: background_800,
-    foreground: gray_100
-  },
-  sideBarTitle: {
-    foreground: gray_100
-  }
+const sideBarColors: UIColors = (palette) => {
+  const { background, purple, blueGray } = palette;
+
+  return {
+    sideBar: {
+      background: background[6],
+      border: background[7],
+      dropBackground: `${purple[9]}${opacity_50}`,
+      foreground: blueGray[1]
+    },
+    sideBarSectionHeader: {
+      background: background[6],
+      border: background[7],
+      foreground: blueGray[2]
+    },
+    sideBarTitle: {
+      foreground: blueGray[2]
+    }
+  };
 };
 
 export default sideBarColors;

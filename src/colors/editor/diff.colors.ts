@@ -1,15 +1,16 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_700 } from '../palette/background.colors';
-import { green_900 } from '../palette/green.colors';
-import { opacity_30 } from '../palette/opacity';
-import { red_900 } from '../palette/red.colors';
+import { UIColors } from '../../types/colors-types';
+import { opacity_20 } from '../opacity';
 
-const diffColors: EditorColors = {
-  diffEditor: {
-    insertedTextBackground: `${green_900}${opacity_30}`,
-    removedTextBackground: `${red_900}${opacity_30}`,
-    border: background_700
-  }
+const diffColors: UIColors = (palette) => {
+  const { background, green, red } = palette;
+
+  return {
+    diffEditor: {
+      insertedTextBackground: `${green[9]}${opacity_20}`,
+      removedTextBackground: `${red[9]}${opacity_20}`,
+      border: background[6]
+    }
+  };
 };
 
 export default diffColors;

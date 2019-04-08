@@ -1,12 +1,15 @@
-import { EditorColors } from '../../types/colors-types';
-import { yellow_300, yellow_400, yellow_900 } from '../palette/yellow.colors';
+import { UIColors } from '../../types/colors-types';
 
-const buttonColors: EditorColors = {
-  button: {
-    background: yellow_400,
-    foreground: yellow_900,
-    hoverBackground: yellow_300
-  }
+const buttonColors: UIColors = (palette) => {
+  const { yellow, gray } = palette;
+
+  return {
+    button: {
+      background: yellow[3],
+      foreground: gray[9],
+      hoverBackground: yellow[2]
+    }
+  };
 };
 
 export default buttonColors;

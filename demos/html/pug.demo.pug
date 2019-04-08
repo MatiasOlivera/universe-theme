@@ -1,0 +1,105 @@
+// https://gist.github.com/chruit30/d6d221654fabfe3d41bd65a823293f5fs
+
+// ## Syntax
+doctype html
+html
+  head    
+    meta(name="Pugcupid", content="Wiggle with love")
+  body    
+    main#page      
+      .spotlight        
+        h2.title Pugcupid Festival    
+    script(src="script.js")
+
+      
+// ## Variables
+// ### Assignment
+- var stringVariable = 'string'
+- var integerVariable = 10
+- var arrayVariable = ['Pug', 'Dancer', 'Cake']
+- var objectVariable = { name: 'pug' }
+// ### Concatentation
+- var combineVariable = 'pug' + stringVariable
+
+
+// ## Interpolation
+- var title = 'pug title'
+- var star = 'Prime Minister'
+h2= title
+p #{star} is heading to his pug
+
+
+// ## Iterations
+each value in arrayVariable
+p= value
+each value in ['Pug', 'Dancer', 'Cake']
+p= value
+each value, index in ['Pug', 'Dancer', 'Cake']
+p= index + ': ' + value
+
+while x<10
+  p= x
+  x++
+
+
+// ## Conditionals
+if pugLaunch
+  h2 This pug launched into space
+else if pugBattle
+  h2 This pug is engaged in battle
+else if !pugBreak
+  h2 This pug shoud not have a break
+else
+  h2 This pug is free
+
+  
+// ## Mixins
+// ### Declarations
+mixin pugQuote
+  blockquote As a pug, I often live the high life. ZeZeZe!
+  cite Pince Pug
+
+mixin pugUser(name, age)
+  h2= name
+  if age
+   h3= age
+   
+// ### Usages
++pugQuote
+
++pugUser('Peter',2)
+
+
+// ## Includes
+// ### Include another pug file
+include ./path-to/file.pug
+
+// ### Include other file types as plain text
+include styles.css
+include script.js
+
+
+// ## Extends $ Block
+// ### template.pug
+block data
+  - var pageTitle = "Pugcupid"
+html
+  head
+    title= pageTitle
+  body
+    block ribbon
+    block content
+      p Pugs fo life
+      
+// ### page.pug
+// ### extends template.pug
+extends template.pug
+
+block data
+  - var pageTitle = 'Pug title'
+
+block ribbon
+  p New pug jazz
+
+block content
+  p This wipes out "Pugs fo life"

@@ -1,36 +1,49 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_400, background_500 } from '../palette/background.colors';
-import { blue_100, blue_800, blue_900 } from '../palette/blue.colors';
-import { gray_100, gray_400 } from '../palette/gray.colors';
-import { purple_400 } from '../palette/purple.colors';
-import { red_100, red_800, red_900 } from '../palette/red.colors';
-import { yellow_100, yellow_800, yellow_900 } from '../palette/yellow.colors';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
 
-export const inputBackground: string = background_500;
-export const inputBorder: string = background_400;
-export const inputForeground: string = gray_100;
+interface InputTokens {
+  inputBackground: string;
+  inputBorder: string;
+  inputForeground: string;
+}
 
-const inputColors: EditorColors = {
-  input: {
-    background: inputBackground,
-    border: inputBorder,
-    foreground: inputForeground,
-    placeholderForeground: gray_400
-  },
-  inputOption: {
-    activeBorder: purple_400
-  },
-  inputValidation: {
-    errorBackground: red_900,
-    errorBorder: red_800,
-    errorForeground: red_100,
-    infoBackground: blue_900,
-    infoBorder: blue_800,
-    infoForeground: blue_100,
-    warningBackground: yellow_900,
-    warningBorder: yellow_800,
-    warningForeground: yellow_100
-  }
+export const inputTokens = (palette: ColorPalettes): InputTokens => {
+  const { background, blueGray } = palette;
+
+  return {
+    inputBackground: background[4],
+    inputBorder: background[3],
+    inputForeground: blueGray[0]
+  };
+};
+
+const inputColors: UIColors = (palette) => {
+  const { blueGray, purple, red, blue, yellow } = palette;
+  const { inputBackground, inputBorder, inputForeground } = inputTokens(
+    palette
+  );
+
+  return {
+    input: {
+      background: inputBackground,
+      border: inputBorder,
+      foreground: inputForeground,
+      placeholderForeground: blueGray[1]
+    },
+    inputOption: {
+      activeBorder: purple[3]
+    },
+    inputValidation: {
+      errorBackground: red[9],
+      errorBorder: red[7],
+      errorForeground: red[0],
+      infoBackground: blue[9],
+      infoBorder: blue[7],
+      infoForeground: blue[0],
+      warningBackground: yellow[9],
+      warningBorder: yellow[7],
+      warningForeground: yellow[0]
+    }
+  };
 };
 
 export default inputColors;

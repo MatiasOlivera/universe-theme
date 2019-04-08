@@ -1,37 +1,38 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_600, background_700 } from '../palette/background.colors';
-import { gray_100, gray_200, gray_500 } from '../palette/gray.colors';
-import { purple_100, purple_500, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
+import { UIColors } from '../../types/colors-types';
 
-const peekViewColors: EditorColors = {
-  peekView: {
-    border: purple_500
-  },
-  peekViewEditor: {
-    background: background_600,
-    matchHighlightBackground: purple_700,
-    matchHighlightBorder: purple_600
-  },
-  peekViewEditorGutter: {
-    background: background_600
-  },
-  peekViewResult: {
-    background: background_700,
-    fileForeground: gray_100,
-    lineForeground: gray_200,
-    matchHighlightBackground: purple_800,
-    selectionBackground: purple_700,
-    selectionForeground: purple_100
-  },
-  peekViewTitle: {
-    background: background_700
-  },
-  peekViewTitleDescription: {
-    foreground: gray_500
-  },
-  peekViewTitleLabel: {
-    foreground: gray_200
-  }
+const peekViewColors: UIColors = (palette) => {
+  const { purple, background, blueGray } = palette;
+
+  return {
+    peekView: {
+      border: purple[4]
+    },
+    peekViewEditor: {
+      background: background[5],
+      matchHighlightBackground: purple[6],
+      matchHighlightBorder: purple[5]
+    },
+    peekViewEditorGutter: {
+      background: background[5]
+    },
+    peekViewResult: {
+      background: background[6],
+      fileForeground: blueGray[1],
+      lineForeground: blueGray[2],
+      matchHighlightBackground: purple[7],
+      selectionBackground: purple[6],
+      selectionForeground: purple[0]
+    },
+    peekViewTitle: {
+      background: background[6]
+    },
+    peekViewTitleDescription: {
+      foreground: blueGray[3]
+    },
+    peekViewTitleLabel: {
+      foreground: blueGray[1]
+    }
+  };
 };
 
 export default peekViewColors;

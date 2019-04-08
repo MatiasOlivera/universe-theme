@@ -1,67 +1,76 @@
-import { EditorColors } from '../../types/colors-types';
-import { background_600, background_700 } from '../palette/background.colors';
-import { gray_100, gray_200, gray_600, gray_800 } from '../palette/gray.colors';
-import { opacity_50, opacity_80 } from '../palette/opacity';
-import { purple_100, purple_600, purple_700, purple_800 } from '../palette/purple.colors';
-import { yellow_400, yellow_900 } from '../palette/yellow.colors';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
+import { opacity_50, opacity_80 } from '../opacity';
 
-export const highlightOpacity: string = opacity_50;
+interface EditorTokens {
+  highlightOpacity: string;
+}
 
-const editorColors: EditorColors = {
-  editor: {
-    background: background_600,
-    findMatchBackground: purple_700,
-    findMatchBorder: purple_600,
-    findMatchHighlightBackground: `${purple_800}${highlightOpacity}`,
-    findMatchHighlightBorder: purple_600,
-    findRangeHighlightBackground: `${purple_700}${highlightOpacity}`,
-    findRangeHighlightBorder: purple_600,
-    foreground: gray_100,
-    hoverHighlightBackground: `${purple_700}${highlightOpacity}`,
-    inactiveSelectionBackground: `${purple_800}${highlightOpacity}`,
-    lineHighlightBackground: background_700,
-    rangeHighlightBackground: `${purple_700}${highlightOpacity}`,
-    rangeHighlightBorder: purple_600,
-    selectionBackground: purple_700,
-    selectionForeground: purple_100,
-    selectionHighlightBackground: `${purple_700}${highlightOpacity}`,
-    selectionHighlightBorder: purple_600,
-    wordHighlightBackground: `${purple_700}${highlightOpacity}`,
-    wordHighlightBorder: purple_600,
-    wordHighlightStrongBackground: `${purple_700}${highlightOpacity}`,
-    wordHighlightStrongBorder: purple_600
-  },
-  editorBracketMatch: {
-    background: purple_700,
-    border: purple_700
-  },
-  editorCodeLens: {
-    foreground: gray_200
-  },
-  editorCursor: {
-    background: yellow_900,
-    foreground: yellow_400
-  },
-  editorIndentGuide: {
-    activeBackground: gray_600,
-    background: gray_800
-  },
-  editorLineNumber: {
-    activeForeground: gray_200,
-    foreground: gray_600
-  },
-  editorLink: {
-    activeForeground: purple_100
-  },
-  editorRuler: {
-    foreground: gray_800
-  },
-  editorUnnecessaryCode: {
-    opacity: `${gray_100}${opacity_80}`
-  },
-  editorWhitespace: {
-    foreground: gray_600
-  }
+export const editorTokens = (palette: ColorPalettes): EditorTokens => {
+  return {
+    highlightOpacity: opacity_50
+  };
+};
+
+const editorColors: UIColors = (palette) => {
+  const { background, purple, yellow, blueGray } = palette;
+  const { highlightOpacity } = editorTokens(palette);
+
+  return {
+    editor: {
+      background: background[5],
+      findMatchBackground: purple[6],
+      findMatchBorder: purple[5],
+      findMatchHighlightBackground: `${purple[7]}${highlightOpacity}`,
+      findMatchHighlightBorder: purple[5],
+      findRangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
+      findRangeHighlightBorder: purple[5],
+      foreground: blueGray[0],
+      hoverHighlightBackground: `${purple[6]}${highlightOpacity}`,
+      inactiveSelectionBackground: `${purple[7]}${highlightOpacity}`,
+      lineHighlightBackground: background[6],
+      rangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
+      rangeHighlightBorder: purple[5],
+      selectionBackground: purple[6],
+      selectionForeground: purple[0],
+      selectionHighlightBackground: `${purple[6]}${highlightOpacity}`,
+      selectionHighlightBorder: purple[5],
+      wordHighlightBackground: `${purple[6]}${highlightOpacity}`,
+      wordHighlightBorder: purple[5],
+      wordHighlightStrongBackground: `${purple[6]}${highlightOpacity}`,
+      wordHighlightStrongBorder: purple[5]
+    },
+    editorBracketMatch: {
+      background: purple[6],
+      border: purple[6]
+    },
+    editorCodeLens: {
+      foreground: blueGray[1]
+    },
+    editorCursor: {
+      background: yellow[9],
+      foreground: yellow[3]
+    },
+    editorIndentGuide: {
+      activeBackground: blueGray[6],
+      background: blueGray[8]
+    },
+    editorLineNumber: {
+      activeForeground: blueGray[1],
+      foreground: blueGray[5]
+    },
+    editorLink: {
+      activeForeground: purple[0]
+    },
+    editorRuler: {
+      foreground: blueGray[8]
+    },
+    editorUnnecessaryCode: {
+      opacity: `${blueGray[0]}${opacity_80}`
+    },
+    editorWhitespace: {
+      foreground: blueGray[5]
+    }
+  };
 };
 
 export default editorColors;

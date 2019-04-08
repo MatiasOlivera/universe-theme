@@ -66,7 +66,7 @@ const htmlColors: SyntaxColors = (palette) => {
       name: 'Special character',
       scope: 'constant.character.entity',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
 

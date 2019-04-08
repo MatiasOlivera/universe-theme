@@ -26,7 +26,7 @@ const configColors: SyntaxColors = (palette) => {
       name: 'Value',
       scope: 'source.ini',
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
     {

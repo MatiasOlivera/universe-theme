@@ -29,7 +29,7 @@ const mdColors: SyntaxColors = (palette) => {
       name: 'MD: Bold text',
       scope: 'markup.bold.markdown',
       settings: {
-        foreground: pink[2],
+        foreground: pink[1],
         fontStyle: 'bold'
       }
     },

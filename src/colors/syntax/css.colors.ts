@@ -26,7 +26,7 @@ const cssColors: SyntaxColors = (palette) => {
       name: 'Tag',
       scope: ['entity.name.tag.css', 'meta.selector.css'],
       settings: {
-        foreground: pink[2]
+        foreground: pink[1]
       }
     },
     {

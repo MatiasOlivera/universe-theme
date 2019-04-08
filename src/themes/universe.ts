@@ -88,7 +88,7 @@ const orange: ColorPalette = [
 const pink: ColorPalette = [
   '#FCE4EC',
   '#F8BBD0',
-  '#F8BBD0', // '#F48FB1',
+  '#F48FB1',
   '#F06292',
   '#EC407A',
   '#E91E63',

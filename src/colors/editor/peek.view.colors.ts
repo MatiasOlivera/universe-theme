@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const peekViewColors: UIColors = (palette) => {
-  const { purple, background, gray } = palette;
+  const { purple, background, blueGray } = palette;
 
   return {
     peekView: {
@@ -17,8 +17,8 @@ const peekViewColors: UIColors = (palette) => {
     },
     peekViewResult: {
       background: background[6],
-      fileForeground: gray[0],
-      lineForeground: gray[1],
+      fileForeground: blueGray[1],
+      lineForeground: blueGray[2],
       matchHighlightBackground: purple[7],
       selectionBackground: purple[6],
       selectionForeground: purple[0]
@@ -27,10 +27,10 @@ const peekViewColors: UIColors = (palette) => {
       background: background[6]
     },
     peekViewTitleDescription: {
-      foreground: gray[4]
+      foreground: blueGray[3]
     },
     peekViewTitleLabel: {
-      foreground: gray[1]
+      foreground: blueGray[1]
     }
   };
 };

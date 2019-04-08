@@ -5,14 +5,14 @@ import { SyntaxColors } from '../../types/colors-types';
  */
 
 const configColors: SyntaxColors = (palette) => {
-  const { gray, purple, pink } = palette;
+  const { blueGray, purple, pink } = palette;
 
   return [
     {
       name: 'Group title',
       scope: 'entity.name.section.group-title.ini',
       settings: {
-        foreground: gray[0]
+        foreground: blueGray[0]
       }
     },
     {
@@ -33,7 +33,7 @@ const configColors: SyntaxColors = (palette) => {
       name: 'Separator',
       scope: 'punctuation.separator.key-value.ini',
       settings: {
-        foreground: gray[0]
+        foreground: blueGray[0]
       }
     }
   ];

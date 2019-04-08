@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { opacity_50 } from '../opacity';
 
 const panelColors: UIColors = (palette) => {
-  const { background, purple, yellow, gray } = palette;
+  const { background, purple, yellow, blueGray } = palette;
 
   return {
     panel: {
@@ -12,8 +12,8 @@ const panelColors: UIColors = (palette) => {
     },
     panelTitle: {
       activeBorder: yellow[3],
-      activeForeground: gray[0],
-      inactiveForeground: gray[3]
+      activeForeground: blueGray[0],
+      inactiveForeground: blueGray[2]
     }
   };
 };

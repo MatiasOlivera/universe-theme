@@ -1,14 +1,14 @@
 import { UIColors } from '../../types/colors-types';
 
 const activityBarColors: UIColors = (palette) => {
-  const { background, purple, yellow, gray } = palette;
+  const { background, purple, yellow, blueGray } = palette;
 
   return {
     activityBar: {
       background: background[7],
       dropBackground: purple[8],
       foreground: yellow[3],
-      inactiveForeground: gray[6],
+      inactiveForeground: blueGray[7],
       border: background[8]
     },
     activityBarBadge: {

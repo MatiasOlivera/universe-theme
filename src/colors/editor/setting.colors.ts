@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { inputTokens } from './input.colors';
 
 const settingColors: UIColors = (palette) => {
-  const { background, gray, yellow } = palette;
+  const { background, blueGray, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -16,7 +16,7 @@ const settingColors: UIColors = (palette) => {
       dropdownBorder: inputBorder,
       dropdownForeground: inputForeground,
       dropdownListBorder: background[5],
-      headerForeground: gray[0],
+      headerForeground: blueGray[1],
       modifiedItemIndicator: yellow[3],
       numberInputBackground: inputBackground,
       numberInputBorder: inputBorder,

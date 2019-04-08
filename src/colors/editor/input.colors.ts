@@ -1,4 +1,4 @@
-import { UIColors, ColorPalettes } from '../../types/colors-types';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
 
 interface InputTokens {
   inputBackground: string;
@@ -7,17 +7,17 @@ interface InputTokens {
 }
 
 export const inputTokens = (palette: ColorPalettes): InputTokens => {
-  const { background, gray } = palette;
+  const { background, blueGray } = palette;
 
   return {
     inputBackground: background[4],
     inputBorder: background[3],
-    inputForeground: gray[0]
+    inputForeground: blueGray[0]
   };
 };
 
 const inputColors: UIColors = (palette) => {
-  const { gray, purple, red, blue, yellow } = palette;
+  const { blueGray, purple, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -27,19 +27,19 @@ const inputColors: UIColors = (palette) => {
       background: inputBackground,
       border: inputBorder,
       foreground: inputForeground,
-      placeholderForeground: gray[3]
+      placeholderForeground: blueGray[1]
     },
     inputOption: {
       activeBorder: purple[3]
     },
     inputValidation: {
-      errorBackground: red[8],
+      errorBackground: red[9],
       errorBorder: red[7],
       errorForeground: red[0],
-      infoBackground: blue[8],
+      infoBackground: blue[9],
       infoBorder: blue[7],
       infoForeground: blue[0],
-      warningBackground: yellow[8],
+      warningBackground: yellow[9],
       warningBorder: yellow[7],
       warningForeground: yellow[0]
     }

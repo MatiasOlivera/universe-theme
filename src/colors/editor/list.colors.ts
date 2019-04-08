@@ -7,7 +7,7 @@ const listColors: UIColors = (palette) => {
     list: {
       activeSelectionBackground: purple[6],
       activeSelectionForeground: purple[0],
-      dropBackground: purple[8],
+      dropBackground: purple[9],
       focusBackground: purple[6],
       focusForeground: purple[0],
       highlightForeground: purple[0],
@@ -16,7 +16,7 @@ const listColors: UIColors = (palette) => {
       inactiveSelectionBackground: purple[5],
       inactiveSelectionForeground: purple[0],
       inactiveFocusBackground: purple[5],
-      invalidItemForeground: purple[8],
+      invalidItemForeground: purple[9],
       errorForeground: red[1],
       warningForeground: yellow[1]
     },

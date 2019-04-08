@@ -6,7 +6,7 @@ const editorGroupColors: UIColors = (palette) => {
   return {
     editorGroup: {
       border: background[6],
-      dropBackground: purple[8],
+      dropBackground: purple[9],
       emptyBackground: background[5],
       focusedEmptyBorder: purple[3]
     },

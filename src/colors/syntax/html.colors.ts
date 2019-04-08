@@ -9,12 +9,12 @@ interface HtmlTokens {
 }
 
 export const htmlTokens = (palette: ColorPalettes): HtmlTokens => {
-  const { purple, orange, gray, indigo } = palette;
+  const { purple, orange, blueGray, indigo } = palette;
 
   return {
     tagColor: purple[2],
     componentColor: orange[2],
-    textColor: gray[0],
+    textColor: blueGray[0],
     attributeColor: indigo[2],
     directiveColor: orange[2]
   };

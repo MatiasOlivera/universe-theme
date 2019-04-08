@@ -6,7 +6,7 @@ const textColors: UIColors = (palette) => {
   return {
     textBlockQuote: {
       background: background[3],
-      border: purple[8]
+      border: purple[9]
     },
     textCodeBlock: {
       background: background[3]

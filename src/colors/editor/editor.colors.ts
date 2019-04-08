@@ -12,7 +12,7 @@ export const editorTokens = (palette: ColorPalettes): EditorTokens => {
 };
 
 const editorColors: UIColors = (palette) => {
-  const { background, purple, gray, yellow, blueGray } = palette;
+  const { background, purple, yellow, blueGray } = palette;
   const { highlightOpacity } = editorTokens(palette);
 
   return {
@@ -24,7 +24,7 @@ const editorColors: UIColors = (palette) => {
       findMatchHighlightBorder: purple[5],
       findRangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
       findRangeHighlightBorder: purple[5],
-      foreground: gray[0],
+      foreground: blueGray[0],
       hoverHighlightBackground: `${purple[6]}${highlightOpacity}`,
       inactiveSelectionBackground: `${purple[7]}${highlightOpacity}`,
       lineHighlightBackground: background[6],
@@ -44,15 +44,15 @@ const editorColors: UIColors = (palette) => {
       border: purple[6]
     },
     editorCodeLens: {
-      foreground: gray[1]
+      foreground: blueGray[1]
     },
     editorCursor: {
-      background: yellow[8],
+      background: yellow[9],
       foreground: yellow[3]
     },
     editorIndentGuide: {
-      activeBackground: gray[5],
-      background: gray[7]
+      activeBackground: blueGray[6],
+      background: blueGray[8]
     },
     editorLineNumber: {
       activeForeground: blueGray[1],
@@ -62,13 +62,13 @@ const editorColors: UIColors = (palette) => {
       activeForeground: purple[0]
     },
     editorRuler: {
-      foreground: gray[7]
+      foreground: blueGray[8]
     },
     editorUnnecessaryCode: {
-      opacity: `${gray[0]}${opacity_80}`
+      opacity: `${blueGray[0]}${opacity_80}`
     },
     editorWhitespace: {
-      foreground: gray[5]
+      foreground: blueGray[5]
     }
   };
 };

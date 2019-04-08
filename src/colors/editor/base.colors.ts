@@ -1,13 +1,13 @@
 import { UIColors } from '../../types/colors-types';
 
 const baseColors: UIColors = (palette) => {
-  const { red, gray, yellow, purple } = palette;
+  const { red, blueGray, yellow, purple } = palette;
 
   return {
-    descriptionForeground: gray[1],
+    descriptionForeground: blueGray[3],
     errorForeground: red[1],
     focusBorder: yellow[3],
-    foreground: gray[1],
+    foreground: blueGray[1],
     selection: {
       background: purple[5]
     }

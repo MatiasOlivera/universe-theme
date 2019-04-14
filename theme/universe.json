@@ -420,6 +420,11 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
+      "name": "Other constant",
+      "scope": "constant.other",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
       "name": "Custom type",
       "scope": "entity.name.type",
       "settings": { "foreground": "#80DEEA" }

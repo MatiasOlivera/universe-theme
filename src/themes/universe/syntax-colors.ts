@@ -52,7 +52,7 @@ const type: Type = {
     foreground: orange[2]
   },
   other: {
-    foreground: ''
+    foreground: purple[2]
   },
   languageConstant: {
     default: {

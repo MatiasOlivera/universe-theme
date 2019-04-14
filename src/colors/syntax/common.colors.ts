@@ -148,6 +148,11 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.type.languageConstant.default
     },
     {
+      name: 'Other constant',
+      scope: 'constant.other',
+      settings: tokens.type.other
+    },
+    {
       name: 'Custom type',
       scope: 'entity.name.type',
       settings: tokens.type.custom

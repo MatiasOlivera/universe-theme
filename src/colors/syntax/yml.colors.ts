@@ -11,11 +11,6 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.boolean
     },
     {
-      name: 'Number', // type.number
-      scope: 'constant.numeric.integer.yaml',
-      settings: tokens.yaml.number
-    },
-    {
       name: 'String', // string
       scope: 'string.unquoted.plain.out.yaml',
       settings: tokens.type.string

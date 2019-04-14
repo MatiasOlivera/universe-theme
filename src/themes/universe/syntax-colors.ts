@@ -251,12 +251,8 @@ const css: Css = {
     }
   },
 
-  number: {
-    foreground: green[2]
-  },
-
   unit: {
-    foreground: purple[2]
+    foreground: pink[1]
   }
 };
 
@@ -285,9 +281,6 @@ const html: Html = {
  */
 const json: Json = {
   boolean: {
-    foreground: indigo[2]
-  },
-  number: {
     foreground: indigo[2]
   },
   property: {
@@ -376,9 +369,6 @@ const markdown: Markdown = {
  */
 const yaml: Yaml = {
   boolean: {
-    foreground: indigo[2]
-  },
-  number: {
     foreground: indigo[2]
   }
 };

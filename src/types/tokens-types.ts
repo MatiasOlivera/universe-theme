@@ -112,7 +112,6 @@ export interface Css {
     parameter: Settings;
   };
 
-  number: Settings;
   unit: Settings;
 }
 
@@ -129,7 +128,6 @@ export interface Html {
 // JSON
 export interface Json {
   boolean: Settings;
-  number: Settings;
   property: Settings;
 }
 
@@ -148,7 +146,6 @@ export interface Markdown {
 // YAML
 export interface Yaml {
   boolean: Settings;
-  number: Settings;
 }
 
 export interface Tokens {

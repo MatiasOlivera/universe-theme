@@ -505,14 +505,9 @@
       "settings": { "foreground": "#A5D6A7" }
     },
     {
-      "name": "Number",
-      "scope": "constant.numeric.css",
-      "settings": { "foreground": "#A5D6A7" }
-    },
-    {
       "name": "Unit",
       "scope": "keyword.other.unit",
-      "settings": { "foreground": "#B39DDB" }
+      "settings": { "foreground": "#F8BBD0" }
     },
     {
       "name": "Tag",
@@ -559,11 +554,6 @@
     {
       "name": "Boolean",
       "scope": "constant.language.json",
-      "settings": { "foreground": "#9FA8DA" }
-    },
-    {
-      "name": "Number",
-      "scope": "constant.numeric.json",
       "settings": { "foreground": "#9FA8DA" }
     },
     {
@@ -728,11 +718,6 @@
     {
       "name": "Boolean",
       "scope": "constant.language.boolean.yaml",
-      "settings": { "foreground": "#9FA8DA" }
-    },
-    {
-      "name": "Number",
-      "scope": "constant.numeric.integer.yaml",
       "settings": { "foreground": "#9FA8DA" }
     },
     {

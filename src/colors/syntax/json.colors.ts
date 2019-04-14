@@ -11,11 +11,6 @@ const jsonColors: SyntaxColors = (tokens) => {
       settings: tokens.json.boolean
     },
     {
-      name: 'Number', // type.number
-      scope: 'constant.numeric.json',
-      settings: tokens.json.number
-    },
-    {
       name: 'String', // type.string
       scope: 'string.quoted.double.json',
       settings: tokens.type.string

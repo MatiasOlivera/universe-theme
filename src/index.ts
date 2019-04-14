@@ -1,5 +1,5 @@
 import { buildTheme, createThemesDirectory } from './build';
-import { universe } from './themes/universe';
+import { universePalette } from './themes/universe/palette';
 
 async function main() {
   await createThemesDirectory();
@@ -8,7 +8,7 @@ async function main() {
     name: 'Universe',
     filename: 'universe',
     type: 'dark',
-    palette: universe
+    palette: universePalette
   });
 }
 

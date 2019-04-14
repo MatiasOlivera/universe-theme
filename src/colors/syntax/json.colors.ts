@@ -1,32 +1,24 @@
 import { SyntaxColors } from '../../types/colors-types';
 
-const jsonColors: SyntaxColors = (palette) => {
-  const { indigo, green, purple } = palette;
-
+const jsonColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Scalars
      */
     {
-      name: 'Boolean',
+      name: 'Boolean', // type.special
       scope: 'constant.language.json',
-      settings: {
-        foreground: indigo[2]
-      }
+      settings: tokens.json.boolean
     },
     {
-      name: 'Number',
+      name: 'Number', // type.number
       scope: 'constant.numeric.json',
-      settings: {
-        foreground: indigo[2]
-      }
+      settings: tokens.json.number
     },
     {
-      name: 'String',
+      name: 'String', // type.string
       scope: 'string.quoted.double.json',
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.type.string
     },
 
     /**
@@ -35,9 +27,7 @@ const jsonColors: SyntaxColors = (palette) => {
     {
       name: 'Property name',
       scope: 'support.type.property-name.json',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.json.property
     }
   ];
 };

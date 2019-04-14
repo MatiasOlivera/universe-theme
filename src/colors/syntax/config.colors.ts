@@ -4,37 +4,27 @@ import { SyntaxColors } from '../../types/colors-types';
  * Extensions: .ini, .editorconfig
  */
 
-const configColors: SyntaxColors = (palette) => {
-  const { blueGray, purple, pink } = palette;
-
+const configColors: SyntaxColors = (tokens) => {
   return [
     {
       name: 'Group title',
       scope: 'entity.name.section.group-title.ini',
-      settings: {
-        foreground: blueGray[0]
-      }
+      settings: tokens.config.groupTitle
     },
     {
       name: 'Property',
       scope: 'keyword.other.definition.ini',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.config.key
     },
     {
       name: 'Value',
       scope: 'source.ini',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.config.value
     },
     {
       name: 'Separator',
       scope: 'punctuation.separator.key-value.ini',
-      settings: {
-        foreground: blueGray[0]
-      }
+      settings: tokens.config.separator
     }
   ];
 };

@@ -1,4 +1,4 @@
-import { ColorPalette, ColorPalettes } from '../types/colors-types';
+import { ColorPalette, ColorPalettes } from '../../types/colors-types';
 
 // Deep blue
 const background: ColorPalette = [
@@ -256,7 +256,7 @@ const _deepOrange: ColorPalette = [
   '#BF360C'
 ];
 
-export const universe: ColorPalettes = {
+export const palette: ColorPalettes = {
   background,
   blue,
   blueGray,

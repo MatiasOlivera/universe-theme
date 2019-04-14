@@ -1,19 +1,6 @@
 import { SyntaxColors } from '../../types/colors-types';
 
-const commonColors: SyntaxColors = (palette) => {
-  const {
-    purple,
-    blue,
-    pink,
-    indigo,
-    green,
-    red,
-    gray,
-    teal,
-    orange,
-    blueGray
-  } = palette;
-
+const commonColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Keywords
@@ -21,30 +8,22 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Keywords',
       scope: ['keyword', 'storage.type', 'support.type'],
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.keyword.default
     },
     {
       name: 'Language variable',
       scope: ['variable.language', 'support.variable'],
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.type.special
     },
     {
       name: 'Language class',
       scope: 'support.class',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.type.typeName
     },
     {
       name: 'Modifier',
       scope: 'storage.modifier',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.keyword.modifier
     },
 
     /**
@@ -53,16 +32,12 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Variable',
       scope: 'variable',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.variable
     },
     {
       name: 'Constant',
       scope: 'variable.other.constant',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.constant
     },
 
     /**
@@ -71,16 +46,12 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Object variable',
       scope: 'variable.other.object',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.variable
     },
     {
       name: 'Variable property value',
       scope: 'variable.other.property',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.variable
     },
     {
       name: 'Object property',
@@ -89,9 +60,7 @@ const commonColors: SyntaxColors = (palette) => {
         'meta.object-literal.key',
         'variable.object.property'
       ],
-      settings: {
-        foreground: indigo[2]
-      }
+      settings: tokens.object.property
     },
 
     /**
@@ -100,23 +69,17 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Function definition',
       scope: 'entity.name.function',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.function.name
     },
     {
       name: 'Language function',
       scope: 'support.function',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.function.name
     },
     {
       name: 'Function parameter',
       scope: 'variable.parameter',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.function.parameter
     },
 
     /**
@@ -129,16 +92,12 @@ const commonColors: SyntaxColors = (palette) => {
         'entity.name.type.class',
         'entity.other.inherited-class'
       ],
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.class.name
     },
     {
       name: 'Instance',
       scope: ['entity.name.type.instance', 'variable.other.class'],
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.class.name
     },
 
     /**
@@ -147,9 +106,7 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Module name',
       scope: 'entity.name.type.module',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.module.name
     },
 
     /**
@@ -163,37 +120,27 @@ const commonColors: SyntaxColors = (palette) => {
         'string.quoted.double',
         'string.quoted.template'
       ],
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.type.string
     },
     {
       name: 'Number',
       scope: 'constant.numeric',
-      settings: {
-        foreground: orange[2]
-      }
+      settings: tokens.type.number
     },
     {
       name: 'Primitive type',
       scope: 'support.type.primitive',
-      settings: {
-        foreground: teal[2]
-      }
+      settings: tokens.type.primitive
     },
     {
       name: 'Language constant (boolean, null)',
       scope: 'constant.language',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.type.special
     },
     {
       name: 'Custom type',
       scope: 'entity.name.type',
-      settings: {
-        foreground: teal[2]
-      }
+      settings: tokens.type.custom
     },
 
     /**
@@ -202,16 +149,12 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Comment',
       scope: ['comment', 'punctuation.definition.comment'],
-      settings: {
-        foreground: blueGray[3]
-      }
+      settings: tokens.comment
     },
     {
       name: 'Invalid',
       scope: ['invalid', 'invalid.illegal'],
-      settings: {
-        foreground: red[2]
-      }
+      settings: tokens.invalid.illegal
     },
 
     /**
@@ -220,16 +163,12 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Symbols',
       scope: 'punctuation',
-      settings: {
-        fontStyle: '' // Inherit the element color
-      }
+      settings: tokens.puntuaction.default
     },
     {
       name: 'Punctuation for embedded section (eg: interpolated strings)',
       scope: 'punctuation.section.embedded',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.puntuaction.embedded
     }
   ];
 };

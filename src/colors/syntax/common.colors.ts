@@ -113,6 +113,16 @@ const commonColors: SyntaxColors = (tokens) => {
      * Types
      */
     {
+      name: 'Character',
+      scope: 'constant.character',
+      settings: tokens.type.character.default
+    },
+    {
+      name: 'Escape character',
+      scope: 'constant.character.escape',
+      settings: tokens.type.character.escape
+    },
+    {
       name: 'String',
       scope: [
         'string',

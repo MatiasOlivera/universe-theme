@@ -25,11 +25,6 @@ const htmlColors: SyntaxColors = (tokens) => {
       scope: 'text.html.derivative',
       settings: tokens.text
     },
-    {
-      name: 'Special character', // constant.character
-      scope: 'constant.character.entity',
-      settings: tokens.type.character.default
-    },
 
     /**
      * Components

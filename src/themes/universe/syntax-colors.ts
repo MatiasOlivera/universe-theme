@@ -43,7 +43,7 @@ const type: Type = {
       foreground: pink[1]
     },
     escape: {
-      foreground: ''
+      foreground: purple[2]
     }
   },
   custom: {

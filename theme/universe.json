@@ -385,6 +385,16 @@
       "settings": { "foreground": "#90CAF9" }
     },
     {
+      "name": "Character",
+      "scope": "constant.character",
+      "settings": { "foreground": "#F8BBD0" }
+    },
+    {
+      "name": "Escape character",
+      "scope": "constant.character.escape",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
       "name": "String",
       "scope": [
         "string",
@@ -531,11 +541,6 @@
       "name": "Text",
       "scope": "text.html.derivative",
       "settings": { "foreground": "#ECEFF1" }
-    },
-    {
-      "name": "Special character",
-      "scope": "constant.character.entity",
-      "settings": { "foreground": "#F8BBD0" }
     },
     {
       "name": "Component tag",

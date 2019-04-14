@@ -416,7 +416,7 @@
     },
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": "comment",
       "settings": { "foreground": "#90A4AE" }
     },
     {

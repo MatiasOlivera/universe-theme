@@ -148,7 +148,7 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Comment',
-      scope: ['comment', 'punctuation.definition.comment'],
+      scope: 'comment',
       settings: tokens.comment
     },
     {

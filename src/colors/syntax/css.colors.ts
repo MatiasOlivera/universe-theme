@@ -1,23 +1,6 @@
-import { ColorPalettes, SyntaxColors } from '../../types/colors-types';
+import { SyntaxColors } from '../../types/colors-types';
 
-interface CssTokens {
-  idColor: string;
-  classColor: string;
-}
-
-export const cssTokens = (palette: ColorPalettes): CssTokens => {
-  const { yellow, orange } = palette;
-
-  return {
-    idColor: yellow[2],
-    classColor: orange[2]
-  };
-};
-
-const cssColors: SyntaxColors = (palette) => {
-  const { pink, purple, teal, green } = palette;
-  const { idColor, classColor } = cssTokens(palette);
-
+const cssColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Selectors
@@ -25,44 +8,32 @@ const cssColors: SyntaxColors = (palette) => {
     {
       name: 'Tag',
       scope: ['entity.name.tag.css', 'meta.selector.css'],
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.css.tag
     },
     {
       name: 'ID',
       scope: 'entity.other.attribute-name.id.css',
-      settings: {
-        foreground: idColor
-      }
+      settings: tokens.css.id
     },
     {
       name: 'Class',
       scope: 'entity.other.attribute-name.class.css',
-      settings: {
-        foreground: classColor
-      }
+      settings: tokens.css.class
     },
     {
       name: 'Attribute name',
       scope: 'entity.other.attribute-name.css',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.css.attribute
     },
     {
       name: 'Pseudo-class',
       scope: 'entity.other.attribute-name.pseudo-class.css',
-      settings: {
-        foreground: teal[2]
-      }
+      settings: tokens.css.pseudoClass
     },
     {
       name: 'Pseudo-element',
       scope: 'entity.other.attribute-name.pseudo-element.css',
-      settings: {
-        foreground: teal[2]
-      }
+      settings: tokens.css.pseudoElement
     },
 
     /**
@@ -71,16 +42,12 @@ const cssColors: SyntaxColors = (palette) => {
     {
       name: 'Property name',
       scope: 'support.type.property-name.css',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.css.property.name
     },
     {
       name: 'Vendor property name',
       scope: 'support.type.vendored.property-name.css',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.css.property.name
     },
 
     /**
@@ -89,30 +56,22 @@ const cssColors: SyntaxColors = (palette) => {
     {
       name: 'Property value',
       scope: 'meta.property-value.css',
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.css.property.value
     },
     {
       name: 'Function parameter',
       scope: ['variable.parameter.css', 'variable.parameter.url.css'],
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.css.function.parameter
     },
     {
-      name: 'Number',
+      name: 'Number', // type.number
       scope: 'constant.numeric.css',
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.css.function.parameter
     },
     {
-      name: 'Unit',
+      name: 'Unit', // keyword.default
       scope: 'keyword.other.unit',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.css.unit
     }
   ];
 };

@@ -1,8 +1,6 @@
 import { SyntaxColors } from '../../types/colors-types';
 
-const tsColors: SyntaxColors = (palette) => {
-  const { purple } = palette;
-
+const tsColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Keywords
@@ -10,9 +8,7 @@ const tsColors: SyntaxColors = (palette) => {
     {
       name: 'JSON object',
       scope: 'support.constant.json',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.keyword.other
     }
   ];
 };

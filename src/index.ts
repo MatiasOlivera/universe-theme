@@ -1,14 +1,16 @@
 import { buildTheme, createThemesDirectory } from './build';
-import { universePalette } from './themes/universe/palette';
+import { palette } from './themes/universe/palette';
+import { tokens } from './themes/universe/syntax-colors';
 
 async function main() {
   await createThemesDirectory();
 
-  buildTheme({
+  await buildTheme({
     name: 'Universe',
     filename: 'universe',
     type: 'dark',
-    palette: universePalette
+    palette: palette,
+    tokens: tokens
   });
 }
 

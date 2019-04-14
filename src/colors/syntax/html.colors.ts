@@ -1,42 +1,11 @@
-import { ColorPalettes, SyntaxColors } from '../../types/colors-types';
+import { SyntaxColors } from '../../types/colors-types';
 
-interface HtmlTokens {
-  tagColor: string;
-  componentColor: string;
-  textColor: string;
-  attributeColor: string;
-  directiveColor: string;
-}
-
-export const htmlTokens = (palette: ColorPalettes): HtmlTokens => {
-  const { purple, orange, blueGray, indigo } = palette;
-
-  return {
-    tagColor: purple[2],
-    componentColor: orange[2],
-    textColor: blueGray[0],
-    attributeColor: indigo[2],
-    directiveColor: orange[2]
-  };
-};
-
-const htmlColors: SyntaxColors = (palette) => {
-  const { pink } = palette;
-  const {
-    attributeColor,
-    componentColor,
-    directiveColor,
-    tagColor,
-    textColor
-  } = htmlTokens(palette);
-
+const htmlColors: SyntaxColors = (tokens) => {
   return [
     {
       name: 'Tag',
       scope: 'entity.name.tag',
-      settings: {
-        foreground: tagColor
-      }
+      settings: tokens.html.tag
     },
     {
       name: 'Tag angle brackets',
@@ -44,30 +13,22 @@ const htmlColors: SyntaxColors = (palette) => {
         'punctuation.definition.tag.begin',
         'punctuation.definition.tag.end'
       ],
-      settings: {
-        foreground: tagColor
-      }
+      settings: tokens.html.tag
     },
     {
       name: 'Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
-      settings: {
-        foreground: attributeColor
-      }
+      settings: tokens.html.attribute
     },
     {
       name: 'Text',
       scope: 'text.html.derivative',
-      settings: {
-        foreground: textColor
-      }
+      settings: tokens.text
     },
     {
-      name: 'Special character',
+      name: 'Special character', // constant.character
       scope: 'constant.character.entity',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.type.character.default
     },
 
     /**
@@ -76,9 +37,7 @@ const htmlColors: SyntaxColors = (palette) => {
     {
       name: 'Component tag',
       scope: 'entity.name.tag.other',
-      settings: {
-        foreground: componentColor
-      }
+      settings: tokens.html.component.tag
     },
     {
       name: 'Component directives',
@@ -87,9 +46,7 @@ const htmlColors: SyntaxColors = (palette) => {
         'punctuation.definition.generic.end.html',
         'meta.attribute.unrecognized'
       ],
-      settings: {
-        foreground: directiveColor
-      }
+      settings: tokens.html.directive
     }
   ];
 };

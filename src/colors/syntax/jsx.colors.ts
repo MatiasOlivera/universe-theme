@@ -1,22 +1,11 @@
 import { SyntaxColors } from '../../types/colors-types';
-import { htmlTokens } from './html.colors';
 
-const jsxColors: SyntaxColors = (palette) => {
-  const {
-    attributeColor,
-    componentColor,
-    directiveColor,
-    tagColor,
-    textColor
-  } = htmlTokens(palette);
-
+const jsxColors: SyntaxColors = (tokens) => {
   return [
     {
       name: 'JSX: Tag angle brackets',
       scope: 'punctuation.definition.tag.jsx',
-      settings: {
-        foreground: tagColor
-      }
+      settings: tokens.html.tag
     },
     {
       name: 'JSX: Component tag',
@@ -25,24 +14,18 @@ const jsxColors: SyntaxColors = (palette) => {
         'support.class.component.close.jsx',
         'support.class.component.tsx'
       ],
-      settings: {
-        foreground: componentColor
-      }
+      settings: tokens.html.component.tag
     },
     {
       name: 'JSX: Attribute',
       scope: 'entity.other.attribute-name.jsx',
-      settings: {
-        // Pink is used in variables and method arguments
-        foreground: attributeColor
-      }
+      // Pink is used in variables and method arguments
+      settings: tokens.html.attribute
     },
     {
       name: 'JSX: Text',
       scope: ['JSXNested', 'meta.jsx.children.tsx'],
-      settings: {
-        foreground: textColor
-      }
+      settings: tokens.text
     },
     {
       name: 'JSX: Expression punctuation',
@@ -52,16 +35,12 @@ const jsxColors: SyntaxColors = (palette) => {
         'punctuation.section.embedded.begin.tsx',
         'punctuation.section.embedded.end.tsx'
       ],
-      settings: {
-        foreground: directiveColor
-      }
+      settings: tokens.html.directive
     },
     {
       name: 'JSX: Punctuation',
       scope: ['meta.brace.curly.js', 'meta.brace.round.js'],
-      settings: {
-        foreground: textColor
-      }
+      settings: tokens.text
     }
   ];
 };

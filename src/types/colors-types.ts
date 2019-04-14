@@ -1,9 +1,12 @@
+import { Settings, Tokens } from './tokens-types';
+import { Dictionary } from './utils-types';
+
 export interface UIColors {
   (palette: ColorPalettes): EditorColors;
 }
 
 export interface SyntaxColors {
-  (palette: ColorPalettes): TokenColors;
+  (tokens: Tokens): TokenColors;
 }
 
 export interface ColorPalettes {
@@ -36,10 +39,6 @@ export type ColorPalette = [
   string
 ];
 
-export type Dictionary<Value = any> = {
-  [key: string]: Value;
-};
-
 export interface EditorColors {
   [key: string]: string | Dictionary<string>;
 }
@@ -50,9 +49,4 @@ export interface TokenColor {
   name: string;
   scope: string | Array<string>;
   settings: Settings;
-}
-
-interface Settings {
-  foreground?: string;
-  fontStyle?: 'italic' | 'bold' | 'underline' | '';
 }

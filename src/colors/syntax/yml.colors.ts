@@ -1,43 +1,33 @@
 import { SyntaxColors } from '../../types/colors-types';
 
-const ymlColors: SyntaxColors = (palette) => {
-  const { indigo, green, purple } = palette;
-
+const ymlColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Scalars
      */
     {
-      name: 'Boolean',
+      name: 'Boolean', // type.special
       scope: 'constant.language.boolean.yaml',
-      settings: {
-        foreground: indigo[2]
-      }
+      settings: tokens.yaml.boolean
     },
     {
-      name: 'Number',
+      name: 'Number', // type.number
       scope: 'constant.numeric.integer.yaml',
-      settings: {
-        foreground: indigo[2]
-      }
+      settings: tokens.yaml.number
     },
     {
-      name: 'String',
+      name: 'String', // string
       scope: 'string.unquoted.plain.out.yaml',
-      settings: {
-        foreground: green[2]
-      }
+      settings: tokens.type.string
     },
 
     /**
      * Properties
      */
     {
-      name: 'Property name',
+      name: 'Property name', // entity.name.tag
       scope: 'entity.name.tag.yaml',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.tag.name
     }
   ];
 };

@@ -163,9 +163,9 @@ I love Ayu icons. You need to install the `Ayu theme`
 #### What are the recommended settings to use with Bracket Pair Colorizer?
 
 ```json
-"bracket-pair-colorizer-2.colors": ["#ecc94b", "#4fd1c5", "#f687b3"],
-"bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-"bracket-pair-colorizer-2.forceIterationColorCycle": true,
+"bracket-pair-colorizer-2.colors": ["#9575CD", "#F06292", "#4DD0E1"],
+"bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+"bracket-pair-colorizer-2.forceIterationColorCycle": false,
 "bracket-pair-colorizer-2.highlightActiveScope": true,
 "editor.matchBrackets": false,
 "bracket-pair-colorizer-2.activeScopeCSS": ["opacity: 0"],

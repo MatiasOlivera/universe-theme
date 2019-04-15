@@ -303,7 +303,7 @@
   "tokenColors": [
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage.type", "support.type"],
+      "scope": ["keyword", "support.type"],
       "settings": { "foreground": "#B39DDB" }
     },
     {
@@ -317,7 +317,12 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
-      "name": "Modifier",
+      "name": "Type name (class, function, int, var)",
+      "scope": "storage.type",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Modifier (static, final, abstract)",
       "scope": "storage.modifier",
       "settings": { "foreground": "#B39DDB" }
     },
@@ -334,7 +339,7 @@
     {
       "name": "Language class",
       "scope": "support.class",
-      "settings": { "foreground": "#90CAF9" }
+      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "Variable",

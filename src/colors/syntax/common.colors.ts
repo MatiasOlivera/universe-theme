@@ -7,7 +7,7 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Keywords',
-      scope: ['keyword', 'storage.type', 'support.type'],
+      scope: ['keyword', 'support.type'],
       settings: tokens.keyword.default
     },
     {
@@ -21,7 +21,12 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.keyword.operator
     },
     {
-      name: 'Modifier',
+      name: 'Type name (class, function, int, var)',
+      scope: 'storage.type',
+      settings: tokens.type.typeName
+    },
+    {
+      name: 'Modifier (static, final, abstract)',
       scope: 'storage.modifier',
       settings: tokens.keyword.modifier
     },

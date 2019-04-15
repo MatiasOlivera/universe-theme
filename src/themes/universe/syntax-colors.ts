@@ -66,7 +66,7 @@ const type: Type = {
     foreground: green[2]
   },
   typeName: {
-    foreground: blue[2]
+    foreground: purple[2]
   },
   primitive: {
     foreground: teal[2]

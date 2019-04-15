@@ -7,23 +7,33 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Keywords',
-      scope: ['keyword', 'storage.type', 'support.type'],
+      scope: 'keyword',
       settings: tokens.keyword.default
     },
     {
-      name: 'Language variable',
-      scope: ['variable.language', 'support.variable'],
-      settings: tokens.type.special
+      name: 'Flow control',
+      scope: 'keyword.control',
+      settings: tokens.keyword.control
     },
     {
-      name: 'Language class',
-      scope: 'support.class',
+      name: 'Operator',
+      scope: 'keyword.operator',
+      settings: tokens.keyword.operator
+    },
+    {
+      name: 'Type name (class, function, int, var)',
+      scope: 'storage.type',
       settings: tokens.type.typeName
     },
     {
-      name: 'Modifier',
+      name: 'Modifier (static, final, abstract)',
       scope: 'storage.modifier',
       settings: tokens.keyword.modifier
+    },
+    {
+      name: 'Other keywords',
+      scope: 'keyword.other',
+      settings: tokens.keyword.other
     },
 
     /**
@@ -32,34 +42,35 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Variable',
       scope: 'variable',
-      settings: tokens.variable
+      settings: tokens.variable.default
     },
     {
-      name: 'Constant',
-      scope: 'variable.other.constant',
-      settings: tokens.constant
+      name: 'Other variable',
+      scope: 'variable.other',
+      settings: tokens.variable.other
+    },
+    {
+      name: 'Language variable (this, super, self)',
+      scope: 'variable.language',
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library variable',
+      scope: 'support.variable',
+      settings: tokens.type.constant.library
     },
 
     /**
      * Objects
      */
     {
-      name: 'Object variable',
-      scope: 'variable.other.object',
-      settings: tokens.variable
-    },
-    {
-      name: 'Variable property value',
+      name: 'Access to object property',
       scope: 'variable.other.property',
-      settings: tokens.variable
+      settings: tokens.variable.default
     },
     {
       name: 'Object property',
-      scope: [
-        'string.unquoted',
-        'meta.object-literal.key',
-        'variable.object.property'
-      ],
+      scope: ['meta.object-literal.key', 'variable.object.property'],
       settings: tokens.object.property
     },
 
@@ -72,9 +83,9 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.function.name
     },
     {
-      name: 'Language function',
+      name: 'Library function',
       scope: 'support.function',
-      settings: tokens.function.name
+      settings: tokens.function.library
     },
     {
       name: 'Function parameter',
@@ -99,6 +110,67 @@ const commonColors: SyntaxColors = (tokens) => {
       scope: ['entity.name.type.instance', 'variable.other.class'],
       settings: tokens.class.name
     },
+    {
+      name: 'Library class',
+      scope: 'support.class',
+      settings: tokens.class.library
+    },
+
+    /**
+     * Types
+     */
+    {
+      name: 'Character',
+      scope: 'constant.character',
+      settings: tokens.type.character.default
+    },
+    {
+      name: 'Escape character',
+      scope: 'constant.character.escape',
+      settings: tokens.type.character.escape
+    },
+    {
+      name: 'String',
+      scope: [
+        'string',
+        'string.quoted',
+        'string.unquoted',
+        'string.interpolated',
+        'string.regexp',
+        'string.other'
+      ],
+      settings: tokens.type.string
+    },
+    {
+      name: 'Number',
+      scope: 'constant.numeric',
+      settings: tokens.type.number
+    },
+    {
+      name: 'Library type',
+      scope: 'support.type',
+      settings: tokens.type.library
+    },
+    {
+      name: 'Language constant (boolean, null)',
+      scope: 'constant.language',
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library constant',
+      scope: 'support.constant',
+      settings: tokens.type.constant.library
+    },
+    {
+      name: 'Other constant',
+      scope: ['constant.other', 'support.other'],
+      settings: tokens.type.other
+    },
+    {
+      name: 'Custom type',
+      scope: 'entity.name.type',
+      settings: tokens.type.custom
+    },
 
     /**
      * Modules
@@ -110,51 +182,43 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
-     * Types
+     * Tags
      */
     {
-      name: 'String',
+      name: 'Tag',
+      scope: 'entity.name.tag',
+      settings: tokens.tag.name
+    },
+    {
+      name: 'Tag angle brackets',
       scope: [
-        'string',
-        'string.quoted.single',
-        'string.quoted.double',
-        'string.quoted.template'
+        'punctuation.definition.tag.begin',
+        'punctuation.definition.tag.end'
       ],
-      settings: tokens.type.string
-    },
-    {
-      name: 'Number',
-      scope: 'constant.numeric',
-      settings: tokens.type.number
-    },
-    {
-      name: 'Primitive type',
-      scope: 'support.type.primitive',
-      settings: tokens.type.primitive
-    },
-    {
-      name: 'Language constant (boolean, null)',
-      scope: 'constant.language',
-      settings: tokens.type.special
-    },
-    {
-      name: 'Custom type',
-      scope: 'entity.name.type',
-      settings: tokens.type.custom
+      settings: tokens.tag.name
     },
 
     /**
-     * Other
+     * Comments
      */
     {
       name: 'Comment',
-      scope: ['comment', 'punctuation.definition.comment'],
+      scope: 'comment',
       settings: tokens.comment
     },
+
+    /**
+     * Invalid
+     */
     {
       name: 'Invalid',
-      scope: ['invalid', 'invalid.illegal'],
+      scope: 'invalid.illegal',
       settings: tokens.invalid.illegal
+    },
+    {
+      name: 'Deprecated',
+      scope: 'invalid.deprecated',
+      settings: tokens.invalid.deprecated
     },
 
     /**

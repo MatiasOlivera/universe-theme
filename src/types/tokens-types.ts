@@ -8,11 +8,15 @@ export interface Type {
     default: Settings; // constant.character
     escape: Settings; // constant.character.escape
   };
-  special: Settings; // constant.language
+  constant: {
+    language: Settings; // constant.language
+    languageAlt: Settings;
+    library: Settings; // support.constant
+  };
   custom: Settings; // entity.name.type
   other: Settings; // constant.other
   typeName: Settings; // storage.type
-  primitive: Settings;
+  library: Settings; // support.type
 }
 
 // Keywords
@@ -21,6 +25,12 @@ export interface Keyword {
   control: Settings;
   operator: Settings;
   modifier: Settings; // storage.modifier
+  other: Settings;
+}
+
+// Variables
+export interface Variable {
+  default: Settings;
   other: Settings;
 }
 
@@ -33,12 +43,14 @@ export interface ObjectType {
 export interface FunctionType {
   name: Settings; // entity.name.function
   parameter: Settings; // variable.parameter
+  library: Settings; // support.function
 }
 
 // Classes
 export interface ClassType {
   name: Settings;
   baseClass: Settings; // entity.other.inherited-class
+  library: Settings; // support.class
 }
 
 // Modules
@@ -54,7 +66,7 @@ export interface Section {
 // Tags
 export interface Tag {
   name: Settings; // entity.name.tag
-  attributeName: Settings; // entity.other.attribute-name
+  attribute: Settings; // entity.other.attribute-name
 }
 
 // Markup
@@ -66,7 +78,10 @@ export interface Markup {
   bold: Settings;
   italic: Settings;
   underline: Settings;
-  list: Settings;
+  list: {
+    numbered: Settings;
+    unnumbered: Settings;
+  };
   quote: Settings;
   raw: Settings;
   other: Settings;
@@ -112,7 +127,6 @@ export interface Css {
     parameter: Settings;
   };
 
-  number: Settings;
   unit: Settings;
 }
 
@@ -128,8 +142,6 @@ export interface Html {
 
 // JSON
 export interface Json {
-  boolean: Settings;
-  number: Settings;
   property: Settings;
 }
 
@@ -145,17 +157,10 @@ export interface Markdown {
   linkTitle: Settings;
 }
 
-// YAML
-export interface Yaml {
-  boolean: Settings;
-  number: Settings;
-}
-
 export interface Tokens {
   type: Type;
   keyword: Keyword;
-  variable: Settings;
-  constant: Settings;
+  variable: Variable;
   object: ObjectType;
   function: FunctionType;
   class: ClassType;
@@ -172,7 +177,6 @@ export interface Tokens {
   html: Html;
   json: Json;
   markdown: Markdown;
-  yaml: Yaml;
 }
 
 export interface Settings {

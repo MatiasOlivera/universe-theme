@@ -6,26 +6,16 @@ const ymlColors: SyntaxColors = (tokens) => {
      * Scalars
      */
     {
-      name: 'Boolean', // type.special
-      scope: 'constant.language.boolean.yaml',
-      settings: tokens.yaml.boolean
-    },
-    {
-      name: 'Number', // type.number
-      scope: 'constant.numeric.integer.yaml',
-      settings: tokens.yaml.number
-    },
-    {
-      name: 'String', // string
-      scope: 'string.unquoted.plain.out.yaml',
-      settings: tokens.type.string
+      name: 'Language constant (boolean, null)',
+      scope: ['constant.language.boolean.yaml', 'constant.language.null.yaml'],
+      settings: tokens.type.constant.languageAlt
     },
 
     /**
      * Properties
      */
     {
-      name: 'Property name', // entity.name.tag
+      name: 'Property name',
       scope: 'entity.name.tag.yaml',
       settings: tokens.tag.name
     }

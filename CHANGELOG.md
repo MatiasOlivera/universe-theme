@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Use defined colors for an element in all languages**: green for `strings` or orange for `numbers`. If you want to see an in-depth reference, please go to color reference in the README.
+
 ## [1.1.0] 2019-04-08
 
 ### Changed

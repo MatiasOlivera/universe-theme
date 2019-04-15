@@ -17,7 +17,7 @@ import {
   Tag,
   Tokens,
   Type,
-  Yaml,
+  Variable,
 } from '../../types/tokens-types';
 import { palette } from './palette';
 
@@ -43,7 +43,7 @@ const type: Type = {
       foreground: pink[1]
     },
     escape: {
-      foreground: ''
+      foreground: purple[2]
     }
   },
   custom: {
@@ -53,19 +53,27 @@ const type: Type = {
     foreground: orange[2]
   },
   other: {
-    foreground: ''
-  },
-  special: {
     foreground: purple[2]
+  },
+  constant: {
+    language: {
+      foreground: purple[2]
+    },
+    languageAlt: {
+      foreground: blue[2]
+    },
+    library: {
+      foreground: purple[2]
+    }
   },
   string: {
     foreground: green[2]
   },
   typeName: {
-    foreground: blue[2]
+    foreground: purple[2]
   },
-  primitive: {
-    foreground: teal[2]
+  library: {
+    foreground: purple[2]
   }
 };
 
@@ -93,15 +101,13 @@ const keyword: Keyword = {
 /**
  * Variables
  */
-const variable: Settings = {
-  foreground: pink[1]
-};
-
-/**
- * Constant
- */
-const constant: Settings = {
-  foreground: pink[1]
+const variable: Variable = {
+  default: {
+    foreground: pink[1]
+  },
+  other: {
+    foreground: pink[1]
+  }
 };
 
 /**
@@ -122,6 +128,9 @@ const functionType: FunctionType = {
   },
   parameter: {
     foreground: pink[1]
+  },
+  library: {
+    foreground: blue[2]
   }
 };
 
@@ -133,6 +142,9 @@ const classType: ClassType = {
     foreground: blue[2]
   },
   baseClass: {
+    foreground: blue[2]
+  },
+  library: {
     foreground: blue[2]
   }
 };
@@ -251,11 +263,19 @@ const css: Css = {
     }
   },
 
-  number: {
-    foreground: green[2]
-  },
-
   unit: {
+    foreground: pink[1]
+  }
+};
+
+/**
+ * Tags
+ */
+const tag: Tag = {
+  attribute: {
+    foreground: indigo[2]
+  },
+  name: {
     foreground: purple[2]
   }
 };
@@ -264,12 +284,8 @@ const css: Css = {
  * HTML
  */
 const html: Html = {
-  tag: {
-    foreground: purple[2]
-  },
-  attribute: {
-    foreground: indigo[2]
-  },
+  tag: tag.name,
+  attribute: tag.attribute,
   component: {
     tag: {
       foreground: orange[2]
@@ -284,25 +300,7 @@ const html: Html = {
  * JSON
  */
 const json: Json = {
-  boolean: {
-    foreground: indigo[2]
-  },
-  number: {
-    foreground: indigo[2]
-  },
   property: {
-    foreground: purple[2]
-  }
-};
-
-/**
- * Tags
- */
-const tag: Tag = {
-  attributeName: {
-    foreground: ''
-  },
-  name: {
     foreground: purple[2]
   }
 };
@@ -313,7 +311,8 @@ const tag: Tag = {
 const markup: Markup = {
   // Links
   link: {
-    foreground: blue[2]
+    foreground: blue[2],
+    fontStyle: 'underline'
   },
 
   // Text
@@ -329,10 +328,15 @@ const markup: Markup = {
     fontStyle: 'italic'
   },
   list: {
-    foreground: ''
+    numbered: {
+      foreground: text.foreground
+    },
+    unnumbered: {
+      foreground: text.foreground
+    }
   },
   other: {
-    foreground: ''
+    foreground: text.foreground
   },
   quote: {
     foreground: green[2]
@@ -341,7 +345,8 @@ const markup: Markup = {
     foreground: teal[2]
   },
   underline: {
-    foreground: ''
+    foreground: blue[2],
+    fontStyle: 'underline'
   }
 };
 
@@ -350,36 +355,16 @@ const markup: Markup = {
  */
 const markdown: Markdown = {
   puntuaction: {
-    heading: {
-      foreground: purple[1]
-    },
-    bold: {
-      foreground: pink[1]
-    },
-    italic: {
-      foreground: orange[1]
-    },
-    quote: {
-      foreground: green[1]
-    },
+    heading: markup.heading,
+    bold: markup.bold,
+    italic: markup.italic,
+    quote: markup.quote,
     list: {
       foreground: purple[2]
     }
   },
   linkTitle: {
-    foreground: blue[1]
-  }
-};
-
-/**
- * YAML
- */
-const yaml: Yaml = {
-  boolean: {
-    foreground: indigo[2]
-  },
-  number: {
-    foreground: indigo[2]
+    foreground: markup.link.foreground
   }
 };
 
@@ -387,7 +372,6 @@ export const tokens: Tokens = {
   type,
   keyword,
   variable,
-  constant,
   object,
   function: functionType,
   class: classType,
@@ -403,6 +387,5 @@ export const tokens: Tokens = {
   json,
   tag,
   markup,
-  markdown,
-  yaml
+  markdown
 };

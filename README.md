@@ -87,7 +87,59 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 ## ✨ Color reference
 
-The syntax highlight palette was inspired by **Tailwind v1 colors**.
+### User interface
+
+| Usage             | Color       | Hex color                                                          |
+|-------------------|-------------|--------------------------------------------------------------------|
+| editor background | dark blue 5 | ![#0B1A25](https://placehold.it/15/0B1A25/000000?text=+) `#0B1A25` |
+| editor foreground | blue gray 0 | ![#ECEFF1](https://placehold.it/15/ECEFF1/000000?text=+) `#ECEFF1` |
+
+
+### Syntax hightlight
+
+The colors used for the syntax highlighting are from **Material Design**.
+
+#### Data types
+
+| Usage                          | Color              | Hex color                                                          |
+|--------------------------------|--------------------|--------------------------------------------------------------------|
+| number                         | orange 2           | ![#FFCC80](https://placehold.it/15/FFCC80/000000?text=+) `#FFCC80` |
+| string                         | green 2            | ![#A5D6A7](https://placehold.it/15/A5D6A7/000000?text=+) `#A5D6A7` |
+| constant (boolean, null)       | purple 2 or blue 2 | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+| character                      | pink 1             | ![#F8BBD0](https://placehold.it/15/F8BBD0/000000?text=+) `#F8BBD0` |
+| escape character               | purple 2           | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+| custom type (interface, class) | cyan 2             | ![#80DEEA](https://placehold.it/15/80DEEA/000000?text=+) `#80DEEA` |
+| other type                     | purple 2           | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+
+#### Keywords
+
+| Usage   | Color    | Hex color                                                          |
+|---------|----------|--------------------------------------------------------------------|
+| keyword | purple 2 | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+
+#### Variables, functions & classes
+
+| Usage           | Color    | Hex color                                                          |
+|-----------------|----------|--------------------------------------------------------------------|
+| variable        | pink 1   | ![#F8BBD0](https://placehold.it/15/F8BBD0/000000?text=+) `#F8BBD0` |
+| object property | indigo 2 | ![#9FA8DA](https://placehold.it/15/9FA8DA/000000?text=+) `#9FA8DA` |
+| function name   | blue 2   | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
+| class name      | blue 2   | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
+
+#### Invalid
+
+| Usage      | Color | Hex color                                                          |
+|------------|-------|--------------------------------------------------------------------|
+| deprecated | red 2 | ![#EF9A9A](https://placehold.it/15/EF9A9A/000000?text=+) `#EF9A9A` |
+| illegal    | red 2 | ![#EF9A9A](https://placehold.it/15/EF9A9A/000000?text=+) `#EF9A9A` |
+
+#### Other
+
+| Usage       | Color       | Hex color                                                          |
+|-------------|-------------|--------------------------------------------------------------------|
+| module name | blue 2      | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
+| text        | blue gray 1 | ![#ECEFF1](https://placehold.it/15/ECEFF1/000000?text=+) `#ECEFF1` |
+| comment     | blue gray 3 | ![#90A4AE](https://placehold.it/15/90A4AE/000000?text=+) `#90A4AE` |
 
 ## 🌌 FAQ
 *Frequently Asked Questions.*
@@ -111,9 +163,9 @@ I love Ayu icons. You need to install the `Ayu theme`
 #### What are the recommended settings to use with Bracket Pair Colorizer?
 
 ```json
-"bracket-pair-colorizer-2.colors": ["#ecc94b", "#4fd1c5", "#f687b3"],
-"bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-"bracket-pair-colorizer-2.forceIterationColorCycle": true,
+"bracket-pair-colorizer-2.colors": ["#9575CD", "#F06292", "#4DD0E1"],
+"bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+"bracket-pair-colorizer-2.forceIterationColorCycle": false,
 "bracket-pair-colorizer-2.highlightActiveScope": true,
 "editor.matchBrackets": false,
 "bracket-pair-colorizer-2.activeScopeCSS": ["opacity: 0"],

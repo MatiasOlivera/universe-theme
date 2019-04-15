@@ -636,58 +636,75 @@
       "settings": { "foreground": "#ECEFF1" }
     },
     {
-      "name": "MD: Heading",
-      "scope": "markup.heading.markdown",
+      "name": "Markup: Heading",
+      "scope": "markup.heading",
       "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Markup: Bold text",
+      "scope": "markup.bold",
+      "settings": { "foreground": "#F8BBD0", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markup: Italic text",
+      "scope": "markup.italic",
+      "settings": { "foreground": "#FFCC80", "fontStyle": "italic" }
+    },
+    {
+      "name": "Markup: Underline text",
+      "scope": "markup.underline",
+      "settings": { "foreground": "#90CAF9", "fontStyle": "underline" }
+    },
+    {
+      "name": "Markup: Link",
+      "scope": "markup.underline.link",
+      "settings": { "foreground": "#90CAF9", "fontStyle": "underline" }
+    },
+    {
+      "name": "Markup: Quote",
+      "scope": "markup.quote",
+      "settings": { "foreground": "#A5D6A7" }
+    },
+    {
+      "name": "Markup: Raw text",
+      "scope": "markup.raw",
+      "settings": { "foreground": "#80DEEA" }
+    },
+    {
+      "name": "Markup: Numbered list items",
+      "scope": "markup.list.numbered",
+      "settings": { "foreground": "#ECEFF1" }
+    },
+    {
+      "name": "Markup: Unnumbered list items",
+      "scope": "markup.list.unnumbered",
+      "settings": { "foreground": "#ECEFF1" }
     },
     {
       "name": "MD: Heading punctuation (# title)",
       "scope": "punctuation.definition.heading.markdown",
-      "settings": { "foreground": "#D1C4E9" }
-    },
-    {
-      "name": "MD: Bold text",
-      "scope": "markup.bold.markdown",
-      "settings": { "foreground": "#F8BBD0", "fontStyle": "bold" }
+      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "MD: Bold puntuation (**text**)",
       "scope": "punctuation.definition.bold.markdown",
-      "settings": { "foreground": "#F8BBD0" }
-    },
-    {
-      "name": "MD: Italic text",
-      "scope": "markup.italic.markdown",
-      "settings": { "foreground": "#FFCC80", "fontStyle": "italic" }
+      "settings": { "foreground": "#F8BBD0", "fontStyle": "bold" }
     },
     {
       "name": "MD: Italic puntuation (__text__)",
       "scope": "punctuation.definition.italic.markdown",
-      "settings": { "foreground": "#FFE0B2" }
-    },
-    {
-      "name": "MD: Quote",
-      "scope": "markup.quote.markdown",
-      "settings": { "foreground": "#A5D6A7" }
+      "settings": { "foreground": "#FFCC80", "fontStyle": "italic" }
     },
     {
       "name": "MD: Quote puntuaction (> text)",
       "scope": "punctuation.definition.quote.begin.markdown",
-      "settings": { "foreground": "#C8E6C9" }
+      "settings": { "foreground": "#A5D6A7" }
     },
     {
       "name": "MD: Link title",
       "scope": [
         "string.other.link.description.markdown",
         "string.other.link.title.markdown"
-      ],
-      "settings": { "foreground": "#BBDEFB" }
-    },
-    {
-      "name": "MD: Link",
-      "scope": [
-        "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
       ],
       "settings": { "foreground": "#90CAF9" }
     },
@@ -698,16 +715,11 @@
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown"
       ],
-      "settings": { "foreground": "#BBDEFB" }
+      "settings": { "foreground": "#90CAF9" }
     },
     {
       "name": "MD: Inline code",
       "scope": "markup.inline.raw.string.markdown",
-      "settings": { "foreground": "#80DEEA" }
-    },
-    {
-      "name": "MD: Block code",
-      "scope": "markup.raw.block.markdown",
       "settings": { "foreground": "#80DEEA" }
     },
     {

@@ -303,7 +303,8 @@ const json: Json = {
 const markup: Markup = {
   // Links
   link: {
-    foreground: blue[2]
+    foreground: blue[2],
+    fontStyle: 'underline'
   },
 
   // Text
@@ -319,10 +320,15 @@ const markup: Markup = {
     fontStyle: 'italic'
   },
   list: {
-    foreground: ''
+    numbered: {
+      foreground: text.foreground
+    },
+    unnumbered: {
+      foreground: text.foreground
+    }
   },
   other: {
-    foreground: ''
+    foreground: text.foreground
   },
   quote: {
     foreground: green[2]
@@ -331,7 +337,8 @@ const markup: Markup = {
     foreground: teal[2]
   },
   underline: {
-    foreground: ''
+    foreground: blue[2],
+    fontStyle: 'underline'
   }
 };
 
@@ -340,24 +347,16 @@ const markup: Markup = {
  */
 const markdown: Markdown = {
   puntuaction: {
-    heading: {
-      foreground: purple[1]
-    },
-    bold: {
-      foreground: pink[1]
-    },
-    italic: {
-      foreground: orange[1]
-    },
-    quote: {
-      foreground: green[1]
-    },
+    heading: markup.heading,
+    bold: markup.bold,
+    italic: markup.italic,
+    quote: markup.quote,
     list: {
       foreground: purple[2]
     }
   },
   linkTitle: {
-    foreground: blue[1]
+    foreground: markup.link.foreground
   }
 };
 

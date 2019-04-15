@@ -69,7 +69,10 @@ export interface Markup {
   bold: Settings;
   italic: Settings;
   underline: Settings;
-  list: Settings;
+  list: {
+    numbered: Settings;
+    unnumbered: Settings;
+  };
   quote: Settings;
   raw: Settings;
   other: Settings;

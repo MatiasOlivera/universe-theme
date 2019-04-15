@@ -4,6 +4,7 @@ import cssColors from './css.colors';
 import htmlColors from './html.colors';
 import jsonColors from './json.colors';
 import jsxColors from './jsx.colors';
+import markupColors from './markup.colors';
 import mdColors from './md.colors';
 import pugColors from './pug.colors';
 import tsColors from './ts.colors';
@@ -17,6 +18,7 @@ export default {
   htmlColors,
   jsonColors,
   jsxColors,
+  markupColors,
   mdColors,
   pugColors,
   tsColors,

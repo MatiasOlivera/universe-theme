@@ -449,7 +449,12 @@
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": "invalid.illegal",
+      "settings": { "foreground": "#EF9A9A" }
+    },
+    {
+      "name": "Deprecated",
+      "scope": "invalid.deprecated",
       "settings": { "foreground": "#EF9A9A" }
     },
     {

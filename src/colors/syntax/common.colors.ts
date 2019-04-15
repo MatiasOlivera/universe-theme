@@ -176,17 +176,26 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
-     * Other
+     * Comments
      */
     {
       name: 'Comment',
       scope: 'comment',
       settings: tokens.comment
     },
+
+    /**
+     * Invalid
+     */
     {
       name: 'Invalid',
-      scope: ['invalid', 'invalid.illegal'],
+      scope: 'invalid.illegal',
       settings: tokens.invalid.illegal
+    },
+    {
+      name: 'Deprecated',
+      scope: 'invalid.deprecated',
+      settings: tokens.invalid.deprecated
     },
 
     /**

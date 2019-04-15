@@ -17,6 +17,7 @@ import {
   Tag,
   Tokens,
   Type,
+  Variable,
 } from '../../types/tokens-types';
 import { palette } from './palette';
 
@@ -100,15 +101,13 @@ const keyword: Keyword = {
 /**
  * Variables
  */
-const variable: Settings = {
-  foreground: pink[1]
-};
-
-/**
- * Constant
- */
-const constant: Settings = {
-  foreground: pink[1]
+const variable: Variable = {
+  default: {
+    foreground: pink[1]
+  },
+  other: {
+    foreground: pink[1]
+  }
 };
 
 /**
@@ -373,7 +372,6 @@ export const tokens: Tokens = {
   type,
   keyword,
   variable,
-  constant,
   object,
   function: functionType,
   class: classType,

@@ -42,15 +42,15 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Variable',
       scope: 'variable',
-      settings: tokens.variable
+      settings: tokens.variable.default
     },
     {
-      name: 'Constant',
-      scope: 'variable.other.constant',
-      settings: tokens.constant
+      name: 'Other variable',
+      scope: 'variable.other',
+      settings: tokens.variable.other
     },
     {
-      name: 'Language variable',
+      name: 'Language variable (this, super, self)',
       scope: 'variable.language',
       settings: tokens.type.constant.language
     },
@@ -64,14 +64,9 @@ const commonColors: SyntaxColors = (tokens) => {
      * Objects
      */
     {
-      name: 'Object variable',
-      scope: 'variable.other.object',
-      settings: tokens.variable
-    },
-    {
-      name: 'Variable property value',
+      name: 'Access to object property',
       scope: 'variable.other.property',
-      settings: tokens.variable
+      settings: tokens.variable.default
     },
     {
       name: 'Object property',

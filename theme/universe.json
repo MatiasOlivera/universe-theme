@@ -337,12 +337,12 @@
       "settings": { "foreground": "#F8BBD0" }
     },
     {
-      "name": "Constant",
-      "scope": "variable.other.constant",
+      "name": "Other variable",
+      "scope": "variable.other",
       "settings": { "foreground": "#F8BBD0" }
     },
     {
-      "name": "Language variable",
+      "name": "Language variable (this, super, self)",
       "scope": "variable.language",
       "settings": { "foreground": "#B39DDB" }
     },
@@ -352,12 +352,7 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
-      "name": "Object variable",
-      "scope": "variable.other.object",
-      "settings": { "foreground": "#F8BBD0" }
-    },
-    {
-      "name": "Variable property value",
+      "name": "Access to object property",
       "scope": "variable.other.property",
       "settings": { "foreground": "#F8BBD0" }
     },

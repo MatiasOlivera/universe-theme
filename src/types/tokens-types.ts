@@ -28,6 +28,12 @@ export interface Keyword {
   other: Settings;
 }
 
+// Variables
+export interface Variable {
+  default: Settings;
+  other: Settings;
+}
+
 // Objects
 export interface ObjectType {
   property: Settings;
@@ -154,8 +160,7 @@ export interface Markdown {
 export interface Tokens {
   type: Type;
   keyword: Keyword;
-  variable: Settings;
-  constant: Settings;
+  variable: Variable;
   object: ObjectType;
   function: FunctionType;
   class: ClassType;

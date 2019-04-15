@@ -20,7 +20,7 @@ const ymlColors: SyntaxColors = (tokens) => {
      * Properties
      */
     {
-      name: 'Property name', // entity.name.tag
+      name: 'Property name',
       scope: 'entity.name.tag.yaml',
       settings: tokens.tag.name
     }

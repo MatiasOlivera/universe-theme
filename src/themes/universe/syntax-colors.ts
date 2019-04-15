@@ -261,15 +261,23 @@ const css: Css = {
 };
 
 /**
- * HTML
+ * Tags
  */
-const html: Html = {
-  tag: {
-    foreground: purple[2]
-  },
+const tag: Tag = {
   attribute: {
     foreground: indigo[2]
   },
+  name: {
+    foreground: purple[2]
+  }
+};
+
+/**
+ * HTML
+ */
+const html: Html = {
+  tag: tag.name,
+  attribute: tag.attribute,
   component: {
     tag: {
       foreground: orange[2]
@@ -285,18 +293,6 @@ const html: Html = {
  */
 const json: Json = {
   property: {
-    foreground: purple[2]
-  }
-};
-
-/**
- * Tags
- */
-const tag: Tag = {
-  attributeName: {
-    foreground: ''
-  },
-  name: {
     foreground: purple[2]
   }
 };

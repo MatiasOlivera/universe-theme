@@ -57,7 +57,7 @@ export interface Section {
 // Tags
 export interface Tag {
   name: Settings; // entity.name.tag
-  attributeName: Settings; // entity.other.attribute-name
+  attribute: Settings; // entity.other.attribute-name
 }
 
 // Markup

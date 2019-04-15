@@ -3,19 +3,6 @@ import { SyntaxColors } from '../../types/colors-types';
 const htmlColors: SyntaxColors = (tokens) => {
   return [
     {
-      name: 'Tag',
-      scope: 'entity.name.tag',
-      settings: tokens.html.tag
-    },
-    {
-      name: 'Tag angle brackets',
-      scope: [
-        'punctuation.definition.tag.begin',
-        'punctuation.definition.tag.end'
-      ],
-      settings: tokens.html.tag
-    },
-    {
       name: 'Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
       settings: tokens.html.attribute

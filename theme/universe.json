@@ -429,6 +429,20 @@
       "scope": "entity.name.type.module",
       "settings": { "foreground": "#90CAF9" }
     },
+    {
+      "name": "Tag",
+      "scope": "entity.name.tag",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Tag angle brackets",
+      "scope": [
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
+      ],
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": { "foreground": "#90A4AE" }
@@ -522,19 +536,6 @@
       "name": "Unit",
       "scope": "keyword.other.unit",
       "settings": { "foreground": "#F8BBD0" }
-    },
-    {
-      "name": "Tag",
-      "scope": "entity.name.tag",
-      "settings": { "foreground": "#B39DDB" }
-    },
-    {
-      "name": "Tag angle brackets",
-      "scope": [
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end"
-      ],
-      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "Attribute",

@@ -159,6 +159,23 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Tags
+     */
+    {
+      name: 'Tag',
+      scope: 'entity.name.tag',
+      settings: tokens.tag.name
+    },
+    {
+      name: 'Tag angle brackets',
+      scope: [
+        'punctuation.definition.tag.begin',
+        'punctuation.definition.tag.end'
+      ],
+      settings: tokens.tag.name
+    },
+
+    /**
      * Other
      */
     {

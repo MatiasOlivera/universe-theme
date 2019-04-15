@@ -11,6 +11,27 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.keyword.default
     },
     {
+      name: 'Flow control',
+      scope: 'keyword.control',
+      settings: tokens.keyword.control
+    },
+    {
+      name: 'Operator',
+      scope: 'keyword.operator',
+      settings: tokens.keyword.operator
+    },
+    {
+      name: 'Modifier',
+      scope: 'storage.modifier',
+      settings: tokens.keyword.modifier
+    },
+    {
+      name: 'Other keywords',
+      scope: 'keyword.other',
+      settings: tokens.keyword.other
+    },
+
+    {
       name: 'Language variable',
       scope: ['variable.language', 'support.variable'],
       settings: tokens.type.languageConstant.default
@@ -19,11 +40,6 @@ const commonColors: SyntaxColors = (tokens) => {
       name: 'Language class',
       scope: 'support.class',
       settings: tokens.type.typeName
-    },
-    {
-      name: 'Modifier',
-      scope: 'storage.modifier',
-      settings: tokens.keyword.modifier
     },
 
     /**

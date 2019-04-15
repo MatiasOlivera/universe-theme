@@ -307,6 +307,26 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
+      "name": "Flow control",
+      "scope": "keyword.control",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Modifier",
+      "scope": "storage.modifier",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Other keywords",
+      "scope": "keyword.other",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
       "name": "Language variable",
       "scope": ["variable.language", "support.variable"],
       "settings": { "foreground": "#B39DDB" }
@@ -315,11 +335,6 @@
       "name": "Language class",
       "scope": "support.class",
       "settings": { "foreground": "#90CAF9" }
-    },
-    {
-      "name": "Modifier",
-      "scope": "storage.modifier",
-      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "Variable",

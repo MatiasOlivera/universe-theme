@@ -8,7 +8,7 @@ const ymlColors: SyntaxColors = (tokens) => {
     {
       name: 'Language constant (boolean, null)',
       scope: ['constant.language.boolean.yaml', 'constant.language.null.yaml'],
-      settings: tokens.type.languageConstant.alternative
+      settings: tokens.type.constant.languageAlt
     },
 
     /**

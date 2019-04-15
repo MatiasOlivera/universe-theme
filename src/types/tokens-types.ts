@@ -8,14 +8,15 @@ export interface Type {
     default: Settings; // constant.character
     escape: Settings; // constant.character.escape
   };
-  languageConstant: {
-    default: Settings; // constant.language
-    alternative: Settings;
+  constant: {
+    language: Settings; // constant.language
+    languageAlt: Settings;
+    library: Settings; // support.constant
   };
   custom: Settings; // entity.name.type
   other: Settings; // constant.other
   typeName: Settings; // storage.type
-  primitive: Settings;
+  library: Settings; // support.type
 }
 
 // Keywords
@@ -36,12 +37,14 @@ export interface ObjectType {
 export interface FunctionType {
   name: Settings; // entity.name.function
   parameter: Settings; // variable.parameter
+  library: Settings; // support.function
 }
 
 // Classes
 export interface ClassType {
   name: Settings;
   baseClass: Settings; // entity.other.inherited-class
+  library: Settings; // support.class
 }
 
 // Modules

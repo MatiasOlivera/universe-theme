@@ -54,12 +54,15 @@ const type: Type = {
   other: {
     foreground: purple[2]
   },
-  languageConstant: {
-    default: {
+  constant: {
+    language: {
       foreground: purple[2]
     },
-    alternative: {
+    languageAlt: {
       foreground: blue[2]
+    },
+    library: {
+      foreground: purple[2]
     }
   },
   string: {
@@ -68,8 +71,8 @@ const type: Type = {
   typeName: {
     foreground: purple[2]
   },
-  primitive: {
-    foreground: teal[2]
+  library: {
+    foreground: purple[2]
   }
 };
 
@@ -126,6 +129,9 @@ const functionType: FunctionType = {
   },
   parameter: {
     foreground: pink[1]
+  },
+  library: {
+    foreground: blue[2]
   }
 };
 
@@ -137,6 +143,9 @@ const classType: ClassType = {
     foreground: blue[2]
   },
   baseClass: {
+    foreground: blue[2]
+  },
+  library: {
     foreground: blue[2]
   }
 };

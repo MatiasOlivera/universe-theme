@@ -8,7 +8,7 @@ const jsonColors: SyntaxColors = (tokens) => {
     {
       name: 'Language constant (boolean, null)',
       scope: 'constant.language.json',
-      settings: tokens.type.languageConstant.alternative
+      settings: tokens.type.constant.languageAlt
     },
 
     /**

@@ -303,7 +303,7 @@
   "tokenColors": [
     {
       "name": "Keywords",
-      "scope": ["keyword", "support.type"],
+      "scope": "keyword",
       "settings": { "foreground": "#B39DDB" }
     },
     {
@@ -332,16 +332,6 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
-      "name": "Language variable",
-      "scope": ["variable.language", "support.variable"],
-      "settings": { "foreground": "#B39DDB" }
-    },
-    {
-      "name": "Language class",
-      "scope": "support.class",
-      "settings": { "foreground": "#B39DDB" }
-    },
-    {
       "name": "Variable",
       "scope": "variable",
       "settings": { "foreground": "#F8BBD0" }
@@ -350,6 +340,16 @@
       "name": "Constant",
       "scope": "variable.other.constant",
       "settings": { "foreground": "#F8BBD0" }
+    },
+    {
+      "name": "Language variable",
+      "scope": "variable.language",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.variable",
+      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "Object variable",
@@ -372,7 +372,7 @@
       "settings": { "foreground": "#90CAF9" }
     },
     {
-      "name": "Language function",
+      "name": "Library function",
       "scope": "support.function",
       "settings": { "foreground": "#90CAF9" }
     },
@@ -393,6 +393,11 @@
     {
       "name": "Instance",
       "scope": ["entity.name.type.instance", "variable.other.class"],
+      "settings": { "foreground": "#90CAF9" }
+    },
+    {
+      "name": "Library class",
+      "scope": "support.class",
       "settings": { "foreground": "#90CAF9" }
     },
     {
@@ -423,9 +428,9 @@
       "settings": { "foreground": "#FFCC80" }
     },
     {
-      "name": "Primitive type",
-      "scope": "support.type.primitive",
-      "settings": { "foreground": "#80DEEA" }
+      "name": "Library type",
+      "scope": "support.type",
+      "settings": { "foreground": "#B39DDB" }
     },
     {
       "name": "Language constant (boolean, null)",
@@ -433,8 +438,13 @@
       "settings": { "foreground": "#B39DDB" }
     },
     {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": { "foreground": "#B39DDB" }
+    },
+    {
       "name": "Other constant",
-      "scope": "constant.other",
+      "scope": ["constant.other", "support.other"],
       "settings": { "foreground": "#B39DDB" }
     },
     {

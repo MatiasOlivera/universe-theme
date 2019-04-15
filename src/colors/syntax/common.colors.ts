@@ -7,7 +7,7 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Keywords',
-      scope: ['keyword', 'support.type'],
+      scope: 'keyword',
       settings: tokens.keyword.default
     },
     {
@@ -36,17 +36,6 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.keyword.other
     },
 
-    {
-      name: 'Language variable',
-      scope: ['variable.language', 'support.variable'],
-      settings: tokens.type.languageConstant.default
-    },
-    {
-      name: 'Language class',
-      scope: 'support.class',
-      settings: tokens.type.typeName
-    },
-
     /**
      * Variables
      */
@@ -59,6 +48,16 @@ const commonColors: SyntaxColors = (tokens) => {
       name: 'Constant',
       scope: 'variable.other.constant',
       settings: tokens.constant
+    },
+    {
+      name: 'Language variable',
+      scope: 'variable.language',
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library variable',
+      scope: 'support.variable',
+      settings: tokens.type.constant.library
     },
 
     /**
@@ -89,9 +88,9 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.function.name
     },
     {
-      name: 'Language function',
+      name: 'Library function',
       scope: 'support.function',
-      settings: tokens.function.name
+      settings: tokens.function.library
     },
     {
       name: 'Function parameter',
@@ -115,6 +114,11 @@ const commonColors: SyntaxColors = (tokens) => {
       name: 'Instance',
       scope: ['entity.name.type.instance', 'variable.other.class'],
       settings: tokens.class.name
+    },
+    {
+      name: 'Library class',
+      scope: 'support.class',
+      settings: tokens.class.library
     },
 
     /**
@@ -148,18 +152,23 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.type.number
     },
     {
-      name: 'Primitive type',
-      scope: 'support.type.primitive',
-      settings: tokens.type.primitive
+      name: 'Library type',
+      scope: 'support.type',
+      settings: tokens.type.library
     },
     {
       name: 'Language constant (boolean, null)',
       scope: 'constant.language',
-      settings: tokens.type.languageConstant.default
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library constant',
+      scope: 'support.constant',
+      settings: tokens.type.constant.library
     },
     {
       name: 'Other constant',
-      scope: 'constant.other',
+      scope: ['constant.other', 'support.other'],
       settings: tokens.type.other
     },
     {

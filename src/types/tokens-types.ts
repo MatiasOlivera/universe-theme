@@ -8,7 +8,10 @@ export interface Type {
     default: Settings; // constant.character
     escape: Settings; // constant.character.escape
   };
-  special: Settings; // constant.language
+  languageConstant: {
+    default: Settings; // constant.language
+    alternative: Settings;
+  };
   custom: Settings; // entity.name.type
   other: Settings; // constant.other
   typeName: Settings; // storage.type
@@ -127,7 +130,6 @@ export interface Html {
 
 // JSON
 export interface Json {
-  boolean: Settings;
   property: Settings;
 }
 
@@ -141,11 +143,6 @@ export interface Markdown {
     list: Settings;
   };
   linkTitle: Settings;
-}
-
-// YAML
-export interface Yaml {
-  boolean: Settings;
 }
 
 export interface Tokens {
@@ -169,7 +166,6 @@ export interface Tokens {
   html: Html;
   json: Json;
   markdown: Markdown;
-  yaml: Yaml;
 }
 
 export interface Settings {

@@ -557,9 +557,9 @@
       "settings": { "foreground": "#FFCC80" }
     },
     {
-      "name": "Boolean",
+      "name": "Language constant (boolean, null)",
       "scope": "constant.language.json",
-      "settings": { "foreground": "#9FA8DA" }
+      "settings": { "foreground": "#90CAF9" }
     },
     {
       "name": "String",
@@ -721,9 +721,12 @@
       "settings": { "foreground": "#FFCC80" }
     },
     {
-      "name": "Boolean",
-      "scope": "constant.language.boolean.yaml",
-      "settings": { "foreground": "#9FA8DA" }
+      "name": "Language constant (boolean, null)",
+      "scope": [
+        "constant.language.boolean.yaml",
+        "constant.language.null.yaml"
+      ],
+      "settings": { "foreground": "#90CAF9" }
     },
     {
       "name": "String",

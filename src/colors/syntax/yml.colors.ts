@@ -6,9 +6,9 @@ const ymlColors: SyntaxColors = (tokens) => {
      * Scalars
      */
     {
-      name: 'Boolean', // type.special
-      scope: 'constant.language.boolean.yaml',
-      settings: tokens.yaml.boolean
+      name: 'Language constant (boolean, null)',
+      scope: ['constant.language.boolean.yaml', 'constant.language.null.yaml'],
+      settings: tokens.type.languageConstant.alternative
     },
     {
       name: 'String', // string

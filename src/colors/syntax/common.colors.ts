@@ -13,7 +13,7 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Language variable',
       scope: ['variable.language', 'support.variable'],
-      settings: tokens.type.special
+      settings: tokens.type.languageConstant.default
     },
     {
       name: 'Language class',
@@ -145,7 +145,7 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Language constant (boolean, null)',
       scope: 'constant.language',
-      settings: tokens.type.special
+      settings: tokens.type.languageConstant.default
     },
     {
       name: 'Custom type',

@@ -6,9 +6,9 @@ const jsonColors: SyntaxColors = (tokens) => {
      * Scalars
      */
     {
-      name: 'Boolean', // type.special
+      name: 'Language constant (boolean, null)',
       scope: 'constant.language.json',
-      settings: tokens.json.boolean
+      settings: tokens.type.languageConstant.alternative
     },
     {
       name: 'String', // type.string

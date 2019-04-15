@@ -17,7 +17,6 @@ import {
   Tag,
   Tokens,
   Type,
-  Yaml,
 } from '../../types/tokens-types';
 import { palette } from './palette';
 
@@ -55,8 +54,13 @@ const type: Type = {
   other: {
     foreground: ''
   },
-  special: {
-    foreground: purple[2]
+  languageConstant: {
+    default: {
+      foreground: purple[2]
+    },
+    alternative: {
+      foreground: blue[2]
+    }
   },
   string: {
     foreground: green[2]
@@ -280,9 +284,6 @@ const html: Html = {
  * JSON
  */
 const json: Json = {
-  boolean: {
-    foreground: indigo[2]
-  },
   property: {
     foreground: purple[2]
   }
@@ -364,15 +365,6 @@ const markdown: Markdown = {
   }
 };
 
-/**
- * YAML
- */
-const yaml: Yaml = {
-  boolean: {
-    foreground: indigo[2]
-  }
-};
-
 export const tokens: Tokens = {
   type,
   keyword,
@@ -393,6 +385,5 @@ export const tokens: Tokens = {
   json,
   tag,
   markup,
-  markdown,
-  yaml
+  markdown
 };

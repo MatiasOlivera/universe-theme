@@ -101,15 +101,6 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
-     * Modules
-     */
-    {
-      name: 'Module name',
-      scope: 'entity.name.type.module',
-      settings: tokens.module.name
-    },
-
-    /**
      * Types
      */
     {
@@ -156,6 +147,15 @@ const commonColors: SyntaxColors = (tokens) => {
       name: 'Custom type',
       scope: 'entity.name.type',
       settings: tokens.type.custom
+    },
+
+    /**
+     * Modules
+     */
+    {
+      name: 'Module name',
+      scope: 'entity.name.type.module',
+      settings: tokens.module.name
     },
 
     /**

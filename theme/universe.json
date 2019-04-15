@@ -380,11 +380,6 @@
       "settings": { "foreground": "#90CAF9" }
     },
     {
-      "name": "Module name",
-      "scope": "entity.name.type.module",
-      "settings": { "foreground": "#90CAF9" }
-    },
-    {
       "name": "Character",
       "scope": "constant.character",
       "settings": { "foreground": "#F8BBD0" }
@@ -430,6 +425,10 @@
       "settings": { "foreground": "#80DEEA" }
     },
     {
+      "name": "Module name",
+      "scope": "entity.name.type.module",
+      "settings": { "foreground": "#90CAF9" }
+    },
       "name": "Comment",
       "scope": "comment",
       "settings": { "foreground": "#90A4AE" }

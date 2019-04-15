@@ -363,11 +363,7 @@
     },
     {
       "name": "Object property",
-      "scope": [
-        "string.unquoted",
-        "meta.object-literal.key",
-        "variable.object.property"
-      ],
+      "scope": ["meta.object-literal.key", "variable.object.property"],
       "settings": { "foreground": "#9FA8DA" }
     },
     {
@@ -413,9 +409,11 @@
       "name": "String",
       "scope": [
         "string",
-        "string.quoted.single",
-        "string.quoted.double",
-        "string.quoted.template"
+        "string.quoted",
+        "string.unquoted",
+        "string.interpolated",
+        "string.regexp",
+        "string.other"
       ],
       "settings": { "foreground": "#A5D6A7" }
     },
@@ -587,14 +585,14 @@
       "settings": { "foreground": "#FFCC80" }
     },
     {
+      "name": "Object property",
+      "scope": "string.unquoted.js",
+      "settings": { "foreground": "#9FA8DA" }
+    },
+    {
       "name": "Language constant (boolean, null)",
       "scope": "constant.language.json",
       "settings": { "foreground": "#90CAF9" }
-    },
-    {
-      "name": "String",
-      "scope": "string.quoted.double.json",
-      "settings": { "foreground": "#A5D6A7" }
     },
     {
       "name": "Property name",
@@ -769,11 +767,6 @@
         "constant.language.null.yaml"
       ],
       "settings": { "foreground": "#90CAF9" }
-    },
-    {
-      "name": "String",
-      "scope": "string.unquoted.plain.out.yaml",
-      "settings": { "foreground": "#A5D6A7" }
     },
     {
       "name": "Property name",

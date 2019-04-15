@@ -10,11 +10,6 @@ const jsonColors: SyntaxColors = (tokens) => {
       scope: 'constant.language.json',
       settings: tokens.type.languageConstant.alternative
     },
-    {
-      name: 'String', // type.string
-      scope: 'string.quoted.double.json',
-      settings: tokens.type.string
-    },
 
     /**
      * Properties

@@ -2,6 +2,7 @@ import commonColors from './common.colors';
 import configColors from './config.colors';
 import cssColors from './css.colors';
 import htmlColors from './html.colors';
+import jsColors from './js.colors';
 import jsonColors from './json.colors';
 import jsxColors from './jsx.colors';
 import markupColors from './markup.colors';
@@ -16,6 +17,7 @@ export default {
   configColors,
   cssColors,
   htmlColors,
+  jsColors,
   jsonColors,
   jsxColors,
   markupColors,

@@ -76,11 +76,7 @@ const commonColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'Object property',
-      scope: [
-        'string.unquoted',
-        'meta.object-literal.key',
-        'variable.object.property'
-      ],
+      scope: ['meta.object-literal.key', 'variable.object.property'],
       settings: tokens.object.property
     },
 
@@ -138,9 +134,11 @@ const commonColors: SyntaxColors = (tokens) => {
       name: 'String',
       scope: [
         'string',
-        'string.quoted.single',
-        'string.quoted.double',
-        'string.quoted.template'
+        'string.quoted',
+        'string.unquoted',
+        'string.interpolated',
+        'string.regexp',
+        'string.other'
       ],
       settings: tokens.type.string
     },

@@ -10,11 +10,6 @@ const ymlColors: SyntaxColors = (tokens) => {
       scope: ['constant.language.boolean.yaml', 'constant.language.null.yaml'],
       settings: tokens.type.languageConstant.alternative
     },
-    {
-      name: 'String', // string
-      scope: 'string.unquoted.plain.out.yaml',
-      settings: tokens.type.string
-    },
 
     /**
      * Properties

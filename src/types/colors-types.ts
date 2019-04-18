@@ -26,18 +26,7 @@ export interface ColorPalettes {
   black: string;
 }
 
-export type ColorPalette = [
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string
-];
+export type ColorPalette = Array<string>;
 
 export interface EditorColors {
   [key: string]: string | Dictionary<string>;

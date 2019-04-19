@@ -2,15 +2,15 @@ import { UIColors } from '../../types/colors-types';
 
 // Badges are small information labels, for example, search results count.
 const badgeColors: UIColors = (palette) => {
-  const { yellow, gray } = palette;
+  const { background, blueGray } = palette;
 
   return {
     badge: {
       // Badge foreground color.
-      foreground: gray[9],
+      foreground: blueGray[1],
 
       // Badge background color.
-      background: yellow[3]
+      background: background[2]
     }
   };
 };

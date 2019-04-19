@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { opacity_50 } from '../opacity';
 
 const mergeConflictColors: UIColors = (palette) => {
-  const { gray, green, purple, background, teal, blue } = palette;
+  const { gray, green, deepPurple, background, teal, blue } = palette;
 
   const headerOpacity: string = opacity_50;
   const contentOpacity: string = opacity_50;
@@ -11,7 +11,7 @@ const mergeConflictColors: UIColors = (palette) => {
     editorOverviewRuler: {
       commonContentForeground: gray[1],
       currentContentForeground: green[1],
-      incomingContentForeground: purple[1]
+      incomingContentForeground: deepPurple[1]
     },
     merge: {
       border: background[6],

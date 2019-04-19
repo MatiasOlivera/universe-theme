@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { dialogTokens } from './dialog.colors';
 
 const notificationColors: UIColors = (palette) => {
-  const { background, blueGray, purple } = palette;
+  const { background, blueGray, deepPurple } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
@@ -15,7 +15,7 @@ const notificationColors: UIColors = (palette) => {
       foreground: blueGray[0]
     },
     notificationLink: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     },
     notifications: {
       background: dialogBackground,

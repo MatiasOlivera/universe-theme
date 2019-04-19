@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const welcomePageColors: UIColors = (palette) => {
-  const { background, purple } = palette;
+  const { background, deepPurple } = palette;
 
   return {
     walkThrough: {
@@ -10,7 +10,7 @@ const welcomePageColors: UIColors = (palette) => {
     welcomePage: {
       background: background[5],
       buttonBackground: background[6],
-      buttonHoverBackground: purple[7]
+      buttonHoverBackground: deepPurple[7]
     }
   };
 };

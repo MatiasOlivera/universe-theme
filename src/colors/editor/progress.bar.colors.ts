@@ -1,11 +1,11 @@
 import { UIColors } from '../../types/colors-types';
 
 const progressBarColors: UIColors = (palette) => {
-  const { purple } = palette;
+  const { deepPurple } = palette;
 
   return {
     progressBar: {
-      background: purple[3]
+      background: deepPurple[3]
     }
   };
 };

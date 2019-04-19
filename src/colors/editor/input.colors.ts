@@ -17,7 +17,7 @@ export const inputTokens = (palette: ColorPalettes): InputTokens => {
 };
 
 const inputColors: UIColors = (palette) => {
-  const { blueGray, purple, red, blue, yellow } = palette;
+  const { blueGray, deepPurple, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -30,7 +30,7 @@ const inputColors: UIColors = (palette) => {
       placeholderForeground: blueGray[1]
     },
     inputOption: {
-      activeBorder: purple[3]
+      activeBorder: deepPurple[3]
     },
     inputValidation: {
       errorBackground: red[9],

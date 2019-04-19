@@ -1,14 +1,14 @@
 import { UIColors } from '../../types/colors-types';
 
 const snippetColors: UIColors = (palette) => {
-  const { purple } = palette;
+  const { deepPurple } = palette;
 
   return {
     editor: {
-      snippetFinalTabstopHighlightBackground: purple[6],
-      snippetFinalTabstopHighlightBorder: purple[5],
-      snippetTabstopHighlightBackground: purple[6],
-      snippetTabstopHighlightBorder: purple[5]
+      snippetFinalTabstopHighlightBackground: deepPurple[6],
+      snippetFinalTabstopHighlightBorder: deepPurple[5],
+      snippetTabstopHighlightBackground: deepPurple[6],
+      snippetTabstopHighlightBorder: deepPurple[5]
     }
   };
 };

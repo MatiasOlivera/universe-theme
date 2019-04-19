@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const statusBarColors: UIColors = (palette) => {
-  const { background, blueGray, purple } = palette;
+  const { background, blueGray, deepPurple } = palette;
 
   return {
     statusBar: {
@@ -16,11 +16,11 @@ const statusBarColors: UIColors = (palette) => {
       noFolderForeground: blueGray[3]
     },
     statusBarItem: {
-      activeBackground: purple[9],
-      hostBackground: purple[9],
-      hoverBackground: purple[7],
-      prominentBackground: purple[9],
-      prominentHoverBackground: purple[7]
+      activeBackground: deepPurple[9],
+      hostBackground: deepPurple[9],
+      hoverBackground: deepPurple[7],
+      prominentBackground: deepPurple[9],
+      prominentHoverBackground: deepPurple[7]
     }
   };
 };

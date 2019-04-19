@@ -12,36 +12,36 @@ export const editorTokens = (palette: ColorPalettes): EditorTokens => {
 };
 
 const editorColors: UIColors = (palette) => {
-  const { background, purple, yellow, blueGray } = palette;
+  const { background, deepPurple, yellow, blueGray } = palette;
   const { highlightOpacity } = editorTokens(palette);
 
   return {
     editor: {
       background: background[5],
-      findMatchBackground: purple[6],
-      findMatchBorder: purple[5],
-      findMatchHighlightBackground: `${purple[7]}${highlightOpacity}`,
-      findMatchHighlightBorder: purple[5],
-      findRangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
-      findRangeHighlightBorder: purple[5],
+      findMatchBackground: deepPurple[6],
+      findMatchBorder: deepPurple[5],
+      findMatchHighlightBackground: `${deepPurple[7]}${highlightOpacity}`,
+      findMatchHighlightBorder: deepPurple[5],
+      findRangeHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      findRangeHighlightBorder: deepPurple[5],
       foreground: blueGray[0],
-      hoverHighlightBackground: `${purple[6]}${highlightOpacity}`,
-      inactiveSelectionBackground: `${purple[7]}${highlightOpacity}`,
+      hoverHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      inactiveSelectionBackground: `${deepPurple[7]}${highlightOpacity}`,
       lineHighlightBackground: background[6],
-      rangeHighlightBackground: `${purple[6]}${highlightOpacity}`,
-      rangeHighlightBorder: purple[5],
-      selectionBackground: purple[6],
-      selectionForeground: purple[0],
-      selectionHighlightBackground: `${purple[6]}${highlightOpacity}`,
-      selectionHighlightBorder: purple[5],
-      wordHighlightBackground: `${purple[6]}${highlightOpacity}`,
-      wordHighlightBorder: purple[5],
-      wordHighlightStrongBackground: `${purple[6]}${highlightOpacity}`,
-      wordHighlightStrongBorder: purple[5]
+      rangeHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      rangeHighlightBorder: deepPurple[5],
+      selectionBackground: deepPurple[6],
+      selectionForeground: deepPurple[0],
+      selectionHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      selectionHighlightBorder: deepPurple[5],
+      wordHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      wordHighlightBorder: deepPurple[5],
+      wordHighlightStrongBackground: `${deepPurple[6]}${highlightOpacity}`,
+      wordHighlightStrongBorder: deepPurple[5]
     },
     editorBracketMatch: {
-      background: purple[6],
-      border: purple[6]
+      background: deepPurple[6],
+      border: deepPurple[6]
     },
     editorCodeLens: {
       foreground: blueGray[1]
@@ -59,7 +59,7 @@ const editorColors: UIColors = (palette) => {
       foreground: blueGray[5]
     },
     editorLink: {
-      activeForeground: purple[0]
+      activeForeground: deepPurple[0]
     },
     editorRuler: {
       foreground: blueGray[8]

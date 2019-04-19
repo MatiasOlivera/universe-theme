@@ -2,13 +2,13 @@ import { UIColors } from '../../types/colors-types';
 import { opacity_50 } from '../opacity';
 
 const sideBarColors: UIColors = (palette) => {
-  const { background, purple, blueGray } = palette;
+  const { background, deepPurple, blueGray } = palette;
 
   return {
     sideBar: {
       background: background[6],
       border: background[7],
-      dropBackground: `${purple[9]}${opacity_50}`,
+      dropBackground: `${deepPurple[9]}${opacity_50}`,
       foreground: blueGray[1]
     },
     sideBarSectionHeader: {

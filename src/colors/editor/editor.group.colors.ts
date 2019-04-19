@@ -1,14 +1,14 @@
 import { UIColors } from '../../types/colors-types';
 
 const editorGroupColors: UIColors = (palette) => {
-  const { background, purple } = palette;
+  const { background, deepPurple } = palette;
 
   return {
     editorGroup: {
       border: background[6],
-      dropBackground: purple[9],
+      dropBackground: deepPurple[9],
       emptyBackground: background[5],
-      focusedEmptyBorder: purple[3]
+      focusedEmptyBorder: deepPurple[3]
     },
     editorGroupHeader: {
       noTabsBackground: background[5],

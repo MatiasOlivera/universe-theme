@@ -1,28 +1,28 @@
 import { UIColors } from '../../types/colors-types';
 
 const listColors: UIColors = (palette) => {
-  const { purple, red, yellow } = palette;
+  const { deepPurple, red, yellow } = palette;
 
   return {
     list: {
-      activeSelectionBackground: purple[6],
-      activeSelectionForeground: purple[0],
-      dropBackground: purple[9],
-      focusBackground: purple[6],
-      focusForeground: purple[0],
-      highlightForeground: purple[0],
-      hoverBackground: purple[5],
-      hoverForeground: purple[0],
-      inactiveSelectionBackground: purple[5],
-      inactiveSelectionForeground: purple[0],
-      inactiveFocusBackground: purple[5],
-      invalidItemForeground: purple[9],
+      activeSelectionBackground: deepPurple[6],
+      activeSelectionForeground: deepPurple[0],
+      dropBackground: deepPurple[9],
+      focusBackground: deepPurple[6],
+      focusForeground: deepPurple[0],
+      highlightForeground: deepPurple[0],
+      hoverBackground: deepPurple[5],
+      hoverForeground: deepPurple[0],
+      inactiveSelectionBackground: deepPurple[5],
+      inactiveSelectionForeground: deepPurple[0],
+      inactiveFocusBackground: deepPurple[5],
+      invalidItemForeground: deepPurple[9],
       errorForeground: red[1],
       warningForeground: yellow[1]
     },
     listFilterWidget: {
-      background: purple[6],
-      outline: purple[5],
+      background: deepPurple[6],
+      outline: deepPurple[5],
       noMatchesOutline: red[5]
     }
   };

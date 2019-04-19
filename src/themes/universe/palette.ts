@@ -99,7 +99,7 @@ const pink: ColorPalette = [
 ];
 
 // Deep purple
-const purple: ColorPalette = [
+const deepPurple: ColorPalette = [
   '#EDE7F6',
   '#D1C4E9',
   '#B39DDB',
@@ -264,7 +264,7 @@ export const universePalette: ColorPalettes = {
   indigo,
   orange,
   pink,
-  purple,
+  deepPurple,
   red,
   teal,
   yellow,

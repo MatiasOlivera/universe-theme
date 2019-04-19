@@ -1,17 +1,17 @@
 import { ColorPalette, ColorPalettes } from '../../types/colors-types';
 
 // Deep blue
-const background: ColorPalette = [
-  '#2E4759',
-  '#243C4D',
-  '#1C3242',
-  '#152836',
-  '#0F202D',
-  '#0B1A25',
-  '#08151F',
-  '#050F17',
-  '#020A0F',
-  ''
+const deepBlue: ColorPalette = [
+  '#26334C',
+  '#202C45',
+  '#1B273E',
+  '#162137',
+  '#121C30',
+  '#0E1729',
+  '#0A1222',
+  '#070E1B',
+  '#050A14',
+  '#03060D'
 ];
 
 // Blue
@@ -257,7 +257,7 @@ const _deepOrange: ColorPalette = [
 ];
 
 export const palette: ColorPalettes = {
-  background,
+  background: deepBlue,
   blue,
   blueGray,
   green,

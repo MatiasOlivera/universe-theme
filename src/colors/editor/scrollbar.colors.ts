@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { opacity_40, opacity_50, opacity_60 } from '../opacity';
 
 const scrollbarColors: UIColors = (palette) => {
-  const { background, deepPurple } = palette;
+  const { background } = palette;
 
   return {
     scrollbar: {
@@ -12,13 +12,13 @@ const scrollbarColors: UIColors = (palette) => {
 
     scrollbarSlider: {
       // Scrollbar slider background color when clicked on.
-      activeBackground: `${deepPurple[5]}${opacity_60}`,
+      activeBackground: `${background[0]}${opacity_60}`,
 
       // Scrollbar slider background color.
-      background: `${deepPurple[6]}${opacity_50}`,
+      background: `${background[0]}${opacity_50}`,
 
       // Scrollbar slider background color when hovering.
-      hoverBackground: `${deepPurple[5]}${opacity_40}`
+      hoverBackground: `${background[0]}${opacity_40}`
     }
   };
 };

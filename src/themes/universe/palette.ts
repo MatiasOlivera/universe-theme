@@ -256,6 +256,8 @@ const deepOrange: ColorPalette = [
 
 export const universePalette: ColorPalettes = {
   background: deepBlue,
+  primary: blue,
+  secondary: yellow,
   blue,
   blueGray,
   green,

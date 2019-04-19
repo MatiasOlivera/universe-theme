@@ -16,5 +16,7 @@ const deepPurple: ColorPalette = [
 
 export const purplePalette: ColorPalettes = {
   ...universePalette,
-  background: deepPurple
+  background: deepPurple,
+  primary: universePalette.purple,
+  secondary: universePalette.green
 };

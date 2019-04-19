@@ -256,7 +256,7 @@ const _deepOrange: ColorPalette = [
   '#BF360C'
 ];
 
-export const palette: ColorPalettes = {
+export const universePalette: ColorPalettes = {
   background: deepBlue,
   blue,
   blueGray,

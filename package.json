@@ -36,6 +36,11 @@
         "label": "Universe",
         "uiTheme": "vs-dark",
         "path": "./theme/universe.json"
+      },
+      {
+        "label": "Universe purple",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.purple.json"
       }
     ]
   },

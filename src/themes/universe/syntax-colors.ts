@@ -19,7 +19,7 @@ import {
   Type,
   Variable,
 } from '../../types/tokens-types';
-import { palette } from './palette';
+import { universePalette } from './palette';
 
 const {
   blue,
@@ -32,7 +32,7 @@ const {
   red,
   teal,
   yellow
-} = palette;
+} = universePalette;
 
 /**
  * Data types

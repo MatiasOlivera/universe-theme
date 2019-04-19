@@ -30,7 +30,7 @@ const {
   pink,
   deepPurple,
   red,
-  teal,
+  cyan,
   yellow
 } = universePalette;
 
@@ -47,7 +47,7 @@ const type: Type = {
     }
   },
   custom: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   number: {
     foreground: orange[2]
@@ -241,10 +241,10 @@ const css: Css = {
     foreground: deepPurple[2]
   },
   pseudoClass: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   pseudoElement: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
 
   // Properties
@@ -342,7 +342,7 @@ const markup: Markup = {
     foreground: green[2]
   },
   raw: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   underline: {
     foreground: blue[2],

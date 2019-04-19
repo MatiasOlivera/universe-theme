@@ -127,7 +127,7 @@ const red: ColorPalette = [
 ];
 
 // Cyan
-const teal: ColorPalette = [
+const cyan: ColorPalette = [
   '#E0F7FA',
   '#B2EBF2',
   '#80DEEA',
@@ -266,7 +266,7 @@ export const universePalette: ColorPalettes = {
   pink,
   deepPurple,
   red,
-  teal,
+  cyan,
   yellow,
   gray,
   white,

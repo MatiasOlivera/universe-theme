@@ -19,7 +19,7 @@ export interface ColorPalettes {
   pink: ColorPalette;
   deepPurple: ColorPalette;
   red: ColorPalette;
-  teal: ColorPalette;
+  cyan: ColorPalette;
   yellow: ColorPalette;
   gray: ColorPalette;
   white: string;

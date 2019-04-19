@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { opacity_50 } from '../opacity';
 
 const mergeConflictColors: UIColors = (palette) => {
-  const { gray, green, deepPurple, background, teal, blue } = palette;
+  const { gray, green, deepPurple, background, cyan, blue } = palette;
 
   const headerOpacity: string = opacity_50;
   const contentOpacity: string = opacity_50;
@@ -17,8 +17,8 @@ const mergeConflictColors: UIColors = (palette) => {
       border: background[6],
       commonContentBackground: `${gray[9]}${contentOpacity}`,
       commonHeaderBackground: `${gray[7]}${headerOpacity}`,
-      currentContentBackground: `${teal[7]}${contentOpacity}`,
-      currentHeaderBackground: `${teal[9]}${headerOpacity}`,
+      currentContentBackground: `${cyan[7]}${contentOpacity}`,
+      currentHeaderBackground: `${cyan[9]}${headerOpacity}`,
       incomingContentBackground: `${blue[7]}${contentOpacity}`,
       incomingHeaderBackground: `${blue[9]}${headerOpacity}`
     }

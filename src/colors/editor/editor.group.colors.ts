@@ -1,8 +1,9 @@
 import { UIColors } from '../../types/colors-types';
+import { opacity_80 } from '../opacity';
 
 // Editor Groups are the containers of editors. There can be many editor groups.
 const editorGroupColors: UIColors = (palette) => {
-  const { background, deepPurple } = palette;
+  const { background } = palette;
 
   return {
     editorGroup: {
@@ -10,13 +11,13 @@ const editorGroupColors: UIColors = (palette) => {
       border: background[6],
 
       // Background color when dragging editors around.
-      dropBackground: deepPurple[9],
+      dropBackground: `${background[6]}${opacity_80}`,
 
       // Background color of an empty editor group.
       emptyBackground: background[5],
 
       // Border color of an empty editor group that is focused.
-      focusedEmptyBorder: deepPurple[3]
+      focusedEmptyBorder: background[3]
     },
 
     editorGroupHeader: {

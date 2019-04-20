@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const squigglesColors: UIColors = (palette) => {
-  const { red, deepPurple, blue, yellow } = palette;
+  const { red, deepPurple, cyan, yellow } = palette;
 
   return {
     editorError: {
@@ -14,7 +14,7 @@ const squigglesColors: UIColors = (palette) => {
     },
     editorInfo: {
       // Foreground color of info squiggles in the editor.
-      foreground: blue[2]
+      foreground: cyan[2]
     },
     editorWarning: {
       // Foreground color of warning squiggles in the editor.

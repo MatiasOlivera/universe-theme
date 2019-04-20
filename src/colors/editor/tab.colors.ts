@@ -3,7 +3,7 @@ import { UIColors } from '../../types/colors-types';
 // A Tab is the container of an editor. Multiple Tabs can be opened in one
 // editor group.
 const tabColors: UIColors = (palette) => {
-  const { background, yellow, blueGray } = palette;
+  const { background, blueGray } = palette;
 
   return {
     editorPane: {
@@ -23,48 +23,48 @@ const tabColors: UIColors = (palette) => {
       border: background[7],
 
       // Tab background color when hovering,
-      hoverBackground: '',
+      hoverBackground: background[4],
 
       // Tab background color in an unfocused group when hovering
-      unfocusedHoverBackground: '',
+      unfocusedHoverBackground: background[4],
 
       // Border to highlight tabs when hovering
-      hoverBorder: '',
+      hoverBorder: background[3],
 
       // Border to highlight tabs in an unfocused group when hovering
-      unfocusedHoverBorder: '',
+      unfocusedHoverBorder: background[3],
 
       //  Border on the top of modified (dirty) active tabs in an active group.
-      activeModifiedBorder: '',
+      activeModifiedBorder: background[3],
 
       // Border on the top of modified (dirty) inactive tabs in an active group.
-      inactiveModifiedBorder: '',
+      inactiveModifiedBorder: background[4],
 
       // Border on the top of modified (dirty) active tabs in an unfocused
       // group.
-      unfocusedActiveModifiedBorder: '',
+      unfocusedActiveModifiedBorder: background[4],
 
       // Border on the top of modified (dirty) inactive tabs in an unfocused
       // group.
-      unfocusedInactiveModifiedBorder: '',
+      unfocusedInactiveModifiedBorder: background[5],
 
       // Top border for the active tab.
-      activeBorderTop: yellow[3],
+      activeBorderTop: background[0],
 
       // Top border for the active tab in an inactive editor group
-      unfocusedActiveBorderTop: yellow[4],
+      unfocusedActiveBorderTop: background[2],
 
       // Active Tab foreground color in an active group.
-      activeForeground: blueGray[0],
+      activeForeground: blueGray[1],
 
       // Active tab foreground color in an inactive editor group.
-      unfocusedActiveForeground: blueGray[1],
+      unfocusedActiveForeground: blueGray[2],
 
       // Inactive Tab foreground color in an active group
-      inactiveForeground: blueGray[2],
+      inactiveForeground: blueGray[3],
 
       // Inactive tab foreground color in an inactive editor group
-      unfocusedInactiveForeground: blueGray[3]
+      unfocusedInactiveForeground: blueGray[4]
     }
   };
 };

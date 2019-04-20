@@ -1,13 +1,34 @@
-import { UIColors } from '../../types/colors-types';
+import { ColorPalettes, UIColors } from '../../types/colors-types';
 import { opacity_70, opacity_80, opacity_90 } from '../opacity';
+
+interface SelectionColors {
+  selectionColor: string;
+  selectionBackground: string;
+  findMatchBackground: string;
+  highlightBackground: string;
+}
+
+export function selectionTokens(palette: ColorPalettes) {
+  const { background } = palette;
+  const selectionColor: string = background[0];
+
+  return {
+    selectionColor,
+    selectionBackground: `${selectionColor}${opacity_80}`,
+    findMatchBackground: `${selectionColor}${opacity_90}`,
+    highlightBackground: `${selectionColor}${opacity_90}`
+  };
+}
 
 const editorColors: UIColors = (palette) => {
   const { secondary, background, blueGray } = palette;
 
-  const selectionColor: string = background[0];
-  const selectionBackground: string = `${selectionColor}${opacity_80}`;
-  const findMatchBackground: string = `${selectionColor}${opacity_90}`;
-  const highlightBackground: string = `${selectionColor}${opacity_90}`;
+  const {
+    selectionColor,
+    findMatchBackground,
+    highlightBackground,
+    selectionBackground
+  } = selectionTokens(palette);
 
   return {
     editor: {

@@ -1,5 +1,5 @@
 import { UIColors } from '../../types/colors-types';
-import { editorTokens } from './editor.colors';
+import { opacity_80 } from '../opacity';
 
 const terminalColors: UIColors = (palette) => {
   const {
@@ -12,7 +12,6 @@ const terminalColors: UIColors = (palette) => {
     red,
     yellow
   } = palette;
-  const { highlightOpacity } = editorTokens(palette);
 
   return {
     terminal: {
@@ -35,7 +34,7 @@ const terminalColors: UIColors = (palette) => {
       background: background[6],
       border: background[7],
       foreground: gray[0],
-      selectionBackground: `${deepPurple[5]}${highlightOpacity}`
+      selectionBackground: `${background[0]}${opacity_80}`
     },
     terminalCursor: {
       background: deepPurple[6],

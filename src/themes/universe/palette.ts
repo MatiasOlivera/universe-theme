@@ -223,7 +223,7 @@ const lightGreen: ColorPalette = [
   '#7CB342',
   '#689F38',
   '#558B2F',
-  '##33691E'
+  '#33691E'
 ];
 
 // Lime
@@ -275,5 +275,6 @@ export const universePalette: ColorPalettes = {
   lightBlue,
   teal,
   lightGreen,
+  lime,
   deepOrange
 };

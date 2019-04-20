@@ -1,19 +1,13 @@
-import { ColorPalettes, UIColors } from '../../types/colors-types';
-import { opacity_50, opacity_80 } from '../opacity';
-
-interface EditorTokens {
-  highlightOpacity: string;
-}
-
-export const editorTokens = (palette: ColorPalettes): EditorTokens => {
-  return {
-    highlightOpacity: opacity_50
-  };
-};
+import { UIColors } from '../../types/colors-types';
+import { opacity_70, opacity_80, opacity_90 } from '../opacity';
 
 const editorColors: UIColors = (palette) => {
-  const { background, deepPurple, yellow, blueGray } = palette;
-  const { highlightOpacity } = editorTokens(palette);
+  const { secondary, background, blueGray } = palette;
+
+  const selectionColor: string = background[0];
+  const selectionBackground: string = `${selectionColor}${opacity_80}`;
+  const findMatchBackground: string = `${selectionColor}${opacity_90}`;
+  const highlightBackground: string = `${selectionColor}${opacity_90}`;
 
   return {
     editor: {
@@ -21,28 +15,28 @@ const editorColors: UIColors = (palette) => {
       background: background[5],
 
       // Editor default foreground color.
-      foreground: blueGray[0],
+      foreground: blueGray[1],
 
       // Selection colors are visible when selecting one or more characters.
       // In addition to the selection also all regions with the same content
       // are highlighted.
 
       // Color of the editor selection.
-      selectionBackground: deepPurple[6],
+      selectionBackground: selectionBackground,
 
       // Color of the selected text for high contrast.
-      selectionForeground: deepPurple[0],
+      selectionForeground: blueGray[0],
 
       // Color of the selection in an inactive editor. The color must not be
       // opaque so as not to hide underlying decorations.
-      inactiveSelectionBackground: `${deepPurple[7]}${highlightOpacity}`,
+      inactiveSelectionBackground: `${selectionColor}${opacity_70}`,
 
       // Color for regions with the same content as the selection. The color
       // must not be opaque so as not to hide underlying decorations.
-      selectionHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      selectionHighlightBackground: selectionBackground,
 
       // Border color for regions with the same content as the selection.
-      selectionHighlightBorder: deepPurple[5],
+      selectionHighlightBorder: selectionBackground,
 
       // Word highlight colors are visible when the cursor is inside a symbol
       // or a word. Depending on the language support available for the file
@@ -53,131 +47,122 @@ const editorColors: UIColors = (palette) => {
       // Background color of a symbol during read-access, for example when
       // reading a variable. The color must not be opaque so as not to hide
       // underlying decorations.
-      wordHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      wordHighlightBackground: highlightBackground,
 
       // Border color of a symbol during read-access, for example when reading
       // a variable.
-      wordHighlightBorder: deepPurple[5],
+      wordHighlightBorder: highlightBackground,
 
       // Background color of a symbol during write-access, for example when
       // writing to a variable. The color must not be opaque so as not to hide
       // underlying decorations.
-      wordHighlightStrongBackground: `${deepPurple[6]}${highlightOpacity}`,
+      wordHighlightStrongBackground: highlightBackground,
 
       // Border color of a symbol during write-access, for example when writing
       // to a variable.
-      wordHighlightStrongBorder: deepPurple[5],
+      wordHighlightStrongBorder: highlightBackground,
 
       // Find colors depend on the current find string in the Find/Replace
       // dialog.
 
       // Color of the current search match.
-      findMatchBackground: deepPurple[6],
+      findMatchBackground: findMatchBackground,
 
       // Border color of the current search match.
-      findMatchBorder: deepPurple[5],
+      findMatchBorder: findMatchBackground,
 
       // Color of the other search matches. The color must not be opaque so as
       // not to hide underlying decorations.
-      findMatchHighlightBackground: `${deepPurple[7]}${highlightOpacity}`,
-
-      // Border color of the other search matches.
-      findMatchHighlightBorder: deepPurple[5],
+      findMatchHighlightBackground: findMatchBackground,
 
       // Color the range limiting the search (Enable 'Find in Selection'
       // in the find widget). The color must not be opaque so as not to hide
       // underlying decorations.
-      findRangeHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
-
-      // Border color the range limiting the search.
-      findRangeHighlightBorder: deepPurple[5],
+      findRangeHighlightBackground: highlightBackground,
 
       // The hover highlight is shown behind the symbol for which a hover is
       // shown.
 
       // Highlight below the word for which a hover is shown. The color must
       // not be opaque so as not to hide underlying decorations.
-      hoverHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
+      hoverHighlightBackground: highlightBackground,
 
       // The current line is typically shown as either background highlight or
       // a border (not both).
 
       // Background color for the highlight of line at the cursor position.
-      lineHighlightBackground: background[6],
+      lineHighlightBackground: background[4],
 
       // The range highlight is visible when selecting a search result.
 
       // Background color of highlighted ranges, used by Quick Open, Symbol in
       // File and Find features. The color must not be opaque so as not to hide
       // underlying decorations.
-      rangeHighlightBackground: `${deepPurple[6]}${highlightOpacity}`,
-
-      // Background color of the border around highlighted ranges.
-      rangeHighlightBorder: deepPurple[5]
+      rangeHighlightBackground: highlightBackground
     },
 
     editorCursor: {
       // The background color of the editor cursor. Allows customizing the color
       // of a character overlapped by a block cursor.
-      background: yellow[9],
+      background: secondary[9],
 
       // Color of the editor cursor.
-      foreground: yellow[3]
+      foreground: secondary[3]
     },
 
     // Bracket matches
     editorBracketMatch: {
       // Background color behind matching brackets.
-      background: deepPurple[6],
+      background: selectionBackground,
 
       // Color for matching brackets boxes.
-      border: deepPurple[6]
+      border: selectionBackground
     },
 
     // To see the editor indent guides, set "editor.renderIndentGuides": true.
     editorIndentGuide: {
       // Color of the editor indentation guides.
-      background: blueGray[8],
+      background: background[1],
 
       // Color of the active editor indentation guide.
-      activeBackground: blueGray[6]
+      activeBackground: background[0]
     },
 
     // To see editor rulers, define their location with "editor.rulers"
     editorRuler: {
       // Color of the editor rulers.
-      foreground: blueGray[8]
+      foreground: background[1]
     },
 
     // To see the editor white spaces, enable Toggle Render Whitespace.
     editorWhitespace: {
       // Color of whitespace characters in the editor.
-      foreground: blueGray[5]
+      foreground: blueGray[7]
     },
 
     editorLineNumber: {
       // Color of editor line numbers.
-      foreground: blueGray[5],
+      foreground: blueGray[7],
 
       // Color of the active editor line number.
-      activeForeground: blueGray[1]
+      activeForeground: blueGray[3]
     },
 
     editorCodeLens: {
       // Foreground color of an editor CodeLens.
-      foreground: blueGray[1]
+      foreground: blueGray[3]
     },
 
     // Unused source code
     editorUnnecessaryCode: {
       // Opacity of unnecessary (unused) source code in the editor.
-      opacity: `${blueGray[0]}${opacity_80}`
+      opacity: `${blueGray[1]}${opacity_80}`
     },
 
     // The link color is visible when clicking on a link.
     editorLink: {
       // Color of active links.
-      activeForeground: deepPurple[0]
+      activeForeground: secondary[1]
     }
   };
 };

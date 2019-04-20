@@ -1,10 +1,10 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_50 } from '../opacity';
+import { opacity_70 } from '../opacity';
 
 // Panels are shown below the editor area and contain views like Output and
 // Integrated Terminal.
 const panelColors: UIColors = (palette) => {
-  const { background, deepPurple, yellow, blueGray } = palette;
+  const { secondary, background, blueGray } = palette;
 
   return {
     panel: {
@@ -16,17 +16,18 @@ const panelColors: UIColors = (palette) => {
 
       // Drag and drop feedback color for the panel title items. The color
       // should have transparency so that the panel entries can still shine through.
-      dropBackground: `${deepPurple[9]}${opacity_50}`
+      dropBackground: `${background[7]}${opacity_70}`
     },
+
     panelTitle: {
       // Border color for the active panel title.
-      activeBorder: yellow[3],
+      activeBorder: secondary[3],
 
       // Title color for the active panel.
-      activeForeground: blueGray[0],
+      activeForeground: blueGray[1],
 
       // Title color for the inactive panel.
-      inactiveForeground: blueGray[2]
+      inactiveForeground: blueGray[3]
     }
   };
 };

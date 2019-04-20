@@ -3,7 +3,7 @@ import { UIColors } from '../../types/colors-types';
 // The Activity Bar is displayed either on the far left or right of the
 // workbench and allows fast switching between views of the Side Bar.
 const activityBarColors: UIColors = (palette) => {
-  const { background, deepPurple, yellow, blueGray } = palette;
+  const { secondary, background, blueGray, gray } = palette;
 
   return {
     activityBar: {
@@ -11,13 +11,13 @@ const activityBarColors: UIColors = (palette) => {
       background: background[7],
 
       // Drag and drop feedback color for the Activity Bar items.
-      dropBackground: deepPurple[8],
+      dropBackground: background[8],
 
       // Activity bar foreground color (for example used for the icons).
-      foreground: yellow[3],
+      foreground: blueGray[6],
 
       // Activity bar item foreground color when it is inactive.
-      inactiveForeground: blueGray[7],
+      inactiveForeground: blueGray[8],
 
       // Activity Bar border color with the Side Bar.
       border: background[8]
@@ -25,10 +25,10 @@ const activityBarColors: UIColors = (palette) => {
 
     activityBarBadge: {
       // Activity notification badge background color.
-      background: deepPurple[6],
+      background: secondary[3],
 
       // Activity notification badge foreground color.
-      foreground: deepPurple[0]
+      foreground: gray[9]
     }
   };
 };

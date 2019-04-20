@@ -1,10 +1,11 @@
 import { UIColors } from '../../types/colors-types';
+import { opacity_50 } from '../opacity';
 import { dialogTokens } from './dialog.colors';
 
 // The Editor widget is shown in front of the editor content. Examples are the
 // Find/Replace dialog, the suggestion widget, and the editor hover.
 const widgetColors: UIColors = (palette) => {
-  const { red, blue, yellow, blueGray, deepPurple, background } = palette;
+  const { secondary, red, cyan, yellow, blueGray, background } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
@@ -19,7 +20,7 @@ const widgetColors: UIColors = (palette) => {
       // Border color of the resize bar of editor widgets. The color is only
       // used if the widget chooses to have a resize border and if the color is
       // not overridden by a widget.
-      resizeBorder: deepPurple[3]
+      resizeBorder: dialogBackground
     },
 
     editorSuggestWidget: {
@@ -30,13 +31,13 @@ const widgetColors: UIColors = (palette) => {
       border: dialogBorder,
 
       // Foreground color of the suggestion widget.
-      foreground: blueGray[0],
+      foreground: blueGray[1],
 
       // Color of the match highlights in the suggestion widget.
-      highlightForeground: yellow[3],
+      highlightForeground: secondary[3],
 
       // Background color of the selected entry in the suggestion widget.
-      selectedBackground: deepPurple[6]
+      selectedBackground: background[1]
     },
 
     editorHoverWidget: {
@@ -72,7 +73,7 @@ const widgetColors: UIColors = (palette) => {
 
     editorMarkerNavigationInfo: {
       // Editor marker navigation widget info color.
-      background: blue[2]
+      background: cyan[2]
     },
 
     editorMarkerNavigationWarning: {
@@ -82,7 +83,7 @@ const widgetColors: UIColors = (palette) => {
 
     widget: {
       // Shadow color of widgets such as Find/Replace inside the editor.
-      shadow: background[6]
+      shadow: `${background[6]}${opacity_50}`
     }
   };
 };

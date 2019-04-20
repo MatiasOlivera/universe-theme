@@ -12,14 +12,14 @@ export const inputTokens = (palette: ColorPalettes): InputTokens => {
   return {
     inputBackground: background[4],
     inputBorder: background[3],
-    inputForeground: blueGray[0]
+    inputForeground: blueGray[2]
   };
 };
 
 // Colors for input controls such as in the Search view or the Find/Replace
 // dialog.
 const inputColors: UIColors = (palette) => {
-  const { blueGray, deepPurple, red, blue, yellow } = palette;
+  const { secondary, blueGray, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -36,38 +36,38 @@ const inputColors: UIColors = (palette) => {
       foreground: inputForeground,
 
       // Input box foreground color for placeholder text.
-      placeholderForeground: blueGray[1]
+      placeholderForeground: blueGray[4]
     },
 
     inputOption: {
       // Border color of activated options in input fields.
-      activeBorder: deepPurple[3]
+      activeBorder: secondary[3]
     },
 
     inputValidation: {
       // Input validation background color for error severity.
-      errorBackground: red[9],
+      errorBackground: red[6],
 
       // Input validation border color for error severity.
-      errorBorder: red[7],
+      errorBorder: red[4],
 
       // Input validation foreground color for error severity.
       errorForeground: red[0],
 
       // Input validation background color for information severity.
-      infoBackground: blue[9],
+      infoBackground: blue[6],
 
       // Input validation border color for information severity.
-      infoBorder: blue[7],
+      infoBorder: blue[4],
 
       //  Input validation foreground color for information severity.
       infoForeground: blue[0],
 
       // Input validation background color for information warning.
-      warningBackground: yellow[9],
+      warningBackground: yellow[6],
 
       // Input validation border color for warning severity.
-      warningBorder: yellow[7],
+      warningBorder: yellow[4],
 
       // Input validation foreground color for warning severity.
       warningForeground: yellow[0]

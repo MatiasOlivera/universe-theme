@@ -5,8 +5,13 @@ const extensionButtonColors: UIColors = (palette) => {
 
   return {
     extensionButton: {
+      // Extension view button foreground color (for example Install button).
       prominentForeground: gray[9],
+
+      // Extension view button background color.
       prominentBackground: yellow[3],
+
+      // Extension view button background hover color.
       prominentHoverBackground: yellow[2]
     }
   };

@@ -5,11 +5,20 @@ const titleBarColors: UIColors = (palette) => {
 
   return {
     titleBar: {
+      // Title Bar background when the window is active.
       activeBackground: background[7],
+
+      // Title Bar foreground when the window is active.
       activeForeground: blueGray[2],
-      border: background[8],
+
+      // Title Bar background when the window is inactive.
       inactiveBackground: background[7],
-      inactiveForeground: blueGray[3]
+
+      // Title Bar foreground when the window is inactive.
+      inactiveForeground: blueGray[3],
+
+      // Title bar border color.
+      border: background[8]
     }
   };
 };

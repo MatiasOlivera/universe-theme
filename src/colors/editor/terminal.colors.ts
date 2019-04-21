@@ -1,67 +1,73 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_80 } from '../opacity';
+import { opacity_50 } from '../opacity';
+import { selectionTokens } from './editor.colors';
 
 const terminalColors: UIColors = (palette) => {
   const {
     background,
-    gray,
+    blueGray,
     deepPurple,
     blue,
     cyan,
-    green,
+    lightGreen,
     red,
-    yellow
+    yellow,
+    secondary
   } = palette;
+  const { selectionColor } = selectionTokens(palette);
+
+  const normalSwatch: number = 3;
+  const brightSwatch: number = 2;
 
   return {
     terminal: {
       // 'Black' ANSI color in the terminal.
-      ansiBlack: gray[9],
+      ansiBlack: blueGray[9],
 
       // 'BrightBlack' ANSI color in the terminal.
-      ansiBrightBlack: gray[8],
+      ansiBrightBlack: blueGray[8],
 
       // 'White' ANSI color in the terminal.
-      ansiWhite: gray[1],
+      ansiWhite: blueGray[2],
 
       // 'BrightWhite' ANSI color in the terminal.
-      ansiBrightWhite: gray[0],
+      ansiBrightWhite: blueGray[1],
 
       // 'Blue' ANSI color in the terminal.
-      ansiBlue: blue[3],
+      ansiBlue: blue[normalSwatch],
 
       // 'BrightBlue' ANSI color in the terminal.
-      ansiBrightBlue: blue[2],
+      ansiBrightBlue: blue[brightSwatch],
 
       // 'Cyan' ANSI color in the terminal.
-      ansiCyan: cyan[3],
+      ansiCyan: cyan[normalSwatch],
 
       // 'BrightCyan' ANSI color in the terminal.
-      ansiBrightCyan: cyan[2],
+      ansiBrightCyan: cyan[brightSwatch],
 
       // 'Green' ANSI color in the terminal.
-      ansiGreen: green[3],
+      ansiGreen: lightGreen[normalSwatch],
 
       // 'BrightGreen' ANSI color in the terminal.
-      ansiBrightGreen: green[2],
+      ansiBrightGreen: lightGreen[brightSwatch],
 
       // 'Magenta' ANSI color in the terminal.
-      ansiMagenta: deepPurple[3],
+      ansiMagenta: deepPurple[normalSwatch],
 
       // 'BrightMagenta' ANSI color in the terminal.
-      ansiBrightMagenta: deepPurple[2],
+      ansiBrightMagenta: deepPurple[brightSwatch],
 
       // 'Red' ANSI color in the terminal.
-      ansiRed: red[3],
+      ansiRed: red[normalSwatch],
 
       // 'BrightRed' ANSI color in the terminal.
-      ansiBrightRed: red[2],
+      ansiBrightRed: red[brightSwatch],
 
       // 'Yellow' ANSI color in the terminal.
-      ansiYellow: yellow[3],
+      ansiYellow: yellow[normalSwatch],
 
       // 'BrightYellow' ANSI color in the terminal.
-      ansiBrightYellow: yellow[2],
+      ansiBrightYellow: yellow[brightSwatch],
 
       // The background of the Integrated Terminal's viewport.
       background: background[6],
@@ -70,18 +76,18 @@ const terminalColors: UIColors = (palette) => {
       border: background[7],
 
       // The default foreground color of the Integrated Terminal.
-      foreground: gray[0],
+      foreground: blueGray[2],
 
       // The selection background color of the terminal.
-      selectionBackground: `${background[0]}${opacity_80}`
+      selectionBackground: `${selectionColor}${opacity_50}`
     },
 
     terminalCursor: {
       // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
-      background: deepPurple[6],
+      background: secondary[9],
 
       // The foreground color of the terminal cursor.
-      foreground: deepPurple[0]
+      foreground: secondary[3]
     }
   };
 };

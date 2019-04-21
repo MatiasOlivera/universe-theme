@@ -5,7 +5,7 @@ import { dialogTokens } from './dialog.colors';
 // Once opened in the Notification Center, they are displayed in a list with a
 // header.
 const notificationColors: UIColors = (palette) => {
-  const { background, blueGray, deepPurple } = palette;
+  const { secondary, background, blueGray } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
@@ -21,12 +21,12 @@ const notificationColors: UIColors = (palette) => {
       background: background[2],
 
       // Notification Center header foreground color.
-      foreground: blueGray[0]
+      foreground: blueGray[3]
     },
 
     notificationLink: {
       // Notification links foreground color.
-      foreground: deepPurple[2]
+      foreground: secondary[3]
     },
 
     notifications: {
@@ -37,7 +37,7 @@ const notificationColors: UIColors = (palette) => {
       border: dialogBorder,
 
       // Notification foreground color.
-      foreground: blueGray[1]
+      foreground: blueGray[3]
     },
 
     // A notification

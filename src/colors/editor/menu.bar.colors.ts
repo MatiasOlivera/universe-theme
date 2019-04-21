@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { dialogTokens } from './dialog.colors';
 
 const menuBarColors: UIColors = (palette) => {
-  const { gray, yellow, blueGray } = palette;
+  const { background, blueGray } = palette;
   const { dialogBackground } = dialogTokens(palette);
 
   return {
@@ -11,30 +11,30 @@ const menuBarColors: UIColors = (palette) => {
       background: dialogBackground,
 
       // Foreground color of menu items.
-      foreground: blueGray[0],
+      foreground: blueGray[2],
 
       // Foreground color of the selected menu item in menus.
-      selectionForeground: gray[9],
+      selectionForeground: blueGray[1],
 
       // Background color of the selected menu item in menus.
-      selectionBackground: yellow[3],
+      selectionBackground: background[1],
 
       // Border color of the selected menu item in menus.
-      selectionBorder: yellow[3],
+      selectionBorder: background[1],
 
       // Color of a separator menu item in menus.
-      separatorBackground: blueGray[6]
+      separatorBackground: background[0]
     },
 
     menubar: {
       // Foreground color of the selected menu item in the menubar.
-      selectionForeground: blueGray[0],
+      selectionForeground: blueGray[3],
 
       // Background color of the selected menu item in the menubar.
-      selectionBackground: dialogBackground,
+      selectionBackground: background[5],
 
       // Border color of the selected menu item in the menubar.
-      selectionBorder: dialogBackground
+      selectionBorder: background[5]
     }
   };
 };

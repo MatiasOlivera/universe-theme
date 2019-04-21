@@ -7,7 +7,10 @@ const quickPickerColors: UIColors = (palette) => {
 
   return {
     pickerGroup: {
+      // Quick picker (Quick Open) color for grouping borders.
       border: dialogBorder,
+
+      // Quick picker (Quick Open) color for grouping labels.
       foreground: blueGray[0]
     }
   };

@@ -1,17 +1,15 @@
 import { UIColors } from '../../types/colors-types';
-import { dialogTokens } from './dialog.colors';
 
 const quickPickerColors: UIColors = (palette) => {
-  const { blueGray } = palette;
-  const { dialogBorder } = dialogTokens(palette);
+  const { background, blueGray } = palette;
 
   return {
     pickerGroup: {
       // Quick picker (Quick Open) color for grouping borders.
-      border: dialogBorder,
+      border: background[4],
 
       // Quick picker (Quick Open) color for grouping labels.
-      foreground: blueGray[0]
+      foreground: blueGray[6]
     }
   };
 };

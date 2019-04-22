@@ -5,9 +5,16 @@ const snippetColors: UIColors = (palette) => {
 
   return {
     editor: {
+      // Highlight background color of the final tabstop of a snippet.
       snippetFinalTabstopHighlightBackground: deepPurple[6],
+
+      // Highlight border color of the final tabstop of a snippet.
       snippetFinalTabstopHighlightBorder: deepPurple[5],
+
+      // Highlight background color of a snippet tabstop.
       snippetTabstopHighlightBackground: deepPurple[6],
+
+      // Highlight border color of a snippet tabstop.
       snippetTabstopHighlightBorder: deepPurple[5]
     }
   };

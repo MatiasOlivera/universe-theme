@@ -26,7 +26,7 @@
     "input.border": "#162137",
     "input.foreground": "#B0BEC5",
     "input.placeholderForeground": "#78909C",
-    "inputOption.activeBorder": "#FFF176",
+    "inputOption.activeBorder": "#26334C",
     "inputValidation.errorBackground": "#E53935",
     "inputValidation.errorBorder": "#EF5350",
     "inputValidation.errorForeground": "#FFEBEE",

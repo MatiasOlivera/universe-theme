@@ -19,7 +19,7 @@ export const inputTokens = (palette: ColorPalettes): InputTokens => {
 // Colors for input controls such as in the Search view or the Find/Replace
 // dialog.
 const inputColors: UIColors = (palette) => {
-  const { secondary, blueGray, red, blue, yellow } = palette;
+  const { background, blueGray, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -41,7 +41,7 @@ const inputColors: UIColors = (palette) => {
 
     inputOption: {
       // Border color of activated options in input fields.
-      activeBorder: secondary[3]
+      activeBorder: background[0]
     },
 
     inputValidation: {

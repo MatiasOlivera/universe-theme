@@ -7,12 +7,19 @@ const debugColors: UIColors = (palette) => {
 
   return {
     debugToolBar: {
+      // Debug toolbar background color.
       background: dialogBackground,
+
+      // Debug toolbar border color.
       border: dialogBackground
     },
+
     editor: {
-      focusedStackFrameHighlightBackground: deepPurple[5],
-      stackFrameHighlightBackground: deepPurple[5]
+      // Background color of the top stack frame highlight in the editor.
+      stackFrameHighlightBackground: deepPurple[5],
+
+      // Background color of the focused stack frame highlight in the editor.
+      focusedStackFrameHighlightBackground: deepPurple[5]
     }
   };
 };

@@ -26,10 +26,10 @@ const textColors: UIColors = (palette) => {
 
     textLink: {
       // Foreground color for links in text when clicked on and on mouse hover.
-      activeForeground: secondary[1],
+      activeForeground: secondary[2],
 
       // Foreground color for links in text.
-      foreground: secondary[2]
+      foreground: secondary[3]
     },
 
     textPreformat: {

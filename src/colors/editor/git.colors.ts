@@ -2,30 +2,31 @@ import { UIColors } from '../../types/colors-types';
 
 // Used for file labels and the SCM viewlet.
 const gitColors: UIColors = (palette) => {
-  const { green, yellow, red, blueGray, blue, deepPurple } = palette;
+  const { blue, red, green, blueGray } = palette;
+  const foregroundSwatch: number = 2;
 
   return {
     gitDecoration: {
       // Color for added Git resources.
-      addedResourceForeground: green[1],
+      addedResourceForeground: green[foregroundSwatch],
 
       // Color for modified Git resources.
-      modifiedResourceForeground: blue[1],
+      modifiedResourceForeground: blue[foregroundSwatch],
 
       // Color for deleted Git resources.
-      deletedResourceForeground: red[1],
+      deletedResourceForeground: red[foregroundSwatch],
 
       // Color for untracked Git resources.
-      untrackedResourceForeground: deepPurple[1],
+      untrackedResourceForeground: green[foregroundSwatch],
 
       // Color for ignored Git resources.
-      ignoredResourceForeground: blueGray[1],
+      ignoredResourceForeground: blueGray[7],
 
       // Color for conflicting Git resources.
-      conflictingResourceForeground: yellow[1],
+      conflictingResourceForeground: red[foregroundSwatch],
 
       //  Color for submodule resources.
-      submoduleResourceForeground: blueGray[0]
+      submoduleResourceForeground: blueGray[5]
     }
   };
 };

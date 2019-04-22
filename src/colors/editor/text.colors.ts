@@ -6,6 +6,11 @@ const textColors: UIColors = (palette) => {
   const { primary, secondary, background } = palette;
 
   return {
+    walkThrough: {
+      // Background color for the embedded editors on the Interactive Playground.
+      embeddedEditorBackground: background[6]
+    },
+
     textBlockQuote: {
       // Background color for block quotes in text.
       background: background[4],

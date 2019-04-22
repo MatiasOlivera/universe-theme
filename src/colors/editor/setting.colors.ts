@@ -1,6 +1,8 @@
 import { UIColors } from '../../types/colors-types';
 import { inputTokens } from './input.colors';
 
+// These colors are for the GUI settings editor which can be opened with the
+// Preferences: Open Settings (UI) command.
 const settingColors: UIColors = (palette) => {
   const { background, blueGray, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
@@ -9,20 +11,49 @@ const settingColors: UIColors = (palette) => {
 
   return {
     settings: {
-      checkboxBackground: inputBackground,
-      checkboxBorder: inputBorder,
-      checkboxForeground: inputForeground,
-      dropdownBackground: inputBackground,
-      dropdownBorder: inputBorder,
-      dropdownForeground: inputForeground,
-      dropdownListBorder: background[5],
+      // The foreground color for a section header or active title.
       headerForeground: blueGray[1],
+
+      // The line that indicates a modified setting.
       modifiedItemIndicator: yellow[3],
+
+      // Checkbox background.
+      checkboxBackground: inputBackground,
+
+      // Checkbox border.
+      checkboxBorder: inputBorder,
+
+      // Checkbox foreground.
+      checkboxForeground: inputForeground,
+
+      // Dropdown background.
+      dropdownBackground: inputBackground,
+
+      // Dropdown border.
+      dropdownBorder: inputBorder,
+
+      // Dropdown foreground.
+      dropdownForeground: inputForeground,
+
+      // Dropdown list border.
+      dropdownListBorder: background[5],
+
+      // Number input box background.
       numberInputBackground: inputBackground,
+
+      // Number input box border.
       numberInputBorder: inputBorder,
+
+      // Number input box foreground.
       numberInputForeground: inputForeground,
+
+      // Text input box background.
       textInputBackground: inputBackground,
+
+      // Text input box border.
       textInputBorder: inputBorder,
+
+      // Text input box foreground.
       textInputForeground: inputForeground
     }
   };

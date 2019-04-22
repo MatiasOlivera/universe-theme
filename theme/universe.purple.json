@@ -299,10 +299,10 @@
     "settings.textInputBackground": "#191230",
     "settings.textInputBorder": "#1E1637",
     "settings.textInputForeground": "#B0BEC5",
-    "breadcrumb.activeSelectionForeground": "#CFD8DC",
     "breadcrumb.background": "#150E29",
-    "breadcrumb.focusForeground": "#CFD8DC",
     "breadcrumb.foreground": "#B0BEC5",
+    "breadcrumb.focusForeground": "#CFD8DC",
+    "breadcrumb.activeSelectionForeground": "#CFD8DC",
     "breadcrumbPicker.background": "#191230"
   },
   "tokenColors": [

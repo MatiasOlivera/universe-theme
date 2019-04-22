@@ -1,16 +1,26 @@
 import { UIColors } from '../../types/colors-types';
 
+// The theme colors for breadcrumbs navigation
 const breadcrumbColors: UIColors = (palette) => {
   const { blueGray, background } = palette;
 
   return {
     breadcrumb: {
-      activeSelectionForeground: blueGray[1],
+      // Background color of breadcrumb items.
       background: background[5],
+
+      // Color of breadcrumb items.
+      foreground: blueGray[2],
+
+      // Color of focused breadcrumb items.
       focusForeground: blueGray[1],
-      foreground: blueGray[2]
+
+      // Color of selected breadcrumb items.
+      activeSelectionForeground: blueGray[1]
     },
+
     breadcrumbPicker: {
+      // Background color of breadcrumb item picker.
       background: background[4]
     }
   };

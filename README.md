@@ -148,7 +148,7 @@ The colors used for the syntax highlighting are from **Material Design**.
 It's [Iosevka](https://typeof.net/Iosevka/)
 
 #### Which icons do you recommend to use?
-I love Ayu icons. You need to install the `Ayu theme`
+I love `Monokai pro` icons. You need to install the `Monokai pro theme`
 
 #### What are the recommended editor settings?
 

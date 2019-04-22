@@ -5,6 +5,7 @@
 src/**
 dist/**
 demos/**
+docs/**
 nodemon.json
 tsconfig.json
 static/images/**

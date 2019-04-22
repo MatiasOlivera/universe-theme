@@ -12,35 +12,64 @@ export const inputTokens = (palette: ColorPalettes): InputTokens => {
   return {
     inputBackground: background[4],
     inputBorder: background[3],
-    inputForeground: blueGray[0]
+    inputForeground: blueGray[2]
   };
 };
 
+// Colors for input controls such as in the Search view or the Find/Replace
+// dialog.
 const inputColors: UIColors = (palette) => {
-  const { blueGray, purple, red, blue, yellow } = palette;
+  const { background, blueGray, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
 
   return {
     input: {
+      // Input box background.
       background: inputBackground,
+
+      // Input box border.
       border: inputBorder,
+
+      // Input box foreground.
       foreground: inputForeground,
-      placeholderForeground: blueGray[1]
+
+      // Input box foreground color for placeholder text.
+      placeholderForeground: blueGray[4]
     },
+
     inputOption: {
-      activeBorder: purple[3]
+      // Border color of activated options in input fields.
+      activeBorder: background[0]
     },
+
     inputValidation: {
-      errorBackground: red[9],
-      errorBorder: red[7],
+      // Input validation background color for error severity.
+      errorBackground: red[6],
+
+      // Input validation border color for error severity.
+      errorBorder: red[4],
+
+      // Input validation foreground color for error severity.
       errorForeground: red[0],
-      infoBackground: blue[9],
-      infoBorder: blue[7],
+
+      // Input validation background color for information severity.
+      infoBackground: blue[6],
+
+      // Input validation border color for information severity.
+      infoBorder: blue[4],
+
+      //  Input validation foreground color for information severity.
       infoForeground: blue[0],
-      warningBackground: yellow[9],
-      warningBorder: yellow[7],
+
+      // Input validation background color for information warning.
+      warningBackground: yellow[6],
+
+      // Input validation border color for warning severity.
+      warningBorder: yellow[4],
+
+      // Input validation foreground color for warning severity.
       warningForeground: yellow[0]
     }
   };

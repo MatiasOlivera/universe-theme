@@ -10,34 +10,31 @@ export interface SyntaxColors {
 }
 
 export interface ColorPalettes {
+  white: string;
+  black: string;
   background: ColorPalette;
+  primary: ColorPalette;
+  secondary: ColorPalette;
   blue: ColorPalette;
   blueGray: ColorPalette;
   green: ColorPalette;
   indigo: ColorPalette;
   orange: ColorPalette;
   pink: ColorPalette;
-  purple: ColorPalette;
+  deepPurple: ColorPalette;
   red: ColorPalette;
-  teal: ColorPalette;
+  cyan: ColorPalette;
   yellow: ColorPalette;
   gray: ColorPalette;
-  white: string;
-  black: string;
+  purple: ColorPalette;
+  lightBlue: ColorPalette;
+  teal: ColorPalette;
+  lime: ColorPalette;
+  lightGreen: ColorPalette;
+  deepOrange: ColorPalette;
 }
 
-export type ColorPalette = [
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string
-];
+export type ColorPalette = Array<string>;
 
 export interface EditorColors {
   [key: string]: string | Dictionary<string>;

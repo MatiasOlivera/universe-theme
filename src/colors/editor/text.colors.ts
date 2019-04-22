@@ -1,25 +1,45 @@
 import { UIColors } from '../../types/colors-types';
+import { opacity_50 } from '../opacity';
 
+// Colors inside a text document, such as the welcome page.
 const textColors: UIColors = (palette) => {
-  const { background, purple, pink, gray } = palette;
+  const { primary, secondary, background } = palette;
 
   return {
-    textBlockQuote: {
-      background: background[3],
-      border: purple[9]
+    walkThrough: {
+      // Background color for the embedded editors on the Interactive Playground.
+      embeddedEditorBackground: background[6]
     },
+
+    textBlockQuote: {
+      // Background color for block quotes in text.
+      background: background[4],
+
+      //  Border color for block quotes in text.
+      border: `${primary[3]}${opacity_50}`
+    },
+
     textCodeBlock: {
+      // Background color for code blocks in text.
       background: background[3]
     },
+
     textLink: {
-      activeForeground: purple[2],
-      foreground: purple[3]
+      // Foreground color for links in text when clicked on and on mouse hover.
+      activeForeground: secondary[2],
+
+      // Foreground color for links in text.
+      foreground: secondary[3]
     },
+
     textPreformat: {
-      foreground: pink[1]
+      // Foreground color for preformatted text segments.
+      foreground: primary[2]
     },
+
     textSeparator: {
-      foreground: gray[3]
+      // Color for text separators.
+      foreground: background[0]
     }
   };
 };

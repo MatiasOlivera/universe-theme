@@ -1,17 +1,24 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_60, opacity_50, opacity_40 } from '../opacity';
+import { opacity_40, opacity_50, opacity_60 } from '../opacity';
 
 const scrollbarColors: UIColors = (palette) => {
-  const { background, purple } = palette;
+  const { background } = palette;
 
   return {
     scrollbar: {
+      // Scrollbar slider shadow to indicate that the view is scrolled.
       shadow: background[6]
     },
+
     scrollbarSlider: {
-      activeBackground: `${purple[5]}${opacity_60}`,
-      background: `${purple[6]}${opacity_50}`,
-      hoverBackground: `${purple[5]}${opacity_40}`
+      // Scrollbar slider background color when clicked on.
+      activeBackground: `${background[0]}${opacity_60}`,
+
+      // Scrollbar slider background color.
+      background: `${background[0]}${opacity_50}`,
+
+      // Scrollbar slider background color when hovering.
+      hoverBackground: `${background[0]}${opacity_40}`
     }
   };
 };

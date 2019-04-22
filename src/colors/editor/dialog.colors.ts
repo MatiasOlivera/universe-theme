@@ -10,6 +10,6 @@ export const dialogTokens = (palette: ColorPalettes): DialogColors => {
 
   return {
     dialogBackground: background[3],
-    dialogBorder: background[1]
+    dialogBorder: background[2]
   };
 };

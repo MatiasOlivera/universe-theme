@@ -19,7 +19,7 @@ import {
   Type,
   Variable,
 } from '../../types/tokens-types';
-import { palette } from './palette';
+import { universePalette } from './palette';
 
 const {
   blue,
@@ -28,11 +28,11 @@ const {
   indigo,
   orange,
   pink,
-  purple,
+  deepPurple,
   red,
-  teal,
+  cyan,
   yellow
-} = palette;
+} = universePalette;
 
 /**
  * Data types
@@ -43,37 +43,37 @@ const type: Type = {
       foreground: pink[1]
     },
     escape: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     }
   },
   custom: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   number: {
     foreground: orange[2]
   },
   other: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   constant: {
     language: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     },
     languageAlt: {
       foreground: blue[2]
     },
     library: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     }
   },
   string: {
     foreground: green[2]
   },
   typeName: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   library: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   }
 };
 
@@ -82,19 +82,19 @@ const type: Type = {
  */
 const keyword: Keyword = {
   default: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   control: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   modifier: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   operator: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   other: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   }
 };
 
@@ -182,7 +182,7 @@ const puntuaction: Puntuaction = {
     fontStyle: '' // Inherit the element color
   },
   embedded: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   }
 };
 
@@ -213,7 +213,7 @@ const config: Config = {
     foreground: blueGray[0]
   },
   key: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   value: {
     foreground: pink[1]
@@ -238,19 +238,19 @@ const css: Css = {
     foreground: orange[2]
   },
   attribute: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   pseudoClass: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   pseudoElement: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
 
   // Properties
   property: {
     name: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     },
     value: {
       foreground: green[2]
@@ -276,7 +276,7 @@ const tag: Tag = {
     foreground: indigo[2]
   },
   name: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   }
 };
 
@@ -301,7 +301,7 @@ const html: Html = {
  */
 const json: Json = {
   property: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   }
 };
 
@@ -321,7 +321,7 @@ const markup: Markup = {
     fontStyle: 'bold'
   },
   heading: {
-    foreground: purple[2]
+    foreground: deepPurple[2]
   },
   italic: {
     foreground: orange[2],
@@ -342,7 +342,7 @@ const markup: Markup = {
     foreground: green[2]
   },
   raw: {
-    foreground: teal[2]
+    foreground: cyan[2]
   },
   underline: {
     foreground: blue[2],
@@ -360,7 +360,7 @@ const markdown: Markdown = {
     italic: markup.italic,
     quote: markup.quote,
     list: {
-      foreground: purple[2]
+      foreground: deepPurple[2]
     }
   },
   linkTitle: {

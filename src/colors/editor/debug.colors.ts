@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 import { dialogTokens } from './dialog.colors';
 
 const debugColors: UIColors = (palette) => {
-  const { deepPurple } = palette;
+  const { background } = palette;
   const { dialogBackground } = dialogTokens(palette);
 
   return {
@@ -16,10 +16,10 @@ const debugColors: UIColors = (palette) => {
 
     editor: {
       // Background color of the top stack frame highlight in the editor.
-      stackFrameHighlightBackground: deepPurple[5],
+      stackFrameHighlightBackground: background[3],
 
       // Background color of the focused stack frame highlight in the editor.
-      focusedStackFrameHighlightBackground: deepPurple[5]
+      focusedStackFrameHighlightBackground: background[2]
     }
   };
 };

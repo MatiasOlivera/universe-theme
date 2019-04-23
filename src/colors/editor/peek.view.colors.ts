@@ -1,36 +1,69 @@
 import { UIColors } from '../../types/colors-types';
+import { dialogTokens } from './dialog.colors';
+import { selectionTokens } from './editor.colors';
 
+// Peek views are used to show references and declarations as a view inside the
+// editor.
 const peekViewColors: UIColors = (palette) => {
-  const { purple, background, blueGray } = palette;
+  const { blueGray } = palette;
+  const { dialogBackground, dialogBorder } = dialogTokens(palette);
+  const { selectionBackground, highlightBackground } = selectionTokens(palette);
 
   return {
     peekView: {
-      border: purple[4]
+      // Color of the peek view borders and arrow.
+      border: dialogBorder
     },
+
     peekViewEditor: {
-      background: background[5],
-      matchHighlightBackground: purple[6],
-      matchHighlightBorder: purple[5]
+      // Background color of the peek view editor.
+      background: dialogBackground,
+
+      // Match highlight color in the peek view editor.
+      matchHighlightBackground: highlightBackground,
+
+      // Match highlight border color in the peek view editor.
+      matchHighlightBorder: highlightBackground
     },
+
     peekViewEditorGutter: {
-      background: background[5]
+      // Background color of the gutter in the peek view editor.
+      background: dialogBackground
     },
+
     peekViewResult: {
-      background: background[6],
-      fileForeground: blueGray[1],
-      lineForeground: blueGray[2],
-      matchHighlightBackground: purple[7],
-      selectionBackground: purple[6],
-      selectionForeground: purple[0]
+      // Background color of the peek view result list.
+      background: dialogBackground,
+
+      // Foreground color for file nodes in the peek view result list.
+      fileForeground: blueGray[4],
+
+      // Foreground color for line nodes in the peek view result list.
+      lineForeground: blueGray[4],
+
+      // Match highlight color in the peek view result list.
+      matchHighlightBackground: highlightBackground,
+
+      // Background color of the selected entry in the peek view result list.
+      selectionBackground: selectionBackground,
+
+      // Foreground color of the selected entry in the peek view result list.
+      selectionForeground: blueGray[1]
     },
+
     peekViewTitle: {
-      background: background[6]
+      // Background color of the peek view title area.
+      background: dialogBackground
     },
+
     peekViewTitleDescription: {
-      foreground: blueGray[3]
+      // Color of the peek view title info.
+      foreground: blueGray[4]
     },
+
     peekViewTitleLabel: {
-      foreground: blueGray[1]
+      // Color of the peek view title.
+      foreground: blueGray[2]
     }
   };
 };

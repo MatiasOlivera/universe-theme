@@ -1,11 +1,6 @@
 import { SyntaxColors } from '../../types/colors-types';
-import { cssTokens } from './css.colors';
-import { htmlTokens } from './html.colors';
 
-const pugColors: SyntaxColors = (palette) => {
-  const { classColor, idColor } = cssTokens(palette);
-  const { tagColor, textColor } = htmlTokens(palette);
-
+const pugColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Keywords
@@ -13,9 +8,7 @@ const pugColors: SyntaxColors = (palette) => {
     {
       name: 'Constant',
       scope: 'constant',
-      settings: {
-        foreground: tagColor
-      }
+      settings: tokens.html.tag
     },
 
     /**
@@ -24,27 +17,21 @@ const pugColors: SyntaxColors = (palette) => {
     {
       name: 'Pug ID',
       scope: 'entity.other.attribute-name.id.pug',
-      settings: {
-        foreground: idColor
-      }
+      settings: tokens.css.id
     },
     {
       name: 'Pug class',
       scope: 'entity.other.attribute-name.class.pug',
-      settings: {
-        foreground: classColor
-      }
+      settings: tokens.css.class
     },
 
     /**
      * Other
      */
     {
-      name: 'Text',
+      name: 'Text', // text
       scope: 'text.pug',
-      settings: {
-        foreground: textColor
-      }
+      settings: tokens.text
     }
   ];
 };

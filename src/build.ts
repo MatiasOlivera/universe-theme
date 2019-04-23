@@ -4,13 +4,9 @@ import { join } from 'path';
 import { format, resolveConfig } from 'prettier';
 
 import { editorColors, syntaxColors } from './colors';
-import {
-  ColorPalettes,
-  Dictionary,
-  EditorColors,
-  TokenColor,
-  TokenColors
-} from './types/colors-types';
+import { ColorPalettes, EditorColors, TokenColor, TokenColors } from './types/colors-types';
+import { Tokens } from './types/tokens-types';
+import { Dictionary } from './types/utils-types';
 import { exists, mkdir, writeFile } from './utils/fs-promisify';
 
 interface ThemeVariant {
@@ -18,6 +14,7 @@ interface ThemeVariant {
   filename: string;
   type: 'dark' | 'light';
   palette: ColorPalettes;
+  tokens: Tokens;
 }
 
 const themesDirectory: string = join(__dirname, '../theme');
@@ -37,7 +34,7 @@ export async function buildTheme(theme: ThemeVariant) {
   const colors: EditorColors = flat(merge(Object.values(uiColors)));
 
   const syntax: TokenColor[][] = Object.keys(syntaxColors).map((language) => {
-    return syntaxColors[language](theme.palette);
+    return syntaxColors[language](theme.tokens);
   });
   const tokenColors: TokenColors = Array.prototype.concat(
     ...Object.values(syntax)

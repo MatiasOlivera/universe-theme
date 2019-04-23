@@ -1,30 +1,48 @@
 import { UIColors } from '../../types/colors-types';
 import { dialogTokens } from './dialog.colors';
 
+// Notification toasts slide up from the bottom-right of the workbench.
+// Once opened in the Notification Center, they are displayed in a list with a
+// header.
 const notificationColors: UIColors = (palette) => {
-  const { background, blueGray, purple } = palette;
+  const { secondary, background, blueGray } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
     // Notification center
+
     notificationCenter: {
+      // Notification Center border color.
       border: dialogBorder
     },
+
     notificationCenterHeader: {
+      // Notification Center header background color.
       background: background[2],
-      foreground: blueGray[0]
+
+      // Notification Center header foreground color.
+      foreground: blueGray[3]
     },
+
     notificationLink: {
-      foreground: purple[2]
+      // Notification links foreground color.
+      foreground: secondary[3]
     },
+
     notifications: {
+      // Notification background color.
       background: dialogBackground,
+
+      // Notification border color separating from other notifications in the Notification Center.
       border: dialogBorder,
-      foreground: blueGray[1]
+
+      // Notification foreground color.
+      foreground: blueGray[3]
     },
 
     // A notification
     notificationToast: {
+      // Notification toast border color.
       border: dialogBorder
     }
   };

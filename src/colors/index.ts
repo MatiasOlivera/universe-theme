@@ -1,4 +1,5 @@
-import { Dictionary, SyntaxColors, UIColors } from '../types/colors-types';
+import { SyntaxColors, UIColors } from '../types/colors-types';
+import { Dictionary } from '../types/utils-types';
 import _editorColors from './editor';
 import _syntaxColors from './syntax';
 

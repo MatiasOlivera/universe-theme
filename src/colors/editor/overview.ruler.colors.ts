@@ -1,24 +1,69 @@
 import { UIColors } from '../../types/colors-types';
-import { opacity_50 } from '../opacity';
+import { opacity_80 } from '../opacity';
 
+// This ruler is located beneath the scroll bar on the right edge of the editor
+// and gives an overview of the decorations in the editor.
 const overviewRulerColors: UIColors = (palette) => {
-  const { green, background, purple, red, blue, yellow } = palette;
+  const {
+    green,
+    background,
+    deepPurple,
+    cyan,
+    pink,
+    red,
+    blue,
+    yellow,
+    deepOrange
+  } = palette;
+
+  const highlightForeground: string = `${background[0]}${opacity_80}`;
 
   return {
     editorOverviewRuler: {
-      addedForeground: green[1],
+      // Color of the overview ruler border.
       border: background[6],
-      bracketMatchForeground: purple[1],
-      deletedForeground: red[1],
-      errorForeground: red[1],
-      findMatchForeground: `${purple[1]}${opacity_50}`,
-      infoForeground: blue[1],
-      modifiedForeground: blue[1],
-      rangeHighlightForeground: `${purple[1]}${opacity_50}`,
-      selectionHighlightForeground: `${purple[1]}${opacity_50}`,
-      warningForeground: yellow[1],
-      wordHighlightForeground: `${purple[1]}${opacity_50}`,
-      wordHighlightStrongForeground: `${purple[1]}${opacity_50}`
+
+      // Overview ruler marker color for matching brackets.
+      bracketMatchForeground: deepPurple[3],
+
+      // Overview ruler marker color for find matches. The color must not be
+      // opaque so as not to hide underlying decorations.
+      findMatchForeground: highlightForeground,
+
+      // Overview ruler marker color for highlighted ranges, like by the Quick
+      // Open, Symbol in File and Find features. The color must not be opaque
+      // so as not to hide underlying decorations.
+      rangeHighlightForeground: highlightForeground,
+
+      // Overview ruler marker color for selection highlights. The color must
+      // not be opaque so as not to hide underlying decorations.
+      selectionHighlightForeground: highlightForeground,
+
+      // Overview ruler marker color for symbol highlights. The color must not
+      // be opaque so as not to hide underlying decorations.
+      wordHighlightForeground: highlightForeground,
+
+      // Overview ruler marker color for write-access symbol highlights. The
+      // color must not be opaque so as not to hide underlying decorations.
+      wordHighlightStrongForeground: highlightForeground,
+
+      // Overview ruler marker color for added content.
+      addedForeground: green[3],
+
+      // Overview ruler marker color for modified content.
+      modifiedForeground: blue[3],
+
+      // Overview ruler marker color for infos.
+      infoForeground: cyan[3],
+
+      // Overview ruler marker color for warnings.
+      warningForeground: yellow[3],
+
+      // Overview ruler marker color for deleted content.
+      deletedForeground: deepOrange[3],
+
+      // Overview ruler marker color for errors.
+      errorForeground: red[3]
     }
   };
 };

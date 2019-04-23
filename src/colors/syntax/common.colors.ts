@@ -1,50 +1,39 @@
 import { SyntaxColors } from '../../types/colors-types';
 
-const commonColors: SyntaxColors = (palette) => {
-  const {
-    purple,
-    blue,
-    pink,
-    indigo,
-    green,
-    red,
-    gray,
-    teal,
-    orange,
-    blueGray
-  } = palette;
-
+const commonColors: SyntaxColors = (tokens) => {
   return [
     /**
      * Keywords
      */
     {
       name: 'Keywords',
-      scope: ['keyword', 'storage.type', 'support.type'],
-      settings: {
-        foreground: purple[2]
-      }
+      scope: 'keyword',
+      settings: tokens.keyword.default
     },
     {
-      name: 'Language variable',
-      scope: ['variable.language', 'support.variable'],
-      settings: {
-        foreground: purple[2]
-      }
+      name: 'Flow control',
+      scope: 'keyword.control',
+      settings: tokens.keyword.control
     },
     {
-      name: 'Language class',
-      scope: 'support.class',
-      settings: {
-        foreground: blue[2]
-      }
+      name: 'Operator',
+      scope: 'keyword.operator',
+      settings: tokens.keyword.operator
     },
     {
-      name: 'Modifier',
+      name: 'Type name (class, function, int, var)',
+      scope: 'storage.type',
+      settings: tokens.type.typeName
+    },
+    {
+      name: 'Modifier (static, final, abstract)',
       scope: 'storage.modifier',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.keyword.modifier
+    },
+    {
+      name: 'Other keywords',
+      scope: 'keyword.other',
+      settings: tokens.keyword.other
     },
 
     /**
@@ -53,45 +42,36 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Variable',
       scope: 'variable',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.variable.default
     },
     {
-      name: 'Constant',
-      scope: 'variable.other.constant',
-      settings: {
-        foreground: pink[1]
-      }
+      name: 'Other variable',
+      scope: 'variable.other',
+      settings: tokens.variable.other
+    },
+    {
+      name: 'Language variable (this, super, self)',
+      scope: 'variable.language',
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library variable',
+      scope: 'support.variable',
+      settings: tokens.type.constant.library
     },
 
     /**
      * Objects
      */
     {
-      name: 'Object variable',
-      scope: 'variable.other.object',
-      settings: {
-        foreground: pink[1]
-      }
-    },
-    {
-      name: 'Variable property value',
+      name: 'Access to object property',
       scope: 'variable.other.property',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.variable.default
     },
     {
       name: 'Object property',
-      scope: [
-        'string.unquoted',
-        'meta.object-literal.key',
-        'variable.object.property'
-      ],
-      settings: {
-        foreground: indigo[2]
-      }
+      scope: ['meta.object-literal.key', 'variable.object.property'],
+      settings: tokens.object.property
     },
 
     /**
@@ -100,23 +80,17 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Function definition',
       scope: 'entity.name.function',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.function.name
     },
     {
-      name: 'Language function',
+      name: 'Library function',
       scope: 'support.function',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.function.library
     },
     {
       name: 'Function parameter',
       scope: 'variable.parameter',
-      settings: {
-        foreground: pink[1]
-      }
+      settings: tokens.function.parameter
     },
 
     /**
@@ -129,16 +103,73 @@ const commonColors: SyntaxColors = (palette) => {
         'entity.name.type.class',
         'entity.other.inherited-class'
       ],
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.class.name
     },
     {
       name: 'Instance',
       scope: ['entity.name.type.instance', 'variable.other.class'],
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.class.name
+    },
+    {
+      name: 'Library class',
+      scope: 'support.class',
+      settings: tokens.class.library
+    },
+
+    /**
+     * Types
+     */
+    {
+      name: 'Character',
+      scope: 'constant.character',
+      settings: tokens.type.character.default
+    },
+    {
+      name: 'Escape character',
+      scope: 'constant.character.escape',
+      settings: tokens.type.character.escape
+    },
+    {
+      name: 'String',
+      scope: [
+        'string',
+        'string.quoted',
+        'string.unquoted',
+        'string.interpolated',
+        'string.regexp',
+        'string.other'
+      ],
+      settings: tokens.type.string
+    },
+    {
+      name: 'Number',
+      scope: 'constant.numeric',
+      settings: tokens.type.number
+    },
+    {
+      name: 'Library type',
+      scope: 'support.type',
+      settings: tokens.type.library
+    },
+    {
+      name: 'Language constant (boolean, null)',
+      scope: 'constant.language',
+      settings: tokens.type.constant.language
+    },
+    {
+      name: 'Library constant',
+      scope: 'support.constant',
+      settings: tokens.type.constant.library
+    },
+    {
+      name: 'Other constant',
+      scope: ['constant.other', 'support.other'],
+      settings: tokens.type.other
+    },
+    {
+      name: 'Custom type',
+      scope: 'entity.name.type',
+      settings: tokens.type.custom
     },
 
     /**
@@ -147,71 +178,47 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Module name',
       scope: 'entity.name.type.module',
-      settings: {
-        foreground: blue[2]
-      }
+      settings: tokens.module.name
     },
 
     /**
-     * Types
+     * Tags
      */
     {
-      name: 'String',
+      name: 'Tag',
+      scope: 'entity.name.tag',
+      settings: tokens.tag.name
+    },
+    {
+      name: 'Tag angle brackets',
       scope: [
-        'string',
-        'string.quoted.single',
-        'string.quoted.double',
-        'string.quoted.template'
+        'punctuation.definition.tag.begin',
+        'punctuation.definition.tag.end'
       ],
-      settings: {
-        foreground: green[2]
-      }
-    },
-    {
-      name: 'Number',
-      scope: 'constant.numeric',
-      settings: {
-        foreground: orange[2]
-      }
-    },
-    {
-      name: 'Primitive type',
-      scope: 'support.type.primitive',
-      settings: {
-        foreground: teal[2]
-      }
-    },
-    {
-      name: 'Language constant (boolean, null)',
-      scope: 'constant.language',
-      settings: {
-        foreground: purple[2]
-      }
-    },
-    {
-      name: 'Custom type',
-      scope: 'entity.name.type',
-      settings: {
-        foreground: teal[2]
-      }
+      settings: tokens.tag.name
     },
 
     /**
-     * Other
+     * Comments
      */
     {
       name: 'Comment',
-      scope: ['comment', 'punctuation.definition.comment'],
-      settings: {
-        foreground: blueGray[3]
-      }
+      scope: 'comment',
+      settings: tokens.comment
     },
+
+    /**
+     * Invalid
+     */
     {
       name: 'Invalid',
-      scope: ['invalid', 'invalid.illegal'],
-      settings: {
-        foreground: red[2]
-      }
+      scope: 'invalid.illegal',
+      settings: tokens.invalid.illegal
+    },
+    {
+      name: 'Deprecated',
+      scope: 'invalid.deprecated',
+      settings: tokens.invalid.deprecated
     },
 
     /**
@@ -220,16 +227,12 @@ const commonColors: SyntaxColors = (palette) => {
     {
       name: 'Symbols',
       scope: 'punctuation',
-      settings: {
-        fontStyle: '' // Inherit the element color
-      }
+      settings: tokens.puntuaction.default
     },
     {
       name: 'Punctuation for embedded section (eg: interpolated strings)',
       scope: 'punctuation.section.embedded',
-      settings: {
-        foreground: purple[2]
-      }
+      settings: tokens.puntuaction.embedded
     }
   ];
 };

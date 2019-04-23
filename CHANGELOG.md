@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] 2019-04-22
+
+### Added
+- **Add a deep purple variant.** You can select it going to  `Settings > Color theme > Universe purple`.
+- **Add the main colors and their usage in the color reference in the README.** [#2](https://github.com/MatiasOlivera/universe-theme/issues/2)
+
+### Changed
+
+- **Changed the background hue to deep blue**.
+- **Use defined colors for an element in all languages**: green for `strings` or orange for `numbers`.
+- **Update bracket pair colorizer settings**.
+
+### Fixed
+- **Use the primary or secondary color instead of purple to highlight interface components**.
+- **Many small changes to maintain consistency in the user interface**.
+
 ## [1.1.0] 2019-04-08
 
 ### Changed

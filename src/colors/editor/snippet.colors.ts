@@ -1,14 +1,22 @@
 import { UIColors } from '../../types/colors-types';
+import { selectionTokens } from './editor.colors';
 
 const snippetColors: UIColors = (palette) => {
-  const { purple } = palette;
+  const { highlightBackground } = selectionTokens(palette);
 
   return {
     editor: {
-      snippetFinalTabstopHighlightBackground: purple[6],
-      snippetFinalTabstopHighlightBorder: purple[5],
-      snippetTabstopHighlightBackground: purple[6],
-      snippetTabstopHighlightBorder: purple[5]
+      // Highlight background color of the final tabstop of a snippet.
+      snippetFinalTabstopHighlightBackground: highlightBackground,
+
+      // Highlight border color of the final tabstop of a snippet.
+      snippetFinalTabstopHighlightBorder: highlightBackground,
+
+      // Highlight background color of a snippet tabstop.
+      snippetTabstopHighlightBackground: highlightBackground,
+
+      // Highlight border color of a snippet tabstop.
+      snippetTabstopHighlightBorder: highlightBackground
     }
   };
 };

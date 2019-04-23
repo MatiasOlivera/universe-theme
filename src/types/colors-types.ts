@@ -1,44 +1,40 @@
+import { Settings, Tokens } from './tokens-types';
+import { Dictionary } from './utils-types';
+
 export interface UIColors {
   (palette: ColorPalettes): EditorColors;
 }
 
 export interface SyntaxColors {
-  (palette: ColorPalettes): TokenColors;
+  (tokens: Tokens): TokenColors;
 }
 
 export interface ColorPalettes {
+  white: string;
+  black: string;
   background: ColorPalette;
+  primary: ColorPalette;
+  secondary: ColorPalette;
   blue: ColorPalette;
   blueGray: ColorPalette;
   green: ColorPalette;
   indigo: ColorPalette;
   orange: ColorPalette;
   pink: ColorPalette;
-  purple: ColorPalette;
+  deepPurple: ColorPalette;
   red: ColorPalette;
-  teal: ColorPalette;
+  cyan: ColorPalette;
   yellow: ColorPalette;
   gray: ColorPalette;
-  white: string;
-  black: string;
+  purple: ColorPalette;
+  lightBlue: ColorPalette;
+  teal: ColorPalette;
+  lime: ColorPalette;
+  lightGreen: ColorPalette;
+  deepOrange: ColorPalette;
 }
 
-export type ColorPalette = [
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string,
-  string
-];
-
-export type Dictionary<Value = any> = {
-  [key: string]: Value;
-};
+export type ColorPalette = Array<string>;
 
 export interface EditorColors {
   [key: string]: string | Dictionary<string>;
@@ -50,9 +46,4 @@ export interface TokenColor {
   name: string;
   scope: string | Array<string>;
   settings: Settings;
-}
-
-interface Settings {
-  foreground?: string;
-  fontStyle?: 'italic' | 'bold' | 'underline' | '';
 }

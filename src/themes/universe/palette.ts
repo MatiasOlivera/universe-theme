@@ -1,18 +1,21 @@
-import { ColorPalette, ColorPalettes } from '../types/colors-types';
+import { ColorPalette, ColorPalettes } from '../../types/colors-types';
 
 // Deep blue
-const background: ColorPalette = [
-  '#2E4759',
-  '#243C4D',
-  '#1C3242',
-  '#152836',
-  '#0F202D',
-  '#0B1A25',
-  '#08151F',
-  '#050F17',
-  '#020A0F',
-  ''
+const deepBlue: ColorPalette = [
+  '#26334C',
+  '#202C45',
+  '#1B273E',
+  '#162137',
+  '#121C30',
+  '#0E1729',
+  '#0A1222',
+  '#070E1B',
+  '#050A14',
+  '#03060D'
 ];
+
+const white: string = '#FFFFFF';
+const black: string = '#000000';
 
 // Blue
 const blue: ColorPalette = [
@@ -99,7 +102,7 @@ const pink: ColorPalette = [
 ];
 
 // Deep purple
-const purple: ColorPalette = [
+const deepPurple: ColorPalette = [
   '#EDE7F6',
   '#D1C4E9',
   '#B39DDB',
@@ -127,7 +130,7 @@ const red: ColorPalette = [
 ];
 
 // Cyan
-const teal: ColorPalette = [
+const cyan: ColorPalette = [
   '#E0F7FA',
   '#B2EBF2',
   '#80DEEA',
@@ -167,13 +170,8 @@ const gray: ColorPalette = [
   '#212121'
 ];
 
-const white: string = '#FFFFFF';
-const black: string = '#000000';
-
-// Unused colors
-
 // Purple
-const _purple: ColorPalette = [
+const purple: ColorPalette = [
   '#F3E5F5',
   '#E1BEE7',
   '#CE93D8',
@@ -187,7 +185,7 @@ const _purple: ColorPalette = [
 ];
 
 // Light blue
-const _lightBlue: ColorPalette = [
+const lightBlue: ColorPalette = [
   '#E1F5FE',
   '#B3E5FC',
   '#81D4FA',
@@ -201,7 +199,7 @@ const _lightBlue: ColorPalette = [
 ];
 
 // Teal
-const _teal: ColorPalette = [
+const teal: ColorPalette = [
   '#E0F2F1',
   '#B2DFDB',
   '#80CBC4',
@@ -215,7 +213,7 @@ const _teal: ColorPalette = [
 ];
 
 // Light green
-const _lightGreen: ColorPalette = [
+const lightGreen: ColorPalette = [
   '#F1F8E9',
   '#DCEDC8',
   '#C5E1A5',
@@ -225,11 +223,11 @@ const _lightGreen: ColorPalette = [
   '#7CB342',
   '#689F38',
   '#558B2F',
-  '##33691E'
+  '#33691E'
 ];
 
 // Lime
-const _lime: ColorPalette = [
+const lime: ColorPalette = [
   '#F9FBE7',
   '#F0F4C3',
   '#E6EE9C',
@@ -243,7 +241,7 @@ const _lime: ColorPalette = [
 ];
 
 // Deep orange
-const _deepOrange: ColorPalette = [
+const deepOrange: ColorPalette = [
   '#FBE9E7',
   '#FFCCBC',
   '#FFAB91',
@@ -256,19 +254,27 @@ const _deepOrange: ColorPalette = [
   '#BF360C'
 ];
 
-export const universe: ColorPalettes = {
-  background,
+export const universePalette: ColorPalettes = {
+  background: deepBlue,
+  primary: blue,
+  secondary: yellow,
   blue,
   blueGray,
   green,
   indigo,
   orange,
   pink,
-  purple,
+  deepPurple,
   red,
-  teal,
+  cyan,
   yellow,
   gray,
   white,
-  black
+  black,
+  purple,
+  lightBlue,
+  teal,
+  lightGreen,
+  lime,
+  deepOrange
 };

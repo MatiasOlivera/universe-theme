@@ -1,18 +1,20 @@
 <div align="center">
-  <img alt="icon" src="https://github.com/MatiasOlivera/universe-theme/blob/develop/static/icon.png?raw=true"/>
+  <img alt="icon" src="https://github.com/MatiasOlivera/universe-theme/blob/master/static/icon.png?raw=true"/>
 
   # Universe theme
 
-  A dark theme for passionate developers. Made in planet earth
+  A dark theme for passionate developers. Made in planet earth 🌎
 
-  [![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
-  [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
-  [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
-  ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=241236&color=4E3766)
+  [![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+  [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+  [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
+  ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=0E1729&color=1B273E)
 
-  ![Theme preview](https://github.com/MatiasOlivera/universe-theme/blob/master/static/images/preview.png?raw=true)
+  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/universe-blue.png?raw=true)
+  
+  ![Universe purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/universe-purple.png?raw=true)  
 
-  [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=241236&color=4E3766)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+  [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
 </div>
 
 ---
@@ -56,34 +58,45 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 ## 🌠 Screenshots
 
-### Frontend
+#### CSS
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.png?raw=true)
+
+#### Elixir
+![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.png?raw=true)
+
+#### GraphQL
+![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-1.png?raw=true)
+
+![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-2.png?raw=true)
 
 #### HTML
-![HTML](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/html.png?raw=true)
-
-#### CSS
-![CSS](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/css.png?raw=true)
+![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.png?raw=true)
 
 #### Javascript
-![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/javascript.png?raw=true)
+![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.png?raw=true)
 
-#### Angular
-![Angular HTML](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/angular-html.png?raw=true)
-![Angular Javascript](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/angular-js.png?raw=true)
+#### JSON
+![JSON](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/json.png?raw=true)
+
+#### Markdown
+![Markdown](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/markdown.png?raw=true)
+
+#### Pug
+![Pug](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/pug.png?raw=true)
 
 #### React
-![React](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/react.png?raw=true)
+![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.png?raw=true)
+
+#### Typescript
+![Typescript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/typescript.png?raw=true)
+
 
 #### Vue
-![Vue](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/frontend/vue.png?raw=true)
+![Vue](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/vue.png?raw=true)
 
-### Backend
+#### YAML
+![YAML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/yaml.png?raw=true)
 
-#### Node.js
-![Node.js](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/backend/node.png?raw=true)
-
-#### PHP
-![PHP](https://github.com/MatiasOlivera/universe-theme/blob/develop/static/screenshots/backend/php.png?raw=true)
 
 ## ✨ Color reference
 
@@ -148,7 +161,7 @@ The colors used for the syntax highlighting are from **Material Design**.
 It's [Iosevka](https://typeof.net/Iosevka/)
 
 #### Which icons do you recommend to use?
-I love Ayu icons. You need to install the `Ayu theme`
+I love `Monokai pro` icons. You need to install the `Monokai pro theme`
 
 #### What are the recommended editor settings?
 

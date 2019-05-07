@@ -1,0 +1,497 @@
+[
+  {
+    "paletteName": "Blue",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "E6F3FF"
+      },
+      {
+        "name": "1",
+        "color": "D2E7FC"
+      },
+      {
+        "name": "2",
+        "color": "BFDCF9"
+      },
+      {
+        "name": "3",
+        "color": "ACD1F5"
+      },
+      {
+        "name": "4",
+        "color": "9AC6F2"
+      },
+      {
+        "name": "5",
+        "color": "74A0CC"
+      },
+      {
+        "name": "6",
+        "color": "537DA6"
+      },
+      {
+        "name": "7",
+        "color": "375C80"
+      },
+      {
+        "name": "8",
+        "color": "213D5A"
+      },
+      {
+        "name": "9",
+        "color": "0F2234"
+      }
+    ]
+  },
+  {
+    "paletteName": "Green",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "F3FFE6"
+      },
+      {
+        "name": "1",
+        "color": "E4F5D3"
+      },
+      {
+        "name": "2",
+        "color": "D6ECC0"
+      },
+      {
+        "name": "3",
+        "color": "C9E2AF"
+      },
+      {
+        "name": "4",
+        "color": "BBD99E"
+      },
+      {
+        "name": "5",
+        "color": "99B87A"
+      },
+      {
+        "name": "6",
+        "color": "78965A"
+      },
+      {
+        "name": "7",
+        "color": "5A753E"
+      },
+      {
+        "name": "8",
+        "color": "3E5427"
+      },
+      {
+        "name": "9",
+        "color": "243314"
+      }
+    ]
+  },
+  {
+    "paletteName": "Pink",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "FFE6EE"
+      },
+      {
+        "name": "1",
+        "color": "FFDBE7"
+      },
+      {
+        "name": "2",
+        "color": "FFD0E0"
+      },
+      {
+        "name": "3",
+        "color": "FFC5D8"
+      },
+      {
+        "name": "4",
+        "color": "FFBAD1"
+      },
+      {
+        "name": "5",
+        "color": "D68EA6"
+      },
+      {
+        "name": "6",
+        "color": "AD687F"
+      },
+      {
+        "name": "7",
+        "color": "85475B"
+      },
+      {
+        "name": "8",
+        "color": "5C2B3B"
+      },
+      {
+        "name": "9",
+        "color": "33141F"
+      }
+    ]
+  },
+  {
+    "paletteName": "Deep purple",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "EEE6FF"
+      },
+      {
+        "name": "1",
+        "color": "E3D5FF"
+      },
+      {
+        "name": "2",
+        "color": "D8C4FF"
+      },
+      {
+        "name": "3",
+        "color": "CCB3FF"
+      },
+      {
+        "name": "4",
+        "color": "C1A2FF"
+      },
+      {
+        "name": "5",
+        "color": "987AD6"
+      },
+      {
+        "name": "6",
+        "color": "7457AD"
+      },
+      {
+        "name": "7",
+        "color": "533A85"
+      },
+      {
+        "name": "8",
+        "color": "35225C"
+      },
+      {
+        "name": "9",
+        "color": "1B0F33"
+      }
+    ]
+  },
+  {
+    "paletteName": "Red",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "FFE6E6"
+      },
+      {
+        "name": "1",
+        "color": "FFD5D5"
+      },
+      {
+        "name": "2",
+        "color": "FFC4C4"
+      },
+      {
+        "name": "3",
+        "color": "FFB3B3"
+      },
+      {
+        "name": "4",
+        "color": "FFA2A2"
+      },
+      {
+        "name": "5",
+        "color": "D67A7A"
+      },
+      {
+        "name": "6",
+        "color": "AD5757"
+      },
+      {
+        "name": "7",
+        "color": "853A3A"
+      },
+      {
+        "name": "8",
+        "color": "5C2222"
+      },
+      {
+        "name": "9",
+        "color": "330F0F"
+      }
+    ]
+  },
+  {
+    "paletteName": "Cyan",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "E6FBFF"
+      },
+      {
+        "name": "1",
+        "color": "D0F2F9"
+      },
+      {
+        "name": "2",
+        "color": "BAE9F2"
+      },
+      {
+        "name": "3",
+        "color": "A5E0EC"
+      },
+      {
+        "name": "4",
+        "color": "92D8E6"
+      },
+      {
+        "name": "5",
+        "color": "6EB4C2"
+      },
+      {
+        "name": "6",
+        "color": "4F919E"
+      },
+      {
+        "name": "7",
+        "color": "356F7A"
+      },
+      {
+        "name": "8",
+        "color": "204E57"
+      },
+      {
+        "name": "9",
+        "color": "0F2D33"
+      }
+    ]
+  },
+  {
+    "paletteName": "Yellow",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "FFFBE6"
+      },
+      {
+        "name": "1",
+        "color": "F9F2CF"
+      },
+      {
+        "name": "2",
+        "color": "F2E9B9"
+      },
+      {
+        "name": "3",
+        "color": "ECE0A5"
+      },
+      {
+        "name": "4",
+        "color": "E6D791"
+      },
+      {
+        "name": "5",
+        "color": "C2B46E"
+      },
+      {
+        "name": "6",
+        "color": "9E914F"
+      },
+      {
+        "name": "7",
+        "color": "7A6F35"
+      },
+      {
+        "name": "8",
+        "color": "574E20"
+      },
+      {
+        "name": "9",
+        "color": "332D0F"
+      }
+    ]
+  },
+  {
+    "paletteName": "Neutral ",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "F2F2F2"
+      },
+      {
+        "name": "1",
+        "color": "D6D8DD"
+      },
+      {
+        "name": "2",
+        "color": "BABFC8"
+      },
+      {
+        "name": "3",
+        "color": "A1A7B3"
+      },
+      {
+        "name": "4",
+        "color": "888F9D"
+      },
+      {
+        "name": "5",
+        "color": "717988"
+      },
+      {
+        "name": "6",
+        "color": "5C6373"
+      },
+      {
+        "name": "7",
+        "color": "484F5E"
+      },
+      {
+        "name": "8",
+        "color": "353B48"
+      },
+      {
+        "name": "9",
+        "color": "242933"
+      }
+    ]
+  },
+  {
+    "paletteName": "Orange",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "FFECE6"
+      },
+      {
+        "name": "1",
+        "color": "FCDDD2"
+      },
+      {
+        "name": "2",
+        "color": "F9CEBF"
+      },
+      {
+        "name": "3",
+        "color": "F6BFAD"
+      },
+      {
+        "name": "4",
+        "color": "F2B09A"
+      },
+      {
+        "name": "5",
+        "color": "CD8A74"
+      },
+      {
+        "name": "6",
+        "color": "A66853"
+      },
+      {
+        "name": "7",
+        "color": "804A37"
+      },
+      {
+        "name": "8",
+        "color": "592F21"
+      },
+      {
+        "name": "9",
+        "color": "33180F"
+      }
+    ]
+  },
+  {
+    "paletteName": "Purple",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "FBE6FF"
+      },
+      {
+        "name": "1",
+        "color": "F8D5FF"
+      },
+      {
+        "name": "2",
+        "color": "F5C4FF"
+      },
+      {
+        "name": "3",
+        "color": "F2B3FF"
+      },
+      {
+        "name": "4",
+        "color": "EFA2FF"
+      },
+      {
+        "name": "5",
+        "color": "C779D6"
+      },
+      {
+        "name": "6",
+        "color": "9F57AD"
+      },
+      {
+        "name": "7",
+        "color": "783985"
+      },
+      {
+        "name": "8",
+        "color": "52225C"
+      },
+      {
+        "name": "9",
+        "color": "2D0F33"
+      }
+    ]
+  },
+  {
+    "paletteName": "Teal",
+    "swatches": [
+      {
+        "name": "0",
+        "color": "E6FFFD"
+      },
+      {
+        "name": "1",
+        "color": "CDF5F2"
+      },
+      {
+        "name": "2",
+        "color": "B5ECE7"
+      },
+      {
+        "name": "3",
+        "color": "9FE2DD"
+      },
+      {
+        "name": "4",
+        "color": "89D9D2"
+      },
+      {
+        "name": "5",
+        "color": "68B8B1"
+      },
+      {
+        "name": "6",
+        "color": "4B9690"
+      },
+      {
+        "name": "7",
+        "color": "337570"
+      },
+      {
+        "name": "8",
+        "color": "1F5450"
+      },
+      {
+        "name": "9",
+        "color": "0F3330"
+      }
+    ]
+  }
+]

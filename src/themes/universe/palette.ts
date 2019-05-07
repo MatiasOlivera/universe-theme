@@ -172,16 +172,16 @@ const gray: ColorPalette = [
 
 // Purple
 const purple: ColorPalette = [
-  '#F3E5F5',
-  '#E1BEE7',
-  '#CE93D8',
-  '#BA68C8',
-  '#AB47BC',
-  '#9C27B0',
-  '#8E24AA',
-  '#7B1FA2',
-  '#6A1B9A',
-  '#4A148C'
+  '#FBE6FF',
+  '#F8D5FF',
+  '#F5C4FF',
+  '#F2B3FF',
+  '#EFA2FF',
+  '#C779D6',
+  '#9F57AD',
+  '#783985',
+  '#52225C',
+  '#2D0F33'
 ];
 
 // Light blue

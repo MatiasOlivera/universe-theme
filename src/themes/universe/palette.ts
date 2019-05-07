@@ -89,16 +89,16 @@ const orange: ColorPalette = [
 
 // Pink
 const pink: ColorPalette = [
-  '#FCE4EC',
-  '#F8BBD0',
-  '#F48FB1',
-  '#F06292',
-  '#EC407A',
-  '#E91E63',
-  '#D81B60',
-  '#C2185B',
-  '#AD1457',
-  '#880E4F'
+  '#FFE6EE',
+  '#FFDBE7',
+  '#FFD0E0',
+  '#FFC5D8',
+  '#FFBAD1',
+  '#D68EA6',
+  '#AD687F',
+  '#85475B',
+  '#5C2B3B',
+  '#33141F'
 ];
 
 // Deep purple

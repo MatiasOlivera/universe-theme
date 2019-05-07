@@ -145,16 +145,16 @@ const cyan: ColorPalette = [
 
 // Yellow
 const yellow: ColorPalette = [
-  '#FFFDE7',
-  '#FFF9C4',
-  '#FFF59D',
-  '#FFF176',
-  '#FFEE58',
-  '#FFEB3B',
-  '#FDD835',
-  '#FBC02D',
-  '#F9A825',
-  '#F57F17'
+  '#FFFBE6',
+  '#F9F2CF',
+  '#F2E9B9',
+  '#ECE0A5',
+  '#E6D791',
+  '#C2B46E',
+  '#9E914F',
+  '#7A6F35',
+  '#574E20',
+  '#332D0F'
 ];
 
 const gray: ColorPalette = [

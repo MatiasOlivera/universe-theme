@@ -131,16 +131,16 @@ const red: ColorPalette = [
 
 // Cyan
 const cyan: ColorPalette = [
-  '#E0F7FA',
-  '#B2EBF2',
-  '#80DEEA',
-  '#4DD0E1',
-  '#26C6DA',
-  '#00BCD4',
-  '#00ACC1',
-  '#0097A7',
-  '#00838F',
-  '#006064'
+  '#E6FBFF',
+  '#D0F2F9',
+  '#BAE9F2',
+  '#A5E0EC',
+  '#92D8E6',
+  '#6EB4C2',
+  '#4F919E',
+  '#356F7A',
+  '#204E57',
+  '#0F2D33'
 ];
 
 // Yellow

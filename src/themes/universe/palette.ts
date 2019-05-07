@@ -75,16 +75,16 @@ const indigo: ColorPalette = [
 
 // Orange
 const orange: ColorPalette = [
-  '#FFF3E0',
-  '#FFE0B2',
-  '#FFCC80',
-  '#FFB74D',
-  '#FFA726',
-  '#FF9800',
-  '#FB8C00',
-  '#F57C00',
-  '#EF6C00',
-  '#E65100'
+  '#FFECE6',
+  '#FCDDD2',
+  '#F9CEBF',
+  '#F6BFAD',
+  '#F2B09A',
+  '#CD8A74',
+  '#A66853',
+  '#804A37',
+  '#592F21',
+  '#33180F'
 ];
 
 // Pink

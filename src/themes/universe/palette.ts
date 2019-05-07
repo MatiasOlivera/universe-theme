@@ -47,16 +47,16 @@ const blueGray: ColorPalette = [
 
 // Green
 const green: ColorPalette = [
-  '#E8F5E9',
-  '#C8E6C9',
-  '#A5D6A7',
-  '#81C784',
-  '#66BB6A',
-  '#4CAF50',
-  '#43A047',
-  '#388E3C',
-  '#2E7D32',
-  '#1B5E20'
+  '#F3FFE6',
+  '#E4F5D3',
+  '#D6ECC0',
+  '#C9E2AF',
+  '#BBD99E',
+  '#99B87A',
+  '#78965A',
+  '#5A753E',
+  '#3E5427',
+  '#243314'
 ];
 
 // Indigo

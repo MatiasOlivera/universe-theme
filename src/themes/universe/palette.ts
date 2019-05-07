@@ -200,16 +200,16 @@ const lightBlue: ColorPalette = [
 
 // Teal
 const teal: ColorPalette = [
-  '#E0F2F1',
-  '#B2DFDB',
-  '#80CBC4',
-  '#4DB6AC',
-  '#26A69A',
-  '#009688',
-  '#00897B',
-  '#00796B',
-  '#00695C',
-  '#004D40'
+  '#E6FFFD',
+  '#CDF5F2',
+  '#B5ECE7',
+  '#9FE2DD',
+  '#89D9D2',
+  '#68B8B1',
+  '#4B9690',
+  '#337570',
+  '#1F5450',
+  '#0F3330'
 ];
 
 // Light green

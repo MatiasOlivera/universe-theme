@@ -103,16 +103,16 @@ const pink: ColorPalette = [
 
 // Deep purple
 const deepPurple: ColorPalette = [
-  '#EDE7F6',
-  '#D1C4E9',
-  '#B39DDB',
-  '#9575CD',
-  '#7E57C2',
-  '#673AB7',
-  '#5E35B1',
-  '#512DA8',
-  '#4527A0',
-  '#311B92'
+  '#EEE6FF',
+  '#E3D5FF',
+  '#D8C4FF',
+  '#CCB3FF',
+  '#C1A2FF',
+  '#987AD6',
+  '#7457AD',
+  '#533A85',
+  '#35225C',
+  '#1B0F33'
 ];
 
 // Red

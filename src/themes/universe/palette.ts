@@ -19,16 +19,16 @@ const black: string = '#000000';
 
 // Blue
 const blue: ColorPalette = [
-  '#E3F2FD',
-  '#BBDEFB',
-  '#90CAF9',
-  '#64B5F6',
-  '#42A5F5',
-  '#2196F3',
-  '#1E88E5',
-  '#1976D2',
-  '#1565C0',
-  '#0D47A1'
+  '#E6F3FF',
+  '#D2E7FC',
+  '#BFDCF9',
+  '#ACD1F5',
+  '#9AC6F2',
+  '#74A0CC',
+  '#537DA6',
+  '#375C80',
+  '#213D5A',
+  '#0F2234'
 ];
 
 // Blue Gray

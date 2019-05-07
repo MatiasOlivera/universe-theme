@@ -4,7 +4,7 @@ import { inputTokens } from './input.colors';
 // A set of colors for all Dropdown widgets such as in the Integrated Terminal
 // or the Output panel.
 const dropdownColors: UIColors = (palette) => {
-  const { blueGray } = palette;
+  const { neutral } = palette;
   const { inputBackground, inputBorder } = inputTokens(palette);
 
   return {
@@ -16,7 +16,7 @@ const dropdownColors: UIColors = (palette) => {
       border: inputBorder,
 
       // Dropdown foreground.
-      foreground: blueGray[1],
+      foreground: neutral[1],
 
       // Dropdown list background.
       listBackground: inputBackground

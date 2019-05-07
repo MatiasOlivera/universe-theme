@@ -14,6 +14,20 @@ const deepBlue: ColorPalette = [
   '#03060D'
 ];
 
+// Neutral (blue gray)
+const neutral: ColorPalette = [
+  '#ECEFF1',
+  '#CFD8DC',
+  '#B0BEC5',
+  '#90A4AE',
+  '#78909C',
+  '#607D8B',
+  '#546E7A',
+  '#455A64',
+  '#37474F',
+  '#263238'
+];
+
 const white: string = '#FFFFFF';
 const black: string = '#000000';
 
@@ -29,20 +43,6 @@ const blue: ColorPalette = [
   '#375C80',
   '#213D5A',
   '#0F2234'
-];
-
-// Blue Gray
-const blueGray: ColorPalette = [
-  '#ECEFF1',
-  '#CFD8DC',
-  '#B0BEC5',
-  '#90A4AE',
-  '#78909C',
-  '#607D8B',
-  '#546E7A',
-  '#455A64',
-  '#37474F',
-  '#263238'
 ];
 
 // Green
@@ -259,7 +259,7 @@ export const universePalette: ColorPalettes = {
   primary: blue,
   secondary: yellow,
   blue,
-  blueGray,
+  neutral,
   green,
   indigo,
   orange,

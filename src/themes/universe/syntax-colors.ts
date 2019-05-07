@@ -23,7 +23,7 @@ import { universePalette } from './palette';
 
 const {
   blue,
-  blueGray,
+  neutral,
   green,
   indigo,
   orange,
@@ -171,7 +171,7 @@ const section: Section = {
  * Text
  */
 const text: Settings = {
-  foreground: blueGray[0]
+  foreground: neutral[0]
 };
 
 /**
@@ -202,7 +202,7 @@ const invalid: Invalid = {
  * Comments
  */
 const comment: Settings = {
-  foreground: blueGray[3]
+  foreground: neutral[3]
 };
 
 /**
@@ -210,7 +210,7 @@ const comment: Settings = {
  */
 const config: Config = {
   groupTitle: {
-    foreground: blueGray[0]
+    foreground: neutral[0]
   },
   key: {
     foreground: deepPurple[4]
@@ -219,7 +219,7 @@ const config: Config = {
     foreground: pink[4]
   },
   separator: {
-    foreground: blueGray[0]
+    foreground: neutral[0]
   }
 };
 

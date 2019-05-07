@@ -4,7 +4,7 @@ import { opacity_70 } from '../opacity';
 // Panels are shown below the editor area and contain views like Output and
 // Integrated Terminal.
 const panelColors: UIColors = (palette) => {
-  const { secondary, background, blueGray } = palette;
+  const { secondary, background, neutral } = palette;
 
   return {
     panel: {
@@ -24,10 +24,10 @@ const panelColors: UIColors = (palette) => {
       activeBorder: secondary[3],
 
       // Title color for the active panel.
-      activeForeground: blueGray[1],
+      activeForeground: neutral[1],
 
       // Title color for the inactive panel.
-      inactiveForeground: blueGray[3]
+      inactiveForeground: neutral[3]
     }
   };
 };

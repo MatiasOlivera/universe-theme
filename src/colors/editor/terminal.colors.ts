@@ -5,7 +5,7 @@ import { selectionTokens } from './editor.colors';
 const terminalColors: UIColors = (palette) => {
   const {
     background,
-    blueGray,
+    neutral,
     deepPurple,
     blue,
     cyan,
@@ -22,16 +22,16 @@ const terminalColors: UIColors = (palette) => {
   return {
     terminal: {
       // 'Black' ANSI color in the terminal.
-      ansiBlack: blueGray[9],
+      ansiBlack: neutral[9],
 
       // 'BrightBlack' ANSI color in the terminal.
-      ansiBrightBlack: blueGray[8],
+      ansiBrightBlack: neutral[8],
 
       // 'White' ANSI color in the terminal.
-      ansiWhite: blueGray[2],
+      ansiWhite: neutral[2],
 
       // 'BrightWhite' ANSI color in the terminal.
-      ansiBrightWhite: blueGray[1],
+      ansiBrightWhite: neutral[1],
 
       // 'Blue' ANSI color in the terminal.
       ansiBlue: blue[normalSwatch],
@@ -76,7 +76,7 @@ const terminalColors: UIColors = (palette) => {
       border: background[7],
 
       // The default foreground color of the Integrated Terminal.
-      foreground: blueGray[2],
+      foreground: neutral[2],
 
       // The selection background color of the terminal.
       selectionBackground: `${selectionColor}${opacity_50}`

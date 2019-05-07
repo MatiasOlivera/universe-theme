@@ -5,7 +5,7 @@ import { dialogTokens } from './dialog.colors';
 // The Editor widget is shown in front of the editor content. Examples are the
 // Find/Replace dialog, the suggestion widget, and the editor hover.
 const widgetColors: UIColors = (palette) => {
-  const { secondary, blueGray, background } = palette;
+  const { secondary, neutral, background } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
 
   return {
@@ -31,7 +31,7 @@ const widgetColors: UIColors = (palette) => {
       border: dialogBorder,
 
       // Foreground color of the suggestion widget.
-      foreground: blueGray[2],
+      foreground: neutral[2],
 
       // Color of the match highlights in the suggestion widget.
       highlightForeground: secondary[3],

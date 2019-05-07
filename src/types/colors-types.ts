@@ -15,8 +15,8 @@ export interface ColorPalettes {
   background: ColorPalette;
   primary: ColorPalette;
   secondary: ColorPalette;
+  neutral: ColorPalette;
   blue: ColorPalette;
-  blueGray: ColorPalette;
   green: ColorPalette;
   indigo: ColorPalette;
   orange: ColorPalette;

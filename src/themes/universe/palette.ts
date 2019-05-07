@@ -117,16 +117,16 @@ const deepPurple: ColorPalette = [
 
 // Red
 const red: ColorPalette = [
-  '#FFEBEE',
-  '#FFCDD2',
-  '#EF9A9A',
-  '#E57373',
-  '#EF5350',
-  '#F44336',
-  '#E53935',
-  '#D32F2F',
-  '#C62828',
-  '#B71C1C'
+  '#FFE6E6',
+  '#FFD5D5',
+  '#FFC4C4',
+  '#FFB3B3',
+  '#FFA2A2',
+  '#D67A7A',
+  '#AD5757',
+  '#853A3A',
+  '#5C2222',
+  '#330F0F'
 ];
 
 // Cyan

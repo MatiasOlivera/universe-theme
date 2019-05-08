@@ -171,20 +171,6 @@ const teal: ColorPalette = [
   '#0F3330'
 ];
 
-// Lime
-const lime: ColorPalette = [
-  '#F9FBE7',
-  '#F0F4C3',
-  '#E6EE9C',
-  '#DCE775',
-  '#D4E157',
-  '#CDDC39',
-  '#C0CA33',
-  '#AFB42B',
-  '#9E9D24',
-  '#827717'
-];
-
 // Deep orange
 const deepOrange: ColorPalette = [
   '#FBE9E7',
@@ -216,6 +202,5 @@ export const universePalette: ColorPalettes = {
   black,
   purple,
   teal,
-  lime,
   deepOrange
 };

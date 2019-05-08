@@ -6,7 +6,7 @@ const statusBarColors: UIColors = (palette) => {
 
   const backgroundColor: string = background[7];
   const borderColor: string = background[8];
-  const foregroundColor: string = neutral[6];
+  const foregroundColor: string = neutral[5];
 
   return {
     statusBar: {

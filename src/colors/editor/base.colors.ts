@@ -14,7 +14,7 @@ const baseColors: UIColors = (palette) => {
     descriptionForeground: neutral[5],
 
     // Overall foreground color for error messages
-    errorForeground: red[2],
+    errorForeground: red[4],
 
     // Overall border color for focused elements. This color is only used if
     // not overridden by a component.

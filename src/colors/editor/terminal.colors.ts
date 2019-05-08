@@ -28,10 +28,10 @@ const terminalColors: UIColors = (palette) => {
       ansiBrightBlack: neutral[8],
 
       // 'White' ANSI color in the terminal.
-      ansiWhite: neutral[2],
+      ansiWhite: neutral[1],
 
       // 'BrightWhite' ANSI color in the terminal.
-      ansiBrightWhite: neutral[1],
+      ansiBrightWhite: neutral[0],
 
       // 'Blue' ANSI color in the terminal.
       ansiBlue: blue[normalSwatch],
@@ -76,7 +76,7 @@ const terminalColors: UIColors = (palette) => {
       border: background[7],
 
       // The default foreground color of the Integrated Terminal.
-      foreground: neutral[2],
+      foreground: neutral[1],
 
       // The selection background color of the terminal.
       selectionBackground: `${selectionColor}${opacity_50}`

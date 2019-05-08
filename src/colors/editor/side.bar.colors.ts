@@ -19,7 +19,7 @@ const sideBarColors: UIColors = (palette) => {
       dropBackground: `${background[7]}${opacity_70}`,
 
       // Side Bar foreground color.
-      foreground: neutral[5]
+      foreground: neutral[4]
     },
 
     sideBarSectionHeader: {

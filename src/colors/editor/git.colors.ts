@@ -3,7 +3,7 @@ import { UIColors } from '../../types/colors-types';
 // Used for file labels and the SCM viewlet.
 const gitColors: UIColors = (palette) => {
   const { blue, red, green, neutral } = palette;
-  const foregroundSwatch: number = 2;
+  const foregroundSwatch: number = 4;
 
   return {
     gitDecoration: {

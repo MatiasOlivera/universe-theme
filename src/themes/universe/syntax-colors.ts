@@ -25,7 +25,6 @@ const {
   blue,
   neutral,
   green,
-  indigo,
   orange,
   pink,
   deepPurple,
@@ -115,7 +114,7 @@ const variable: Variable = {
  */
 const object: ObjectType = {
   property: {
-    foreground: indigo[4]
+    foreground: blue[4]
   }
 };
 
@@ -273,7 +272,7 @@ const css: Css = {
  */
 const tag: Tag = {
   attribute: {
-    foreground: indigo[4]
+    foreground: blue[4]
   },
   name: {
     foreground: deepPurple[4]

@@ -59,20 +59,6 @@ const green: ColorPalette = [
   '#243314'
 ];
 
-// Indigo
-const indigo: ColorPalette = [
-  '#E8EAF6',
-  '#C5CAE9',
-  '#9FA8DA',
-  '#7986CB',
-  '#5C6BC0',
-  '#3F51B5',
-  '#3949AB',
-  '#303F9F',
-  '#283593',
-  '#1A237E'
-];
-
 // Orange
 const orange: ColorPalette = [
   '#FFECE6',
@@ -261,7 +247,6 @@ export const universePalette: ColorPalettes = {
   blue,
   neutral,
   green,
-  indigo,
   orange,
   pink,
   deepPurple,

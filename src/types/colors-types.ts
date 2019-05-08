@@ -18,7 +18,6 @@ export interface ColorPalettes {
   neutral: ColorPalette;
   blue: ColorPalette;
   green: ColorPalette;
-  indigo: ColorPalette;
   orange: ColorPalette;
   pink: ColorPalette;
   deepPurple: ColorPalette;

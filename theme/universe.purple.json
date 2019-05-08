@@ -364,7 +364,7 @@
     {
       "name": "Object property",
       "scope": ["meta.object-literal.key", "variable.object.property"],
-      "settings": { "foreground": "#5C6BC0" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Function definition",
@@ -573,7 +573,7 @@
     {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
-      "settings": { "foreground": "#5C6BC0" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Text",
@@ -597,7 +597,7 @@
     {
       "name": "Object property",
       "scope": "string.unquoted.js",
-      "settings": { "foreground": "#5C6BC0" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Language constant (boolean, null)",
@@ -626,7 +626,7 @@
     {
       "name": "JSX: Attribute",
       "scope": "entity.other.attribute-name.jsx",
-      "settings": { "foreground": "#5C6BC0" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "JSX: Text",

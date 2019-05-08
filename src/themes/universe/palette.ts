@@ -157,20 +157,6 @@ const purple: ColorPalette = [
   '#2D0F33'
 ];
 
-// Light blue
-const lightBlue: ColorPalette = [
-  '#E1F5FE',
-  '#B3E5FC',
-  '#81D4FA',
-  '#4FC3F7',
-  '#29B6F6',
-  '#03A9F4',
-  '#039BE5',
-  '#0288D1',
-  '#0277BD',
-  '#01579B'
-];
-
 // Teal
 const teal: ColorPalette = [
   '#E6FFFD',
@@ -243,7 +229,6 @@ export const universePalette: ColorPalettes = {
   white,
   black,
   purple,
-  lightBlue,
   teal,
   lightGreen,
   lime,

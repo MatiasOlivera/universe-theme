@@ -28,9 +28,6 @@ const neutral: ColorPalette = [
   '#2E384D'
 ];
 
-const white: string = '#FFFFFF';
-const black: string = '#000000';
-
 // Blue
 const blue: ColorPalette = [
   '#E6F3FF',
@@ -184,8 +181,6 @@ export const universePalette: ColorPalettes = {
   red,
   cyan,
   yellow,
-  white,
-  black,
   purple,
   teal
 };

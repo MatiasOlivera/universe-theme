@@ -10,8 +10,6 @@ export interface SyntaxColors {
 }
 
 export interface ColorPalettes {
-  white: string;
-  black: string;
   background: ColorPalette;
   primary: ColorPalette;
   secondary: ColorPalette;

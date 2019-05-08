@@ -10,15 +10,15 @@ const gutterColors: UIColors = (palette) => {
       background: background[5],
 
       // Editor gutter background color for lines that are added.
-      addedBackground: green[3],
+      addedBackground: green[4],
 
       // Editor gutter background color for lines that are modified.
-      modifiedBackground: blue[3],
+      modifiedBackground: blue[4],
 
       // Editor gutter background color for lines that are deleted.
-      deletedBackground: orange[3],
+      deletedBackground: orange[4],
 
-      commentRangeForeground: neutral[3]
+      commentRangeForeground: neutral[4]
     }
   };
 };

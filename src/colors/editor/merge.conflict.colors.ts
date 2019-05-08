@@ -15,28 +15,28 @@ const mergeConflictColors: UIColors = (palette) => {
       commonContentForeground: background[0],
 
       // Current overview ruler foreground for inline merge conflicts.
-      currentContentForeground: blue[3],
+      currentContentForeground: blue[4],
 
       // Incoming overview ruler foreground for inline merge conflicts.
-      incomingContentForeground: green[3]
+      incomingContentForeground: green[4]
     },
 
     merge: {
       // Current header background in inline merge conflicts. The color must not
       // be opaque so as not to hide underlying decorations.
-      currentHeaderBackground: `${blue[3]}${headerOpacity}`,
+      currentHeaderBackground: `${blue[4]}${headerOpacity}`,
 
       // Current content background in inline merge conflicts. The color must
       // not be opaque so as not to hide underlying decorations.
-      currentContentBackground: `${blue[3]}${contentOpacity}`,
+      currentContentBackground: `${blue[4]}${contentOpacity}`,
 
       // Incoming header background in inline merge conflicts. The color must
       // not be opaque so as not to hide underlying decorations.
-      incomingHeaderBackground: `${green[3]}${headerOpacity}`,
+      incomingHeaderBackground: `${green[4]}${headerOpacity}`,
 
       //  Incoming content background in inline merge conflicts. The color must
       // not be opaque so as not to hide underlying decorations.
-      incomingContentBackground: `${green[3]}${contentOpacity}`,
+      incomingContentBackground: `${green[4]}${contentOpacity}`,
 
       // Common ancestor header background in inline merge-conflicts. The color
       // must not be opaque so as not to hide underlying decorations.

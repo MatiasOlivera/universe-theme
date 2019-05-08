@@ -8,13 +8,13 @@ const buttonColors: UIColors = (palette) => {
   return {
     button: {
       // Button background color.
-      background: secondary[3],
+      background: secondary[4],
 
       // Button foreground color.
       foreground: secondary[9],
 
       // Button background color when hovering.
-      hoverBackground: secondary[2]
+      hoverBackground: secondary[3]
     }
   };
 };

@@ -26,7 +26,7 @@ const notificationColors: UIColors = (palette) => {
 
     notificationLink: {
       // Notification links foreground color.
-      foreground: secondary[3]
+      foreground: secondary[4]
     },
 
     notifications: {

@@ -21,7 +21,7 @@ const panelColors: UIColors = (palette) => {
 
     panelTitle: {
       // Border color for the active panel title.
-      activeBorder: secondary[3],
+      activeBorder: secondary[4],
 
       // Title color for the active panel.
       activeForeground: neutral[1],

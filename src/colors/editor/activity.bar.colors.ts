@@ -25,7 +25,7 @@ const activityBarColors: UIColors = (palette) => {
 
     activityBarBadge: {
       // Activity notification badge background color.
-      background: secondary[3],
+      background: secondary[4],
 
       // Activity notification badge foreground color.
       foreground: secondary[9]

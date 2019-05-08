@@ -34,7 +34,7 @@ const widgetColors: UIColors = (palette) => {
       foreground: neutral[2],
 
       // Color of the match highlights in the suggestion widget.
-      highlightForeground: secondary[3],
+      highlightForeground: secondary[4],
 
       // Background color of the selected entry in the suggestion widget.
       selectedBackground: background[1]

@@ -16,8 +16,8 @@ const terminalColors: UIColors = (palette) => {
   } = palette;
   const { selectionColor } = selectionTokens(palette);
 
-  const normalSwatch: number = 3;
-  const brightSwatch: number = 2;
+  const normalSwatch: number = 4;
+  const brightSwatch: number = 3;
 
   return {
     terminal: {
@@ -87,7 +87,7 @@ const terminalColors: UIColors = (palette) => {
       background: secondary[9],
 
       // The foreground color of the terminal cursor.
-      foreground: secondary[3]
+      foreground: secondary[4]
     }
   };
 };

@@ -29,7 +29,7 @@ const listColors: UIColors = (palette) => {
 
       // List/Tree foreground color of the match highlights when searching
       // inside the list/tree.
-      highlightForeground: secondary[3],
+      highlightForeground: secondary[4],
 
       // List/Tree background when hovering over items using the mouse.
       hoverBackground: background[4],

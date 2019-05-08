@@ -9,10 +9,10 @@ const extensionButtonColors: UIColors = (palette) => {
       prominentForeground: primary[9],
 
       // Extension view button background color.
-      prominentBackground: primary[3],
+      prominentBackground: primary[4],
 
       // Extension view button background hover color.
-      prominentHoverBackground: primary[2]
+      prominentHoverBackground: primary[3]
     }
   };
 };

@@ -128,7 +128,7 @@ const editorColors: UIColors = (palette) => {
       background: secondary[9],
 
       // Color of the editor cursor.
-      foreground: secondary[3]
+      foreground: secondary[4]
     },
 
     // Bracket matches
@@ -183,7 +183,7 @@ const editorColors: UIColors = (palette) => {
     // The link color is visible when clicking on a link.
     editorLink: {
       // Color of active links.
-      activeForeground: secondary[1]
+      activeForeground: secondary[4]
     }
   };
 };

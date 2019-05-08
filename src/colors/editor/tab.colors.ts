@@ -49,7 +49,7 @@ const tabColors: UIColors = (palette) => {
       unfocusedInactiveModifiedBorder: background[5],
 
       // Top border for the active tab.
-      activeBorderTop: secondary[3],
+      activeBorderTop: secondary[4],
 
       // Top border for the active tab in an inactive editor group
       unfocusedActiveBorderTop: background[0],

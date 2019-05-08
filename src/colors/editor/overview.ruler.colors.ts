@@ -13,7 +13,7 @@ const overviewRulerColors: UIColors = (palette) => {
     red,
     blue,
     yellow,
-    deepOrange
+    orange
   } = palette;
 
   const highlightForeground: string = `${background[0]}${opacity_80}`;
@@ -60,7 +60,7 @@ const overviewRulerColors: UIColors = (palette) => {
       warningForeground: yellow[3],
 
       // Overview ruler marker color for deleted content.
-      deletedForeground: deepOrange[3],
+      deletedForeground: orange[3],
 
       // Overview ruler marker color for errors.
       errorForeground: red[3]

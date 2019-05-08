@@ -4,7 +4,7 @@
   "colors": {
     "foreground": "#C0BBCD",
     "descriptionForeground": "#7D7596",
-    "errorForeground": "#FFC4C4",
+    "errorForeground": "#FFA2A2",
     "focusBorder": "#30264D",
     "selection.background": "#30264DCC",
     "walkThrough.embeddedEditorBackground": "#100A22",

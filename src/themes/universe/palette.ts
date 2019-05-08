@@ -16,16 +16,16 @@ const deepBlue: ColorPalette = [
 
 // Neutral (blue gray)
 const neutral: ColorPalette = [
-  '#ECEFF1',
-  '#CFD8DC',
-  '#B0BEC5',
-  '#90A4AE',
-  '#78909C',
-  '#607D8B',
-  '#546E7A',
-  '#455A64',
-  '#37474F',
-  '#263238'
+  '#F2F2F2',
+  '#D6D9E0',
+  '#BBC1CD',
+  '#A2AABB',
+  '#8A94A8',
+  '#758096',
+  '#616C84',
+  '#4E5A71',
+  '#3D485F',
+  '#2E384D'
 ];
 
 const white: string = '#FFFFFF';

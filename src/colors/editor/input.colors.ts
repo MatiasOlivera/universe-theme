@@ -7,19 +7,19 @@ interface InputTokens {
 }
 
 export const inputTokens = (palette: ColorPalettes): InputTokens => {
-  const { background, blueGray } = palette;
+  const { background, neutral } = palette;
 
   return {
     inputBackground: background[4],
     inputBorder: background[3],
-    inputForeground: blueGray[2]
+    inputForeground: neutral[2]
   };
 };
 
 // Colors for input controls such as in the Search view or the Find/Replace
 // dialog.
 const inputColors: UIColors = (palette) => {
-  const { background, blueGray, red, blue, yellow } = palette;
+  const { background, neutral, red, blue, yellow } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -36,7 +36,7 @@ const inputColors: UIColors = (palette) => {
       foreground: inputForeground,
 
       // Input box foreground color for placeholder text.
-      placeholderForeground: blueGray[4]
+      placeholderForeground: neutral[4]
     },
 
     inputOption: {

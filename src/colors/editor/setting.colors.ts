@@ -4,7 +4,7 @@ import { inputTokens } from './input.colors';
 // These colors are for the GUI settings editor which can be opened with the
 // Preferences: Open Settings (UI) command.
 const settingColors: UIColors = (palette) => {
-  const { neutral, background } = palette;
+  const { neutral, secondary } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -15,7 +15,7 @@ const settingColors: UIColors = (palette) => {
       headerForeground: neutral[1],
 
       // The line that indicates a modified setting.
-      modifiedItemIndicator: background[0],
+      modifiedItemIndicator: secondary[4],
 
       // Checkbox background.
       checkboxBackground: inputBackground,

@@ -285,7 +285,7 @@
     "gitDecoration.conflictingResourceForeground": "#FFA2A2",
     "gitDecoration.submoduleResourceForeground": "#928AA8",
     "settings.headerForeground": "#D8D5DF",
-    "settings.modifiedItemIndicator": "#30264D",
+    "settings.modifiedItemIndicator": "#BBD99E",
     "settings.checkboxBackground": "#191230",
     "settings.checkboxBorder": "#1E1637",
     "settings.checkboxForeground": "#C0BBCD",

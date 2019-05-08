@@ -52,13 +52,13 @@ const listColors: UIColors = (palette) => {
 
       // List/Tree foreground color for invalid items, for example an unresolved
       // root in explorer.
-      invalidItemForeground: red[2],
+      invalidItemForeground: red[4],
 
       // Foreground color of list items containing errors.
-      errorForeground: red[2],
+      errorForeground: red[4],
 
       // Foreground color of list items containing warnings.
-      warningForeground: yellow[2]
+      warningForeground: yellow[4]
     },
 
     listFilterWidget: {
@@ -72,7 +72,7 @@ const listColors: UIColors = (palette) => {
 
       // List/Tree Filter Widget's outline color when no match is found of typed
       // text when searching inside the list/tree.
-      noMatchesOutline: red[3]
+      noMatchesOutline: red[4]
     }
   };
 };

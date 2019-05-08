@@ -1,12 +1,12 @@
 import { UIColors } from '../../types/colors-types';
 
 const extensionButtonColors: UIColors = (palette) => {
-  const { primary, gray } = palette;
+  const { primary } = palette;
 
   return {
     extensionButton: {
       // Extension view button foreground color (for example Install button).
-      prominentForeground: gray[9],
+      prominentForeground: primary[9],
 
       // Extension view button background color.
       prominentBackground: primary[3],

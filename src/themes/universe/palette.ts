@@ -143,19 +143,6 @@ const yellow: ColorPalette = [
   '#332D0F'
 ];
 
-const gray: ColorPalette = [
-  '#FAFAFA',
-  '#F5F5F5',
-  '#EEEEEE',
-  '#E0E0E0',
-  '#BDBDBD',
-  '#9E9E9E',
-  '#757575',
-  '#616161',
-  '#424242',
-  '#212121'
-];
-
 // Purple
 const purple: ColorPalette = [
   '#FBE6FF',
@@ -253,7 +240,6 @@ export const universePalette: ColorPalettes = {
   red,
   cyan,
   yellow,
-  gray,
   white,
   black,
   purple,

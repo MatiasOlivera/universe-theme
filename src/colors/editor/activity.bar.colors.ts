@@ -3,7 +3,7 @@ import { UIColors } from '../../types/colors-types';
 // The Activity Bar is displayed either on the far left or right of the
 // workbench and allows fast switching between views of the Side Bar.
 const activityBarColors: UIColors = (palette) => {
-  const { secondary, background, neutral, gray } = palette;
+  const { secondary, background, neutral } = palette;
 
   return {
     activityBar: {
@@ -28,7 +28,7 @@ const activityBarColors: UIColors = (palette) => {
       background: secondary[3],
 
       // Activity notification badge foreground color.
-      foreground: gray[9]
+      foreground: secondary[9]
     }
   };
 };

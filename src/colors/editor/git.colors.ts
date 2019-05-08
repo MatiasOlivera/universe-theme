@@ -20,13 +20,13 @@ const gitColors: UIColors = (palette) => {
       untrackedResourceForeground: green[foregroundSwatch],
 
       // Color for ignored Git resources.
-      ignoredResourceForeground: neutral[7],
+      ignoredResourceForeground: neutral[foregroundSwatch],
 
       // Color for conflicting Git resources.
       conflictingResourceForeground: red[foregroundSwatch],
 
       //  Color for submodule resources.
-      submoduleResourceForeground: neutral[5]
+      submoduleResourceForeground: neutral[foregroundSwatch]
     }
   };
 };

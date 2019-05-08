@@ -46,31 +46,31 @@ const inputColors: UIColors = (palette) => {
 
     inputValidation: {
       // Input validation background color for error severity.
-      errorBackground: red[6],
+      errorBackground: red[4],
 
       // Input validation border color for error severity.
       errorBorder: red[4],
 
       // Input validation foreground color for error severity.
-      errorForeground: red[0],
+      errorForeground: red[9],
 
       // Input validation background color for information severity.
-      infoBackground: blue[6],
+      infoBackground: blue[4],
 
       // Input validation border color for information severity.
       infoBorder: blue[4],
 
       //  Input validation foreground color for information severity.
-      infoForeground: blue[0],
+      infoForeground: blue[9],
 
       // Input validation background color for information warning.
-      warningBackground: yellow[6],
+      warningBackground: yellow[4],
 
       // Input validation border color for warning severity.
       warningBorder: yellow[4],
 
       // Input validation foreground color for warning severity.
-      warningForeground: yellow[0]
+      warningForeground: yellow[9]
     }
   };
 };

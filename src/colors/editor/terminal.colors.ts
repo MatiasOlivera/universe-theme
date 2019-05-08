@@ -5,33 +5,33 @@ import { selectionTokens } from './editor.colors';
 const terminalColors: UIColors = (palette) => {
   const {
     background,
-    neutral,
+    blueGray,
     deepPurple,
     blue,
     cyan,
-    green,
+    lightGreen,
     red,
     yellow,
     secondary
   } = palette;
   const { selectionColor } = selectionTokens(palette);
 
-  const normalSwatch: number = 4;
-  const brightSwatch: number = 3;
+  const normalSwatch: number = 3;
+  const brightSwatch: number = 2;
 
   return {
     terminal: {
       // 'Black' ANSI color in the terminal.
-      ansiBlack: neutral[9],
+      ansiBlack: blueGray[9],
 
       // 'BrightBlack' ANSI color in the terminal.
-      ansiBrightBlack: neutral[8],
+      ansiBrightBlack: blueGray[8],
 
       // 'White' ANSI color in the terminal.
-      ansiWhite: neutral[2],
+      ansiWhite: blueGray[2],
 
       // 'BrightWhite' ANSI color in the terminal.
-      ansiBrightWhite: neutral[1],
+      ansiBrightWhite: blueGray[1],
 
       // 'Blue' ANSI color in the terminal.
       ansiBlue: blue[normalSwatch],
@@ -46,10 +46,10 @@ const terminalColors: UIColors = (palette) => {
       ansiBrightCyan: cyan[brightSwatch],
 
       // 'Green' ANSI color in the terminal.
-      ansiGreen: green[normalSwatch],
+      ansiGreen: lightGreen[normalSwatch],
 
       // 'BrightGreen' ANSI color in the terminal.
-      ansiBrightGreen: green[brightSwatch],
+      ansiBrightGreen: lightGreen[brightSwatch],
 
       // 'Magenta' ANSI color in the terminal.
       ansiMagenta: deepPurple[normalSwatch],
@@ -76,7 +76,7 @@ const terminalColors: UIColors = (palette) => {
       border: background[7],
 
       // The default foreground color of the Integrated Terminal.
-      foreground: neutral[2],
+      foreground: blueGray[2],
 
       // The selection background color of the terminal.
       selectionBackground: `${selectionColor}${opacity_50}`
@@ -87,7 +87,7 @@ const terminalColors: UIColors = (palette) => {
       background: secondary[9],
 
       // The foreground color of the terminal cursor.
-      foreground: secondary[4]
+      foreground: secondary[3]
     }
   };
 };

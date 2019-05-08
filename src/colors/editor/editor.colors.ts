@@ -21,7 +21,7 @@ export function selectionTokens(palette: ColorPalettes) {
 }
 
 const editorColors: UIColors = (palette) => {
-  const { secondary, background, neutral } = palette;
+  const { secondary, background, blueGray } = palette;
 
   const {
     selectionColor,
@@ -36,7 +36,7 @@ const editorColors: UIColors = (palette) => {
       background: background[5],
 
       // Editor default foreground color.
-      foreground: neutral[1],
+      foreground: blueGray[1],
 
       // Selection colors are visible when selecting one or more characters.
       // In addition to the selection also all regions with the same content
@@ -46,7 +46,7 @@ const editorColors: UIColors = (palette) => {
       selectionBackground: selectionBackground,
 
       // Color of the selected text for high contrast.
-      selectionForeground: neutral[0],
+      selectionForeground: blueGray[0],
 
       // Color of the selection in an inactive editor. The color must not be
       // opaque so as not to hide underlying decorations.
@@ -128,7 +128,7 @@ const editorColors: UIColors = (palette) => {
       background: secondary[9],
 
       // Color of the editor cursor.
-      foreground: secondary[4]
+      foreground: secondary[3]
     },
 
     // Bracket matches
@@ -158,32 +158,32 @@ const editorColors: UIColors = (palette) => {
     // To see the editor white spaces, enable Toggle Render Whitespace.
     editorWhitespace: {
       // Color of whitespace characters in the editor.
-      foreground: neutral[7]
+      foreground: blueGray[7]
     },
 
     editorLineNumber: {
       // Color of editor line numbers.
-      foreground: neutral[7],
+      foreground: blueGray[7],
 
       // Color of the active editor line number.
-      activeForeground: neutral[3]
+      activeForeground: blueGray[3]
     },
 
     editorCodeLens: {
       // Foreground color of an editor CodeLens.
-      foreground: neutral[3]
+      foreground: blueGray[3]
     },
 
     // Unused source code
     editorUnnecessaryCode: {
       // Opacity of unnecessary (unused) source code in the editor.
-      opacity: `${neutral[1]}${opacity_80}`
+      opacity: `${blueGray[1]}${opacity_80}`
     },
 
     // The link color is visible when clicking on a link.
     editorLink: {
       // Color of active links.
-      activeForeground: secondary[4]
+      activeForeground: secondary[1]
     }
   };
 };

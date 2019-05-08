@@ -3,7 +3,7 @@ import { UIColors } from '../../types/colors-types';
 // A Tab is the container of an editor. Multiple Tabs can be opened in one
 // editor group.
 const tabColors: UIColors = (palette) => {
-  const { background, neutral, secondary } = palette;
+  const { background, blueGray, secondary } = palette;
 
   return {
     editorPane: {
@@ -49,22 +49,22 @@ const tabColors: UIColors = (palette) => {
       unfocusedInactiveModifiedBorder: background[5],
 
       // Top border for the active tab.
-      activeBorderTop: secondary[4],
+      activeBorderTop: secondary[3],
 
       // Top border for the active tab in an inactive editor group
       unfocusedActiveBorderTop: background[0],
 
       // Active Tab foreground color in an active group.
-      activeForeground: neutral[1],
+      activeForeground: blueGray[1],
 
       // Active tab foreground color in an inactive editor group.
-      unfocusedActiveForeground: neutral[2],
+      unfocusedActiveForeground: blueGray[2],
 
       // Inactive Tab foreground color in an active group
-      inactiveForeground: neutral[3],
+      inactiveForeground: blueGray[3],
 
       // Inactive tab foreground color in an inactive editor group
-      unfocusedInactiveForeground: neutral[4]
+      unfocusedInactiveForeground: blueGray[4]
     }
   };
 };

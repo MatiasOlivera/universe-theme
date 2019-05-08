@@ -5,7 +5,7 @@ import { selectionTokens } from './editor.colors';
 // Peek views are used to show references and declarations as a view inside the
 // editor.
 const peekViewColors: UIColors = (palette) => {
-  const { neutral } = palette;
+  const { blueGray } = palette;
   const { dialogBackground, dialogBorder } = dialogTokens(palette);
   const { selectionBackground, highlightBackground } = selectionTokens(palette);
 
@@ -36,10 +36,10 @@ const peekViewColors: UIColors = (palette) => {
       background: dialogBackground,
 
       // Foreground color for file nodes in the peek view result list.
-      fileForeground: neutral[4],
+      fileForeground: blueGray[4],
 
       // Foreground color for line nodes in the peek view result list.
-      lineForeground: neutral[4],
+      lineForeground: blueGray[4],
 
       // Match highlight color in the peek view result list.
       matchHighlightBackground: highlightBackground,
@@ -48,7 +48,7 @@ const peekViewColors: UIColors = (palette) => {
       selectionBackground: selectionBackground,
 
       // Foreground color of the selected entry in the peek view result list.
-      selectionForeground: neutral[1]
+      selectionForeground: blueGray[1]
     },
 
     peekViewTitle: {
@@ -58,12 +58,12 @@ const peekViewColors: UIColors = (palette) => {
 
     peekViewTitleDescription: {
       // Color of the peek view title info.
-      foreground: neutral[4]
+      foreground: blueGray[4]
     },
 
     peekViewTitleLabel: {
       // Color of the peek view title.
-      foreground: neutral[2]
+      foreground: blueGray[2]
     }
   };
 };

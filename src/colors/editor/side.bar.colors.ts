@@ -3,7 +3,7 @@ import { opacity_70 } from '../opacity';
 
 // The Side Bar contains views like the Explorer and Search.
 const sideBarColors: UIColors = (palette) => {
-  const { background, neutral } = palette;
+  const { background, blueGray } = palette;
 
   return {
     sideBar: {
@@ -19,7 +19,7 @@ const sideBarColors: UIColors = (palette) => {
       dropBackground: `${background[7]}${opacity_70}`,
 
       // Side Bar foreground color.
-      foreground: neutral[5]
+      foreground: blueGray[5]
     },
 
     sideBarSectionHeader: {
@@ -30,12 +30,12 @@ const sideBarColors: UIColors = (palette) => {
       border: background[8],
 
       // Side Bar section header foreground color.
-      foreground: neutral[5]
+      foreground: blueGray[5]
     },
 
     sideBarTitle: {
       // Side Bar title foreground color.
-      foreground: neutral[5]
+      foreground: blueGray[5]
     }
   };
 };

@@ -10,20 +10,28 @@ export interface SyntaxColors {
 }
 
 export interface ColorPalettes {
+  white: string;
+  black: string;
   background: ColorPalette;
   primary: ColorPalette;
   secondary: ColorPalette;
-  neutral: ColorPalette;
   blue: ColorPalette;
+  blueGray: ColorPalette;
   green: ColorPalette;
+  indigo: ColorPalette;
   orange: ColorPalette;
   pink: ColorPalette;
   deepPurple: ColorPalette;
   red: ColorPalette;
   cyan: ColorPalette;
   yellow: ColorPalette;
+  gray: ColorPalette;
   purple: ColorPalette;
+  lightBlue: ColorPalette;
   teal: ColorPalette;
+  lime: ColorPalette;
+  lightGreen: ColorPalette;
+  deepOrange: ColorPalette;
 }
 
 export type ColorPalette = Array<string>;

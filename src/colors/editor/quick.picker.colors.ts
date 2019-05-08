@@ -1,7 +1,7 @@
 import { UIColors } from '../../types/colors-types';
 
 const quickPickerColors: UIColors = (palette) => {
-  const { background, neutral } = palette;
+  const { background, blueGray } = palette;
 
   return {
     pickerGroup: {
@@ -9,7 +9,7 @@ const quickPickerColors: UIColors = (palette) => {
       border: background[4],
 
       // Quick picker (Quick Open) color for grouping labels.
-      foreground: neutral[6]
+      foreground: blueGray[6]
     }
   };
 };

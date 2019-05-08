@@ -16,7 +16,7 @@ const textColors: UIColors = (palette) => {
       background: background[4],
 
       //  Border color for block quotes in text.
-      border: `${primary[4]}${opacity_50}`
+      border: `${primary[3]}${opacity_50}`
     },
 
     textCodeBlock: {
@@ -26,15 +26,15 @@ const textColors: UIColors = (palette) => {
 
     textLink: {
       // Foreground color for links in text when clicked on and on mouse hover.
-      activeForeground: secondary[3],
+      activeForeground: secondary[2],
 
       // Foreground color for links in text.
-      foreground: secondary[4]
+      foreground: secondary[3]
     },
 
     textPreformat: {
       // Foreground color for preformatted text segments.
-      foreground: primary[4]
+      foreground: primary[2]
     },
 
     textSeparator: {

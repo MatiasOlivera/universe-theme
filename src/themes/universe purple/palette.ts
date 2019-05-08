@@ -14,24 +14,9 @@ const deepPurple: ColorPalette = [
   '#05030D'
 ];
 
-// Neutral (purple gray)
-const neutral: ColorPalette = [
-  '#F2F2F2',
-  '#D8D5DF',
-  '#C0BBCD',
-  '#A8A2BB',
-  '#928AA8',
-  '#7D7596',
-  '#6A6084',
-  '#574E71',
-  '#463D5F',
-  '#362E4D'
-];
-
 export const purplePalette: ColorPalettes = {
   ...universePalette,
   background: deepPurple,
   primary: universePalette.purple,
-  secondary: universePalette.green,
-  neutral
+  secondary: universePalette.green
 };

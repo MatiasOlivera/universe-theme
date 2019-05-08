@@ -23,8 +23,9 @@ import { universePalette } from './palette';
 
 const {
   blue,
-  neutral,
+  blueGray,
   green,
+  indigo,
   orange,
   pink,
   deepPurple,
@@ -39,40 +40,40 @@ const {
 const type: Type = {
   character: {
     default: {
-      foreground: pink[4]
+      foreground: pink[1]
     },
     escape: {
-      foreground: deepPurple[4]
+      foreground: deepPurple[2]
     }
   },
   custom: {
-    foreground: cyan[4]
+    foreground: cyan[2]
   },
   number: {
-    foreground: orange[4]
+    foreground: orange[2]
   },
   other: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   constant: {
     language: {
-      foreground: deepPurple[4]
+      foreground: deepPurple[2]
     },
     languageAlt: {
-      foreground: blue[4]
+      foreground: blue[2]
     },
     library: {
-      foreground: deepPurple[4]
+      foreground: deepPurple[2]
     }
   },
   string: {
-    foreground: green[4]
+    foreground: green[2]
   },
   typeName: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   library: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   }
 };
 
@@ -81,19 +82,19 @@ const type: Type = {
  */
 const keyword: Keyword = {
   default: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   control: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   modifier: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   operator: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   other: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   }
 };
 
@@ -102,10 +103,10 @@ const keyword: Keyword = {
  */
 const variable: Variable = {
   default: {
-    foreground: pink[4]
+    foreground: pink[1]
   },
   other: {
-    foreground: pink[4]
+    foreground: pink[1]
   }
 };
 
@@ -114,7 +115,7 @@ const variable: Variable = {
  */
 const object: ObjectType = {
   property: {
-    foreground: blue[4]
+    foreground: indigo[2]
   }
 };
 
@@ -123,13 +124,13 @@ const object: ObjectType = {
  */
 const functionType: FunctionType = {
   name: {
-    foreground: blue[4]
+    foreground: blue[2]
   },
   parameter: {
-    foreground: pink[4]
+    foreground: pink[1]
   },
   library: {
-    foreground: blue[4]
+    foreground: blue[2]
   }
 };
 
@@ -138,13 +139,13 @@ const functionType: FunctionType = {
  */
 const classType: ClassType = {
   name: {
-    foreground: blue[4]
+    foreground: blue[2]
   },
   baseClass: {
-    foreground: blue[4]
+    foreground: blue[2]
   },
   library: {
-    foreground: blue[4]
+    foreground: blue[2]
   }
 };
 
@@ -153,7 +154,7 @@ const classType: ClassType = {
  */
 const moduleType: ModuleType = {
   name: {
-    foreground: blue[4]
+    foreground: blue[2]
   }
 };
 
@@ -170,7 +171,7 @@ const section: Section = {
  * Text
  */
 const text: Settings = {
-  foreground: neutral[0]
+  foreground: blueGray[0]
 };
 
 /**
@@ -181,7 +182,7 @@ const puntuaction: Puntuaction = {
     fontStyle: '' // Inherit the element color
   },
   embedded: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   }
 };
 
@@ -190,10 +191,10 @@ const puntuaction: Puntuaction = {
  */
 const invalid: Invalid = {
   deprecated: {
-    foreground: red[4]
+    foreground: red[2]
   },
   illegal: {
-    foreground: red[4]
+    foreground: red[2]
   }
 };
 
@@ -201,7 +202,7 @@ const invalid: Invalid = {
  * Comments
  */
 const comment: Settings = {
-  foreground: neutral[3]
+  foreground: blueGray[3]
 };
 
 /**
@@ -209,16 +210,16 @@ const comment: Settings = {
  */
 const config: Config = {
   groupTitle: {
-    foreground: neutral[0]
+    foreground: blueGray[0]
   },
   key: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   value: {
-    foreground: pink[4]
+    foreground: pink[1]
   },
   separator: {
-    foreground: neutral[0]
+    foreground: blueGray[0]
   }
 };
 
@@ -228,42 +229,42 @@ const config: Config = {
 const css: Css = {
   // Selectors
   tag: {
-    foreground: pink[4]
+    foreground: pink[1]
   },
   id: {
-    foreground: yellow[4]
+    foreground: yellow[2]
   },
   class: {
-    foreground: orange[4]
+    foreground: orange[2]
   },
   attribute: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   pseudoClass: {
-    foreground: cyan[4]
+    foreground: cyan[2]
   },
   pseudoElement: {
-    foreground: cyan[4]
+    foreground: cyan[2]
   },
 
   // Properties
   property: {
     name: {
-      foreground: deepPurple[4]
+      foreground: deepPurple[2]
     },
     value: {
-      foreground: green[4]
+      foreground: green[2]
     }
   },
 
   function: {
     parameter: {
-      foreground: green[4]
+      foreground: green[2]
     }
   },
 
   unit: {
-    foreground: pink[4]
+    foreground: pink[1]
   }
 };
 
@@ -272,10 +273,10 @@ const css: Css = {
  */
 const tag: Tag = {
   attribute: {
-    foreground: blue[4]
+    foreground: indigo[2]
   },
   name: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   }
 };
 
@@ -287,11 +288,11 @@ const html: Html = {
   attribute: tag.attribute,
   component: {
     tag: {
-      foreground: orange[4]
+      foreground: orange[2]
     }
   },
   directive: {
-    foreground: orange[4]
+    foreground: orange[2]
   }
 };
 
@@ -300,7 +301,7 @@ const html: Html = {
  */
 const json: Json = {
   property: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   }
 };
 
@@ -310,20 +311,20 @@ const json: Json = {
 const markup: Markup = {
   // Links
   link: {
-    foreground: blue[4],
+    foreground: blue[2],
     fontStyle: 'underline'
   },
 
   // Text
   bold: {
-    foreground: pink[4],
+    foreground: pink[1],
     fontStyle: 'bold'
   },
   heading: {
-    foreground: deepPurple[4]
+    foreground: deepPurple[2]
   },
   italic: {
-    foreground: orange[4],
+    foreground: orange[2],
     fontStyle: 'italic'
   },
   list: {
@@ -338,13 +339,13 @@ const markup: Markup = {
     foreground: text.foreground
   },
   quote: {
-    foreground: green[4]
+    foreground: green[2]
   },
   raw: {
-    foreground: cyan[4]
+    foreground: cyan[2]
   },
   underline: {
-    foreground: blue[4],
+    foreground: blue[2],
     fontStyle: 'underline'
   }
 };
@@ -359,7 +360,7 @@ const markdown: Markdown = {
     italic: markup.italic,
     quote: markup.quote,
     list: {
-      foreground: deepPurple[4]
+      foreground: deepPurple[2]
     }
   },
   linkTitle: {

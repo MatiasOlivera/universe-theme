@@ -3,7 +3,7 @@ import { dialogTokens } from './dialog.colors';
 
 // The theme colors for breadcrumbs navigation
 const breadcrumbColors: UIColors = (palette) => {
-  const { neutral, background } = palette;
+  const { blueGray, background } = palette;
   const { dialogBackground } = dialogTokens(palette);
 
   return {
@@ -12,13 +12,13 @@ const breadcrumbColors: UIColors = (palette) => {
       background: background[5],
 
       // Color of breadcrumb items.
-      foreground: neutral[3],
+      foreground: blueGray[3],
 
       // Color of focused breadcrumb items.
-      focusForeground: neutral[2],
+      focusForeground: blueGray[2],
 
       // Color of selected breadcrumb items.
-      activeSelectionForeground: neutral[1]
+      activeSelectionForeground: blueGray[1]
     },
 
     breadcrumbPicker: {

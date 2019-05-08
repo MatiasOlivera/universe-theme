@@ -9,7 +9,6 @@ const overviewRulerColors: UIColors = (palette) => {
     background,
     deepPurple,
     cyan,
-    pink,
     red,
     blue,
     yellow,

@@ -6,7 +6,7 @@ const progressBarColors: UIColors = (palette) => {
   return {
     progressBar: {
       // Background color of the progress bar shown for long running operations.
-      background: secondary[3]
+      background: secondary[4]
     }
   };
 };

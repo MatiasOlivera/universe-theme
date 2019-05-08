@@ -2,7 +2,7 @@ import { UIColors } from '../../types/colors-types';
 
 // The gutter contains the glyph margins and the line numbers
 const gutterColors: UIColors = (palette) => {
-  const { green, background, blueGray, deepOrange, blue } = palette;
+  const { green, background, neutral, orange, blue } = palette;
 
   return {
     editorGutter: {
@@ -10,15 +10,15 @@ const gutterColors: UIColors = (palette) => {
       background: background[5],
 
       // Editor gutter background color for lines that are added.
-      addedBackground: green[3],
+      addedBackground: green[4],
 
       // Editor gutter background color for lines that are modified.
-      modifiedBackground: blue[3],
+      modifiedBackground: blue[4],
 
       // Editor gutter background color for lines that are deleted.
-      deletedBackground: deepOrange[3],
+      deletedBackground: orange[4],
 
-      commentRangeForeground: blueGray[3]
+      commentRangeForeground: neutral[4]
     }
   };
 };

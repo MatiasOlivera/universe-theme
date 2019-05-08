@@ -4,7 +4,7 @@ import { inputTokens } from './input.colors';
 // These colors are for the GUI settings editor which can be opened with the
 // Preferences: Open Settings (UI) command.
 const settingColors: UIColors = (palette) => {
-  const { blueGray, background } = palette;
+  const { neutral, background } = palette;
   const { inputBackground, inputBorder, inputForeground } = inputTokens(
     palette
   );
@@ -12,7 +12,7 @@ const settingColors: UIColors = (palette) => {
   return {
     settings: {
       // The foreground color for a section header or active title.
-      headerForeground: blueGray[1],
+      headerForeground: neutral[1],
 
       // The line that indicates a modified setting.
       modifiedItemIndicator: background[0],

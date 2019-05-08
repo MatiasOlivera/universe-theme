@@ -4,7 +4,7 @@ import { opacity_0, opacity_10, opacity_20 } from '../opacity';
 // Merge conflict decorations are shown when the editor contains special diff
 // ranges.
 const mergeConflictColors: UIColors = (palette) => {
-  const { blue, lightGreen, background } = palette;
+  const { blue, green, background } = palette;
 
   const headerOpacity: string = opacity_20;
   const contentOpacity: string = opacity_10;
@@ -18,7 +18,7 @@ const mergeConflictColors: UIColors = (palette) => {
       currentContentForeground: blue[3],
 
       // Incoming overview ruler foreground for inline merge conflicts.
-      incomingContentForeground: lightGreen[3]
+      incomingContentForeground: green[3]
     },
 
     merge: {
@@ -32,11 +32,11 @@ const mergeConflictColors: UIColors = (palette) => {
 
       // Incoming header background in inline merge conflicts. The color must
       // not be opaque so as not to hide underlying decorations.
-      incomingHeaderBackground: `${lightGreen[3]}${headerOpacity}`,
+      incomingHeaderBackground: `${green[3]}${headerOpacity}`,
 
       //  Incoming content background in inline merge conflicts. The color must
       // not be opaque so as not to hide underlying decorations.
-      incomingContentBackground: `${lightGreen[3]}${contentOpacity}`,
+      incomingContentBackground: `${green[3]}${contentOpacity}`,
 
       // Common ancestor header background in inline merge-conflicts. The color
       // must not be opaque so as not to hide underlying decorations.

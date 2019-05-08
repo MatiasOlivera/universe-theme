@@ -9,7 +9,7 @@ const terminalColors: UIColors = (palette) => {
     deepPurple,
     blue,
     cyan,
-    lightGreen,
+    green,
     red,
     yellow,
     secondary
@@ -46,10 +46,10 @@ const terminalColors: UIColors = (palette) => {
       ansiBrightCyan: cyan[brightSwatch],
 
       // 'Green' ANSI color in the terminal.
-      ansiGreen: lightGreen[normalSwatch],
+      ansiGreen: green[normalSwatch],
 
       // 'BrightGreen' ANSI color in the terminal.
-      ansiBrightGreen: lightGreen[brightSwatch],
+      ansiBrightGreen: green[brightSwatch],
 
       // 'Magenta' ANSI color in the terminal.
       ansiMagenta: deepPurple[normalSwatch],

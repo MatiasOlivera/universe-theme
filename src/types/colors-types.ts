@@ -27,7 +27,6 @@ export interface ColorPalettes {
   purple: ColorPalette;
   teal: ColorPalette;
   lime: ColorPalette;
-  lightGreen: ColorPalette;
   deepOrange: ColorPalette;
 }
 

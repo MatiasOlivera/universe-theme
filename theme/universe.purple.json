@@ -281,7 +281,7 @@
     "gitDecoration.modifiedResourceForeground": "#9AC6F2",
     "gitDecoration.deletedResourceForeground": "#FFA2A2",
     "gitDecoration.untrackedResourceForeground": "#BBD99E",
-    "gitDecoration.ignoredResourceForeground": "#928AA8",
+    "gitDecoration.ignoredResourceForeground": "#6A6084",
     "gitDecoration.conflictingResourceForeground": "#FFA2A2",
     "gitDecoration.submoduleResourceForeground": "#928AA8",
     "settings.headerForeground": "#D8D5DF",

@@ -364,7 +364,7 @@
     {
       "name": "Object property",
       "scope": ["meta.object-literal.key", "variable.object.property"],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#BBD99E" }
     },
     {
       "name": "Function definition",
@@ -597,7 +597,7 @@
     {
       "name": "Object property",
       "scope": "string.unquoted.js",
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#BBD99E" }
     },
     {
       "name": "Language constant (boolean, null)",

@@ -114,7 +114,7 @@ const variable: Variable = {
  */
 const object: ObjectType = {
   property: {
-    foreground: blue[4]
+    foreground: green[4]
   }
 };
 

@@ -10,7 +10,6 @@ export interface Type {
   };
   constant: {
     language: Settings; // constant.language
-    languageAlt: Settings;
     library: Settings; // support.constant
   };
   custom: Settings; // entity.name.type

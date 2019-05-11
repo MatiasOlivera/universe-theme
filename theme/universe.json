@@ -354,7 +354,7 @@
     {
       "name": "Library variable",
       "scope": "support.variable",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#FFBAD1" }
     },
     {
       "name": "Access to object property",
@@ -435,12 +435,12 @@
     {
       "name": "Language constant (boolean, null)",
       "scope": "constant.language",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#89D9D2" }
     },
     {
       "name": "Library constant",
       "scope": "support.constant",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#89D9D2" }
     },
     {
       "name": "Other constant",
@@ -598,11 +598,6 @@
       "name": "Object property",
       "scope": "string.unquoted.js",
       "settings": { "foreground": "#BBD99E" }
-    },
-    {
-      "name": "Language constant (boolean, null)",
-      "scope": "constant.language.json",
-      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Property name",
@@ -769,14 +764,6 @@
       "name": "Vue directive",
       "scope": "meta.directive.vue",
       "settings": { "foreground": "#F2B09A" }
-    },
-    {
-      "name": "Language constant (boolean, null)",
-      "scope": [
-        "constant.language.boolean.yaml",
-        "constant.language.null.yaml"
-      ],
-      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Property name",

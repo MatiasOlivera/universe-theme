@@ -52,12 +52,12 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Language variable (this, super, self)',
       scope: 'variable.language',
-      settings: tokens.type.constant.language
+      settings: tokens.keyword.other
     },
     {
       name: 'Library variable',
       scope: 'support.variable',
-      settings: tokens.type.constant.library
+      settings: tokens.variable.other
     },
 
     /**

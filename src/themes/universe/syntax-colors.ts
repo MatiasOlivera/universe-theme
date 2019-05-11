@@ -30,12 +30,15 @@ const {
   deepPurple,
   red,
   cyan,
-  yellow
+  yellow,
+  teal
 } = universePalette;
 
 /**
  * Data types
  */
+const constantForeground: string = teal[4];
+
 const type: Type = {
   character: {
     default: {
@@ -56,13 +59,10 @@ const type: Type = {
   },
   constant: {
     language: {
-      foreground: deepPurple[4]
-    },
-    languageAlt: {
-      foreground: blue[4]
+      foreground: constantForeground
     },
     library: {
-      foreground: deepPurple[4]
+      foreground: constantForeground
     }
   },
   string: {

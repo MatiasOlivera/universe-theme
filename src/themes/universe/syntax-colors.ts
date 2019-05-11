@@ -201,7 +201,7 @@ const invalid: Invalid = {
  * Comments
  */
 const comment: Settings = {
-  foreground: neutral[3]
+  foreground: neutral[5]
 };
 
 /**

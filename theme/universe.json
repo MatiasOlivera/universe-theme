@@ -473,7 +473,7 @@
     {
       "name": "Comment",
       "scope": "comment",
-      "settings": { "foreground": "#A2AABB" }
+      "settings": { "foreground": "#758096" }
     },
     {
       "name": "Invalid",

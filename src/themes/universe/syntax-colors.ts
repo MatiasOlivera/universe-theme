@@ -136,15 +136,17 @@ const functionType: FunctionType = {
 /**
  * Classes
  */
+const classForeground: string = yellow[4];
+
 const classType: ClassType = {
   name: {
-    foreground: blue[4]
+    foreground: classForeground
   },
   baseClass: {
-    foreground: blue[4]
+    foreground: classForeground
   },
   library: {
-    foreground: blue[4]
+    foreground: classForeground
   }
 };
 

@@ -388,17 +388,17 @@
         "entity.name.type.class",
         "entity.other.inherited-class"
       ],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#E6D791" }
     },
     {
       "name": "Instance",
       "scope": ["entity.name.type.instance", "variable.other.class"],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#E6D791" }
     },
     {
       "name": "Library class",
       "scope": "support.class",
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#E6D791" }
     },
     {
       "name": "Character",

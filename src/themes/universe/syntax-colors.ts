@@ -37,6 +37,7 @@ const {
 /**
  * Data types
  */
+const typeForeground: string = cyan[4];
 const constantForeground: string = teal[4];
 
 const type: Type = {
@@ -49,7 +50,7 @@ const type: Type = {
     }
   },
   custom: {
-    foreground: cyan[4]
+    foreground: typeForeground
   },
   number: {
     foreground: orange[4]
@@ -72,7 +73,7 @@ const type: Type = {
     foreground: deepPurple[4]
   },
   library: {
-    foreground: deepPurple[4]
+    foreground: typeForeground
   }
 };
 

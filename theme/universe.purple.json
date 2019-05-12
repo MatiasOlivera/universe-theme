@@ -430,7 +430,7 @@
     {
       "name": "Library type",
       "scope": "support.type",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "Language constant (boolean, null)",
@@ -754,6 +754,11 @@
       "name": "Text",
       "scope": "text.pug",
       "settings": { "foreground": "#F2F2F2" }
+    },
+    {
+      "name": "Typescript: Class",
+      "scope": ["new.expr.ts entity.name.type.ts"],
+      "settings": { "foreground": "#E6D791" }
     },
     {
       "name": "JSON object",

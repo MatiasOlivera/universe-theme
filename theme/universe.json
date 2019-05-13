@@ -460,7 +460,7 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "Tag angle brackets",
@@ -468,7 +468,7 @@
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end"
       ],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "Comment",
@@ -576,6 +576,11 @@
       "settings": { "foreground": "#9AC6F2" }
     },
     {
+      "name": "Value",
+      "scope": "string.quoted.double.html",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Text",
       "scope": "text.html.derivative",
       "settings": { "foreground": "#F2F2F2" }
@@ -592,7 +597,7 @@
         "punctuation.definition.generic.end.html",
         "meta.attribute.unrecognized"
       ],
-      "settings": { "foreground": "#F2B09A" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Object property",
@@ -607,7 +612,7 @@
     {
       "name": "JSX: Tag angle brackets",
       "scope": "punctuation.definition.tag.jsx",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "JSX: Component tag",
@@ -624,6 +629,11 @@
       "settings": { "foreground": "#9AC6F2" }
     },
     {
+      "name": "JSX: Value",
+      "scope": "JSXAttrs string.quoted.double.js",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "JSX: Text",
       "scope": ["JSXNested", "meta.jsx.children.tsx"],
       "settings": { "foreground": "#F2F2F2" }
@@ -636,7 +646,7 @@
         "punctuation.section.embedded.begin.tsx",
         "punctuation.section.embedded.end.tsx"
       ],
-      "settings": { "foreground": "#F2B09A" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "JSX: Punctuation",
@@ -738,7 +748,7 @@
     {
       "name": "Constant",
       "scope": "constant",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "Pug ID",
@@ -768,12 +778,12 @@
     {
       "name": "Vue directive",
       "scope": "meta.directive.vue",
-      "settings": { "foreground": "#F2B09A" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#92D8E6" }
     }
   ]
 }

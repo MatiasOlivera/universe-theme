@@ -66,6 +66,7 @@ export interface Section {
 export interface Tag {
   name: Settings; // entity.name.tag
   attribute: Settings; // entity.other.attribute-name
+  value: Settings;
 }
 
 // Markup
@@ -131,8 +132,6 @@ export interface Css {
 
 // HTML
 export interface Html {
-  tag: Settings;
-  attribute: Settings;
   component: {
     tag: Settings;
   };

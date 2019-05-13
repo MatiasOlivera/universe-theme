@@ -8,7 +8,7 @@ const pugColors: SyntaxColors = (tokens) => {
     {
       name: 'Constant',
       scope: 'constant',
-      settings: tokens.html.tag
+      settings: tokens.tag.name
     },
 
     /**

@@ -5,7 +5,12 @@ const htmlColors: SyntaxColors = (tokens) => {
     {
       name: 'Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
-      settings: tokens.html.attribute
+      settings: tokens.tag.attribute
+    },
+    {
+      name: 'Value',
+      scope: 'string.quoted.double.html',
+      settings: tokens.tag.value
     },
     {
       name: 'Text',

@@ -274,11 +274,14 @@ const css: Css = {
  * Tags
  */
 const tag: Tag = {
+  name: {
+    foreground: cyan[4]
+  },
   attribute: {
     foreground: blue[4]
   },
-  name: {
-    foreground: deepPurple[4]
+  value: {
+    foreground: green[4]
   }
 };
 
@@ -286,15 +289,13 @@ const tag: Tag = {
  * HTML
  */
 const html: Html = {
-  tag: tag.name,
-  attribute: tag.attribute,
   component: {
     tag: {
       foreground: orange[4]
     }
   },
   directive: {
-    foreground: orange[4]
+    foreground: red[4]
   }
 };
 

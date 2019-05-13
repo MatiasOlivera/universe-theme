@@ -5,7 +5,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     {
       name: 'JSX: Tag angle brackets',
       scope: 'punctuation.definition.tag.jsx',
-      settings: tokens.html.tag
+      settings: tokens.tag.name
     },
     {
       name: 'JSX: Component tag',
@@ -20,7 +20,13 @@ const jsxColors: SyntaxColors = (tokens) => {
       name: 'JSX: Attribute',
       scope: 'entity.other.attribute-name.jsx',
       // Pink is used in variables and method arguments
-      settings: tokens.html.attribute
+      settings: tokens.tag.attribute
+    },
+    {
+      name: 'JSX: Value',
+      scope: 'JSXAttrs string.quoted.double.js',
+      // Pink is used in variables and method arguments
+      settings: tokens.tag.value
     },
     {
       name: 'JSX: Text',

@@ -43,7 +43,7 @@ const constantForeground: string = teal[4];
 const type: Type = {
   character: {
     default: {
-      foreground: pink[4]
+      foreground: blue[4]
     },
     escape: {
       foreground: deepPurple[4]

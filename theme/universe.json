@@ -403,7 +403,7 @@
     {
       "name": "Character",
       "scope": "constant.character",
-      "settings": { "foreground": "#FFBAD1" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Escape character",

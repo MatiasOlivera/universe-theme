@@ -277,6 +277,9 @@ const tag: Tag = {
   name: {
     foreground: cyan[4]
   },
+  punctuation: {
+    foreground: cyan[5]
+  },
   attribute: {
     foreground: blue[4]
   },
@@ -292,6 +295,9 @@ const html: Html = {
   component: {
     tag: {
       foreground: orange[4]
+    },
+    punctuation: {
+      foreground: orange[5]
     }
   },
   directive: {

@@ -195,7 +195,7 @@ const commonColors: SyntaxColors = (tokens) => {
         'punctuation.definition.tag.begin',
         'punctuation.definition.tag.end'
       ],
-      settings: tokens.tag.name
+      settings: tokens.tag.punctuation
     },
 
     /**

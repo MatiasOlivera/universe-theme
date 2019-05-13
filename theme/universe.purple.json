@@ -468,7 +468,7 @@
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end"
       ],
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#6EB4C2" }
     },
     {
       "name": "Comment",
@@ -587,8 +587,16 @@
     },
     {
       "name": "Component tag",
-      "scope": "entity.name.tag.other",
+      "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag.html",
       "settings": { "foreground": "#F2B09A" }
+    },
+    {
+      "name": "Component tag's punctuation",
+      "scope": [
+        "meta.tag.other.html punctuation.definition.tag.begin.html",
+        "meta.tag.other.html punctuation.definition.tag.end.html"
+      ],
+      "settings": { "foreground": "#CD8A74" }
     },
     {
       "name": "Component directives",
@@ -612,7 +620,7 @@
     {
       "name": "JSX: Tag angle brackets",
       "scope": "punctuation.definition.tag.jsx",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#6EB4C2" }
     },
     {
       "name": "JSX: Component tag",

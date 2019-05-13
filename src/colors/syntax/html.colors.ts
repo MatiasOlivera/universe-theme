@@ -23,8 +23,16 @@ const htmlColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Component tag',
-      scope: 'entity.name.tag.other',
+      scope: 'meta.tag.other.unrecognized.html.derivative entity.name.tag.html',
       settings: tokens.html.component.tag
+    },
+    {
+      name: "Component tag's punctuation",
+      scope: [
+        'meta.tag.other.html punctuation.definition.tag.begin.html',
+        'meta.tag.other.html punctuation.definition.tag.end.html'
+      ],
+      settings: tokens.html.component.punctuation
     },
     {
       name: 'Component directives',

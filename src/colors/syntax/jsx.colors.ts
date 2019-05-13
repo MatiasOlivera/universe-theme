@@ -5,7 +5,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     {
       name: 'JSX: Tag angle brackets',
       scope: 'punctuation.definition.tag.jsx',
-      settings: tokens.tag.name
+      settings: tokens.tag.punctuation
     },
     {
       name: 'JSX: Component tag',

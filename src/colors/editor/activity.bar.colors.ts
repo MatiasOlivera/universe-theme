@@ -17,7 +17,7 @@ const activityBarColors: UIColors = (palette) => {
       foreground: neutral[6],
 
       // Activity bar item foreground color when it is inactive.
-      inactiveForeground: neutral[7],
+      inactiveForeground: neutral[8],
 
       // Activity Bar border color with the Side Bar.
       border: background[8]

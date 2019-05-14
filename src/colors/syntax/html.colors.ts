@@ -5,7 +5,12 @@ const htmlColors: SyntaxColors = (tokens) => {
     {
       name: 'Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
-      settings: tokens.html.attribute
+      settings: tokens.tag.attribute
+    },
+    {
+      name: 'Value',
+      scope: 'string.quoted.double.html',
+      settings: tokens.tag.value
     },
     {
       name: 'Text',
@@ -18,8 +23,16 @@ const htmlColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Component tag',
-      scope: 'entity.name.tag.other',
+      scope: 'meta.tag.other.unrecognized.html.derivative entity.name.tag.html',
       settings: tokens.html.component.tag
+    },
+    {
+      name: "Component tag's punctuation",
+      scope: [
+        'meta.tag.other.html punctuation.definition.tag.begin.html',
+        'meta.tag.other.html punctuation.definition.tag.end.html'
+      ],
+      settings: tokens.html.component.punctuation
     },
     {
       name: 'Component directives',

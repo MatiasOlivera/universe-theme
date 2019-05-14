@@ -18,6 +18,7 @@ import {
   Tokens,
   Type,
   Variable,
+  Yaml,
 } from '../../types/tokens-types';
 import { universePalette } from './palette';
 
@@ -30,39 +31,40 @@ const {
   deepPurple,
   red,
   cyan,
-  yellow
+  yellow,
+  teal
 } = universePalette;
 
 /**
  * Data types
  */
+const typeForeground: string = cyan[4];
+const constantForeground: string = teal[4];
+
 const type: Type = {
   character: {
     default: {
-      foreground: pink[4]
+      foreground: blue[4]
     },
     escape: {
       foreground: deepPurple[4]
     }
   },
   custom: {
-    foreground: cyan[4]
+    foreground: typeForeground
   },
   number: {
     foreground: orange[4]
   },
   other: {
-    foreground: deepPurple[4]
+    foreground: constantForeground
   },
   constant: {
     language: {
-      foreground: deepPurple[4]
-    },
-    languageAlt: {
-      foreground: blue[4]
+      foreground: constantForeground
     },
     library: {
-      foreground: deepPurple[4]
+      foreground: constantForeground
     }
   },
   string: {
@@ -72,7 +74,7 @@ const type: Type = {
     foreground: deepPurple[4]
   },
   library: {
-    foreground: deepPurple[4]
+    foreground: typeForeground
   }
 };
 
@@ -114,7 +116,7 @@ const variable: Variable = {
  */
 const object: ObjectType = {
   property: {
-    foreground: blue[4]
+    foreground: green[4]
   }
 };
 
@@ -136,15 +138,17 @@ const functionType: FunctionType = {
 /**
  * Classes
  */
+const classForeground: string = yellow[4];
+
 const classType: ClassType = {
   name: {
-    foreground: blue[4]
+    foreground: classForeground
   },
   baseClass: {
-    foreground: blue[4]
+    foreground: classForeground
   },
   library: {
-    foreground: blue[4]
+    foreground: classForeground
   }
 };
 
@@ -201,7 +205,7 @@ const invalid: Invalid = {
  * Comments
  */
 const comment: Settings = {
-  foreground: neutral[3]
+  foreground: neutral[5]
 };
 
 /**
@@ -223,36 +227,44 @@ const config: Config = {
 };
 
 /**
+ * Tags
+ */
+const tag: Tag = {
+  name: {
+    foreground: cyan[4]
+  },
+  punctuation: {
+    foreground: cyan[5]
+  },
+  attribute: {
+    foreground: blue[4]
+  },
+  value: {
+    foreground: green[4]
+  }
+};
+
+/**
  * CSS
  */
 const css: Css = {
   // Selectors
-  tag: {
-    foreground: pink[4]
-  },
+  tag: tag.name,
   id: {
     foreground: yellow[4]
   },
   class: {
     foreground: orange[4]
   },
-  attribute: {
-    foreground: deepPurple[4]
-  },
-  pseudoClass: {
-    foreground: cyan[4]
-  },
-  pseudoElement: {
-    foreground: cyan[4]
-  },
+  attribute: tag.attribute,
+  pseudoClass: keyword.modifier,
+  pseudoElement: keyword.modifier,
 
   // Properties
   property: {
-    name: {
-      foreground: deepPurple[4]
-    },
+    name: object.property,
     value: {
-      foreground: green[4]
+      foreground: blue[4]
     }
   },
 
@@ -262,20 +274,12 @@ const css: Css = {
     }
   },
 
-  unit: {
-    foreground: pink[4]
-  }
-};
-
-/**
- * Tags
- */
-const tag: Tag = {
-  attribute: {
-    foreground: blue[4]
+  number: {
+    foreground: orange[3]
   },
-  name: {
-    foreground: deepPurple[4]
+
+  unit: {
+    foreground: orange[4]
   }
 };
 
@@ -283,15 +287,16 @@ const tag: Tag = {
  * HTML
  */
 const html: Html = {
-  tag: tag.name,
-  attribute: tag.attribute,
   component: {
     tag: {
       foreground: orange[4]
+    },
+    punctuation: {
+      foreground: orange[5]
     }
   },
   directive: {
-    foreground: orange[4]
+    foreground: red[4]
   }
 };
 
@@ -367,6 +372,15 @@ const markdown: Markdown = {
   }
 };
 
+/**
+ * YAML
+ */
+const yaml: Yaml = {
+  constant: {
+    foreground: deepPurple[4]
+  }
+};
+
 export const tokens: Tokens = {
   type,
   keyword,
@@ -386,5 +400,6 @@ export const tokens: Tokens = {
   json,
   tag,
   markup,
-  markdown
+  markdown,
+  yaml
 };

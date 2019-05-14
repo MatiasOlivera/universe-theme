@@ -10,7 +10,6 @@ export interface Type {
   };
   constant: {
     language: Settings; // constant.language
-    languageAlt: Settings;
     library: Settings; // support.constant
   };
   custom: Settings; // entity.name.type
@@ -67,6 +66,8 @@ export interface Section {
 export interface Tag {
   name: Settings; // entity.name.tag
   attribute: Settings; // entity.other.attribute-name
+  value: Settings;
+  punctuation: Settings;
 }
 
 // Markup
@@ -127,15 +128,15 @@ export interface Css {
     parameter: Settings;
   };
 
+  number: Settings;
   unit: Settings;
 }
 
 // HTML
 export interface Html {
-  tag: Settings;
-  attribute: Settings;
   component: {
     tag: Settings;
+    punctuation: Settings;
   };
   directive: Settings;
 }
@@ -155,6 +156,11 @@ export interface Markdown {
     list: Settings;
   };
   linkTitle: Settings;
+}
+
+// YAML
+export interface Yaml {
+  constant: Settings;
 }
 
 export interface Tokens {
@@ -177,6 +183,7 @@ export interface Tokens {
   html: Html;
   json: Json;
   markdown: Markdown;
+  yaml: Yaml;
 }
 
 export interface Settings {

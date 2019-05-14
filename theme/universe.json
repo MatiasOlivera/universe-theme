@@ -566,9 +566,14 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "CSS: Number",
+      "scope": "constant.numeric.css",
+      "settings": { "foreground": "#F6BFAD" }
+    },
+    {
       "name": "Unit",
       "scope": "keyword.other.unit",
-      "settings": { "foreground": "#FFBAD1" }
+      "settings": { "foreground": "#F2B09A" }
     },
     {
       "name": "Attribute",

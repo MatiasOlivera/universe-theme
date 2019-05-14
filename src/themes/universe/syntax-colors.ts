@@ -273,8 +273,12 @@ const css: Css = {
     }
   },
 
+  number: {
+    foreground: orange[3]
+  },
+
   unit: {
-    foreground: pink[4]
+    foreground: orange[4]
   }
 };
 

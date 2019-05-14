@@ -128,6 +128,7 @@ export interface Css {
     parameter: Settings;
   };
 
+  number: Settings;
   unit: Settings;
 }
 

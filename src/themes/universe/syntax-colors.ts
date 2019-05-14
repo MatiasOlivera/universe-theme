@@ -56,7 +56,7 @@ const type: Type = {
     foreground: orange[4]
   },
   other: {
-    foreground: deepPurple[4]
+    foreground: constantForeground
   },
   constant: {
     language: {

@@ -445,7 +445,7 @@
     {
       "name": "Other constant",
       "scope": ["constant.other", "support.other"],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#89D9D2" }
     },
     {
       "name": "Custom type",

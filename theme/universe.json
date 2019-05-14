@@ -533,7 +533,7 @@
     {
       "name": "Attribute name",
       "scope": "entity.other.attribute-name.css",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Pseudo-class",

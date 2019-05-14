@@ -255,9 +255,7 @@ const css: Css = {
   class: {
     foreground: orange[4]
   },
-  attribute: {
-    foreground: deepPurple[4]
-  },
+  attribute: tag.attribute,
   pseudoClass: {
     foreground: cyan[4]
   },

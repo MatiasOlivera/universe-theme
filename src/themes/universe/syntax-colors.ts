@@ -18,6 +18,7 @@ import {
   Tokens,
   Type,
   Variable,
+  Yaml,
 } from '../../types/tokens-types';
 import { universePalette } from './palette';
 
@@ -371,6 +372,15 @@ const markdown: Markdown = {
   }
 };
 
+/**
+ * YAML
+ */
+const yaml: Yaml = {
+  constant: {
+    foreground: deepPurple[4]
+  }
+};
+
 export const tokens: Tokens = {
   type,
   keyword,
@@ -390,5 +400,6 @@ export const tokens: Tokens = {
   json,
   tag,
   markup,
-  markdown
+  markdown,
+  yaml
 };

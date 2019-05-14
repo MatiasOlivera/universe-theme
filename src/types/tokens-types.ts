@@ -158,6 +158,11 @@ export interface Markdown {
   linkTitle: Settings;
 }
 
+// YAML
+export interface Yaml {
+  constant: Settings;
+}
+
 export interface Tokens {
   type: Type;
   keyword: Keyword;
@@ -178,6 +183,7 @@ export interface Tokens {
   html: Html;
   json: Json;
   markdown: Markdown;
+  yaml: Yaml;
 }
 
 export interface Settings {

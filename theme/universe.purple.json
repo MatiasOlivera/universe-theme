@@ -797,6 +797,14 @@
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "YAML: Constant",
+      "scope": [
+        "constant.language.boolean.yaml",
+        "constant.language.null.yaml"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
     }
   ]
 }

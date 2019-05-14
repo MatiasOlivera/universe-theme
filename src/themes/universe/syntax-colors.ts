@@ -265,9 +265,7 @@ const css: Css = {
 
   // Properties
   property: {
-    name: {
-      foreground: deepPurple[4]
-    },
+    name: object.property,
     value: {
       foreground: green[4]
     }

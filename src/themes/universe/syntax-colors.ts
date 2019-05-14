@@ -226,13 +226,29 @@ const config: Config = {
 };
 
 /**
+ * Tags
+ */
+const tag: Tag = {
+  name: {
+    foreground: cyan[4]
+  },
+  punctuation: {
+    foreground: cyan[5]
+  },
+  attribute: {
+    foreground: blue[4]
+  },
+  value: {
+    foreground: green[4]
+  }
+};
+
+/**
  * CSS
  */
 const css: Css = {
   // Selectors
-  tag: {
-    foreground: pink[4]
-  },
+  tag: tag.name,
   id: {
     foreground: yellow[4]
   },
@@ -267,24 +283,6 @@ const css: Css = {
 
   unit: {
     foreground: pink[4]
-  }
-};
-
-/**
- * Tags
- */
-const tag: Tag = {
-  name: {
-    foreground: cyan[4]
-  },
-  punctuation: {
-    foreground: cyan[5]
-  },
-  attribute: {
-    foreground: blue[4]
-  },
-  value: {
-    foreground: green[4]
   }
 };
 

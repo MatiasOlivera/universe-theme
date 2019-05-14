@@ -518,7 +518,7 @@
     {
       "name": "Tag",
       "scope": ["entity.name.tag.css", "meta.selector.css"],
-      "settings": { "foreground": "#FFBAD1" }
+      "settings": { "foreground": "#92D8E6" }
     },
     {
       "name": "ID",

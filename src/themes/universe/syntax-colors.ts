@@ -256,12 +256,8 @@ const css: Css = {
     foreground: orange[4]
   },
   attribute: tag.attribute,
-  pseudoClass: {
-    foreground: cyan[4]
-  },
-  pseudoElement: {
-    foreground: cyan[4]
-  },
+  pseudoClass: keyword.modifier,
+  pseudoElement: keyword.modifier,
 
   // Properties
   property: {

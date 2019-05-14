@@ -538,12 +538,12 @@
     {
       "name": "Pseudo-class",
       "scope": "entity.other.attribute-name.pseudo-class.css",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Pseudo-element",
       "scope": "entity.other.attribute-name.pseudo-element.css",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Property name",

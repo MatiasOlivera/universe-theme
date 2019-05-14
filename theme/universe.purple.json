@@ -558,7 +558,7 @@
     {
       "name": "Property value",
       "scope": "meta.property-value.css",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Function parameter",

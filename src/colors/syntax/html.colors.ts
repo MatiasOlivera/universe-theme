@@ -23,7 +23,7 @@ const htmlColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Component tag',
-      scope: 'meta.tag.other.unrecognized.html.derivative entity.name.tag.html',
+      scope: 'entity.name.tag.other.html',
       settings: tokens.html.component.tag
     },
     {

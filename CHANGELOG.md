@@ -7,6 +7,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] 2019-05-16
+
+### Common
+> *Changes that affect user interface and syntax highlight*
+
+#### Removed
+- Delete indigo and light blue palette: both are similar to blue
+- Delete gray palette: there is already a palette with neutral colors
+- Delete light green palette: It's similar to green
+
+### Syntax highlight
+
+#### Changed
+
+- Use teal for language constants and other constants
+- Use cyan in native types
+- Use blue in special characters
+
+##### CSS
+- Use HTML tag color (cyan) in the tag selector
+- Use HTML attribute color (blue) in attribute selector
+- Use object property color (green) in the property name
+- Use blue in property value
+- Use modifier color (deep purple) in pseudo classes and pseudo elements
+- Use orange in numbers and units
+
+##### HTML
+- Use cyan in HTML tags
+- Use red color in directives. Eg. Vue and Angular directives
+- Use same color in tag punctuation
+
+##### YAML
+- Use deep purple in constants
+
+#### Fixed
+- Make comments have less contrast
+- Use yellow in classes names: use a color that differentiates them from functions and methods
+- Use green in object properties
+
+### UI
+
+#### Changed
+- Update the neutral color to use background hue. It's used in activity bar icons and text 
+- Make activity bar icon's foreground darker
+- Use saturated color in error text
+- Use saturated colors for file status when using Git
+- Use a lighter background in input validation
+- Use saturated color in text status within lists
+- Use secondary color in Settings' modified indicator
+- Use saturated colors in squiggles
+- Use lighter white text color in the terminal
+
+#### Fixed
+- Update colors: the previous palette had both desaturated colors (most of them) and very saturated colors (yellow and orange)
+- Use same foreground swatch in git colors
+- Use a transparent background in diff editor: It makes reading the code easier
+- Use primary color in border of activated options in input fields: It has much more contrast
+- Make title bar text and sidebar text lighter: It has more contrast
+
 ## [1.2.0] 2019-04-22
 
 ### Added

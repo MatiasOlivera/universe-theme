@@ -10,9 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.3.0] 2019-05-16
 
 ### Common
-> *Changes that affect user interface and syntax highlight*
+
+> _Changes that affect user interface and syntax highlight_
 
 #### Removed
+
 - Delete indigo and light blue palette: both are similar to blue
 - Delete gray palette: there is already a palette with neutral colors
 - Delete light green palette: It's similar to green
@@ -26,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use blue in special characters
 
 ##### CSS
+
 - Use HTML tag color (cyan) in the tag selector
 - Use HTML attribute color (blue) in attribute selector
 - Use object property color (green) in the property name
@@ -34,14 +37,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use orange in numbers and units
 
 ##### HTML
+
 - Use cyan in HTML tags
 - Use red color in directives. Eg. Vue and Angular directives
 - Use same color in tag punctuation
 
 ##### YAML
+
 - Use deep purple in constants
 
 #### Fixed
+
 - Make comments have less contrast
 - Use yellow in classes names: use a color that differentiates them from functions and methods
 - Use green in object properties
@@ -49,7 +55,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### UI
 
 #### Changed
-- Update the neutral color to use background hue. It's used in activity bar icons and text 
+
+- Update the neutral color to use background hue. It's used in activity bar icons and text
 - Make activity bar icon's foreground darker
 - Use saturated color in error text
 - Use saturated colors for file status when using Git
@@ -60,6 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use lighter white text color in the terminal
 
 #### Fixed
+
 - Update colors: the previous palette had both desaturated colors (most of them) and very saturated colors (yellow and orange)
 - Use same foreground swatch in git colors
 - Use a transparent background in diff editor: It makes reading the code easier
@@ -69,37 +77,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] 2019-04-22
 
 ### Added
-- **Add a deep purple variant.** You can select it going to  `Settings > Color theme > Universe purple`.
-- **Add the main colors and their usage in the color reference in the README.** [#2](https://github.com/MatiasOlivera/universe-theme/issues/2)
+
+- Add a deep purple variant. You can select it going to `Settings > Color theme > Universe purple`.
+- Add the main colors and their usage in the color reference in the README. [#2](https://github.com/MatiasOlivera/universe-theme/issues/2)
 
 ### Changed
 
-- **Changed the background hue to deep blue**.
-- **Use defined colors for an element in all languages**: green for `strings` or orange for `numbers`.
-- **Update bracket pair colorizer settings**.
+- Changed the background hue to deep blue.
+- Use defined colors for an element in all languages: green for `strings` or orange for `numbers`.
+- Update bracket pair colorizer settings.
 
 ### Fixed
-- **Use the primary or secondary color instead of purple to highlight interface components**.
-- **Many small changes to maintain consistency in the user interface**.
+
+- Use the primary or secondary color instead of purple to highlight interface components.
+- Many small changes to maintain consistency in the user interface.
 
 ## [1.1.0] 2019-04-08
 
 ### Changed
 
-- **New syntax colors**: the new palette is more consistent. Now it's using Material Design colors. The most important changes are that purple is more saturated and green is less saturated. [#26](https://github.com/MatiasOlivera/universe-theme/pull/26)
+- New syntax colors: the new palette is more consistent. Now it's using Material Design colors. The most important changes are that purple is more saturated and green is less saturated. [#26](https://github.com/MatiasOlivera/universe-theme/pull/26)
 
 ### Fixed
 
-- **Differentiate the text using grayscale**, according to their importance. [#27](https://github.com/MatiasOlivera/universe-theme/pull/27)
+- Differentiate the text using grayscale, according to their importance. [#27](https://github.com/MatiasOlivera/universe-theme/pull/27)
 
 ## [1.0.1] 2019-04-03
 
 ### Fixed
 
-- **Colorize punctuation from interpolated strings**: it was difficult to differentiate an expression within a string. [#16](https://github.com/MatiasOlivera/universe-theme/pull/16)
-- **Make the scrollbar semi-transparent**: scrollbar markers weren't visible when covered by the scrollbar. [#18](https://github.com/MatiasOlivera/universe-theme/pull/18)
-- **Use dialog colors in debug toolbar.** [#19](https://github.com/MatiasOlivera/universe-theme/pull/19)
-- **Use input colors in dropdowns in the Integrated Terminal and the Output panel.** [#20](https://github.com/MatiasOlivera/universe-theme/pull/20)
+- Colorize punctuation from interpolated strings: it was difficult to differentiate an expression within a string. [#16](https://github.com/MatiasOlivera/universe-theme/pull/16)
+- Make the scrollbar semi-transparent: scrollbar markers weren't visible when covered by the scrollbar. [#18](https://github.com/MatiasOlivera/universe-theme/pull/18)
+- Use dialog colors in debug toolbar. [#19](https://github.com/MatiasOlivera/universe-theme/pull/19)
+- Use input colors in dropdowns in the Integrated Terminal and the Output panel. [#20](https://github.com/MatiasOlivera/universe-theme/pull/20)
 
 ## [1.0.0] 2019-04-01
 
@@ -107,36 +117,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### UI
 
-- **Use a new color palette for the background**: the new colors are more accessible. [#6](https://github.com/MatiasOlivera/universe-theme/pull/6)
-- **Use green and red as `diff` colors**: it makes easy to see the changes in files. [#1](https://github.com/MatiasOlivera/universe-theme/issues/1)
-- **Use a darker background in the peek view header and results**
-- **Use gray colors in indent guides and rulers**
-- **Minor changes**
+- Use a new color palette for the background: the new colors are more accessible. [#6](https://github.com/MatiasOlivera/universe-theme/pull/6)
+- Use green and red as `diff` colors: it makes easy to see the changes in files. [#1](https://github.com/MatiasOlivera/universe-theme/issues/1)
+- Use a darker background in the peek view header and results
+- Use gray colors in indent guides and rulers
+- Minor changes
 
 #### Common colors
 
-- **Use blue for functions and classes**
+- Use blue for functions and classes
 
 #### HTML
 
-- **Use indigo in `HTML` attributes**: pink is already used in JSX variables
+- Use indigo in `HTML` attributes: pink is already used in JSX variables
 
 ### Fixed
 
-- **Use indigo in object keys**: the object keys must have different colors than their values to make it easier to distinguish them. Before teal was too similar to the green used in `strings`
-- **Use different colors for each type**: now `strings` are green, `numbers` are orange, `constants` like booleans or `null` are purple, primitives and custom types like `interfaces` are teal.
-- **Add transparency to some UI components to avoid cover others**: if the color is solid you can't see what it is behind it. [#11](https://github.com/MatiasOlivera/universe-theme/issues/11)
+- Use indigo in object keys: the object keys must have different colors than their values to make it easier to distinguish them. Before teal was too similar to the green used in `strings`
+- Use different colors for each type: now `strings` are green, `numbers` are orange, `constants` like booleans or `null` are purple, primitives and custom types like `interfaces` are teal.
+- Add transparency to some UI components to avoid cover others: if the color is solid you can't see what it is behind it. [#11](https://github.com/MatiasOlivera/universe-theme/issues/11)
 
 ## [0.0.2] 2019-03-25
 
 ### Added
 
-- **Theme preview to README.md**
+- Theme preview to README.md
 
 ## [0.0.1] 2019-03-25
 
 ### Added
 
-- **Initial editor colors**
-- **Initial syntax highlight colors**
-- **Support for `CSS`, `GraphQL`, `HTML`, `JS`, `JSON`, `Markdown`, `Pug`, `JSX`, `TS`, `Vue` and `YAML`**
+- Initial editor colors
+- Initial syntax highlight colors
+- Support for `CSS`, `GraphQL`, `HTML`, `JS`, `JSON`, `Markdown`, `Pug`, `JSX`, `TS`, `Vue` and `YAML`

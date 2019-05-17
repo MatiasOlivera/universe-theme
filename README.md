@@ -196,6 +196,7 @@ I love `Monokai pro` icons. You need to install the `Monokai pro theme`
 
 ```json
 "workbench.colorTheme": "Universe",
+"workbench.iconTheme": "Monokai Pro Icons",
 "editor.fontFamily": "Iosevka",
 "editor.fontWeight": "500",
 "window.titleBarStyle": "custom",
@@ -205,7 +206,7 @@ I love `Monokai pro` icons. You need to install the `Monokai pro theme`
 #### What are the recommended settings to use with Bracket Pair Colorizer?
 
 ```json
-"bracket-pair-colorizer-2.colors": ["#9575CD", "#F06292", "#4DD0E1"],
+"bracket-pair-colorizer-2.colors": ["#C1A2FF", "#FFBAD1", "#92D8E6"],
 "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
 "bracket-pair-colorizer-2.forceIterationColorCycle": false,
 "bracket-pair-colorizer-2.highlightActiveScope": true,

@@ -122,11 +122,20 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 ### User interface
 
-| Usage             | Color       | Hex color                                                          |
-|-------------------|-------------|--------------------------------------------------------------------|
-| editor background | dark blue 5 | ![#0B1A25](https://placehold.it/15/0B1A25/000000?text=+) `#0B1A25` |
-| editor foreground | blue gray 0 | ![#ECEFF1](https://placehold.it/15/ECEFF1/000000?text=+) `#ECEFF1` |
+#### Universe
 
+| Usage             | Color       | Hex color                                                   |
+|-------------------|-------------|-------------------------------------------------------------|
+| editor background | deep blue 5 | ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` |
+| editor foreground | neutral 1   | ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0` |
+
+
+#### Universe Purple
+
+| Usage             | Color         | Hex color                                                   |
+|-------------------|---------------|-------------------------------------------------------------|
+| editor background | deep purple 5 | ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
+| editor foreground | neutral 1     | ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF` |
 
 ### Syntax hightlight
 
@@ -134,45 +143,45 @@ The colors used for the syntax highlighting are from **Material Design**.
 
 #### Data types
 
-| Usage                          | Color              | Hex color                                                          |
-|--------------------------------|--------------------|--------------------------------------------------------------------|
-| number                         | orange 2           | ![#FFCC80](https://placehold.it/15/FFCC80/000000?text=+) `#FFCC80` |
-| string                         | green 2            | ![#A5D6A7](https://placehold.it/15/A5D6A7/000000?text=+) `#A5D6A7` |
-| constant (boolean, null)       | purple 2 or blue 2 | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
-| character                      | pink 1             | ![#F8BBD0](https://placehold.it/15/F8BBD0/000000?text=+) `#F8BBD0` |
-| escape character               | purple 2           | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
-| custom type (interface, class) | cyan 2             | ![#80DEEA](https://placehold.it/15/80DEEA/000000?text=+) `#80DEEA` |
-| other type                     | purple 2           | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+| Usage                          | Color    | Hex color                                                   |
+|--------------------------------|----------|-------------------------------------------------------------|
+| number                         | orange 4 | ![#F2B09A](https://placehold.it/15/F2B09A/F2B09A) `#F2B09A` |
+| string                         | green 4  | ![#BBD99E](https://placehold.it/15/BBD99E/BBD99E) `#BBD99E` |
+| constant (boolean, null)       | teal 4   | ![#89D9D2](https://placehold.it/15/89D9D2/89D9D2) `#89D9D2` |
+| character                      | blue 4   | ![#9AC6F2](https://placehold.it/15/9AC6F2/9AC6F2) `#9AC6F2` |
+| escape character               | purple 4 | ![#C1A2FF](https://placehold.it/15/C1A2FF/C1A2FF) `#C1A2FF` |
+| custom type (interface, class) | cyan 4   | ![#92D8E6](https://placehold.it/15/92D8E6/92D8E6) `#92D8E6` |
+| other type                     | teal 4   | ![#89D9D2](https://placehold.it/15/89D9D2/89D9D2) `#89D9D2` |
 
 #### Keywords
 
-| Usage   | Color    | Hex color                                                          |
-|---------|----------|--------------------------------------------------------------------|
-| keyword | purple 2 | ![#B39DDB](https://placehold.it/15/B39DDB/000000?text=+) `#B39DDB` |
+| Usage   | Color    | Hex color                                                   |
+|---------|----------|-------------------------------------------------------------|
+| keyword | purple 4 | ![#CCB3FF](https://placehold.it/15/CCB3FF/CCB3FF) `#CCB3FF` |
 
 #### Variables, functions & classes
 
-| Usage           | Color    | Hex color                                                          |
-|-----------------|----------|--------------------------------------------------------------------|
-| variable        | pink 1   | ![#F8BBD0](https://placehold.it/15/F8BBD0/000000?text=+) `#F8BBD0` |
-| object property | indigo 2 | ![#9FA8DA](https://placehold.it/15/9FA8DA/000000?text=+) `#9FA8DA` |
-| function name   | blue 2   | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
-| class name      | blue 2   | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
+| Usage           | Color    | Hex color                                                   |
+|-----------------|----------|-------------------------------------------------------------|
+| variable        | pink 4   | ![#FFBAD1](https://placehold.it/15/FFBAD1/FFBAD1) `#FFBAD1` |
+| object property | green 4  | ![#BBD99E](https://placehold.it/15/BBD99E/BBD99E) `#BBD99E` |
+| function name   | blue 4   | ![#9AC6F2](https://placehold.it/15/9AC6F2/9AC6F2) `#9AC6F2` |
+| class name      | yellow 4 | ![#E6D791](https://placehold.it/15/E6D791/E6D791) `#E6D791` |
 
 #### Invalid
 
-| Usage      | Color | Hex color                                                          |
-|------------|-------|--------------------------------------------------------------------|
-| deprecated | red 2 | ![#EF9A9A](https://placehold.it/15/EF9A9A/000000?text=+) `#EF9A9A` |
-| illegal    | red 2 | ![#EF9A9A](https://placehold.it/15/EF9A9A/000000?text=+) `#EF9A9A` |
+| Usage      | Color | Hex color                                                   |
+|------------|-------|-------------------------------------------------------------|
+| deprecated | red 4 | ![#FFA2A2](https://placehold.it/15/FFA2A2/FFA2A2) `#FFA2A2` |
+| illegal    | red 4 | ![#FFA2A2](https://placehold.it/15/FFA2A2/FFA2A2) `#FFA2A2` |
 
 #### Other
 
-| Usage       | Color       | Hex color                                                          |
-|-------------|-------------|--------------------------------------------------------------------|
-| module name | blue 2      | ![#90CAF9](https://placehold.it/15/90CAF9/000000?text=+) `#90CAF9` |
-| text        | blue gray 1 | ![#ECEFF1](https://placehold.it/15/ECEFF1/000000?text=+) `#ECEFF1` |
-| comment     | blue gray 3 | ![#90A4AE](https://placehold.it/15/90A4AE/000000?text=+) `#90A4AE` |
+| Usage       | Color     | Hex color                                                   |
+|-------------|-----------|-------------------------------------------------------------|
+| module name | blue 4    | ![#9AC6F2](https://placehold.it/15/9AC6F2/9AC6F2) `#9AC6F2` |
+| text        | neutral 0 | ![#F2F2F2](https://placehold.it/15/F2F2F2/F2F2F2) `#F2F2F2` |
+| comment     | neutral 5 | ![#758096](https://placehold.it/15/758096/758096) `#758096` |
 
 ## 🌌 FAQ
 *Frequently Asked Questions.*

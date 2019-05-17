@@ -10,9 +10,9 @@
   [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
   ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=0E1729&color=1B273E)
 
-  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/universe-blue.png?raw=true)
+  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.png?raw=true)
   
-  ![Universe purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/universe-purple.png?raw=true)  
+  ![Universe purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.png?raw=true)
 
   [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
 </div>
@@ -57,6 +57,26 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 If you want support for another `language` / `library` / `framework`, please open an issue and let me know
 
 ## 🌠 Screenshots
+
+### UI
+
+#### Folder
+
+![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.png?raw=true)
+
+#### Search
+
+![Search](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/search.png?raw=true)
+
+#### Notifications
+
+![Notifications](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/notifications.png?raw=true)
+
+#### Settings
+
+![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.png?raw=true)
+
+### Syntax highlight
 
 #### CSS
 ![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.png?raw=true)

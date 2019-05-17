@@ -592,7 +592,7 @@
     },
     {
       "name": "Component tag",
-      "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag.html",
+      "scope": "entity.name.tag.other.html",
       "settings": { "foreground": "#F2B09A" }
     },
     {

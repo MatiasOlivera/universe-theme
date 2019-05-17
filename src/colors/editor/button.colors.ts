@@ -3,18 +3,18 @@ import { UIColors } from '../../types/colors-types';
 // A set of colors for button widgets such as Open Folder button in the
 // Explorer of a new window.
 const buttonColors: UIColors = (palette) => {
-  const { secondary, gray } = palette;
+  const { secondary } = palette;
 
   return {
     button: {
       // Button background color.
-      background: secondary[3],
+      background: secondary[4],
 
       // Button foreground color.
-      foreground: gray[9],
+      foreground: secondary[9],
 
       // Button background color when hovering.
-      hoverBackground: secondary[2]
+      hoverBackground: secondary[3]
     }
   };
 };

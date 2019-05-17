@@ -9,11 +9,10 @@ const overviewRulerColors: UIColors = (palette) => {
     background,
     deepPurple,
     cyan,
-    pink,
     red,
     blue,
     yellow,
-    deepOrange
+    orange
   } = palette;
 
   const highlightForeground: string = `${background[0]}${opacity_80}`;
@@ -24,7 +23,7 @@ const overviewRulerColors: UIColors = (palette) => {
       border: background[6],
 
       // Overview ruler marker color for matching brackets.
-      bracketMatchForeground: deepPurple[3],
+      bracketMatchForeground: deepPurple[4],
 
       // Overview ruler marker color for find matches. The color must not be
       // opaque so as not to hide underlying decorations.
@@ -48,22 +47,22 @@ const overviewRulerColors: UIColors = (palette) => {
       wordHighlightStrongForeground: highlightForeground,
 
       // Overview ruler marker color for added content.
-      addedForeground: green[3],
+      addedForeground: green[4],
 
       // Overview ruler marker color for modified content.
-      modifiedForeground: blue[3],
+      modifiedForeground: blue[4],
 
       // Overview ruler marker color for infos.
-      infoForeground: cyan[3],
+      infoForeground: cyan[4],
 
       // Overview ruler marker color for warnings.
-      warningForeground: yellow[3],
+      warningForeground: yellow[4],
 
       // Overview ruler marker color for deleted content.
-      deletedForeground: deepOrange[3],
+      deletedForeground: orange[4],
 
       // Overview ruler marker color for errors.
-      errorForeground: red[3]
+      errorForeground: red[4]
     }
   };
 };

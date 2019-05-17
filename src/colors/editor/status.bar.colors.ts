@@ -2,11 +2,11 @@ import { UIColors } from '../../types/colors-types';
 
 // The Status Bar is shown in the bottom of the workbench.
 const statusBarColors: UIColors = (palette) => {
-  const { background, blueGray } = palette;
+  const { background, neutral } = palette;
 
   const backgroundColor: string = background[7];
   const borderColor: string = background[8];
-  const foregroundColor: string = blueGray[6];
+  const foregroundColor: string = neutral[5];
 
   return {
     statusBar: {

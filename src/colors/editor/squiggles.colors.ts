@@ -6,19 +6,19 @@ const squigglesColors: UIColors = (palette) => {
   return {
     editorError: {
       // Foreground color of error squiggles in the editor.
-      foreground: red[2]
+      foreground: red[4]
     },
     editorHint: {
       // Foreground color of hints in the editor.
-      foreground: deepPurple[2]
+      foreground: deepPurple[4]
     },
     editorInfo: {
       // Foreground color of info squiggles in the editor.
-      foreground: cyan[2]
+      foreground: cyan[4]
     },
     editorWarning: {
       // Foreground color of warning squiggles in the editor.
-      foreground: yellow[2]
+      foreground: yellow[4]
     }
   };
 };

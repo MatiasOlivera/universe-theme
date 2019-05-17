@@ -2,19 +2,19 @@ import { UIColors } from '../../types/colors-types';
 import { selectionTokens } from './editor.colors';
 
 const baseColors: UIColors = (palette) => {
-  const { blueGray, red, background } = palette;
+  const { neutral, red, background } = palette;
   const { selectionBackground } = selectionTokens(palette);
 
   return {
     // Overall foreground color.
-    foreground: blueGray[2],
+    foreground: neutral[2],
 
     // Foreground color for description text providing additional information,
     // for example for a label.
-    descriptionForeground: blueGray[5],
+    descriptionForeground: neutral[5],
 
     // Overall foreground color for error messages
-    errorForeground: red[2],
+    errorForeground: red[4],
 
     // Overall border color for focused elements. This color is only used if
     // not overridden by a component.

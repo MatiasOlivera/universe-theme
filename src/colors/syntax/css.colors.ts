@@ -64,6 +64,11 @@ const cssColors: SyntaxColors = (tokens) => {
       settings: tokens.css.function.parameter
     },
     {
+      name: 'CSS: Number',
+      scope: 'constant.numeric.css',
+      settings: tokens.css.number
+    },
+    {
       name: 'Unit',
       scope: 'keyword.other.unit',
       settings: tokens.css.unit

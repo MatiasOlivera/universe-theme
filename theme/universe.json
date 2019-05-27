@@ -808,11 +808,6 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
-      "name": "JSON object",
-      "scope": "support.constant.json",
-      "settings": { "foreground": "#C1A2FF" }
-    },
-    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.ts",
       "settings": { "foreground": "#C1A2FF" }

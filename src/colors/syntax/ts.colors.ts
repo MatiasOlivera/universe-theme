@@ -11,15 +11,6 @@ const tsColors: SyntaxColors = (tokens) => {
       settings: tokens.class.name
     },
 
-    /**
-     * Keywords
-     */
-    {
-      name: 'JSON object',
-      scope: 'support.constant.json',
-      settings: tokens.keyword.other
-    },
-
     {
       name: 'Arrow function. =>',
       scope: 'storage.type.function.arrow.ts',

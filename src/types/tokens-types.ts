@@ -24,7 +24,7 @@ export interface Keyword {
   control: Settings;
   operator: Settings;
   modifier: Settings; // storage.modifier
-  other: Settings;
+  other: Settings; // non arithmetics operators
 }
 
 // Variables
@@ -139,6 +139,12 @@ export interface Html {
     punctuation: Settings;
   };
   directive: Settings;
+  expressionPunctuation: Settings;
+}
+
+// Javascript
+export interface Javascript {
+  arrowFunction: Settings;
 }
 
 // JSON
@@ -181,6 +187,7 @@ export interface Tokens {
   config: Config;
   css: Css;
   html: Html;
+  javascript: Javascript;
   json: Json;
   markdown: Markdown;
   yaml: Yaml;

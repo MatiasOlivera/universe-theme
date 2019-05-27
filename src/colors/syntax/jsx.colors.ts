@@ -41,7 +41,7 @@ const jsxColors: SyntaxColors = (tokens) => {
         'punctuation.section.embedded.begin.tsx',
         'punctuation.section.embedded.end.tsx'
       ],
-      settings: tokens.html.directive
+      settings: tokens.html.expressionPunctuation
     },
     {
       name: 'JSX: Punctuation',

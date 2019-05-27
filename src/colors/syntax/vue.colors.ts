@@ -4,7 +4,7 @@ const vueColors: SyntaxColors = (tokens) => {
   return [
     {
       name: 'Vue directive',
-      scope: 'meta.directive.vue',
+      scope: 'meta.directive.vue entity.other.attribute-name.html',
       settings: tokens.html.directive
     }
   ];

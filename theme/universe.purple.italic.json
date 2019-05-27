@@ -1,5 +1,5 @@
 {
-  "name": "Universe Purple",
+  "name": "Universe Purple Italic",
   "type": "dark",
   "colors": {
     "foreground": "#C0BBCD",
@@ -309,32 +309,32 @@
     {
       "name": "Keywords",
       "scope": "keyword",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Flow control",
       "scope": "keyword.control",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "" }
     },
     {
       "name": "Type name (class, function, int, var)",
       "scope": "storage.type",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Modifier (static, final, abstract)",
       "scope": "storage.modifier",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Other keywords",
       "scope": "keyword.other",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Variable",
@@ -349,7 +349,7 @@
     {
       "name": "Language variable (this, super, self)",
       "scope": "variable.language",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Library variable",
@@ -473,7 +473,7 @@
     {
       "name": "Comment",
       "scope": "comment",
-      "settings": { "foreground": "#758096" }
+      "settings": { "foreground": "#758096", "fontStyle": "italic" }
     },
     {
       "name": "Invalid",
@@ -538,12 +538,12 @@
     {
       "name": "Pseudo-class",
       "scope": "entity.other.attribute-name.pseudo-class.css",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Pseudo-element",
       "scope": "entity.other.attribute-name.pseudo-element.css",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Property name",
@@ -573,12 +573,12 @@
     {
       "name": "Unit",
       "scope": "keyword.other.unit",
-      "settings": { "foreground": "#F2B09A" }
+      "settings": { "foreground": "#F2B09A", "fontStyle": "" }
     },
     {
       "name": "Other operators",
       "scope": ["keyword.operator.logical.and.media.css"],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Attribute",
@@ -611,7 +611,7 @@
     {
       "name": "Component directives",
       "scope": "meta.attribute.unrecognized",
-      "settings": { "foreground": "#FFA2A2" }
+      "settings": { "foreground": "#FFA2A2", "fontStyle": "italic" }
     },
     {
       "name": "Embedded expression punctuation. {{var}}",
@@ -629,7 +629,7 @@
     {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "Other operators",
@@ -639,7 +639,7 @@
         "keyword.operator.of.js",
         "keyword.operator.typeof.js"
       ],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Property name",
@@ -810,12 +810,12 @@
     {
       "name": "JSON object",
       "scope": "support.constant.json",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.ts",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "Other operators",
@@ -825,12 +825,12 @@
         "keyword.operator.of.ts",
         "keyword.operator.typeof.ts"
       ],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Vue directive",
       "scope": "meta.directive.vue entity.other.attribute-name.html",
-      "settings": { "foreground": "#FFA2A2" }
+      "settings": { "foreground": "#FFA2A2", "fontStyle": "italic" }
     },
     {
       "name": "Property name",
@@ -851,7 +851,7 @@
         "keyword.control.flow.block-scalar.literal.yaml",
         "keyword.control.flow.block-scalar.folded.yaml"
       ],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "" }
     }
   ]
 }

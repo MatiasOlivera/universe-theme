@@ -72,6 +72,15 @@ const cssColors: SyntaxColors = (tokens) => {
       name: 'Unit',
       scope: 'keyword.other.unit',
       settings: tokens.css.unit
+    },
+
+    /**
+     * Other
+     */
+    {
+      name: 'Other operators',
+      scope: ['keyword.operator.logical.and.media.css'],
+      settings: tokens.keyword.other
     }
   ];
 };

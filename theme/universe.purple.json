@@ -803,6 +803,19 @@
       "settings": { "foreground": "#F2F2F2" }
     },
     {
+      "name": "SQL: Keyword",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.create.sql",
+        "keyword.other.table.sql",
+        "keyword.other.DDL.create.II.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.alias.sql",
+        "storage.modifier.sql"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Typescript: Class",
       "scope": ["new.expr.ts entity.name.type.ts"],
       "settings": { "foreground": "#E6D791" }

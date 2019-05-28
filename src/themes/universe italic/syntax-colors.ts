@@ -1,5 +1,5 @@
-import { Css, Html, Javascript, Keyword, Settings, Tokens, Type } from '../../types/tokens-types';
-import { comment, css, html, javascript, keyword, tokens, type } from '../universe/syntax-colors';
+import { Css, Html, Javascript, Keyword, Settings, Sql, Tokens, Type } from '../../types/tokens-types';
+import { comment, css, html, javascript, keyword, sql, tokens, type } from '../universe/syntax-colors';
 
 /**
  * Data types
@@ -83,6 +83,17 @@ const italicJavascript: Javascript = {
   }
 };
 
+/**
+ * SQL
+ */
+const italicSql: Sql = {
+  ...sql,
+  keyword: {
+    ...sql.keyword,
+    fontStyle: ''
+  }
+};
+
 export let italicTokens: Tokens = {
   ...tokens,
   type: italicType,
@@ -90,5 +101,6 @@ export let italicTokens: Tokens = {
   css: italicCss,
   html: italicHtml,
   comment: italicComment,
-  javascript: italicJavascript
+  javascript: italicJavascript,
+  sql: italicSql
 };

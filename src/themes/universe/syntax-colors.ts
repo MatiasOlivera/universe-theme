@@ -15,6 +15,7 @@ import {
   Puntuaction,
   Section,
   Settings,
+  Sql,
   Tag,
   Tokens,
   Type,
@@ -384,6 +385,13 @@ export const markdown: Markdown = {
 };
 
 /**
+ * SQL
+ */
+export const sql: Sql = {
+  keyword: keyword.other
+};
+
+/**
  * YAML
  */
 export const yaml: Yaml = {
@@ -413,5 +421,6 @@ export const tokens: Tokens = {
   tag,
   markup,
   markdown,
+  sql,
   yaml
 };

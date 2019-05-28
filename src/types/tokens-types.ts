@@ -164,6 +164,11 @@ export interface Markdown {
   linkTitle: Settings;
 }
 
+// SQL
+export interface Sql {
+  keyword: Settings;
+}
+
 // YAML
 export interface Yaml {
   constant: Settings;
@@ -190,6 +195,7 @@ export interface Tokens {
   javascript: Javascript;
   json: Json;
   markdown: Markdown;
+  sql: Sql;
   yaml: Yaml;
 }
 

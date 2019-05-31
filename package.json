@@ -38,9 +38,19 @@
         "path": "./theme/universe.json"
       },
       {
+        "label": "Universe Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.italic.json"
+      },
+      {
         "label": "Universe Purple",
         "uiTheme": "vs-dark",
         "path": "./theme/universe.purple.json"
+      },
+      {
+        "label": "Universe Purple Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.purple.italic.json"
       }
     ]
   },

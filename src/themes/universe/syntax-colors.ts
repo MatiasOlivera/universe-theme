@@ -5,6 +5,7 @@ import {
   FunctionType,
   Html,
   Invalid,
+  Javascript,
   Json,
   Keyword,
   Markdown,
@@ -14,6 +15,7 @@ import {
   Puntuaction,
   Section,
   Settings,
+  Sql,
   Tag,
   Tokens,
   Type,
@@ -41,7 +43,7 @@ const {
 const typeForeground: string = cyan[4];
 const constantForeground: string = teal[4];
 
-const type: Type = {
+export const type: Type = {
   character: {
     default: {
       foreground: blue[4]
@@ -81,7 +83,7 @@ const type: Type = {
 /**
  * Keywords
  */
-const keyword: Keyword = {
+export const keyword: Keyword = {
   default: {
     foreground: deepPurple[4]
   },
@@ -102,7 +104,7 @@ const keyword: Keyword = {
 /**
  * Variables
  */
-const variable: Variable = {
+export const variable: Variable = {
   default: {
     foreground: pink[4]
   },
@@ -114,7 +116,7 @@ const variable: Variable = {
 /**
  * Objects
  */
-const object: ObjectType = {
+export const object: ObjectType = {
   property: {
     foreground: green[4]
   }
@@ -123,7 +125,7 @@ const object: ObjectType = {
 /**
  * Functions
  */
-const functionType: FunctionType = {
+export const functionType: FunctionType = {
   name: {
     foreground: blue[4]
   },
@@ -140,7 +142,7 @@ const functionType: FunctionType = {
  */
 const classForeground: string = yellow[4];
 
-const classType: ClassType = {
+export const classType: ClassType = {
   name: {
     foreground: classForeground
   },
@@ -155,7 +157,7 @@ const classType: ClassType = {
 /**
  * Modules
  */
-const moduleType: ModuleType = {
+export const moduleType: ModuleType = {
   name: {
     foreground: blue[4]
   }
@@ -164,7 +166,7 @@ const moduleType: ModuleType = {
 /**
  * Sections
  */
-const section: Section = {
+export const section: Section = {
   name: {
     foreground: ''
   }
@@ -173,14 +175,14 @@ const section: Section = {
 /**
  * Text
  */
-const text: Settings = {
+export const text: Settings = {
   foreground: neutral[0]
 };
 
 /**
  * Puntuaction
  */
-const puntuaction: Puntuaction = {
+export const puntuaction: Puntuaction = {
   default: {
     fontStyle: '' // Inherit the element color
   },
@@ -192,7 +194,7 @@ const puntuaction: Puntuaction = {
 /**
  * Invalid
  */
-const invalid: Invalid = {
+export const invalid: Invalid = {
   deprecated: {
     foreground: red[4]
   },
@@ -204,14 +206,14 @@ const invalid: Invalid = {
 /**
  * Comments
  */
-const comment: Settings = {
+export const comment: Settings = {
   foreground: neutral[5]
 };
 
 /**
  * Configuration files
  */
-const config: Config = {
+export const config: Config = {
   groupTitle: {
     foreground: neutral[0]
   },
@@ -229,7 +231,7 @@ const config: Config = {
 /**
  * Tags
  */
-const tag: Tag = {
+export const tag: Tag = {
   name: {
     foreground: cyan[4]
   },
@@ -247,7 +249,7 @@ const tag: Tag = {
 /**
  * CSS
  */
-const css: Css = {
+export const css: Css = {
   // Selectors
   tag: tag.name,
   id: {
@@ -286,7 +288,7 @@ const css: Css = {
 /**
  * HTML
  */
-const html: Html = {
+export const html: Html = {
   component: {
     tag: {
       foreground: orange[4]
@@ -297,13 +299,23 @@ const html: Html = {
   },
   directive: {
     foreground: red[4]
+  },
+  expressionPunctuation: {
+    foreground: red[4]
   }
+};
+
+/**
+ * Javascript
+ */
+export const javascript: Javascript = {
+  arrowFunction: keyword.other
 };
 
 /**
  * JSON
  */
-const json: Json = {
+export const json: Json = {
   property: {
     foreground: deepPurple[4]
   }
@@ -312,7 +324,7 @@ const json: Json = {
 /**
  * Markup
  */
-const markup: Markup = {
+export const markup: Markup = {
   // Links
   link: {
     foreground: blue[4],
@@ -357,7 +369,7 @@ const markup: Markup = {
 /**
  * Markdown
  */
-const markdown: Markdown = {
+export const markdown: Markdown = {
   puntuaction: {
     heading: markup.heading,
     bold: markup.bold,
@@ -373,9 +385,16 @@ const markdown: Markdown = {
 };
 
 /**
+ * SQL
+ */
+export const sql: Sql = {
+  keyword: keyword.other
+};
+
+/**
  * YAML
  */
-const yaml: Yaml = {
+export const yaml: Yaml = {
   constant: {
     foreground: deepPurple[4]
   }
@@ -397,9 +416,11 @@ export const tokens: Tokens = {
   config,
   css,
   html,
+  javascript,
   json,
   tag,
   markup,
   markdown,
+  sql,
   yaml
 };

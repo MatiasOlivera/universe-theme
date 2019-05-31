@@ -1,5 +1,5 @@
 {
-  "name": "Universe purple",
+  "name": "Universe Purple",
   "type": "dark",
   "colors": {
     "foreground": "#C0BBCD",
@@ -576,6 +576,11 @@
       "settings": { "foreground": "#F2B09A" }
     },
     {
+      "name": "Other operators",
+      "scope": ["keyword.operator.logical.and.media.css"],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }
@@ -605,10 +610,14 @@
     },
     {
       "name": "Component directives",
+      "scope": "meta.attribute.unrecognized",
+      "settings": { "foreground": "#FFA2A2" }
+    },
+    {
+      "name": "Embedded expression punctuation. {{var}}",
       "scope": [
         "punctuation.definition.generic.begin.html",
-        "punctuation.definition.generic.end.html",
-        "meta.attribute.unrecognized"
+        "punctuation.definition.generic.end.html"
       ],
       "settings": { "foreground": "#FFA2A2" }
     },
@@ -616,6 +625,21 @@
       "name": "Object property",
       "scope": "string.unquoted.js",
       "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "Arrow function. =>",
+      "scope": "storage.type.function.arrow.js",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
+      "name": "Other operators",
+      "scope": [
+        "keyword.operator.new.js",
+        "keyword.operator.in.js",
+        "keyword.operator.of.js",
+        "keyword.operator.typeof.js"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Property name",
@@ -779,18 +803,41 @@
       "settings": { "foreground": "#F2F2F2" }
     },
     {
+      "name": "SQL: Keyword",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.create.sql",
+        "keyword.other.table.sql",
+        "keyword.other.DDL.create.II.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.alias.sql",
+        "storage.modifier.sql"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Typescript: Class",
       "scope": ["new.expr.ts entity.name.type.ts"],
       "settings": { "foreground": "#E6D791" }
     },
     {
-      "name": "JSON object",
-      "scope": "support.constant.json",
+      "name": "Arrow function. =>",
+      "scope": "storage.type.function.arrow.ts",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
+      "name": "Other operators",
+      "scope": [
+        "keyword.operator.new.ts",
+        "keyword.operator.in.ts",
+        "keyword.operator.of.ts",
+        "keyword.operator.typeof.ts"
+      ],
       "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Vue directive",
-      "scope": "meta.directive.vue",
+      "scope": "meta.directive.vue entity.other.attribute-name.html",
       "settings": { "foreground": "#FFA2A2" }
     },
     {
@@ -803,6 +850,14 @@
       "scope": [
         "constant.language.boolean.yaml",
         "constant.language.null.yaml"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
+      "name": "Other operators",
+      "scope": [
+        "keyword.control.flow.block-scalar.literal.yaml",
+        "keyword.control.flow.block-scalar.folded.yaml"
       ],
       "settings": { "foreground": "#C1A2FF" }
     }

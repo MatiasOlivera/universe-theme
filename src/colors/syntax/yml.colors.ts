@@ -15,6 +15,15 @@ const ymlColors: SyntaxColors = (tokens) => {
       name: 'YAML: Constant',
       scope: ['constant.language.boolean.yaml', 'constant.language.null.yaml'],
       settings: tokens.yaml.constant
+    },
+
+    {
+      name: 'Other operators',
+      scope: [
+        'keyword.control.flow.block-scalar.literal.yaml',
+        'keyword.control.flow.block-scalar.folded.yaml'
+      ],
+      settings: tokens.keyword.operator
     }
   ];
 };

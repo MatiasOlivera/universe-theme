@@ -1,8 +1,8 @@
 {
   "name": "universe",
   "displayName": "Universe",
-  "description": "A dark theme for passionate developers. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
-  "version": "1.3.0",
+  "description": "A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
+  "version": "1.4.0",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#0E1729",
@@ -38,9 +38,19 @@
         "path": "./theme/universe.json"
       },
       {
+        "label": "Universe Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.italic.json"
+      },
+      {
         "label": "Universe Purple",
         "uiTheme": "vs-dark",
         "path": "./theme/universe.purple.json"
+      },
+      {
+        "label": "Universe Purple Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.purple.italic.json"
       }
     ]
   },

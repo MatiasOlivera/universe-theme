@@ -3,7 +3,7 @@
 
   # Universe theme
 
-  A dark theme for passionate developers. Made in planet earth 🌎
+  A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code.
 
   [![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
   [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
@@ -12,7 +12,9 @@
 
   ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.png?raw=true)
   
-  ![Universe purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.png?raw=true)
+  ![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.png?raw=true)
+
+  *Universe includes normal and italic variants.*
 
   [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
 </div>
@@ -121,21 +123,10 @@ If you want support for another `language` / `library` / `framework`, please ope
 ## ✨ Color reference
 
 ### User interface
-
-#### Universe
-
-| Usage             | Color       | Hex color                                                   |
-|-------------------|-------------|-------------------------------------------------------------|
-| editor background | deep blue 5 | ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` |
-| editor foreground | neutral 1   | ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0` |
-
-
-#### Universe Purple
-
-| Usage             | Color         | Hex color                                                   |
-|-------------------|---------------|-------------------------------------------------------------|
-| editor background | deep purple 5 | ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
-| editor foreground | neutral 1     | ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF` |
+| Usage             | Universe                                                                  | Universe Purple                                                             |
+|-------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| editor background | deep blue 5 - ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` | deep purple 5 - ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
+| editor foreground | neutral 1 - ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0`   | neutral 1 - ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF`     |
 
 ### Syntax hightlight
 

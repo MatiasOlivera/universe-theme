@@ -8,6 +8,7 @@ import jsxColors from './jsx.colors';
 import markupColors from './markup.colors';
 import mdColors from './md.colors';
 import pugColors from './pug.colors';
+import sqlColors from './sql.colors';
 import tsColors from './ts.colors';
 import vueColors from './vue.colors';
 import ymlColors from './yml.colors';
@@ -23,6 +24,7 @@ export default {
   markupColors,
   mdColors,
   pugColors,
+  sqlColors,
   tsColors,
   vueColors,
   ymlColors

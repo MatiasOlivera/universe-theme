@@ -36,12 +36,16 @@ const htmlColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'Component directives',
+      scope: 'meta.attribute.unrecognized',
+      settings: tokens.html.directive
+    },
+    {
+      name: 'Embedded expression punctuation. {{var}}',
       scope: [
         'punctuation.definition.generic.begin.html',
-        'punctuation.definition.generic.end.html',
-        'meta.attribute.unrecognized'
+        'punctuation.definition.generic.end.html'
       ],
-      settings: tokens.html.directive
+      settings: tokens.html.expressionPunctuation
     }
   ];
 };

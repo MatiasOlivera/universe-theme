@@ -7,15 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] 2019-05-30
+
 ### Syntax highlight
 
 #### Added
 
-- Add italic variants: *Universe Italic* and *Universe Purple Italic*
+- Add italic variants: *Universe Italic* and *Universe Purple Italic*. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
+
+#### Changed
+
+- New logo: It's more minimalist and uses simple shapes. [#40](https://github.com/MatiasOlivera/universe-theme/pull/40)
 
 #### Fixed
 
-- **Typescript:** Use constant color (teal) in JSON object
+##### Typescript
+- Use constant color (teal) in JSON object. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
 
 ## [1.3.0] 2019-05-16
 

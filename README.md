@@ -123,21 +123,10 @@ If you want support for another `language` / `library` / `framework`, please ope
 ## ✨ Color reference
 
 ### User interface
-
-#### Universe
-
-| Usage             | Color       | Hex color                                                   |
-|-------------------|-------------|-------------------------------------------------------------|
-| editor background | deep blue 5 | ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` |
-| editor foreground | neutral 1   | ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0` |
-
-
-#### Universe Purple
-
-| Usage             | Color         | Hex color                                                   |
-|-------------------|---------------|-------------------------------------------------------------|
-| editor background | deep purple 5 | ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
-| editor foreground | neutral 1     | ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF` |
+| Usage             | Universe                                                                  | Universe Purple                                                             |
+|-------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| editor background | deep blue 5 - ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` | deep purple 5 - ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
+| editor foreground | neutral 1 - ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0`   | neutral 1 - ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF`     |
 
 ### Syntax hightlight
 

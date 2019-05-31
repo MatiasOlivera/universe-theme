@@ -3,7 +3,7 @@
 
   # Universe theme
 
-  A dark theme for passionate developers. Made in planet earth 🌎
+  A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code.
 
   [![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
   [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)

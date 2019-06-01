@@ -18,6 +18,11 @@ const gqlColors: SyntaxColors = (tokens) => {
       settings: tokens.type.custom
     },
     {
+      name: 'GraphQL: Custom scalar',
+      scope: 'entity.scalar.graphql',
+      settings: tokens.type.custom
+    },
+    {
       name: 'GraphQL: Alias',
       scope: 'string.unquoted.alias.graphql',
       settings: tokens.graphql.alias

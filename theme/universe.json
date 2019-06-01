@@ -596,6 +596,11 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
+      "name": "GraphQL: Custom scalar",
+      "scope": "entity.scalar.graphql",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
       "name": "GraphQL: Alias",
       "scope": "string.unquoted.alias.graphql",
       "settings": { "foreground": "#FFBAD1" }

@@ -601,6 +601,11 @@
       "settings": { "foreground": "#FFBAD1" }
     },
     {
+      "name": "GraphQL: Description",
+      "scope": "string.block.description.graphql",
+      "settings": { "foreground": "#758096", "fontStyle": "italic" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }

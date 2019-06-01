@@ -21,6 +21,11 @@ const gqlColors: SyntaxColors = (tokens) => {
       name: 'GraphQL: Alias',
       scope: 'string.unquoted.alias.graphql',
       settings: tokens.graphql.alias
+    },
+    {
+      name: 'GraphQL: Description',
+      scope: 'string.block.description.graphql',
+      settings: tokens.comment
     }
   ];
 };

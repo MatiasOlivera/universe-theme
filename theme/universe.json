@@ -596,6 +596,11 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
+      "name": "GraphQL: Alias",
+      "scope": "string.unquoted.alias.graphql",
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }

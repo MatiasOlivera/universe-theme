@@ -16,6 +16,11 @@ const gqlColors: SyntaxColors = (tokens) => {
       name: 'GraphQL: Fragment',
       scope: ['entity.name.fragment.graphql', 'variable.fragment.graphql'],
       settings: tokens.type.custom
+    },
+    {
+      name: 'GraphQL: Alias',
+      scope: 'string.unquoted.alias.graphql',
+      settings: tokens.graphql.alias
     }
   ];
 };

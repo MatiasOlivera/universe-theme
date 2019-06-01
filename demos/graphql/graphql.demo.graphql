@@ -63,3 +63,8 @@ type Child {
 }
 
 union Person = Adult | Child
+
+"""
+A date
+"""
+scalar Date

@@ -586,6 +586,11 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "GraphQL: Selection set property",
+      "scope": "meta.selectionset.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }

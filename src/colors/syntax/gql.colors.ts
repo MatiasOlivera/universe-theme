@@ -6,6 +6,11 @@ const gqlColors: SyntaxColors = (tokens) => {
       name: 'GraphQL: Object property',
       scope: 'meta.type.object.graphql variable.graphql',
       settings: tokens.object.property
+    },
+    {
+      name: 'GraphQL: Selection set property',
+      scope: 'meta.selectionset.graphql variable.graphql',
+      settings: tokens.object.property
     }
   ];
 };

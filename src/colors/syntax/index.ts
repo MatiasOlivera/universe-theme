@@ -1,6 +1,7 @@
 import commonColors from './common.colors';
 import configColors from './config.colors';
 import cssColors from './css.colors';
+import gqlColors from './gql.colors';
 import htmlColors from './html.colors';
 import jsColors from './js.colors';
 import jsonColors from './json.colors';
@@ -17,6 +18,7 @@ export default {
   commonColors,
   configColors,
   cssColors,
+  gqlColors,
   htmlColors,
   jsColors,
   jsonColors,

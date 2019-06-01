@@ -581,6 +581,11 @@
       "settings": { "foreground": "#C1A2FF" }
     },
     {
+      "name": "GraphQL: Object property",
+      "scope": "meta.type.object.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }

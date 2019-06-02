@@ -142,6 +142,8 @@ export interface GraphQL {
 export interface Html {
   tag: {
     name: Settings;
+    attribute: Settings;
+    value: Settings;
   };
   component: {
     tag: Settings;

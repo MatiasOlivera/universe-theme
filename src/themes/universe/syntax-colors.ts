@@ -301,7 +301,9 @@ export const graphql: GraphQL = {
  */
 export const html: Html = {
   tag: {
-    name: tag.name
+    name: tag.name,
+    attribute: tag.attribute,
+    value: tag.value
   },
   component: {
     tag: {

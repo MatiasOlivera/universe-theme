@@ -616,12 +616,12 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
-      "name": "Attribute",
+      "name": "HTML: Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
-      "name": "Value",
+      "name": "HTML: Value",
       "scope": "string.quoted.double.html",
       "settings": { "foreground": "#BBD99E" }
     },
@@ -823,9 +823,19 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
-      "name": "Pug: Tag name",
+      "name": "Pug: Tag",
       "scope": ["meta.tag.sgml.doctype.html", "entity.name.tag.pug"],
       "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "Pug: Attribute",
+      "scope": "entity.other.attribute-name.tag.pug",
+      "settings": { "foreground": "#9AC6F2" }
+    },
+    {
+      "name": "Pug: Value",
+      "scope": "attribute_value string.quoted.pug",
+      "settings": { "foreground": "#BBD99E" }
     },
     {
       "name": "Pug ID",

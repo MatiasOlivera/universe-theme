@@ -8,14 +8,14 @@ const htmlColors: SyntaxColors = (tokens) => {
       settings: tokens.html.tag.name
     },
     {
-      name: 'Attribute',
+      name: 'HTML: Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
-      settings: tokens.tag.attribute
+      settings: tokens.html.tag.attribute
     },
     {
-      name: 'Value',
+      name: 'HTML: Value',
       scope: 'string.quoted.double.html',
-      settings: tokens.tag.value
+      settings: tokens.html.tag.value
     },
     {
       name: 'Text',

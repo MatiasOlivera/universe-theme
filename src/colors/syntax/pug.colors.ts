@@ -15,9 +15,19 @@ const pugColors: SyntaxColors = (tokens) => {
      * Tags
      */
     {
-      name: 'Pug: Tag name',
+      name: 'Pug: Tag',
       scope: ['meta.tag.sgml.doctype.html', 'entity.name.tag.pug'],
       settings: tokens.html.tag.name
+    },
+    {
+      name: 'Pug: Attribute',
+      scope: 'entity.other.attribute-name.tag.pug',
+      settings: tokens.html.tag.attribute
+    },
+    {
+      name: 'Pug: Value',
+      scope: 'attribute_value string.quoted.pug',
+      settings: tokens.html.tag.value
     },
 
     /**
@@ -47,7 +57,7 @@ const pugColors: SyntaxColors = (tokens) => {
      * Other
      */
     {
-      name: 'Text', // text
+      name: 'Text',
       scope: 'text.pug',
       settings: tokens.text
     },

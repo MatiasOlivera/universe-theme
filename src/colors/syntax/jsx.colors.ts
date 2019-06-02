@@ -10,6 +10,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     {
       name: 'JSX: Component tag',
       scope: [
+        'support.class.component.js.jsx',
         'support.class.component.open.jsx',
         'support.class.component.close.jsx',
         'support.class.component.tsx'

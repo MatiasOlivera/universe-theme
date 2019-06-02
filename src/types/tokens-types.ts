@@ -139,6 +139,9 @@ export interface GraphQL {
 
 // HTML
 export interface Html {
+  tag: {
+    name: Settings;
+  };
   component: {
     tag: Settings;
     punctuation: Settings;

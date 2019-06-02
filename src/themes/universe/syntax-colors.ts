@@ -297,6 +297,9 @@ export const graphql: GraphQL = {
  * HTML
  */
 export const html: Html = {
+  tag: {
+    name: tag.name
+  },
   component: {
     tag: {
       foreground: orange[4]

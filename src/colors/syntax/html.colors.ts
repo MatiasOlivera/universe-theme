@@ -3,6 +3,11 @@ import { SyntaxColors } from '../../types/colors-types';
 const htmlColors: SyntaxColors = (tokens) => {
   return [
     {
+      name: 'HTML: Tag',
+      scope: 'entity.name.tag.html',
+      settings: tokens.html.tag.name
+    },
+    {
       name: 'Attribute',
       scope: ['meta.tag', 'meta.tag.inline.any'],
       settings: tokens.tag.attribute

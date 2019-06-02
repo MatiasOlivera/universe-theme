@@ -12,6 +12,15 @@ const pugColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Tags
+     */
+    {
+      name: 'Pug: Tag name',
+      scope: ['meta.tag.sgml.doctype.html', 'entity.name.tag.pug'],
+      settings: tokens.html.tag.name
+    },
+
+    /**
      * CSS
      */
     {

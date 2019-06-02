@@ -18,7 +18,10 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Attribute',
-      scope: 'entity.other.attribute-name.jsx',
+      scope: [
+        'entity.other.attribute-name.js.jsx',
+        'entity.other.attribute-name.jsx'
+      ],
       // Pink is used in variables and method arguments
       settings: tokens.tag.attribute
     },
@@ -30,7 +33,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Text',
-      scope: ['JSXNested', 'meta.jsx.children.tsx'],
+      scope: ['meta.jsx.children.js.jsx', 'JSXNested', 'meta.jsx.children.tsx'],
       settings: tokens.text
     },
     {

@@ -719,7 +719,10 @@
     },
     {
       "name": "JSX: Attribute",
-      "scope": "entity.other.attribute-name.jsx",
+      "scope": [
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.jsx"
+      ],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
@@ -729,7 +732,11 @@
     },
     {
       "name": "JSX: Text",
-      "scope": ["JSXNested", "meta.jsx.children.tsx"],
+      "scope": [
+        "meta.jsx.children.js.jsx",
+        "JSXNested",
+        "meta.jsx.children.tsx"
+      ],
       "settings": { "foreground": "#F2F2F2" }
     },
     {

@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Syntax highlight
+
+#### GraphQL
+
+##### Added
+
+- Use custom type color in fragments' name
+- Use the variable's color in alias
+- Use custom type color when defining a custom scalar
+
+##### Fixed
+
+- Use object property color in types and interfaces' fields
+- Use object property color in selection set fields
+- Use comment's color in descriptions
+
 ## [1.4.0] 2019-05-30
 
 ### Syntax highlight

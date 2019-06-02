@@ -838,6 +838,11 @@
       "settings": { "foreground": "#F2B09A" }
     },
     {
+      "name": "Pug: Include file's path",
+      "scope": "variable.control.import.include.pug",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Text",
       "scope": "text.pug",
       "settings": { "foreground": "#F2F2F2" }

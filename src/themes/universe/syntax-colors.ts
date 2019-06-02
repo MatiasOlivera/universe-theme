@@ -161,6 +161,9 @@ export const classType: ClassType = {
 export const moduleType: ModuleType = {
   name: {
     foreground: blue[4]
+  },
+  path: {
+    foreground: green[4]
   }
 };
 

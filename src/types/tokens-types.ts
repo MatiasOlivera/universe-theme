@@ -55,6 +55,7 @@ export interface ClassType {
 // Modules
 export interface ModuleType {
   name: Settings;
+  path: Settings;
 }
 
 // Sections

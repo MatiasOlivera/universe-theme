@@ -35,6 +35,15 @@ const pugColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Modules
+     */
+    {
+      name: "Pug: Include file's path",
+      scope: 'variable.control.import.include.pug',
+      settings: tokens.module.path
+    },
+
+    /**
      * Other
      */
     {

@@ -581,6 +581,36 @@
       "settings": { "foreground": "#C1A2FF" }
     },
     {
+      "name": "GraphQL: Object property",
+      "scope": "meta.type.object.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "GraphQL: Selection set property",
+      "scope": "meta.selectionset.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "GraphQL: Fragment",
+      "scope": ["entity.name.fragment.graphql", "variable.fragment.graphql"],
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "GraphQL: Custom scalar",
+      "scope": "entity.scalar.graphql",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "GraphQL: Alias",
+      "scope": "string.unquoted.alias.graphql",
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "GraphQL: Description",
+      "scope": "string.block.description.graphql",
+      "settings": { "foreground": "#758096" }
+    },
+    {
       "name": "Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }

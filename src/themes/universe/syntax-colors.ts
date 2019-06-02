@@ -3,6 +3,7 @@ import {
   Config,
   Css,
   FunctionType,
+  GraphQL,
   Html,
   Invalid,
   Javascript,
@@ -286,6 +287,13 @@ export const css: Css = {
 };
 
 /**
+ * GraphQL
+ */
+export const graphql: GraphQL = {
+  alias: variable.default
+};
+
+/**
  * HTML
  */
 export const html: Html = {
@@ -415,6 +423,7 @@ export const tokens: Tokens = {
   comment,
   config,
   css,
+  graphql,
   html,
   javascript,
   json,

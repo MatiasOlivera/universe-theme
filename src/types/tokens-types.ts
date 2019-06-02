@@ -132,6 +132,11 @@ export interface Css {
   unit: Settings;
 }
 
+// GraphQL
+export interface GraphQL {
+  alias: Settings;
+}
+
 // HTML
 export interface Html {
   component: {
@@ -191,6 +196,7 @@ export interface Tokens {
   comment: Settings;
   config: Config;
   css: Css;
+  graphql: GraphQL;
   html: Html;
   javascript: Javascript;
   json: Json;

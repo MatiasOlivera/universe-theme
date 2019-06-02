@@ -662,6 +662,15 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "Javascript: Language variables",
+      "scope": [
+        "support.class.console.js",
+        "support.type.object.console.js",
+        "support.type.object.dom.js"
+      ],
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
       "settings": { "foreground": "#C1A2FF" }

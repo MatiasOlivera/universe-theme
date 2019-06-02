@@ -8,6 +8,18 @@ const jsColors: SyntaxColors = (tokens) => {
       settings: tokens.object.property
     },
     {
+      name: 'Javascript: Language variables',
+      scope: [
+        // console
+        'support.class.console.js',
+        'support.type.object.console.js',
+
+        // browser objects. eg. window
+        'support.type.object.dom.js'
+      ],
+      settings: tokens.variable.other
+    },
+    {
       name: 'Arrow function. =>',
       scope: 'storage.type.function.arrow.js',
       settings: tokens.javascript.arrowFunction

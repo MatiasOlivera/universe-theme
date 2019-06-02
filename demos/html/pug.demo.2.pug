@@ -20,11 +20,6 @@ div.class
 div.class1.class2
 h1.header
 
-// Attributes
-input(type='text' name='q' autofocus)
-- var authenticated = true
-body(class=authenticated ? 'authed' : 'anon')
-
 // Iteration
 ul
   each user in users
@@ -67,7 +62,7 @@ script.
   alert('hello')
 
 // Conditionals
- if authenticated
+if authenticated
   a(href='/logout') Sign out
 else
   a(href='/login') Sign in
@@ -94,3 +89,8 @@ mixin article(title)
  
 +article('hello there')
   p Content goes here
+
+// Attributes
+input(type='text' name='q' autofocus)
+- var authenticated = true
+body(class=authenticated ? 'authed' : 'anon')

@@ -32,6 +32,11 @@ const pugColors: SyntaxColors = (tokens) => {
       name: 'Text', // text
       scope: 'text.pug',
       settings: tokens.text
+    },
+    {
+      name: 'Pug: Comment',
+      scope: 'string.comment.buffered.block.pug',
+      settings: tokens.comment
     }
   ];
 };

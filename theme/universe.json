@@ -833,6 +833,11 @@
       "settings": { "foreground": "#F2F2F2" }
     },
     {
+      "name": "Pug: Comment",
+      "scope": "string.comment.buffered.block.pug",
+      "settings": { "foreground": "#758096" }
+    },
+    {
       "name": "SQL: Keyword",
       "scope": [
         "keyword.other.sql",

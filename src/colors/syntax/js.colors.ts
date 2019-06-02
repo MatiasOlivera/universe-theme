@@ -20,6 +20,16 @@ const jsColors: SyntaxColors = (tokens) => {
       settings: tokens.variable.other
     },
     {
+      name: 'Javascript: Class',
+      scope: 'new.expr.js entity.name.type.js',
+      settings: tokens.class.name
+    },
+    {
+      name: 'Javascript: Language classes',
+      scope: ['support.constant.math.js'],
+      settings: tokens.class.library
+    },
+    {
       name: 'Arrow function. =>',
       scope: 'storage.type.function.arrow.js',
       settings: tokens.javascript.arrowFunction

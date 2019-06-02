@@ -671,6 +671,16 @@
       "settings": { "foreground": "#FFBAD1" }
     },
     {
+      "name": "Javascript: Class",
+      "scope": "new.expr.js entity.name.type.js",
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Javascript: Language classes",
+      "scope": ["support.constant.math.js"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
       "settings": { "fontStyle": "" }

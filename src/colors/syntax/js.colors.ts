@@ -15,9 +15,19 @@ const jsColors: SyntaxColors = (tokens) => {
     {
       name: 'Other operators',
       scope: [
+        // new
         'keyword.operator.new.js',
+
+        // in
+        'keyword.operator.expression.in.js',
         'keyword.operator.in.js',
+
+        // of
+        'keyword.operator.expression.of.js',
         'keyword.operator.of.js',
+
+        // typeof
+        'keyword.operator.expression.typeof.js',
         'keyword.operator.typeof.js'
       ],
       settings: tokens.keyword.other

@@ -670,8 +670,11 @@
       "name": "Other operators",
       "scope": [
         "keyword.operator.new.js",
+        "keyword.operator.expression.in.js",
         "keyword.operator.in.js",
+        "keyword.operator.expression.of.js",
         "keyword.operator.of.js",
+        "keyword.operator.expression.typeof.js",
         "keyword.operator.typeof.js"
       ],
       "settings": { "foreground": "#C1A2FF" }

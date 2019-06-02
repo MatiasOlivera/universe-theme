@@ -23,6 +23,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use object property color in selection set fields
 - Use comment's color in descriptions
 
+#### Pug
+
+##### Fixed
+
+- Use gray in comments
+- Use HTML tags' color in doctype
+- Use green in the path when including a file
+- Use deep purple in string interpolation punctuation
+
 ## [1.4.0] 2019-05-30
 
 ### Syntax highlight

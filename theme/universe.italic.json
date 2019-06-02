@@ -611,12 +611,17 @@
       "settings": { "foreground": "#758096", "fontStyle": "italic" }
     },
     {
-      "name": "Attribute",
+      "name": "HTML: Tag",
+      "scope": "entity.name.tag.html",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "HTML: Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
-      "name": "Value",
+      "name": "HTML: Value",
       "scope": "string.quoted.double.html",
       "settings": { "foreground": "#BBD99E" }
     },
@@ -818,6 +823,21 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
+      "name": "Pug: Tag",
+      "scope": ["meta.tag.sgml.doctype.html", "entity.name.tag.pug"],
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "Pug: Attribute",
+      "scope": "entity.other.attribute-name.tag.pug",
+      "settings": { "foreground": "#9AC6F2" }
+    },
+    {
+      "name": "Pug: Value",
+      "scope": "attribute_value string.quoted.pug",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Pug ID",
       "scope": "entity.other.attribute-name.id.pug",
       "settings": { "foreground": "#E6D791" }
@@ -828,9 +848,24 @@
       "settings": { "foreground": "#F2B09A" }
     },
     {
+      "name": "Pug: Include file's path",
+      "scope": "variable.control.import.include.pug",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "Pug: String interpolation punctuaction",
+      "scope": "string.interpolated.pug",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Text",
       "scope": "text.pug",
       "settings": { "foreground": "#F2F2F2" }
+    },
+    {
+      "name": "Pug: Comment",
+      "scope": "string.comment.buffered.block.pug",
+      "settings": { "foreground": "#758096", "fontStyle": "italic" }
     },
     {
       "name": "SQL: Keyword",

@@ -161,6 +161,9 @@ export const classType: ClassType = {
 export const moduleType: ModuleType = {
   name: {
     foreground: blue[4]
+  },
+  path: {
+    foreground: green[4]
   }
 };
 
@@ -297,6 +300,11 @@ export const graphql: GraphQL = {
  * HTML
  */
 export const html: Html = {
+  tag: {
+    name: tag.name,
+    attribute: tag.attribute,
+    value: tag.value
+  },
   component: {
     tag: {
       foreground: orange[4]

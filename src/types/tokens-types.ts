@@ -55,6 +55,7 @@ export interface ClassType {
 // Modules
 export interface ModuleType {
   name: Settings;
+  path: Settings;
 }
 
 // Sections
@@ -139,6 +140,11 @@ export interface GraphQL {
 
 // HTML
 export interface Html {
+  tag: {
+    name: Settings;
+    attribute: Settings;
+    value: Settings;
+  };
   component: {
     tag: Settings;
     punctuation: Settings;

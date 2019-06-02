@@ -853,6 +853,11 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "Pug: String interpolation punctuaction",
+      "scope": "string.interpolated.pug",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Text",
       "scope": "text.pug",
       "settings": { "foreground": "#F2F2F2" }

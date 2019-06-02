@@ -99,3 +99,13 @@ block ribbon
 
 block content
   p This wipes out "Pugs fo life"
+
+
+// String interpolation
+mixin header_block(title, link)  
+ header
+   h3.main-title #{title} adadasda sdadsd
+   ul
+       li
+            a(href='#{link}', target="_blank")
++header_block('Amazing title here!', 'features.html')

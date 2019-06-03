@@ -931,6 +931,11 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Typescript: Extended interface",
+      "scope": "meta.interface.ts entity.other.inherited-class.ts",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
       "name": "Typescript: Enum member",
       "scope": "variable.other.enummember.ts",
       "settings": { "foreground": "#BBD99E" }

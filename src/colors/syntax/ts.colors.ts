@@ -18,6 +18,15 @@ const tsColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Interfaces
+     */
+    {
+      name: 'Typescript: Extended interface',
+      scope: 'meta.interface.ts entity.other.inherited-class.ts',
+      settings: tokens.type.custom
+    },
+
+    /**
      * Enums
      */
     {

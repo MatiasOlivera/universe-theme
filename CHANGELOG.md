@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ##### Fixed
 
-- Use italic in other operators (`in`, `of`, `typeof`)
+- Use italic in other operators (`in`, `of`, `typeof`, `instanceof`)
 - Use pink in language variables (`console` and `window`)
 - Use yellow in classes' name
 - Use deep purple in template expression punctuation (`${ data }`)
@@ -48,6 +48,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use HTML tags' color in doctype
 - Use green in the path when including a file
 - Use deep purple in string interpolation punctuation
+
+#### Typescript
+
+##### Changed
+
+- Use green in enums members
+- Use cyan in type punctuation
+
+##### Fixed
+
+- Use yellow in `Math` class
+- Use cyan when extending an interface
+- Use italic in `keyof` operator
 
 ## [1.4.0] 2019-05-30
 

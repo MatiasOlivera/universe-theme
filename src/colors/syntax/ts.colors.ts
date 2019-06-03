@@ -11,6 +11,12 @@ const tsColors: SyntaxColors = (tokens) => {
       settings: tokens.class.name
     },
 
+    {
+      name: 'Typescript: Language classes',
+      scope: ['support.constant.math.ts'],
+      settings: tokens.class.library
+    },
+
     /**
      * Enums
      */

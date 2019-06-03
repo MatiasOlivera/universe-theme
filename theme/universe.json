@@ -926,6 +926,11 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Typescript: Language classes",
+      "scope": ["support.constant.math.ts"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
       "name": "Typescript: Enum member",
       "scope": "variable.other.enummember.ts",
       "settings": { "foreground": "#BBD99E" }

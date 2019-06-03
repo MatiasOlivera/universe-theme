@@ -702,7 +702,9 @@
         "keyword.operator.expression.of.js",
         "keyword.operator.of.js",
         "keyword.operator.expression.typeof.js",
-        "keyword.operator.typeof.js"
+        "keyword.operator.typeof.js",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.instanceof.js"
       ],
       "settings": { "foreground": "#C1A2FF" }
     },
@@ -968,7 +970,8 @@
         "keyword.operator.new.ts",
         "keyword.operator.in.ts",
         "keyword.operator.of.ts",
-        "keyword.operator.typeof.ts"
+        "keyword.operator.typeof.ts",
+        "keyword.operator.expression.instanceof.ts"
       ],
       "settings": { "foreground": "#C1A2FF" }
     },

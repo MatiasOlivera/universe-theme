@@ -931,6 +931,15 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "Typescript: Type punctuation",
+      "scope": [
+        "meta.type.tuple.ts meta.brace.square.ts",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts"
+      ],
+      "settings": { "foreground": "#6EB4C2" }
+    },
+    {
       "name": "Typescript: Template expression punctuation",
       "scope": [
         "punctuation.definition.template-expression.begin.ts",

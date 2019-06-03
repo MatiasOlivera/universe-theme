@@ -16,6 +16,7 @@ export interface Type {
   other: Settings; // constant.other
   typeName: Settings; // storage.type
   library: Settings; // support.type
+  punctuation: Settings;
 }
 
 // Keywords

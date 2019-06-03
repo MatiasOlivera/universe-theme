@@ -21,6 +21,16 @@ const tsColors: SyntaxColors = (tokens) => {
     },
 
     {
+      name: 'Typescript: Type punctuation',
+      scope: [
+        'meta.type.tuple.ts meta.brace.square.ts',
+        'punctuation.definition.typeparameters.begin.ts',
+        'punctuation.definition.typeparameters.end.ts'
+      ],
+      settings: tokens.type.punctuation
+    },
+
+    {
       name: 'Typescript: Template expression punctuation',
       scope: [
         'punctuation.definition.template-expression.begin.ts',

@@ -79,6 +79,9 @@ export const type: Type = {
   },
   library: {
     foreground: typeForeground
+  },
+  punctuation: {
+    foreground: cyan[5]
   }
 };
 

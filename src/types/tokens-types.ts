@@ -52,6 +52,11 @@ export interface ClassType {
   library: Settings; // support.class
 }
 
+// Enums
+export interface EnumType {
+  member: Settings;
+}
+
 // Modules
 export interface ModuleType {
   name: Settings;
@@ -192,6 +197,7 @@ export interface Tokens {
   object: ObjectType;
   function: FunctionType;
   class: ClassType;
+  enum: EnumType;
   module: ModuleType;
   section: Section;
   text: Settings;

@@ -926,6 +926,11 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Typescript: Enum member",
+      "scope": "variable.other.enummember.ts",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Typescript: Template expression punctuation",
       "scope": [
         "punctuation.definition.template-expression.begin.ts",

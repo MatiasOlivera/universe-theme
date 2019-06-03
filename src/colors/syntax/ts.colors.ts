@@ -10,6 +10,16 @@ const tsColors: SyntaxColors = (tokens) => {
       scope: ['new.expr.ts entity.name.type.ts'],
       settings: tokens.class.name
     },
+
+    /**
+     * Enums
+     */
+    {
+      name: 'Typescript: Enum member',
+      scope: 'variable.other.enummember.ts',
+      settings: tokens.enum.member
+    },
+
     {
       name: 'Typescript: Template expression punctuation',
       scope: [

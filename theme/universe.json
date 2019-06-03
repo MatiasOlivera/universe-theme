@@ -681,6 +681,14 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Javascript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
       "settings": { "foreground": "#C1A2FF" }
@@ -916,6 +924,14 @@
       "name": "Typescript: Class",
       "scope": ["new.expr.ts entity.name.type.ts"],
       "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Typescript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Arrow function. =>",

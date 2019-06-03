@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use italic in other operators (`in`, `of`, `typeof`)
 - Use pink in language variables (`console` and `window`)
 - Use yellow in classes' name
+- Use deep purple in template expression punctuation (`${ data }`)
 
 #### React
 

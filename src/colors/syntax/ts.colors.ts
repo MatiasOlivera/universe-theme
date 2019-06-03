@@ -10,7 +10,14 @@ const tsColors: SyntaxColors = (tokens) => {
       scope: ['new.expr.ts entity.name.type.ts'],
       settings: tokens.class.name
     },
-
+    {
+      name: 'Typescript: Template expression punctuation',
+      scope: [
+        'punctuation.definition.template-expression.begin.ts',
+        'punctuation.definition.template-expression.end.ts'
+      ],
+      settings: tokens.puntuaction.embedded
+    },
     {
       name: 'Arrow function. =>',
       scope: 'storage.type.function.arrow.ts',

@@ -16,6 +16,7 @@ export interface Type {
   other: Settings; // constant.other
   typeName: Settings; // storage.type
   library: Settings; // support.type
+  punctuation: Settings;
 }
 
 // Keywords
@@ -50,6 +51,11 @@ export interface ClassType {
   name: Settings;
   baseClass: Settings; // entity.other.inherited-class
   library: Settings; // support.class
+}
+
+// Enums
+export interface EnumType {
+  member: Settings;
 }
 
 // Modules
@@ -192,6 +198,7 @@ export interface Tokens {
   object: ObjectType;
   function: FunctionType;
   class: ClassType;
+  enum: EnumType;
   module: ModuleType;
   section: Section;
   text: Settings;

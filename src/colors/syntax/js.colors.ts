@@ -58,7 +58,11 @@ const jsColors: SyntaxColors = (tokens) => {
 
         // typeof
         'keyword.operator.expression.typeof.js',
-        'keyword.operator.typeof.js'
+        'keyword.operator.typeof.js',
+
+        // instanceof
+        'keyword.operator.expression.instanceof.js',
+        'keyword.operator.instanceof.js'
       ],
       settings: tokens.keyword.other
     }

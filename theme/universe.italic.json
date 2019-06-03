@@ -702,7 +702,9 @@
         "keyword.operator.expression.of.js",
         "keyword.operator.of.js",
         "keyword.operator.expression.typeof.js",
-        "keyword.operator.typeof.js"
+        "keyword.operator.typeof.js",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.instanceof.js"
       ],
       "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
@@ -926,6 +928,30 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Typescript: Language classes",
+      "scope": ["support.constant.math.ts"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Typescript: Extended interface",
+      "scope": "meta.interface.ts entity.other.inherited-class.ts",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "Typescript: Enum member",
+      "scope": "variable.other.enummember.ts",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "Typescript: Type punctuation",
+      "scope": [
+        "meta.type.tuple.ts meta.brace.square.ts",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts"
+      ],
+      "settings": { "foreground": "#6EB4C2" }
+    },
+    {
       "name": "Typescript: Template expression punctuation",
       "scope": [
         "punctuation.definition.template-expression.begin.ts",
@@ -944,7 +970,10 @@
         "keyword.operator.new.ts",
         "keyword.operator.in.ts",
         "keyword.operator.of.ts",
-        "keyword.operator.typeof.ts"
+        "keyword.operator.typeof.ts",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.in.ts",
+        "keyword.operator.expression.keyof.ts"
       ],
       "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },

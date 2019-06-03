@@ -2,6 +2,7 @@ import {
   ClassType,
   Config,
   Css,
+  EnumType,
   FunctionType,
   GraphQL,
   Html,
@@ -78,6 +79,9 @@ export const type: Type = {
   },
   library: {
     foreground: typeForeground
+  },
+  punctuation: {
+    foreground: cyan[5]
   }
 };
 
@@ -153,6 +157,13 @@ export const classType: ClassType = {
   library: {
     foreground: classForeground
   }
+};
+
+/**
+ * Enums
+ */
+export const enumType: EnumType = {
+  member: object.property
 };
 
 /**
@@ -423,6 +434,7 @@ export const tokens: Tokens = {
   object,
   function: functionType,
   class: classType,
+  enum: enumType,
   module: moduleType,
   section,
   text,

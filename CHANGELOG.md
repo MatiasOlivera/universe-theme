@@ -23,6 +23,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use object property color in selection set fields
 - Use comment's color in descriptions
 
+#### Javascript
+
+##### Fixed
+
+- Use italic in other operators (`in`, `of`, `typeof`)
+- Use pink in language variables (`console` and `window`)
+- Use yellow in classes' name
+
+#### React
+
+##### Fixed
+
+- Use white in tag's text
+- Use orange in expression punctuation (`{ data }`)
+- Use orange in component tag (`<MyComponent/>`)
+
 #### Pug
 
 ##### Fixed

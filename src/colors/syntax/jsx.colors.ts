@@ -10,6 +10,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     {
       name: 'JSX: Component tag',
       scope: [
+        'support.class.component.js.jsx',
         'support.class.component.open.jsx',
         'support.class.component.close.jsx',
         'support.class.component.tsx'
@@ -18,7 +19,10 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Attribute',
-      scope: 'entity.other.attribute-name.jsx',
+      scope: [
+        'entity.other.attribute-name.js.jsx',
+        'entity.other.attribute-name.jsx'
+      ],
       // Pink is used in variables and method arguments
       settings: tokens.tag.attribute
     },
@@ -30,15 +34,20 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Text',
-      scope: ['JSXNested', 'meta.jsx.children.tsx'],
+      scope: ['meta.jsx.children.js.jsx', 'JSXNested', 'meta.jsx.children.tsx'],
       settings: tokens.text
     },
     {
       name: 'JSX: Expression punctuation',
       scope: [
+        // {
+        'punctuation.section.embedded.begin.js.jsx',
         'punctuation.section.embedded.begin.jsx',
-        'punctuation.section.embedded.end.jsx',
         'punctuation.section.embedded.begin.tsx',
+
+        // }
+        'punctuation.section.embedded.end.js.jsx',
+        'punctuation.section.embedded.end.jsx',
         'punctuation.section.embedded.end.tsx'
       ],
       settings: tokens.html.expressionPunctuation

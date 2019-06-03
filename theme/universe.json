@@ -662,6 +662,33 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "Javascript: Language variables",
+      "scope": [
+        "support.class.console.js",
+        "support.type.object.console.js",
+        "support.type.object.dom.js"
+      ],
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "Javascript: Class",
+      "scope": "new.expr.js entity.name.type.js",
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Javascript: Language classes",
+      "scope": ["support.constant.math.js"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Javascript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
       "settings": { "foreground": "#C1A2FF" }
@@ -670,8 +697,11 @@
       "name": "Other operators",
       "scope": [
         "keyword.operator.new.js",
+        "keyword.operator.expression.in.js",
         "keyword.operator.in.js",
+        "keyword.operator.expression.of.js",
         "keyword.operator.of.js",
+        "keyword.operator.expression.typeof.js",
         "keyword.operator.typeof.js"
       ],
       "settings": { "foreground": "#C1A2FF" }
@@ -689,6 +719,7 @@
     {
       "name": "JSX: Component tag",
       "scope": [
+        "support.class.component.js.jsx",
         "support.class.component.open.jsx",
         "support.class.component.close.jsx",
         "support.class.component.tsx"
@@ -697,7 +728,10 @@
     },
     {
       "name": "JSX: Attribute",
-      "scope": "entity.other.attribute-name.jsx",
+      "scope": [
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.jsx"
+      ],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
@@ -707,15 +741,21 @@
     },
     {
       "name": "JSX: Text",
-      "scope": ["JSXNested", "meta.jsx.children.tsx"],
+      "scope": [
+        "meta.jsx.children.js.jsx",
+        "JSXNested",
+        "meta.jsx.children.tsx"
+      ],
       "settings": { "foreground": "#F2F2F2" }
     },
     {
       "name": "JSX: Expression punctuation",
       "scope": [
+        "punctuation.section.embedded.begin.js.jsx",
         "punctuation.section.embedded.begin.jsx",
-        "punctuation.section.embedded.end.jsx",
         "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.js.jsx",
+        "punctuation.section.embedded.end.jsx",
         "punctuation.section.embedded.end.tsx"
       ],
       "settings": { "foreground": "#FFA2A2" }
@@ -884,6 +924,14 @@
       "name": "Typescript: Class",
       "scope": ["new.expr.ts entity.name.type.ts"],
       "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Typescript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Arrow function. =>",

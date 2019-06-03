@@ -65,7 +65,9 @@ const tsColors: SyntaxColors = (tokens) => {
         'keyword.operator.in.ts',
         'keyword.operator.of.ts',
         'keyword.operator.typeof.ts',
-        'keyword.operator.expression.instanceof.ts'
+        'keyword.operator.expression.instanceof.ts',
+        'keyword.operator.expression.in.ts',
+        'keyword.operator.expression.keyof.ts'
       ],
       settings: tokens.keyword.other
     }

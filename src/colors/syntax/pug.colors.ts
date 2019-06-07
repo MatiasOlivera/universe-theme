@@ -12,6 +12,25 @@ const pugColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Tags
+     */
+    {
+      name: 'Pug: Tag',
+      scope: ['meta.tag.sgml.doctype.html', 'entity.name.tag.pug'],
+      settings: tokens.html.tag.name
+    },
+    {
+      name: 'Pug: Attribute',
+      scope: 'entity.other.attribute-name.tag.pug',
+      settings: tokens.html.tag.attribute
+    },
+    {
+      name: 'Pug: Value',
+      scope: 'attribute_value string.quoted.pug',
+      settings: tokens.html.tag.value
+    },
+
+    /**
      * CSS
      */
     {
@@ -26,12 +45,31 @@ const pugColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Modules
+     */
+    {
+      name: "Pug: Include file's path",
+      scope: 'variable.control.import.include.pug',
+      settings: tokens.module.path
+    },
+
+    /**
      * Other
      */
     {
-      name: 'Text', // text
+      name: 'Pug: String interpolation punctuaction',
+      scope: 'string.interpolated.pug',
+      settings: tokens.puntuaction.embedded
+    },
+    {
+      name: 'Text',
       scope: 'text.pug',
       settings: tokens.text
+    },
+    {
+      name: 'Pug: Comment',
+      scope: 'string.comment.buffered.block.pug',
+      settings: tokens.comment
     }
   ];
 };

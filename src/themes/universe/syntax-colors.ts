@@ -2,7 +2,9 @@ import {
   ClassType,
   Config,
   Css,
+  EnumType,
   FunctionType,
+  GraphQL,
   Html,
   Invalid,
   Javascript,
@@ -77,6 +79,9 @@ export const type: Type = {
   },
   library: {
     foreground: typeForeground
+  },
+  punctuation: {
+    foreground: cyan[5]
   }
 };
 
@@ -155,11 +160,21 @@ export const classType: ClassType = {
 };
 
 /**
+ * Enums
+ */
+export const enumType: EnumType = {
+  member: object.property
+};
+
+/**
  * Modules
  */
 export const moduleType: ModuleType = {
   name: {
     foreground: blue[4]
+  },
+  path: {
+    foreground: green[4]
   }
 };
 
@@ -286,9 +301,21 @@ export const css: Css = {
 };
 
 /**
+ * GraphQL
+ */
+export const graphql: GraphQL = {
+  alias: variable.default
+};
+
+/**
  * HTML
  */
 export const html: Html = {
+  tag: {
+    name: tag.name,
+    attribute: tag.attribute,
+    value: tag.value
+  },
   component: {
     tag: {
       foreground: orange[4]
@@ -407,6 +434,7 @@ export const tokens: Tokens = {
   object,
   function: functionType,
   class: classType,
+  enum: enumType,
   module: moduleType,
   section,
   text,
@@ -415,6 +443,7 @@ export const tokens: Tokens = {
   comment,
   config,
   css,
+  graphql,
   html,
   javascript,
   json,

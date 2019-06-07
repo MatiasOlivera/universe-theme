@@ -7,13 +7,80 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] 2019-06-07
+
+### Syntax highlight
+
+#### GraphQL
+
+> Pull request [#43](https://github.com/MatiasOlivera/universe-theme/pull/43)
+
+##### Added
+
+- Use custom type color (cyan) in fragments' name
+- Use the variable's color (pink) in alias
+- Use custom type color (cyan) when defining a custom scalar
+
+##### Fixed
+
+- Use object property color (green) in types and interfaces' fields
+- Use object property color (green) in selection set fields
+- Use comment's color (gray) in descriptions
+
+#### Javascript
+
+> Pull request [#45](https://github.com/MatiasOlivera/universe-theme/pull/45)
+
+##### Fixed
+
+- Use italic in other operators (`in`, `of`, `typeof`, `instanceof`)
+- Use pink in language variables (`console` and `window`)
+- Use yellow in classes' name
+- Use deep purple in template expression punctuation (`${ data }`)
+
+#### React
+
+> Pull request [#45](https://github.com/MatiasOlivera/universe-theme/pull/45)
+
+##### Fixed
+
+- Use white in tag's text
+- Use orange in expression punctuation (`{ data }`)
+- Use orange in component tag (`<MyComponent/>`)
+
+#### Pug
+
+> Pull request [#44](https://github.com/MatiasOlivera/universe-theme/pull/44)
+
+##### Fixed
+
+- Use gray in comments
+- Use HTML tags' color (cyan) in doctype
+- Use green in the path when including a file
+- Use deep purple in string interpolation punctuation
+
+#### Typescript
+
+> Pull request [#46](https://github.com/MatiasOlivera/universe-theme/pull/46)
+
+##### Changed
+
+- Use green in enums members
+- Use cyan in type punctuation
+
+##### Fixed
+
+- Use yellow in `Math` class
+- Use cyan in the extended interface
+- Use italic in `keyof` operator
+
 ## [1.4.0] 2019-05-30
 
 ### Syntax highlight
 
 #### Added
 
-- Add italic variants: *Universe Italic* and *Universe Purple Italic*. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
+- Add italic variants: _Universe Italic_ and _Universe Purple Italic_. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
 
 #### Changed
 
@@ -22,6 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Fixed
 
 ##### Typescript
+
 - Use constant color (teal) in JSON object. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
 
 ## [1.3.0] 2019-05-16

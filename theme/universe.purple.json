@@ -581,12 +581,47 @@
       "settings": { "foreground": "#C1A2FF" }
     },
     {
-      "name": "Attribute",
+      "name": "GraphQL: Object property",
+      "scope": "meta.type.object.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "GraphQL: Selection set property",
+      "scope": "meta.selectionset.graphql variable.graphql",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "GraphQL: Fragment",
+      "scope": ["entity.name.fragment.graphql", "variable.fragment.graphql"],
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "GraphQL: Custom scalar",
+      "scope": "entity.scalar.graphql",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "GraphQL: Alias",
+      "scope": "string.unquoted.alias.graphql",
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "GraphQL: Description",
+      "scope": "string.block.description.graphql",
+      "settings": { "foreground": "#758096" }
+    },
+    {
+      "name": "HTML: Tag",
+      "scope": "entity.name.tag.html",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "HTML: Attribute",
       "scope": ["meta.tag", "meta.tag.inline.any"],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
-      "name": "Value",
+      "name": "HTML: Value",
       "scope": "string.quoted.double.html",
       "settings": { "foreground": "#BBD99E" }
     },
@@ -627,6 +662,33 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
+      "name": "Javascript: Language variables",
+      "scope": [
+        "support.class.console.js",
+        "support.type.object.console.js",
+        "support.type.object.dom.js"
+      ],
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "Javascript: Class",
+      "scope": "new.expr.js entity.name.type.js",
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Javascript: Language classes",
+      "scope": ["support.constant.math.js"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Javascript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.js",
       "settings": { "foreground": "#C1A2FF" }
@@ -635,9 +697,14 @@
       "name": "Other operators",
       "scope": [
         "keyword.operator.new.js",
+        "keyword.operator.expression.in.js",
         "keyword.operator.in.js",
+        "keyword.operator.expression.of.js",
         "keyword.operator.of.js",
-        "keyword.operator.typeof.js"
+        "keyword.operator.expression.typeof.js",
+        "keyword.operator.typeof.js",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.instanceof.js"
       ],
       "settings": { "foreground": "#C1A2FF" }
     },
@@ -654,6 +721,7 @@
     {
       "name": "JSX: Component tag",
       "scope": [
+        "support.class.component.js.jsx",
         "support.class.component.open.jsx",
         "support.class.component.close.jsx",
         "support.class.component.tsx"
@@ -662,7 +730,10 @@
     },
     {
       "name": "JSX: Attribute",
-      "scope": "entity.other.attribute-name.jsx",
+      "scope": [
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.jsx"
+      ],
       "settings": { "foreground": "#9AC6F2" }
     },
     {
@@ -672,15 +743,21 @@
     },
     {
       "name": "JSX: Text",
-      "scope": ["JSXNested", "meta.jsx.children.tsx"],
+      "scope": [
+        "meta.jsx.children.js.jsx",
+        "JSXNested",
+        "meta.jsx.children.tsx"
+      ],
       "settings": { "foreground": "#F2F2F2" }
     },
     {
       "name": "JSX: Expression punctuation",
       "scope": [
+        "punctuation.section.embedded.begin.js.jsx",
         "punctuation.section.embedded.begin.jsx",
-        "punctuation.section.embedded.end.jsx",
         "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.js.jsx",
+        "punctuation.section.embedded.end.jsx",
         "punctuation.section.embedded.end.tsx"
       ],
       "settings": { "foreground": "#FFA2A2" }
@@ -788,6 +865,21 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
+      "name": "Pug: Tag",
+      "scope": ["meta.tag.sgml.doctype.html", "entity.name.tag.pug"],
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "Pug: Attribute",
+      "scope": "entity.other.attribute-name.tag.pug",
+      "settings": { "foreground": "#9AC6F2" }
+    },
+    {
+      "name": "Pug: Value",
+      "scope": "attribute_value string.quoted.pug",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
       "name": "Pug ID",
       "scope": "entity.other.attribute-name.id.pug",
       "settings": { "foreground": "#E6D791" }
@@ -798,9 +890,24 @@
       "settings": { "foreground": "#F2B09A" }
     },
     {
+      "name": "Pug: Include file's path",
+      "scope": "variable.control.import.include.pug",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "Pug: String interpolation punctuaction",
+      "scope": "string.interpolated.pug",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Text",
       "scope": "text.pug",
       "settings": { "foreground": "#F2F2F2" }
+    },
+    {
+      "name": "Pug: Comment",
+      "scope": "string.comment.buffered.block.pug",
+      "settings": { "foreground": "#758096" }
     },
     {
       "name": "SQL: Keyword",
@@ -821,6 +928,38 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "Typescript: Language classes",
+      "scope": ["support.constant.math.ts"],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "Typescript: Extended interface",
+      "scope": "meta.interface.ts entity.other.inherited-class.ts",
+      "settings": { "foreground": "#92D8E6" }
+    },
+    {
+      "name": "Typescript: Enum member",
+      "scope": "variable.other.enummember.ts",
+      "settings": { "foreground": "#BBD99E" }
+    },
+    {
+      "name": "Typescript: Type punctuation",
+      "scope": [
+        "meta.type.tuple.ts meta.brace.square.ts",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts"
+      ],
+      "settings": { "foreground": "#6EB4C2" }
+    },
+    {
+      "name": "Typescript: Template expression punctuation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Arrow function. =>",
       "scope": "storage.type.function.arrow.ts",
       "settings": { "foreground": "#C1A2FF" }
@@ -831,7 +970,10 @@
         "keyword.operator.new.ts",
         "keyword.operator.in.ts",
         "keyword.operator.of.ts",
-        "keyword.operator.typeof.ts"
+        "keyword.operator.typeof.ts",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.in.ts",
+        "keyword.operator.expression.keyof.ts"
       ],
       "settings": { "foreground": "#C1A2FF" }
     },

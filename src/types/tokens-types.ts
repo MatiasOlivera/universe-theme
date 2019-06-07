@@ -16,6 +16,7 @@ export interface Type {
   other: Settings; // constant.other
   typeName: Settings; // storage.type
   library: Settings; // support.type
+  punctuation: Settings;
 }
 
 // Keywords
@@ -52,9 +53,15 @@ export interface ClassType {
   library: Settings; // support.class
 }
 
+// Enums
+export interface EnumType {
+  member: Settings;
+}
+
 // Modules
 export interface ModuleType {
   name: Settings;
+  path: Settings;
 }
 
 // Sections
@@ -132,8 +139,18 @@ export interface Css {
   unit: Settings;
 }
 
+// GraphQL
+export interface GraphQL {
+  alias: Settings;
+}
+
 // HTML
 export interface Html {
+  tag: {
+    name: Settings;
+    attribute: Settings;
+    value: Settings;
+  };
   component: {
     tag: Settings;
     punctuation: Settings;
@@ -181,6 +198,7 @@ export interface Tokens {
   object: ObjectType;
   function: FunctionType;
   class: ClassType;
+  enum: EnumType;
   module: ModuleType;
   section: Section;
   text: Settings;
@@ -191,6 +209,7 @@ export interface Tokens {
   comment: Settings;
   config: Config;
   css: Css;
+  graphql: GraphQL;
   html: Html;
   javascript: Javascript;
   json: Json;

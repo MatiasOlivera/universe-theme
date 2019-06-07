@@ -82,24 +82,30 @@ include script.js
 // ## Extends $ Block
 // ### template.pug
 block data
-  - var pageTitle = "Pugcupid"
-html
-  head
-    title= pageTitle
-  body
-    block ribbon
-    block content
-      p Pugs fo life
+  html
+    head
+      title= pageTitle
+    body
+      block ribbon
+      block content
+        p Pugs fo life
       
 // ### page.pug
 // ### extends template.pug
 extends template.pug
-
-block data
-  - var pageTitle = 'Pug title'
 
 block ribbon
   p New pug jazz
 
 block content
   p This wipes out "Pugs fo life"
+
+
+// String interpolation
+mixin header_block(title, link)  
+ header
+   h3.main-title #{title} adadasda sdadsd
+   ul
+       li
+            a(href='#{link}', target="_blank")
++header_block('Amazing title here!', 'features.html')

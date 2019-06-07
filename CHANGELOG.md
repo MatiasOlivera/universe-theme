@@ -7,23 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] 2019-06-07
+
 ### Syntax highlight
 
 #### GraphQL
 
+> Pull request [#43](https://github.com/MatiasOlivera/universe-theme/pull/43)
+
 ##### Added
 
-- Use custom type color in fragments' name
-- Use the variable's color in alias
-- Use custom type color when defining a custom scalar
+- Use custom type color (cyan) in fragments' name
+- Use the variable's color (pink) in alias
+- Use custom type color (cyan) when defining a custom scalar
 
 ##### Fixed
 
-- Use object property color in types and interfaces' fields
-- Use object property color in selection set fields
-- Use comment's color in descriptions
+- Use object property color (green) in types and interfaces' fields
+- Use object property color (green) in selection set fields
+- Use comment's color (gray) in descriptions
 
 #### Javascript
+
+> Pull request [#45](https://github.com/MatiasOlivera/universe-theme/pull/45)
 
 ##### Fixed
 
@@ -34,6 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### React
 
+> Pull request [#45](https://github.com/MatiasOlivera/universe-theme/pull/45)
+
 ##### Fixed
 
 - Use white in tag's text
@@ -42,14 +50,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Pug
 
+> Pull request [#44](https://github.com/MatiasOlivera/universe-theme/pull/44)
+
 ##### Fixed
 
 - Use gray in comments
-- Use HTML tags' color in doctype
+- Use HTML tags' color (cyan) in doctype
 - Use green in the path when including a file
 - Use deep purple in string interpolation punctuation
 
 #### Typescript
+
+> Pull request [#46](https://github.com/MatiasOlivera/universe-theme/pull/46)
 
 ##### Changed
 
@@ -59,7 +71,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ##### Fixed
 
 - Use yellow in `Math` class
-- Use cyan when extending an interface
+- Use cyan in the extended interface
 - Use italic in `keyof` operator
 
 ## [1.4.0] 2019-05-30
@@ -68,7 +80,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Added
 
-- Add italic variants: *Universe Italic* and *Universe Purple Italic*. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
+- Add italic variants: _Universe Italic_ and _Universe Purple Italic_. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
 
 #### Changed
 
@@ -77,6 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Fixed
 
 ##### Typescript
+
 - Use constant color (teal) in JSON object. [#41](https://github.com/MatiasOlivera/universe-theme/pull/41)
 
 ## [1.3.0] 2019-05-16

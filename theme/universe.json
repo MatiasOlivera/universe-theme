@@ -849,7 +849,7 @@
         "string.other.link.description.markdown",
         "string.other.link.title.markdown"
       ],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#BFDCF9" }
     },
     {
       "name": "MD: Link punctuation",
@@ -858,7 +858,7 @@
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown"
       ],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#BFDCF9" }
     },
     {
       "name": "MD: Inline code",

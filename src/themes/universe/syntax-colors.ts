@@ -415,8 +415,9 @@ export const markdown: Markdown = {
       foreground: deepPurple[4]
     }
   },
+  // markup.link
   linkTitle: {
-    foreground: markup.link.foreground
+    foreground: blue[2]
   }
 };
 

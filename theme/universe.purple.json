@@ -536,6 +536,14 @@
       "settings": { "foreground": "#9AC6F2" }
     },
     {
+      "name": "Attribute punctuation. []",
+      "scope": [
+        "punctuation.definition.entity.begin.bracket.square.css",
+        "punctuation.definition.entity.end.bracket.square.css"
+      ],
+      "settings": { "foreground": "#74A0CC" }
+    },
+    {
       "name": "Pseudo-class",
       "scope": "entity.other.attribute-name.pseudo-class.css",
       "settings": { "foreground": "#C1A2FF" }

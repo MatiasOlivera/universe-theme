@@ -305,7 +305,14 @@ export const css: Css = {
   class: {
     foreground: orange[4]
   },
-  attribute: html.tag.attribute,
+  attribute: {
+    name: html.tag.attribute,
+
+    // use same color as html.attribute.colors
+    punctuation: {
+      foreground: blue[5]
+    }
+  },
   pseudoClass: keyword.modifier,
   pseudoElement: keyword.modifier,
 

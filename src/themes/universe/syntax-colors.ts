@@ -22,7 +22,7 @@ import {
   Tokens,
   Type,
   Variable,
-  Yaml,
+  Yaml
 } from '../../types/tokens-types';
 import { universePalette } from './palette';
 
@@ -262,6 +262,38 @@ export const tag: Tag = {
 };
 
 /**
+ * GraphQL
+ */
+export const graphql: GraphQL = {
+  alias: variable.default
+};
+
+/**
+ * HTML
+ */
+export const html: Html = {
+  tag: {
+    name: tag.name,
+    attribute: tag.attribute,
+    value: tag.value
+  },
+  component: {
+    tag: {
+      foreground: orange[4]
+    },
+    punctuation: {
+      foreground: orange[5]
+    }
+  },
+  directive: {
+    foreground: red[4]
+  },
+  expressionPunctuation: {
+    foreground: red[4]
+  }
+};
+
+/**
  * CSS
  */
 export const css: Css = {
@@ -297,38 +329,6 @@ export const css: Css = {
 
   unit: {
     foreground: orange[4]
-  }
-};
-
-/**
- * GraphQL
- */
-export const graphql: GraphQL = {
-  alias: variable.default
-};
-
-/**
- * HTML
- */
-export const html: Html = {
-  tag: {
-    name: tag.name,
-    attribute: tag.attribute,
-    value: tag.value
-  },
-  component: {
-    tag: {
-      foreground: orange[4]
-    },
-    punctuation: {
-      foreground: orange[5]
-    }
-  },
-  directive: {
-    foreground: red[4]
-  },
-  expressionPunctuation: {
-    foreground: red[4]
   }
 };
 

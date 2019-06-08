@@ -298,14 +298,14 @@ export const html: Html = {
  */
 export const css: Css = {
   // Selectors
-  tag: tag.name,
+  tag: html.tag.name,
   id: {
     foreground: yellow[4]
   },
   class: {
     foreground: orange[4]
   },
-  attribute: tag.attribute,
+  attribute: html.tag.attribute,
   pseudoClass: keyword.modifier,
   pseudoElement: keyword.modifier,
 

@@ -868,7 +868,7 @@
     {
       "name": "MD: List puntuation",
       "scope": "punctuation.definition.list.begin.markdown",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "Constant",

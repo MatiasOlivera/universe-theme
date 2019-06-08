@@ -418,7 +418,7 @@ export const markdown: Markdown = {
       foreground: neutral[4]
     },
     list: {
-      foreground: deepPurple[4]
+      foreground: neutral[4]
     }
   },
   // markup.link

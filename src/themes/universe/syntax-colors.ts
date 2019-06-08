@@ -379,16 +379,10 @@ export const markup: Markup = {
     fontStyle: 'italic'
   },
   list: {
-    numbered: {
-      foreground: text.foreground
-    },
-    unnumbered: {
-      foreground: text.foreground
-    }
+    numbered: text,
+    unnumbered: text
   },
-  other: {
-    foreground: text.foreground
-  },
+  other: text,
   quote: {
     foreground: neutral[3]
   },

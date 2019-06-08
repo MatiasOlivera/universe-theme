@@ -49,7 +49,10 @@ const cssColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Property name',
-      scope: 'support.type.property-name.css',
+      scope: [
+        'support.type.property-name.css',
+        'support.type.property-name.media.css'
+      ],
       settings: tokens.css.property.name
     },
     {

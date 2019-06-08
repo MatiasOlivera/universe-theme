@@ -811,7 +811,7 @@
     {
       "name": "Markup: Raw text",
       "scope": "markup.raw",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Markup: Numbered list items",
@@ -863,7 +863,7 @@
     {
       "name": "MD: Inline code",
       "scope": "markup.inline.raw.string.markdown",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "MD: List puntuation",

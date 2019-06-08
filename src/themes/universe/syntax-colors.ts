@@ -387,7 +387,7 @@ export const markup: Markup = {
     foreground: neutral[3]
   },
   raw: {
-    foreground: cyan[4]
+    foreground: blue[4]
   },
   underline: {
     foreground: blue[4],

@@ -781,17 +781,17 @@
     {
       "name": "Markup: Heading",
       "scope": "markup.heading",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#E6D791", "fontStyle": "bold" }
     },
     {
       "name": "Markup: Bold text",
       "scope": "markup.bold",
-      "settings": { "foreground": "#FFBAD1", "fontStyle": "bold" }
+      "settings": { "foreground": "#BBD99E", "fontStyle": "bold" }
     },
     {
       "name": "Markup: Italic text",
       "scope": "markup.italic",
-      "settings": { "foreground": "#F2B09A", "fontStyle": "italic" }
+      "settings": { "foreground": "#89D9D2", "fontStyle": "italic" }
     },
     {
       "name": "Markup: Underline text",
@@ -806,12 +806,12 @@
     {
       "name": "Markup: Quote",
       "scope": "markup.quote",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#A2AABB" }
     },
     {
       "name": "Markup: Raw text",
       "scope": "markup.raw",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "Markup: Numbered list items",
@@ -826,22 +826,27 @@
     {
       "name": "MD: Heading punctuation (# title)",
       "scope": "punctuation.definition.heading.markdown",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#8A94A8" }
+    },
+    {
+      "name": "MD: Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": { "foreground": "#F2F2F2" }
     },
     {
       "name": "MD: Bold puntuation (**text**)",
       "scope": "punctuation.definition.bold.markdown",
-      "settings": { "foreground": "#FFBAD1", "fontStyle": "bold" }
+      "settings": { "foreground": "#99B87A" }
     },
     {
       "name": "MD: Italic puntuation (__text__)",
       "scope": "punctuation.definition.italic.markdown",
-      "settings": { "foreground": "#F2B09A", "fontStyle": "italic" }
+      "settings": { "foreground": "#68B8B1" }
     },
     {
       "name": "MD: Quote puntuaction (> text)",
       "scope": "punctuation.definition.quote.begin.markdown",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "MD: Link title",
@@ -849,26 +854,32 @@
         "string.other.link.description.markdown",
         "string.other.link.title.markdown"
       ],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#BFDCF9" }
     },
     {
       "name": "MD: Link punctuation",
       "scope": [
+        "punctuation.definition.link.markdown",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown"
       ],
-      "settings": { "foreground": "#9AC6F2" }
+      "settings": { "foreground": "#74A0CC" }
     },
     {
       "name": "MD: Inline code",
       "scope": "markup.inline.raw.string.markdown",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#9AC6F2" }
     },
     {
       "name": "MD: List puntuation",
       "scope": "punctuation.definition.list.begin.markdown",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#8A94A8" }
+    },
+    {
+      "name": "MD: Separator",
+      "scope": "meta.separator.markdown",
+      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "Constant",

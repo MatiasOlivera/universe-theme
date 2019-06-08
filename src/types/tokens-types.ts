@@ -180,8 +180,12 @@ export interface Markdown {
     italic: Settings;
     quote: Settings;
     list: Settings;
+    separator: Settings;
   };
-  linkTitle: Settings;
+  link: {
+    title: Settings;
+    puntuaction: Settings;
+  };
 }
 
 // SQL

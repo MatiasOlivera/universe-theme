@@ -367,32 +367,27 @@ export const markup: Markup = {
 
   // Text
   bold: {
-    foreground: pink[4],
+    foreground: green[4],
     fontStyle: 'bold'
   },
   heading: {
-    foreground: deepPurple[4]
+    foreground: yellow[4],
+    fontStyle: 'bold'
   },
   italic: {
-    foreground: orange[4],
+    foreground: teal[4],
     fontStyle: 'italic'
   },
   list: {
-    numbered: {
-      foreground: text.foreground
-    },
-    unnumbered: {
-      foreground: text.foreground
-    }
+    numbered: text,
+    unnumbered: text
   },
-  other: {
-    foreground: text.foreground
-  },
+  other: text,
   quote: {
-    foreground: green[4]
+    foreground: neutral[3]
   },
   raw: {
-    foreground: cyan[4]
+    foreground: blue[4]
   },
   underline: {
     foreground: blue[4],
@@ -405,16 +400,39 @@ export const markup: Markup = {
  */
 export const markdown: Markdown = {
   puntuaction: {
-    heading: markup.heading,
-    bold: markup.bold,
-    italic: markup.italic,
-    quote: markup.quote,
+    heading: {
+      foreground: neutral[4]
+    },
+
+    // markup.bold
+    bold: {
+      foreground: green[5]
+    },
+
+    // markup.italic
+    italic: {
+      foreground: teal[5]
+    },
+
+    quote: {
+      foreground: neutral[4]
+    },
     list: {
-      foreground: deepPurple[4]
+      foreground: neutral[4]
+    },
+    separator: {
+      foreground: neutral[4]
     }
   },
-  linkTitle: {
-    foreground: markup.link.foreground
+
+  // markup.link
+  link: {
+    title: {
+      foreground: blue[2]
+    },
+    puntuaction: {
+      foreground: blue[5]
+    }
   }
 };
 

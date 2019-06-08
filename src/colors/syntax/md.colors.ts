@@ -12,6 +12,15 @@ const mdColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Text
+     */
+    {
+      name: 'MD: Paragraph',
+      scope: 'meta.paragraph.markdown',
+      settings: tokens.markup.other
+    },
+
+    /**
      * Style
      */
     {
@@ -43,16 +52,17 @@ const mdColors: SyntaxColors = (tokens) => {
         'string.other.link.description.markdown',
         'string.other.link.title.markdown'
       ],
-      settings: tokens.markdown.linkTitle
+      settings: tokens.markdown.link.title
     },
     {
       name: 'MD: Link punctuation',
       scope: [
+        'punctuation.definition.link.markdown',
         'punctuation.definition.string.begin.markdown',
         'punctuation.definition.string.end.markdown',
         'punctuation.definition.metadata.markdown'
       ],
-      settings: tokens.markdown.linkTitle
+      settings: tokens.markdown.link.puntuaction
     },
 
     /**
@@ -71,6 +81,15 @@ const mdColors: SyntaxColors = (tokens) => {
       name: 'MD: List puntuation',
       scope: 'punctuation.definition.list.begin.markdown',
       settings: tokens.markdown.puntuaction.list
+    },
+
+    /**
+     * Separator
+     */
+    {
+      name: 'MD: Separator',
+      scope: 'meta.separator.markdown',
+      settings: tokens.markdown.puntuaction.separator
     }
   ];
 };

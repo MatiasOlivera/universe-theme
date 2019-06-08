@@ -829,6 +829,11 @@
       "settings": { "foreground": "#8A94A8" }
     },
     {
+      "name": "MD: Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": { "foreground": "#F2F2F2" }
+    },
+    {
       "name": "MD: Bold puntuation (**text**)",
       "scope": "punctuation.definition.bold.markdown",
       "settings": { "foreground": "#99B87A" }

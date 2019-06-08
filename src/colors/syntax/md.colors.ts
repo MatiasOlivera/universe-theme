@@ -12,6 +12,15 @@ const mdColors: SyntaxColors = (tokens) => {
     },
 
     /**
+     * Text
+     */
+    {
+      name: 'MD: Paragraph',
+      scope: 'meta.paragraph.markdown',
+      settings: tokens.markup.other
+    },
+
+    /**
      * Style
      */
     {

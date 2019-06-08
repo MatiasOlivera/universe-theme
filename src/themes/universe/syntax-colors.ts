@@ -405,7 +405,9 @@ export const markup: Markup = {
  */
 export const markdown: Markdown = {
   puntuaction: {
-    heading: markup.heading,
+    heading: {
+      foreground: neutral[4]
+    },
     bold: markup.bold,
     italic: markup.italic,
     quote: markup.quote,

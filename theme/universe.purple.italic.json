@@ -826,7 +826,7 @@
     {
       "name": "MD: Heading punctuation (# title)",
       "scope": "punctuation.definition.heading.markdown",
-      "settings": { "foreground": "#E6D791" }
+      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "MD: Bold puntuation (**text**)",

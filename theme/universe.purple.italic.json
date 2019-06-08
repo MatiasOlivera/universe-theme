@@ -786,7 +786,7 @@
     {
       "name": "Markup: Bold text",
       "scope": "markup.bold",
-      "settings": { "foreground": "#FFBAD1", "fontStyle": "bold" }
+      "settings": { "foreground": "#BBD99E", "fontStyle": "bold" }
     },
     {
       "name": "Markup: Italic text",
@@ -831,7 +831,7 @@
     {
       "name": "MD: Bold puntuation (**text**)",
       "scope": "punctuation.definition.bold.markdown",
-      "settings": { "foreground": "#FFBAD1", "fontStyle": "bold" }
+      "settings": { "foreground": "#99B87A" }
     },
     {
       "name": "MD: Italic puntuation (__text__)",

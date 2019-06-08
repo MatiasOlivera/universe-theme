@@ -367,7 +367,7 @@ export const markup: Markup = {
 
   // Text
   bold: {
-    foreground: pink[4],
+    foreground: green[4],
     fontStyle: 'bold'
   },
   heading: {
@@ -409,7 +409,11 @@ export const markdown: Markdown = {
     heading: {
       foreground: neutral[4]
     },
-    bold: markup.bold,
+
+    // markup.bold
+    bold: {
+      foreground: green[5]
+    },
     italic: markup.italic,
     quote: {
       foreground: neutral[4]

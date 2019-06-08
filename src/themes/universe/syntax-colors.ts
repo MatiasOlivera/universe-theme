@@ -371,7 +371,8 @@ export const markup: Markup = {
     fontStyle: 'bold'
   },
   heading: {
-    foreground: yellow[4]
+    foreground: yellow[4],
+    fontStyle: 'bold'
   },
   italic: {
     foreground: orange[4],

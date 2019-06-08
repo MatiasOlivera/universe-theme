@@ -781,7 +781,7 @@
     {
       "name": "Markup: Heading",
       "scope": "markup.heading",
-      "settings": { "foreground": "#E6D791" }
+      "settings": { "foreground": "#E6D791", "fontStyle": "bold" }
     },
     {
       "name": "Markup: Bold text",

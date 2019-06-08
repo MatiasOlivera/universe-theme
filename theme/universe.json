@@ -791,7 +791,7 @@
     {
       "name": "Markup: Italic text",
       "scope": "markup.italic",
-      "settings": { "foreground": "#F2B09A", "fontStyle": "italic" }
+      "settings": { "foreground": "#89D9D2", "fontStyle": "italic" }
     },
     {
       "name": "Markup: Underline text",
@@ -836,7 +836,7 @@
     {
       "name": "MD: Italic puntuation (__text__)",
       "scope": "punctuation.definition.italic.markdown",
-      "settings": { "foreground": "#F2B09A", "fontStyle": "italic" }
+      "settings": { "foreground": "#68B8B1" }
     },
     {
       "name": "MD: Quote puntuaction (> text)",

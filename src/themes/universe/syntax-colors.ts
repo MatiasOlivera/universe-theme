@@ -375,7 +375,7 @@ export const markup: Markup = {
     fontStyle: 'bold'
   },
   italic: {
-    foreground: orange[4],
+    foreground: teal[4],
     fontStyle: 'italic'
   },
   list: {
@@ -414,7 +414,12 @@ export const markdown: Markdown = {
     bold: {
       foreground: green[5]
     },
-    italic: markup.italic,
+
+    // markup.italic
+    italic: {
+      foreground: teal[5]
+    },
+
     quote: {
       foreground: neutral[4]
     },

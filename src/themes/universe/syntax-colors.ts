@@ -22,7 +22,7 @@ import {
   Tokens,
   Type,
   Variable,
-  Yaml,
+  Yaml
 } from '../../types/tokens-types';
 import { universePalette } from './palette';
 
@@ -262,45 +262,6 @@ export const tag: Tag = {
 };
 
 /**
- * CSS
- */
-export const css: Css = {
-  // Selectors
-  tag: tag.name,
-  id: {
-    foreground: yellow[4]
-  },
-  class: {
-    foreground: orange[4]
-  },
-  attribute: tag.attribute,
-  pseudoClass: keyword.modifier,
-  pseudoElement: keyword.modifier,
-
-  // Properties
-  property: {
-    name: object.property,
-    value: {
-      foreground: blue[4]
-    }
-  },
-
-  function: {
-    parameter: {
-      foreground: green[4]
-    }
-  },
-
-  number: {
-    foreground: orange[3]
-  },
-
-  unit: {
-    foreground: orange[4]
-  }
-};
-
-/**
  * GraphQL
  */
 export const graphql: GraphQL = {
@@ -329,6 +290,52 @@ export const html: Html = {
   },
   expressionPunctuation: {
     foreground: red[4]
+  }
+};
+
+/**
+ * CSS
+ */
+export const css: Css = {
+  // Selectors
+  tag: html.tag.name,
+  id: {
+    foreground: yellow[4]
+  },
+  class: {
+    foreground: orange[4]
+  },
+  attribute: {
+    name: html.tag.attribute,
+
+    // use same color as html.attribute.colors
+    punctuation: {
+      foreground: blue[5]
+    }
+  },
+  pseudoClass: keyword.modifier,
+  pseudoElement: keyword.modifier,
+
+  // Properties
+  property: {
+    name: object.property,
+    value: {
+      foreground: blue[4]
+    }
+  },
+
+  function: {
+    parameter: {
+      foreground: green[4]
+    }
+  },
+
+  number: {
+    foreground: orange[3]
+  },
+
+  unit: {
+    foreground: orange[4]
   }
 };
 

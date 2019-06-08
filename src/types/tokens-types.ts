@@ -121,7 +121,10 @@ export interface Css {
   tag: Settings;
   id: Settings;
   class: Settings;
-  attribute: Settings;
+  attribute: {
+    name: Settings;
+    punctuation: Settings;
+  };
   pseudoClass: Settings;
   pseudoElement: Settings;
 

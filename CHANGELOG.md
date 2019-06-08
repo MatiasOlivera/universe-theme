@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Syntax highlight
+
+#### CSS
+
+> Pull request [#48](https://github.com/MatiasOlivera/universe-theme/pull/48)
+
+#### Changed
+
+- Use blue in attribute selector punctuation
+
+#### Fixed
+
+- Use property name color (green) in media query property name
+
 ## [1.5.0] 2019-06-07
 
 ### Syntax highlight

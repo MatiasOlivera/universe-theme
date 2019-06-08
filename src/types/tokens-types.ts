@@ -182,7 +182,10 @@ export interface Markdown {
     list: Settings;
     separator: Settings;
   };
-  linkTitle: Settings;
+  link: {
+    title: Settings;
+    puntuaction: Settings;
+  };
 }
 
 // SQL

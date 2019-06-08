@@ -424,9 +424,15 @@ export const markdown: Markdown = {
       foreground: neutral[4]
     }
   },
+
   // markup.link
-  linkTitle: {
-    foreground: blue[2]
+  link: {
+    title: {
+      foreground: blue[2]
+    },
+    puntuaction: {
+      foreground: blue[5]
+    }
   }
 };
 

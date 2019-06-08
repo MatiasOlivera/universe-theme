@@ -52,16 +52,17 @@ const mdColors: SyntaxColors = (tokens) => {
         'string.other.link.description.markdown',
         'string.other.link.title.markdown'
       ],
-      settings: tokens.markdown.linkTitle
+      settings: tokens.markdown.link.title
     },
     {
       name: 'MD: Link punctuation',
       scope: [
+        'punctuation.definition.link.markdown',
         'punctuation.definition.string.begin.markdown',
         'punctuation.definition.string.end.markdown',
         'punctuation.definition.metadata.markdown'
       ],
-      settings: tokens.markdown.linkTitle
+      settings: tokens.markdown.link.puntuaction
     },
 
     /**

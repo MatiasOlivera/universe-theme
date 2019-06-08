@@ -859,11 +859,12 @@
     {
       "name": "MD: Link punctuation",
       "scope": [
+        "punctuation.definition.link.markdown",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown"
       ],
-      "settings": { "foreground": "#BFDCF9" }
+      "settings": { "foreground": "#74A0CC" }
     },
     {
       "name": "MD: Inline code",

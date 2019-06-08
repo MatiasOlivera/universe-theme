@@ -389,7 +389,7 @@ export const markup: Markup = {
     foreground: text.foreground
   },
   quote: {
-    foreground: green[4]
+    foreground: neutral[3]
   },
   raw: {
     foreground: cyan[4]
@@ -410,7 +410,9 @@ export const markdown: Markdown = {
     },
     bold: markup.bold,
     italic: markup.italic,
-    quote: markup.quote,
+    quote: {
+      foreground: neutral[4]
+    },
     list: {
       foreground: deepPurple[4]
     }

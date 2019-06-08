@@ -806,7 +806,7 @@
     {
       "name": "Markup: Quote",
       "scope": "markup.quote",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#A2AABB" }
     },
     {
       "name": "Markup: Raw text",
@@ -841,7 +841,7 @@
     {
       "name": "MD: Quote puntuaction (> text)",
       "scope": "punctuation.definition.quote.begin.markdown",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "MD: Link title",

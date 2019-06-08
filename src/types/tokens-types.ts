@@ -180,6 +180,7 @@ export interface Markdown {
     italic: Settings;
     quote: Settings;
     list: Settings;
+    separator: Settings;
   };
   linkTitle: Settings;
 }

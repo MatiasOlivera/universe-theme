@@ -419,6 +419,9 @@ export const markdown: Markdown = {
     },
     list: {
       foreground: neutral[4]
+    },
+    separator: {
+      foreground: neutral[4]
     }
   },
   // markup.link

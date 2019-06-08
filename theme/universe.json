@@ -871,6 +871,11 @@
       "settings": { "foreground": "#8A94A8" }
     },
     {
+      "name": "MD: Separator",
+      "scope": "meta.separator.markdown",
+      "settings": { "foreground": "#8A94A8" }
+    },
+    {
       "name": "Constant",
       "scope": "constant",
       "settings": { "foreground": "#92D8E6" }

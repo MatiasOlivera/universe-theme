@@ -71,6 +71,15 @@ const mdColors: SyntaxColors = (tokens) => {
       name: 'MD: List puntuation',
       scope: 'punctuation.definition.list.begin.markdown',
       settings: tokens.markdown.puntuaction.list
+    },
+
+    /**
+     * Separator
+     */
+    {
+      name: 'MD: Separator',
+      scope: 'meta.separator.markdown',
+      settings: tokens.markdown.puntuaction.separator
     }
   ];
 };

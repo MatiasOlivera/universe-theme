@@ -21,6 +21,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Use property name color (green) in media query property name
 
+#### Markdown
+
+> Pull request [#49](https://github.com/MatiasOlivera/universe-theme/pull/49)
+
+#### Changed
+
+- Use yellow and bold in headings
+- Use neutral in heading punctuation, list punctuation, and separators
+- Use green in bold text
+- Use teal in italic text
+- Use blue in the code blocks
+- Use text color in paragraphs
+
+#### Fixed
+
+- Use lighter blue in the link titles
+- Use darker blue in link punctuation
+
 ## [1.5.0] 2019-06-07
 
 ### Syntax highlight

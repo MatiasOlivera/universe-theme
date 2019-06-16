@@ -62,7 +62,8 @@ const ymlColors: SyntaxColors = (tokens) => {
       name: 'Other operators',
       scope: [
         'keyword.control.flow.block-scalar.literal.yaml',
-        'keyword.control.flow.block-scalar.folded.yaml'
+        'keyword.control.flow.block-scalar.folded.yaml',
+        'meta.block-mapping.yaml'
       ],
       settings: tokens.keyword.operator
     }

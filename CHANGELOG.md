@@ -13,11 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Pull request [#48](https://github.com/MatiasOlivera/universe-theme/pull/48)
 
-#### Changed
+##### Changed
 
 - Use blue in attribute selector punctuation
 
-#### Fixed
+##### Fixed
 
 - Use property name color (green) in media query property name
 
@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Pull request [#49](https://github.com/MatiasOlivera/universe-theme/pull/49)
 
-#### Changed
+##### Changed
 
 - Use yellow and bold in headings
 - Use neutral in heading punctuation, list punctuation, and separators
@@ -34,10 +34,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use blue in the code blocks
 - Use text color in paragraphs
 
-#### Fixed
+##### Fixed
 
 - Use lighter blue in the link titles
 - Use darker blue in link punctuation
+
+#### YAML
+
+> Pull request [#50](https://github.com/MatiasOlivera/universe-theme/pull/50)
+
+##### Added
+
+- Use yellow in document puntuaction
+- Use deep purple in block mapping puntuaction
+
+##### Changed
+
+- Use deep purple in directives
+- Use neutral color in sequence item punctuation
+- Use deep purple in merge keys
+
+##### Fixed
+
+- Use variable color (pink) in anchors
 
 ## [1.5.0] 2019-06-07
 

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### UI
+
+#### Added
+
+- Add color for unfocused active background. [Fixes #50](https://github.com/MatiasOlivera/universe-theme/issues/50)
+
 ### Syntax highlight
 
 #### CSS

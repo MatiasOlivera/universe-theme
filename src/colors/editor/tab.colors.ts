@@ -16,6 +16,9 @@ const tabColors: UIColors = (palette) => {
       // Active Tab background color.
       activeBackground: background[5],
 
+      // Background color of the active tab in an editor group that does not have focus
+      unfocusedActiveBackground: background[5],
+
       // Inactive Tab background color.
       inactiveBackground: background[6],
 

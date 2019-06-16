@@ -1013,6 +1013,11 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
+      "name": "YAML: Directive puntuaction",
+      "scope": "punctuation.definition.directive.begin.yaml",
+      "settings": { "foreground": "#987AD6" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }

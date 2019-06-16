@@ -451,6 +451,12 @@ export const yaml: Yaml = {
     foreground: yellow[4]
   },
 
+  directive: {
+    puntuaction: {
+      foreground: deepPurple[5]
+    }
+  },
+
   constant: {
     foreground: deepPurple[4]
   }

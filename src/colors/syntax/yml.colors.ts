@@ -11,6 +11,12 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.document
     },
 
+    {
+      name: 'YAML: Directive puntuaction',
+      scope: 'punctuation.definition.directive.begin.yaml',
+      settings: tokens.yaml.directive.puntuaction
+    },
+
     /**
      * Properties
      */

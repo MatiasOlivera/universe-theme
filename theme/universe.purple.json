@@ -1005,6 +1005,42 @@
       "settings": { "foreground": "#FFA2A2" }
     },
     {
+      "name": "YAML: Document",
+      "scope": [
+        "entity.other.document.begin.yaml",
+        "entity.other.document.end.yaml"
+      ],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
+      "name": "YAML: Directive puntuaction",
+      "scope": "punctuation.definition.directive.begin.yaml",
+      "settings": { "foreground": "#987AD6" }
+    },
+    {
+      "name": "YAML: Anchor name",
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "YAML: Anchor puntuaction",
+      "scope": [
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": { "foreground": "#D68EA6" }
+    },
+    {
+      "name": "YAML: Sequence item punctuation",
+      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "settings": { "foreground": "#8A94A8" }
+    },
+    {
+      "name": "YAML: Merge key",
+      "scope": "constant.language.merge.yaml",
+      "settings": { "foreground": "#C1A2FF" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }
@@ -1021,7 +1057,8 @@
       "name": "Other operators",
       "scope": [
         "keyword.control.flow.block-scalar.literal.yaml",
-        "keyword.control.flow.block-scalar.folded.yaml"
+        "keyword.control.flow.block-scalar.folded.yaml",
+        "meta.block-mapping.yaml"
       ],
       "settings": { "foreground": "#C1A2FF" }
     }

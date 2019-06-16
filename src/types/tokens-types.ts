@@ -195,6 +195,17 @@ export interface Sql {
 
 // YAML
 export interface Yaml {
+  document: Settings;
+  directive: {
+    puntuaction: Settings;
+  };
+  anchor: {
+    name: Settings;
+    puntuaction: Settings;
+  };
+  sequence: {
+    puntuaction: Settings;
+  };
   constant: Settings;
 }
 

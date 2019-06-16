@@ -1,3 +1,7 @@
+# Directives
+%YAML 1.2 # YAML version of the document
+%TAG !foo! tag:example.com,2015:app/ # tag shorthand
+
 # https://learnxinyminutes.com/docs/yaml/
 --- # document start
 

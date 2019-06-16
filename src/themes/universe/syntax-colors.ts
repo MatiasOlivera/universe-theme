@@ -447,6 +447,29 @@ export const sql: Sql = {
  * YAML
  */
 export const yaml: Yaml = {
+  document: {
+    foreground: yellow[4]
+  },
+
+  directive: {
+    puntuaction: {
+      foreground: deepPurple[5]
+    }
+  },
+
+  anchor: {
+    name: variable.default,
+    puntuaction: {
+      foreground: pink[5]
+    }
+  },
+
+  sequence: {
+    puntuaction: {
+      foreground: neutral[4]
+    }
+  },
+
   constant: {
     foreground: deepPurple[4]
   }

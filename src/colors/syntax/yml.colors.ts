@@ -37,6 +37,12 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.sequence.puntuaction
     },
 
+    {
+      name: 'YAML: Merge key',
+      scope: 'constant.language.merge.yaml',
+      settings: tokens.keyword.operator
+    },
+
     /**
      * Properties
      */

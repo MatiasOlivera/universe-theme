@@ -1036,6 +1036,11 @@
       "settings": { "foreground": "#8A94A8" }
     },
     {
+      "name": "YAML: Merge key",
+      "scope": "constant.language.merge.yaml",
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }

@@ -2,6 +2,15 @@ import { SyntaxColors } from '../../types/colors-types';
 
 const ymlColors: SyntaxColors = (tokens) => {
   return [
+    {
+      name: 'YAML: Document',
+      scope: [
+        'entity.other.document.begin.yaml',
+        'entity.other.document.end.yaml'
+      ],
+      settings: tokens.yaml.document
+    },
+
     /**
      * Properties
      */

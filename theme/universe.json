@@ -1005,6 +1005,14 @@
       "settings": { "foreground": "#FFA2A2" }
     },
     {
+      "name": "YAML: Document",
+      "scope": [
+        "entity.other.document.begin.yaml",
+        "entity.other.document.end.yaml"
+      ],
+      "settings": { "foreground": "#E6D791" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }

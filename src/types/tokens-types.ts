@@ -195,6 +195,7 @@ export interface Sql {
 
 // YAML
 export interface Yaml {
+  document: Settings;
   constant: Settings;
 }
 

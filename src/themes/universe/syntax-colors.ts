@@ -447,6 +447,10 @@ export const sql: Sql = {
  * YAML
  */
 export const yaml: Yaml = {
+  document: {
+    foreground: yellow[4]
+  },
+
   constant: {
     foreground: deepPurple[4]
   }

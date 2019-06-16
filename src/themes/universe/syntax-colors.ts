@@ -464,6 +464,12 @@ export const yaml: Yaml = {
     }
   },
 
+  sequence: {
+    puntuaction: {
+      foreground: neutral[4]
+    }
+  },
+
   constant: {
     foreground: deepPurple[4]
   }

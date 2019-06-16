@@ -1031,6 +1031,11 @@
       "settings": { "foreground": "#D68EA6" }
     },
     {
+      "name": "YAML: Sequence item punctuation",
+      "scope": "punctuation.definition.block.sequence.item.yaml",
+      "settings": { "foreground": "#8A94A8" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }

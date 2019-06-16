@@ -203,6 +203,9 @@ export interface Yaml {
     name: Settings;
     puntuaction: Settings;
   };
+  sequence: {
+    puntuaction: Settings;
+  };
   constant: Settings;
 }
 

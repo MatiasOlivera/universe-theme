@@ -31,6 +31,12 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.anchor.puntuaction
     },
 
+    {
+      name: 'YAML: Sequence item punctuation',
+      scope: 'punctuation.definition.block.sequence.item.yaml',
+      settings: tokens.yaml.sequence.puntuaction
+    },
+
     /**
      * Properties
      */

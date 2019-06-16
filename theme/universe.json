@@ -1018,6 +1018,19 @@
       "settings": { "foreground": "#987AD6" }
     },
     {
+      "name": "YAML: Anchor name",
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
+      "settings": { "foreground": "#FFBAD1" }
+    },
+    {
+      "name": "YAML: Anchor puntuaction",
+      "scope": [
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": { "foreground": "#D68EA6" }
+    },
+    {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
       "settings": { "foreground": "#92D8E6" }

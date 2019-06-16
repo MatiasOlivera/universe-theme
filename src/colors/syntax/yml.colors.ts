@@ -17,6 +17,20 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.directive.puntuaction
     },
 
+    {
+      name: 'YAML: Anchor name',
+      scope: ['entity.name.type.anchor.yaml', 'variable.other.alias.yaml'],
+      settings: tokens.yaml.anchor.name
+    },
+    {
+      name: 'YAML: Anchor puntuaction',
+      scope: [
+        'punctuation.definition.anchor.yaml',
+        'punctuation.definition.alias.yaml'
+      ],
+      settings: tokens.yaml.anchor.puntuaction
+    },
+
     /**
      * Properties
      */

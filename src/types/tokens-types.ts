@@ -199,6 +199,10 @@ export interface Yaml {
   directive: {
     puntuaction: Settings;
   };
+  anchor: {
+    name: Settings;
+    puntuaction: Settings;
+  };
   constant: Settings;
 }
 

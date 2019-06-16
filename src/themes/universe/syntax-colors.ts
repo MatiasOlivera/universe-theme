@@ -457,6 +457,13 @@ export const yaml: Yaml = {
     }
   },
 
+  anchor: {
+    name: variable.default,
+    puntuaction: {
+      foreground: pink[5]
+    }
+  },
+
   constant: {
     foreground: deepPurple[4]
   }

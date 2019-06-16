@@ -84,6 +84,7 @@
     "editorGroupHeader.tabsBorder": "#0E1729",
     "editorPane.background": "#0E1729",
     "tab.activeBackground": "#0E1729",
+    "tab.unfocusedActiveBackground": "#0E1729",
     "tab.inactiveBackground": "#0A1222",
     "tab.border": "#070E1B",
     "tab.hoverBackground": "#121C30",

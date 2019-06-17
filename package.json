@@ -2,7 +2,7 @@
   "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#0E1729",

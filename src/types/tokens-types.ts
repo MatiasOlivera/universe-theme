@@ -121,7 +121,10 @@ export interface Css {
   tag: Settings;
   id: Settings;
   class: Settings;
-  attribute: Settings;
+  attribute: {
+    name: Settings;
+    punctuation: Settings;
+  };
   pseudoClass: Settings;
   pseudoElement: Settings;
 
@@ -177,8 +180,12 @@ export interface Markdown {
     italic: Settings;
     quote: Settings;
     list: Settings;
+    separator: Settings;
   };
-  linkTitle: Settings;
+  link: {
+    title: Settings;
+    puntuaction: Settings;
+  };
 }
 
 // SQL
@@ -188,6 +195,17 @@ export interface Sql {
 
 // YAML
 export interface Yaml {
+  document: Settings;
+  directive: {
+    puntuaction: Settings;
+  };
+  anchor: {
+    name: Settings;
+    puntuaction: Settings;
+  };
+  sequence: {
+    puntuaction: Settings;
+  };
   constant: Settings;
 }
 

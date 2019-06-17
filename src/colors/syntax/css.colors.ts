@@ -23,7 +23,15 @@ const cssColors: SyntaxColors = (tokens) => {
     {
       name: 'Attribute name',
       scope: 'entity.other.attribute-name.css',
-      settings: tokens.css.attribute
+      settings: tokens.css.attribute.name
+    },
+    {
+      name: 'Attribute punctuation. []',
+      scope: [
+        'punctuation.definition.entity.begin.bracket.square.css',
+        'punctuation.definition.entity.end.bracket.square.css'
+      ],
+      settings: tokens.css.attribute.punctuation
     },
     {
       name: 'Pseudo-class',
@@ -41,7 +49,10 @@ const cssColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Property name',
-      scope: 'support.type.property-name.css',
+      scope: [
+        'support.type.property-name.css',
+        'support.type.property-name.media.css'
+      ],
       settings: tokens.css.property.name
     },
     {

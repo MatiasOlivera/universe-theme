@@ -38,6 +38,19 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 4. Select **Universe** in the quick picker (or click on **Set color theme**)
 5. Happy coding!
 
+## 🚫 Wrong syntax highlighting
+
+If you are using VS Code `v1.43.0`, you may have notice that the syntax highlighting is different than previous versions and what is shown here.
+
+In the last update a feature called [Typescript Semantic Hightlighting](https://code.visualstudio.com/updates/v1_43#_typescript-semantic-highlighting) was introduced, which is turned on by default and is what caused the syntax highlighting problems, not only in this color theme but in all existing themes.
+
+A temporary workaround is to add this custom setting:
+```
+  "editor.semanticHighlighting.enabled": false
+```
+
+[See issue: microsoft/vscode](https://github.com/microsoft/vscode/issues/92308)
+
 ## ☄️ Support
 
 | Description  | Extensions          | Support |

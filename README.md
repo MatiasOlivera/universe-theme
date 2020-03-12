@@ -38,7 +38,7 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 4. Select **Universe** in the quick picker (or click on **Set color theme**)
 5. Happy coding!
 
-## 🚫 Wrong syntax highlighting
+## 🚫 Different syntax highlighting
 
 If you are using VS Code `v1.43.0`, you may have notice that the syntax highlighting is different than previous versions and what is shown here.
 

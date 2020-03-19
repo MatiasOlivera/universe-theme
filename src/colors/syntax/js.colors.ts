@@ -30,14 +30,6 @@ const jsColors: SyntaxColors = (tokens) => {
       settings: tokens.class.library
     },
     {
-      name: 'Javascript: Template expression punctuation',
-      scope: [
-        'punctuation.definition.template-expression.begin.js',
-        'punctuation.definition.template-expression.end.js'
-      ],
-      settings: tokens.punctuation.embedded
-    },
-    {
       name: 'Arrow function. =>',
       scope: 'storage.type.function.arrow.js',
       settings: tokens.javascript.arrowFunction
@@ -65,6 +57,11 @@ const jsColors: SyntaxColors = (tokens) => {
         'keyword.operator.instanceof.js'
       ],
       settings: tokens.keyword.other
+    },
+    {
+      name: 'Javascript: Punctuation marks',
+      scope: 'meta.brace',
+      settings: tokens.punctuation.default
     }
   ];
 };

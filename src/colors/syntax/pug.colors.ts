@@ -59,7 +59,7 @@ const pugColors: SyntaxColors = (tokens) => {
     {
       name: 'Pug: String interpolation punctuation',
       scope: 'string.interpolated.pug',
-      settings: tokens.punctuation.embedded
+      settings: tokens.punctuation.default
     },
     {
       name: 'Text',

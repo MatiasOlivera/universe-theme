@@ -189,21 +189,21 @@ const commonColors: SyntaxColors = (tokens) => {
       scope: 'entity.name.tag',
       settings: tokens.tag.name
     },
-    {
-      name: 'Tag angle brackets',
-      scope: [
-        'punctuation.definition.tag.begin',
-        'punctuation.definition.tag.end'
-      ],
-      settings: tokens.tag.punctuation
-    },
+    { 
+      name: 'Tag angle brackets', 
+      scope: [ 
+        'punctuation.definition.tag.begin', 
+        'punctuation.definition.tag.end' 
+      ], 
+      settings: tokens.tag.punctuation 
+    }, 
 
     /**
      * Comments
      */
     {
       name: 'Comment',
-      scope: 'comment',
+      scope: ['comment', 'punctuation.definition.comment'],
       settings: tokens.comment
     },
 
@@ -222,17 +222,12 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
-     * Punctuation
+     * Punctuation marks
      */
     {
-      name: 'Symbols',
+      name: 'Punctuation marks',
       scope: 'punctuation',
       settings: tokens.punctuation.default
-    },
-    {
-      name: 'Punctuation for embedded section (eg: interpolated strings)',
-      scope: 'punctuation.section.embedded',
-      settings: tokens.punctuation.embedded
     }
   ];
 };

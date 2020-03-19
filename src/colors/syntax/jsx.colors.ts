@@ -3,11 +3,6 @@ import { SyntaxColors } from '../../types/colors-types';
 const jsxColors: SyntaxColors = (tokens) => {
   return [
     {
-      name: 'JSX: Tag angle brackets',
-      scope: 'punctuation.definition.tag.jsx',
-      settings: tokens.tag.punctuation
-    },
-    {
       name: 'JSX: Component tag',
       scope: [
         'support.class.component.js.jsx',
@@ -35,26 +30,6 @@ const jsxColors: SyntaxColors = (tokens) => {
     {
       name: 'JSX: Text',
       scope: ['meta.jsx.children.js.jsx', 'JSXNested', 'meta.jsx.children.tsx'],
-      settings: tokens.text
-    },
-    {
-      name: 'JSX: Expression punctuation',
-      scope: [
-        // {
-        'punctuation.section.embedded.begin.js.jsx',
-        'punctuation.section.embedded.begin.jsx',
-        'punctuation.section.embedded.begin.tsx',
-
-        // }
-        'punctuation.section.embedded.end.js.jsx',
-        'punctuation.section.embedded.end.jsx',
-        'punctuation.section.embedded.end.tsx'
-      ],
-      settings: tokens.html.expressionPunctuation
-    },
-    {
-      name: 'JSX: Punctuation',
-      scope: ['meta.brace.curly.js', 'meta.brace.round.js'],
       settings: tokens.text
     }
   ];

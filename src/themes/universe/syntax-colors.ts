@@ -79,9 +79,6 @@ export const type: Type = {
   },
   library: {
     foreground: typeForeground
-  },
-  punctuation: {
-    foreground: cyan[5]
   }
 };
 
@@ -195,14 +192,12 @@ export const text: Settings = {
 };
 
 /**
- * Punctuation
+ * Punctuation marks
  */
 export const punctuation: Punctuation = {
   default: {
-    fontStyle: '' // Inherit the element color
-  },
-  embedded: {
-    foreground: deepPurple[4]
+    foreground: neutral[4],
+    fontStyle: 'normal'
   }
 };
 
@@ -237,9 +232,6 @@ export const config: Config = {
   },
   value: {
     foreground: pink[4]
-  },
-  separator: {
-    foreground: neutral[0]
   }
 };
 
@@ -250,14 +242,14 @@ export const tag: Tag = {
   name: {
     foreground: cyan[4]
   },
-  punctuation: {
-    foreground: cyan[5]
-  },
   attribute: {
     foreground: blue[4]
   },
   value: {
     foreground: green[4]
+  },
+  punctuation: {
+    foreground: cyan[5]
   }
 };
 
@@ -280,15 +272,9 @@ export const html: Html = {
   component: {
     tag: {
       foreground: orange[4]
-    },
-    punctuation: {
-      foreground: orange[5]
     }
   },
   directive: {
-    foreground: red[4]
-  },
-  expressionPunctuation: {
     foreground: red[4]
   }
 };
@@ -306,12 +292,7 @@ export const css: Css = {
     foreground: orange[4]
   },
   attribute: {
-    name: html.tag.attribute,
-
-    // use same color as html.attribute.colors
-    punctuation: {
-      foreground: blue[5]
-    }
+    name: html.tag.attribute
   },
   pseudoClass: keyword.modifier,
   pseudoElement: keyword.modifier,
@@ -399,39 +380,10 @@ export const markup: Markup = {
  * Markdown
  */
 export const markdown: Markdown = {
-  punctuation: {
-    heading: {
-      foreground: neutral[4]
-    },
-
-    // markup.bold
-    bold: {
-      foreground: green[5]
-    },
-
-    // markup.italic
-    italic: {
-      foreground: teal[5]
-    },
-
-    quote: {
-      foreground: neutral[4]
-    },
-    list: {
-      foreground: neutral[4]
-    },
-    separator: {
-      foreground: neutral[4]
-    }
-  },
-
   // markup.link
   link: {
     title: {
       foreground: blue[2]
-    },
-    punctuation: {
-      foreground: blue[5]
     }
   }
 };
@@ -451,23 +403,8 @@ export const yaml: Yaml = {
     foreground: yellow[4]
   },
 
-  directive: {
-    punctuation: {
-      foreground: deepPurple[5]
-    }
-  },
-
   anchor: {
-    name: variable.default,
-    punctuation: {
-      foreground: pink[5]
-    }
-  },
-
-  sequence: {
-    punctuation: {
-      foreground: neutral[4]
-    }
+    name: variable.default
   },
 
   constant: {

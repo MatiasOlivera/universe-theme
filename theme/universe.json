@@ -845,7 +845,7 @@
       "settings": { "foreground": "#68B8B1" }
     },
     {
-      "name": "MD: Quote puntuaction (> text)",
+      "name": "MD: Quote punctuation (> text)",
       "scope": "punctuation.definition.quote.begin.markdown",
       "settings": { "foreground": "#8A94A8" }
     },
@@ -918,7 +918,7 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
-      "name": "Pug: String interpolation punctuaction",
+      "name": "Pug: String interpolation punctuation",
       "scope": "string.interpolated.pug",
       "settings": { "foreground": "#C1A2FF" }
     },
@@ -1014,7 +1014,7 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
-      "name": "YAML: Directive puntuaction",
+      "name": "YAML: Directive punctuation",
       "scope": "punctuation.definition.directive.begin.yaml",
       "settings": { "foreground": "#987AD6" }
     },
@@ -1024,7 +1024,7 @@
       "settings": { "foreground": "#FFBAD1" }
     },
     {
-      "name": "YAML: Anchor puntuaction",
+      "name": "YAML: Anchor punctuation",
       "scope": [
         "punctuation.definition.anchor.yaml",
         "punctuation.definition.alias.yaml"

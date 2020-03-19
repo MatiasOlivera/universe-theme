@@ -227,12 +227,12 @@ const commonColors: SyntaxColors = (tokens) => {
     {
       name: 'Symbols',
       scope: 'punctuation',
-      settings: tokens.puntuaction.default
+      settings: tokens.punctuation.default
     },
     {
       name: 'Punctuation for embedded section (eg: interpolated strings)',
       scope: 'punctuation.section.embedded',
-      settings: tokens.puntuaction.embedded
+      settings: tokens.punctuation.embedded
     }
   ];
 };

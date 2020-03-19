@@ -12,9 +12,9 @@ const ymlColors: SyntaxColors = (tokens) => {
     },
 
     {
-      name: 'YAML: Directive puntuaction',
+      name: 'YAML: Directive punctuation',
       scope: 'punctuation.definition.directive.begin.yaml',
-      settings: tokens.yaml.directive.puntuaction
+      settings: tokens.yaml.directive.punctuation
     },
 
     {
@@ -23,18 +23,18 @@ const ymlColors: SyntaxColors = (tokens) => {
       settings: tokens.yaml.anchor.name
     },
     {
-      name: 'YAML: Anchor puntuaction',
+      name: 'YAML: Anchor punctuation',
       scope: [
         'punctuation.definition.anchor.yaml',
         'punctuation.definition.alias.yaml'
       ],
-      settings: tokens.yaml.anchor.puntuaction
+      settings: tokens.yaml.anchor.punctuation
     },
 
     {
       name: 'YAML: Sequence item punctuation',
       scope: 'punctuation.definition.block.sequence.item.yaml',
-      settings: tokens.yaml.sequence.puntuaction
+      settings: tokens.yaml.sequence.punctuation
     },
 
     {

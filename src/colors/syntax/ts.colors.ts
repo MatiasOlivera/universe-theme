@@ -51,7 +51,7 @@ const tsColors: SyntaxColors = (tokens) => {
         'punctuation.definition.template-expression.begin.ts',
         'punctuation.definition.template-expression.end.ts'
       ],
-      settings: tokens.puntuaction.embedded
+      settings: tokens.punctuation.embedded
     },
     {
       name: 'Arrow function. =>',

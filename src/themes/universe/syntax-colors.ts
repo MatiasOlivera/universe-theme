@@ -14,7 +14,7 @@ import {
   Markup,
   ModuleType,
   ObjectType,
-  Puntuaction,
+  Punctuation,
   Section,
   Settings,
   Sql,
@@ -195,9 +195,9 @@ export const text: Settings = {
 };
 
 /**
- * Puntuaction
+ * Punctuation
  */
-export const puntuaction: Puntuaction = {
+export const punctuation: Punctuation = {
   default: {
     fontStyle: '' // Inherit the element color
   },
@@ -399,7 +399,7 @@ export const markup: Markup = {
  * Markdown
  */
 export const markdown: Markdown = {
-  puntuaction: {
+  punctuation: {
     heading: {
       foreground: neutral[4]
     },
@@ -430,7 +430,7 @@ export const markdown: Markdown = {
     title: {
       foreground: blue[2]
     },
-    puntuaction: {
+    punctuation: {
       foreground: blue[5]
     }
   }
@@ -452,20 +452,20 @@ export const yaml: Yaml = {
   },
 
   directive: {
-    puntuaction: {
+    punctuation: {
       foreground: deepPurple[5]
     }
   },
 
   anchor: {
     name: variable.default,
-    puntuaction: {
+    punctuation: {
       foreground: pink[5]
     }
   },
 
   sequence: {
-    puntuaction: {
+    punctuation: {
       foreground: neutral[4]
     }
   },
@@ -486,7 +486,7 @@ export const tokens: Tokens = {
   module: moduleType,
   section,
   text,
-  puntuaction,
+  punctuation,
   invalid,
   comment,
   config,

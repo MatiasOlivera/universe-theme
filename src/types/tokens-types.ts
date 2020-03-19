@@ -95,8 +95,8 @@ export interface Markup {
   other: Settings;
 }
 
-// Puntuaction
-export interface Puntuaction {
+// Punctuation
+export interface Punctuation {
   default: Settings;
   embedded: Settings;
 }
@@ -174,7 +174,7 @@ export interface Json {
 
 // Markdown
 export interface Markdown {
-  puntuaction: {
+  punctuation: {
     heading: Settings;
     bold: Settings;
     italic: Settings;
@@ -184,7 +184,7 @@ export interface Markdown {
   };
   link: {
     title: Settings;
-    puntuaction: Settings;
+    punctuation: Settings;
   };
 }
 
@@ -197,14 +197,14 @@ export interface Sql {
 export interface Yaml {
   document: Settings;
   directive: {
-    puntuaction: Settings;
+    punctuation: Settings;
   };
   anchor: {
     name: Settings;
-    puntuaction: Settings;
+    punctuation: Settings;
   };
   sequence: {
-    puntuaction: Settings;
+    punctuation: Settings;
   };
   constant: Settings;
 }
@@ -222,7 +222,7 @@ export interface Tokens {
   text: Settings;
   tag: Tag;
   markup: Markup;
-  puntuaction: Puntuaction;
+  punctuation: Punctuation;
   invalid: Invalid;
   comment: Settings;
   config: Config;

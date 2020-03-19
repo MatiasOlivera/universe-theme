@@ -35,7 +35,7 @@ const jsColors: SyntaxColors = (tokens) => {
         'punctuation.definition.template-expression.begin.js',
         'punctuation.definition.template-expression.end.js'
       ],
-      settings: tokens.puntuaction.embedded
+      settings: tokens.punctuation.embedded
     },
     {
       name: 'Arrow function. =>',

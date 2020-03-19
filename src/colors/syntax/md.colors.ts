@@ -8,7 +8,7 @@ const mdColors: SyntaxColors = (tokens) => {
     {
       name: 'MD: Heading punctuation (# title)',
       scope: 'punctuation.definition.heading.markdown',
-      settings: tokens.markdown.puntuaction.heading
+      settings: tokens.markdown.punctuation.heading
     },
 
     /**
@@ -26,21 +26,21 @@ const mdColors: SyntaxColors = (tokens) => {
     {
       name: 'MD: Bold puntuation (**text**)',
       scope: 'punctuation.definition.bold.markdown',
-      settings: tokens.markdown.puntuaction.bold
+      settings: tokens.markdown.punctuation.bold
     },
     {
       name: 'MD: Italic puntuation (__text__)',
       scope: 'punctuation.definition.italic.markdown',
-      settings: tokens.markdown.puntuaction.italic
+      settings: tokens.markdown.punctuation.italic
     },
 
     /**
      * Quote
      */
     {
-      name: 'MD: Quote puntuaction (> text)',
+      name: 'MD: Quote punctuation (> text)',
       scope: 'punctuation.definition.quote.begin.markdown',
-      settings: tokens.markdown.puntuaction.quote
+      settings: tokens.markdown.punctuation.quote
     },
 
     /**
@@ -62,7 +62,7 @@ const mdColors: SyntaxColors = (tokens) => {
         'punctuation.definition.string.end.markdown',
         'punctuation.definition.metadata.markdown'
       ],
-      settings: tokens.markdown.link.puntuaction
+      settings: tokens.markdown.link.punctuation
     },
 
     /**
@@ -80,7 +80,7 @@ const mdColors: SyntaxColors = (tokens) => {
     {
       name: 'MD: List puntuation',
       scope: 'punctuation.definition.list.begin.markdown',
-      settings: tokens.markdown.puntuaction.list
+      settings: tokens.markdown.punctuation.list
     },
 
     /**
@@ -89,7 +89,7 @@ const mdColors: SyntaxColors = (tokens) => {
     {
       name: 'MD: Separator',
       scope: 'meta.separator.markdown',
-      settings: tokens.markdown.puntuaction.separator
+      settings: tokens.markdown.punctuation.separator
     }
   ];
 };

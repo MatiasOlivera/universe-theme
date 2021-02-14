@@ -188,7 +188,7 @@ export const section: Section = {
  * Text
  */
 export const text: Settings = {
-  foreground: neutral[0]
+  foreground: neutral[1]
 };
 
 /**

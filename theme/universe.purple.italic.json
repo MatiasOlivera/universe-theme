@@ -621,7 +621,7 @@
     {
       "name": "Text",
       "scope": "text.html.derivative",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Component tag",
@@ -717,7 +717,7 @@
         "JSXNested",
         "meta.jsx.children.tsx"
       ],
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Markup: Heading",
@@ -757,17 +757,17 @@
     {
       "name": "Markup: Numbered list items",
       "scope": "markup.list.numbered",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Markup: Unnumbered list items",
       "scope": "markup.list.unnumbered",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "MD: Paragraph",
       "scope": "meta.paragraph.markdown",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "MD: Link title",
@@ -825,7 +825,7 @@
     {
       "name": "Text",
       "scope": "text.pug",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Pug: Comment",

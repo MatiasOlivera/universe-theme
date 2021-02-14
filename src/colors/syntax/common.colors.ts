@@ -64,13 +64,8 @@ const commonColors: SyntaxColors = (tokens) => {
      * Objects
      */
     {
-      name: 'Access to object property',
-      scope: 'variable.other.property',
-      settings: tokens.variable.default
-    },
-    {
       name: 'Object property',
-      scope: ['meta.object-literal.key', 'variable.object.property'],
+      scope: ['meta.object-literal.key', 'variable.object.property', 'variable.other.property'],
       settings: tokens.object.property
     },
 

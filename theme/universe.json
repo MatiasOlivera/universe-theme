@@ -362,6 +362,7 @@
       "scope": [
         "meta.object-literal.key",
         "variable.object.property",
+        "support.variable.property",
         "variable.other.property"
       ],
       "settings": { "foreground": "#BBC1CD" }

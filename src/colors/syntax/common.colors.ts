@@ -65,7 +65,12 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Object property',
-      scope: ['meta.object-literal.key', 'variable.object.property', 'variable.other.property'],
+      scope: [
+        'meta.object-literal.key',
+        'variable.object.property',
+        'support.variable.property',
+        'variable.other.property'
+      ],
       settings: tokens.object.property
     },
 
@@ -184,14 +189,14 @@ const commonColors: SyntaxColors = (tokens) => {
       scope: 'entity.name.tag',
       settings: tokens.tag.name
     },
-    { 
-      name: 'Tag angle brackets', 
-      scope: [ 
-        'punctuation.definition.tag.begin', 
-        'punctuation.definition.tag.end' 
-      ], 
-      settings: tokens.tag.punctuation 
-    }, 
+    {
+      name: 'Tag angle brackets',
+      scope: [
+        'punctuation.definition.tag.begin',
+        'punctuation.definition.tag.end'
+      ],
+      settings: tokens.tag.punctuation
+    },
 
     /**
      * Comments

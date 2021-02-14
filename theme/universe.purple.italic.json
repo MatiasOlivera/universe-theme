@@ -364,7 +364,7 @@
         "variable.object.property",
         "variable.other.property"
       ],
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Function definition",
@@ -541,12 +541,12 @@
         "support.type.property-name.css",
         "support.type.property-name.media.css"
       ],
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Vendor property name",
       "scope": "support.type.vendored.property-name.css",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Property value",
@@ -576,12 +576,12 @@
     {
       "name": "GraphQL: Object property",
       "scope": "meta.type.object.graphql variable.graphql",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "GraphQL: Selection set property",
       "scope": "meta.selectionset.graphql variable.graphql",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "GraphQL: Fragment",
@@ -636,7 +636,7 @@
     {
       "name": "Object property",
       "scope": "string.unquoted.js",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Javascript: Language variables",
@@ -863,7 +863,7 @@
     {
       "name": "Typescript: Enum member",
       "scope": "variable.other.enummember.ts",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Arrow function. =>",

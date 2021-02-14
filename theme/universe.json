@@ -818,8 +818,12 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
-      "name": "Pug: String interpolation punctuation",
-      "scope": "string.interpolated.pug",
+      "name": "Pug: Punctuation",
+      "scope": [
+        "string.interpolated.pug",
+        "constant.name.attribute.tag.pug",
+        "meta.tag.other attribute_value"
+      ],
       "settings": { "foreground": "#8A94A8", "fontStyle": "normal" }
     },
     {

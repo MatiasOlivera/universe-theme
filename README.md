@@ -79,14 +79,6 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 ![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.png?raw=true)
 
-#### Search
-
-![Search](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/search.png?raw=true)
-
-#### Notifications
-
-![Notifications](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/notifications.png?raw=true)
-
 #### Settings
 
 ![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.png?raw=true)

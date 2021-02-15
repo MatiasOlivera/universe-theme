@@ -92,9 +92,7 @@ If you want support for another `language` / `library` / `framework`, please ope
 ![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.png?raw=true)
 
 #### GraphQL
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-1.png?raw=true)
-
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-2.png?raw=true)
+![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql.png?raw=true)
 
 #### HTML
 ![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.png?raw=true)

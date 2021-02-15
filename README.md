@@ -10,9 +10,9 @@
   [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
   ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=0E1729&color=1B273E)
 
-  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.png?raw=true)
+  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.jpg?raw=true)
   
-  ![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.png?raw=true)
+  ![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.jpg?raw=true)
 
   *Universe includes normal and italic variants.*
 
@@ -37,19 +37,6 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 3. Click **Install** to install it.
 4. Select **Universe** in the quick picker (or click on **Set color theme**)
 5. Happy coding!
-
-## 🚫 Different syntax highlighting
-
-If you are using VS Code `v1.43.0`, you may have notice that the syntax highlighting is different than previous versions and what is shown here.
-
-In the last update a feature called [Typescript Semantic Hightlighting](https://code.visualstudio.com/updates/v1_43#_typescript-semantic-highlighting) was introduced, which is turned on by default and is what caused the syntax highlighting changes, not only in this color theme but in all existing themes.
-
-A temporary workaround is to add this custom setting:
-```
-  "editor.semanticHighlighting.enabled": false
-```
-
-[See issue: microsoft/vscode](https://github.com/microsoft/vscode/issues/92308)
 
 ## ☄️ Support
 
@@ -77,60 +64,50 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 #### Folder
 
-![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.png?raw=true)
-
-#### Search
-
-![Search](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/search.png?raw=true)
-
-#### Notifications
-
-![Notifications](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/notifications.png?raw=true)
+![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.jpg?raw=true)
 
 #### Settings
 
-![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.png?raw=true)
+![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.jpg?raw=true)
 
 ### Syntax highlight
 
 #### CSS
-![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.png?raw=true)
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.jpg?raw=true)
 
 #### Elixir
-![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.png?raw=true)
+![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.jpg?raw=true)
 
 #### GraphQL
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-1.png?raw=true)
-
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql-2.png?raw=true)
+![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql.jpg?raw=true)
 
 #### HTML
-![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.png?raw=true)
+![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.jpg?raw=true)
 
 #### Javascript
-![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.png?raw=true)
+![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.jpg?raw=true)
 
 #### JSON
-![JSON](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/json.png?raw=true)
+![JSON](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/json.jpg?raw=true)
 
 #### Markdown
-![Markdown](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/markdown.png?raw=true)
+![Markdown](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/markdown.jpg?raw=true)
 
 #### Pug
-![Pug](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/pug.png?raw=true)
+![Pug](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/pug.jpg?raw=true)
 
 #### React
-![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.png?raw=true)
+![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.jpg?raw=true)
 
 #### Typescript
-![Typescript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/typescript.png?raw=true)
+![Typescript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/typescript.jpg?raw=true)
 
 
 #### Vue
-![Vue](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/vue.png?raw=true)
+![Vue](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/vue.jpg?raw=true)
 
 #### YAML
-![YAML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/yaml.png?raw=true)
+![YAML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/yaml.jpg?raw=true)
 
 
 ## ✨ Color reference
@@ -191,18 +168,17 @@ The colors used for the syntax highlighting are from **Material Design**.
 *Frequently Asked Questions.*
 
 #### Which font is used in the preview image?
-It's [Iosevka](https://typeof.net/Iosevka/)
+It's Operator Mono.
 
 #### Which icons do you recommend to use?
-I love `Monokai pro` icons. You need to install the `Monokai pro theme`
+I love [Quill icons](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons).
 
 #### What are the recommended editor settings?
 
 ```json
-"workbench.colorTheme": "Universe",
-"workbench.iconTheme": "Monokai Pro Icons",
-"editor.fontFamily": "Iosevka",
-"editor.fontWeight": "500",
+"workbench.colorTheme": "Universe Purple",
+"workbench.iconTheme": "quill-icons",
+"editor.fontFamily": "Operator Mono",
 "window.titleBarStyle": "custom",
 "editor.scrollBeyondLastLine": false,
 ```

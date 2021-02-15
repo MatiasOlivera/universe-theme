@@ -51,6 +51,16 @@
         "label": "Universe Purple Italic",
         "uiTheme": "vs-dark",
         "path": "./theme/universe.purple.italic.json"
+      },
+      {
+        "label": "Universe Gray",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.gray.json"
+      },
+      {
+        "label": "Universe Gray Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.gray.italic.json"
       }
     ]
   },

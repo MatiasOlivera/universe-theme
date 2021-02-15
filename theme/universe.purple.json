@@ -358,14 +358,14 @@
       "settings": { "foreground": "#FFBAD1" }
     },
     {
-      "name": "Access to object property",
-      "scope": "variable.other.property",
-      "settings": { "foreground": "#FFBAD1" }
-    },
-    {
       "name": "Object property",
-      "scope": ["meta.object-literal.key", "variable.object.property"],
-      "settings": { "foreground": "#BBD99E" }
+      "scope": [
+        "meta.object-literal.key",
+        "variable.object.property",
+        "support.variable.property",
+        "variable.other.property"
+      ],
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Function definition",
@@ -473,7 +473,7 @@
     },
     {
       "name": "Comment",
-      "scope": "comment",
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#758096" }
     },
     {
@@ -487,14 +487,9 @@
       "settings": { "foreground": "#FFA2A2" }
     },
     {
-      "name": "Symbols",
+      "name": "Punctuation marks",
       "scope": "punctuation",
-      "settings": { "fontStyle": "" }
-    },
-    {
-      "name": "Punctuation for embedded section (eg: interpolated strings)",
-      "scope": "punctuation.section.embedded",
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#8A94A8", "fontStyle": "normal" }
     },
     {
       "name": "Group title",
@@ -510,11 +505,6 @@
       "name": "Value",
       "scope": "source.ini",
       "settings": { "foreground": "#FFBAD1" }
-    },
-    {
-      "name": "Separator",
-      "scope": "punctuation.separator.key-value.ini",
-      "settings": { "foreground": "#F2F2F2" }
     },
     {
       "name": "Tag",
@@ -537,14 +527,6 @@
       "settings": { "foreground": "#9AC6F2" }
     },
     {
-      "name": "Attribute punctuation. []",
-      "scope": [
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css"
-      ],
-      "settings": { "foreground": "#74A0CC" }
-    },
-    {
       "name": "Pseudo-class",
       "scope": "entity.other.attribute-name.pseudo-class.css",
       "settings": { "foreground": "#C1A2FF" }
@@ -560,12 +542,12 @@
         "support.type.property-name.css",
         "support.type.property-name.media.css"
       ],
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Vendor property name",
       "scope": "support.type.vendored.property-name.css",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Property value",
@@ -595,12 +577,12 @@
     {
       "name": "GraphQL: Object property",
       "scope": "meta.type.object.graphql variable.graphql",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "GraphQL: Selection set property",
       "scope": "meta.selectionset.graphql variable.graphql",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "GraphQL: Fragment",
@@ -640,7 +622,7 @@
     {
       "name": "Text",
       "scope": "text.html.derivative",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Component tag",
@@ -648,30 +630,14 @@
       "settings": { "foreground": "#F2B09A" }
     },
     {
-      "name": "Component tag's punctuation",
-      "scope": [
-        "meta.tag.other.html punctuation.definition.tag.begin.html",
-        "meta.tag.other.html punctuation.definition.tag.end.html"
-      ],
-      "settings": { "foreground": "#CD8A74" }
-    },
-    {
       "name": "Component directives",
       "scope": "meta.attribute.unrecognized",
       "settings": { "foreground": "#FFA2A2" }
     },
     {
-      "name": "Embedded expression punctuation. {{var}}",
-      "scope": [
-        "punctuation.definition.generic.begin.html",
-        "punctuation.definition.generic.end.html"
-      ],
-      "settings": { "foreground": "#FFA2A2" }
-    },
-    {
       "name": "Object property",
       "scope": "string.unquoted.js",
-      "settings": { "foreground": "#BBD99E" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Javascript: Language variables",
@@ -691,14 +657,6 @@
       "name": "Javascript: Language classes",
       "scope": ["support.constant.math.js"],
       "settings": { "foreground": "#E6D791" }
-    },
-    {
-      "name": "Javascript: Template expression punctuation",
-      "scope": [
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js"
-      ],
-      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Arrow function. =>",
@@ -721,14 +679,14 @@
       "settings": { "foreground": "#C1A2FF" }
     },
     {
+      "name": "Javascript: Punctuation marks",
+      "scope": "meta.brace",
+      "settings": { "foreground": "#8A94A8", "fontStyle": "normal" }
+    },
+    {
       "name": "Property name",
       "scope": "support.type.property-name.json",
       "settings": { "foreground": "#C1A2FF" }
-    },
-    {
-      "name": "JSX: Tag angle brackets",
-      "scope": "punctuation.definition.tag.jsx",
-      "settings": { "foreground": "#6EB4C2" }
     },
     {
       "name": "JSX: Component tag",
@@ -760,24 +718,7 @@
         "JSXNested",
         "meta.jsx.children.tsx"
       ],
-      "settings": { "foreground": "#F2F2F2" }
-    },
-    {
-      "name": "JSX: Expression punctuation",
-      "scope": [
-        "punctuation.section.embedded.begin.js.jsx",
-        "punctuation.section.embedded.begin.jsx",
-        "punctuation.section.embedded.begin.tsx",
-        "punctuation.section.embedded.end.js.jsx",
-        "punctuation.section.embedded.end.jsx",
-        "punctuation.section.embedded.end.tsx"
-      ],
-      "settings": { "foreground": "#FFA2A2" }
-    },
-    {
-      "name": "JSX: Punctuation",
-      "scope": ["meta.brace.curly.js", "meta.brace.round.js"],
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Markup: Heading",
@@ -817,37 +758,17 @@
     {
       "name": "Markup: Numbered list items",
       "scope": "markup.list.numbered",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Markup: Unnumbered list items",
       "scope": "markup.list.unnumbered",
-      "settings": { "foreground": "#F2F2F2" }
-    },
-    {
-      "name": "MD: Heading punctuation (# title)",
-      "scope": "punctuation.definition.heading.markdown",
-      "settings": { "foreground": "#8A94A8" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "MD: Paragraph",
       "scope": "meta.paragraph.markdown",
-      "settings": { "foreground": "#F2F2F2" }
-    },
-    {
-      "name": "MD: Bold puntuation (**text**)",
-      "scope": "punctuation.definition.bold.markdown",
-      "settings": { "foreground": "#99B87A" }
-    },
-    {
-      "name": "MD: Italic puntuation (__text__)",
-      "scope": "punctuation.definition.italic.markdown",
-      "settings": { "foreground": "#68B8B1" }
-    },
-    {
-      "name": "MD: Quote puntuaction (> text)",
-      "scope": "punctuation.definition.quote.begin.markdown",
-      "settings": { "foreground": "#8A94A8" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "MD: Link title",
@@ -858,29 +779,9 @@
       "settings": { "foreground": "#BFDCF9" }
     },
     {
-      "name": "MD: Link punctuation",
-      "scope": [
-        "punctuation.definition.link.markdown",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-        "punctuation.definition.metadata.markdown"
-      ],
-      "settings": { "foreground": "#74A0CC" }
-    },
-    {
       "name": "MD: Inline code",
       "scope": "markup.inline.raw.string.markdown",
       "settings": { "foreground": "#9AC6F2" }
-    },
-    {
-      "name": "MD: List puntuation",
-      "scope": "punctuation.definition.list.begin.markdown",
-      "settings": { "foreground": "#8A94A8" }
-    },
-    {
-      "name": "MD: Separator",
-      "scope": "meta.separator.markdown",
-      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "Constant",
@@ -918,14 +819,18 @@
       "settings": { "foreground": "#BBD99E" }
     },
     {
-      "name": "Pug: String interpolation punctuaction",
-      "scope": "string.interpolated.pug",
-      "settings": { "foreground": "#C1A2FF" }
+      "name": "Pug: Punctuation",
+      "scope": [
+        "string.interpolated.pug",
+        "constant.name.attribute.tag.pug",
+        "meta.tag.other attribute_value"
+      ],
+      "settings": { "foreground": "#8A94A8", "fontStyle": "normal" }
     },
     {
       "name": "Text",
       "scope": "text.pug",
-      "settings": { "foreground": "#F2F2F2" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Pug: Comment",
@@ -963,24 +868,7 @@
     {
       "name": "Typescript: Enum member",
       "scope": "variable.other.enummember.ts",
-      "settings": { "foreground": "#BBD99E" }
-    },
-    {
-      "name": "Typescript: Type punctuation",
-      "scope": [
-        "meta.type.tuple.ts meta.brace.square.ts",
-        "punctuation.definition.typeparameters.begin.ts",
-        "punctuation.definition.typeparameters.end.ts"
-      ],
-      "settings": { "foreground": "#6EB4C2" }
-    },
-    {
-      "name": "Typescript: Template expression punctuation",
-      "scope": [
-        "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts"
-      ],
-      "settings": { "foreground": "#C1A2FF" }
+      "settings": { "foreground": "#BBC1CD" }
     },
     {
       "name": "Arrow function. =>",
@@ -1014,27 +902,9 @@
       "settings": { "foreground": "#E6D791" }
     },
     {
-      "name": "YAML: Directive puntuaction",
-      "scope": "punctuation.definition.directive.begin.yaml",
-      "settings": { "foreground": "#987AD6" }
-    },
-    {
       "name": "YAML: Anchor name",
       "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
       "settings": { "foreground": "#FFBAD1" }
-    },
-    {
-      "name": "YAML: Anchor puntuaction",
-      "scope": [
-        "punctuation.definition.anchor.yaml",
-        "punctuation.definition.alias.yaml"
-      ],
-      "settings": { "foreground": "#D68EA6" }
-    },
-    {
-      "name": "YAML: Sequence item punctuation",
-      "scope": "punctuation.definition.block.sequence.item.yaml",
-      "settings": { "foreground": "#8A94A8" }
     },
     {
       "name": "YAML: Merge key",

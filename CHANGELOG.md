@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Syntax highlight
+
+#### Changed
+
+- Use darker grey in punctuation marks. They are less relevant than the rest of the code, this change prevents them from standing out
+- Use neutral for object property instead of the strings' green
+- Use darker color for text
+
+#### Fixed
+- Use object property color (neutral) for native objects properties
+
+#### Javascript
+- Use same color when defining or accessing an object property
+
 ## [1.6.2] 2020-03-11
 
 ### Docs

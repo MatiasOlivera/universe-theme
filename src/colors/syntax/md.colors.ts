@@ -3,44 +3,12 @@ import { SyntaxColors } from '../../types/colors-types';
 const mdColors: SyntaxColors = (tokens) => {
   return [
     /**
-     * Heading
-     */
-    {
-      name: 'MD: Heading punctuation (# title)',
-      scope: 'punctuation.definition.heading.markdown',
-      settings: tokens.markdown.puntuaction.heading
-    },
-
-    /**
      * Text
      */
     {
       name: 'MD: Paragraph',
       scope: 'meta.paragraph.markdown',
       settings: tokens.markup.other
-    },
-
-    /**
-     * Style
-     */
-    {
-      name: 'MD: Bold puntuation (**text**)',
-      scope: 'punctuation.definition.bold.markdown',
-      settings: tokens.markdown.puntuaction.bold
-    },
-    {
-      name: 'MD: Italic puntuation (__text__)',
-      scope: 'punctuation.definition.italic.markdown',
-      settings: tokens.markdown.puntuaction.italic
-    },
-
-    /**
-     * Quote
-     */
-    {
-      name: 'MD: Quote puntuaction (> text)',
-      scope: 'punctuation.definition.quote.begin.markdown',
-      settings: tokens.markdown.puntuaction.quote
     },
 
     /**
@@ -54,16 +22,6 @@ const mdColors: SyntaxColors = (tokens) => {
       ],
       settings: tokens.markdown.link.title
     },
-    {
-      name: 'MD: Link punctuation',
-      scope: [
-        'punctuation.definition.link.markdown',
-        'punctuation.definition.string.begin.markdown',
-        'punctuation.definition.string.end.markdown',
-        'punctuation.definition.metadata.markdown'
-      ],
-      settings: tokens.markdown.link.puntuaction
-    },
 
     /**
      * Raw text (code)
@@ -72,24 +30,6 @@ const mdColors: SyntaxColors = (tokens) => {
       name: 'MD: Inline code',
       scope: 'markup.inline.raw.string.markdown',
       settings: tokens.markup.raw
-    },
-
-    /**
-     * Lists
-     */
-    {
-      name: 'MD: List puntuation',
-      scope: 'punctuation.definition.list.begin.markdown',
-      settings: tokens.markdown.puntuaction.list
-    },
-
-    /**
-     * Separator
-     */
-    {
-      name: 'MD: Separator',
-      scope: 'meta.separator.markdown',
-      settings: tokens.markdown.puntuaction.separator
     }
   ];
 };

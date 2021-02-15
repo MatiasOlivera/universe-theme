@@ -20,11 +20,6 @@ const configColors: SyntaxColors = (tokens) => {
       name: 'Value',
       scope: 'source.ini',
       settings: tokens.config.value
-    },
-    {
-      name: 'Separator',
-      scope: 'punctuation.separator.key-value.ini',
-      settings: tokens.config.separator
     }
   ];
 };

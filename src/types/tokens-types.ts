@@ -16,7 +16,6 @@ export interface Type {
   other: Settings; // constant.other
   typeName: Settings; // storage.type
   library: Settings; // support.type
-  punctuation: Settings;
 }
 
 // Keywords
@@ -95,10 +94,9 @@ export interface Markup {
   other: Settings;
 }
 
-// Puntuaction
-export interface Puntuaction {
+// Punctuation
+export interface Punctuation {
   default: Settings;
-  embedded: Settings;
 }
 
 // Invalid
@@ -112,7 +110,6 @@ export interface Config {
   groupTitle: Settings;
   key: Settings;
   value: Settings;
-  separator: Settings;
 }
 
 // CSS
@@ -123,7 +120,6 @@ export interface Css {
   class: Settings;
   attribute: {
     name: Settings;
-    punctuation: Settings;
   };
   pseudoClass: Settings;
   pseudoElement: Settings;
@@ -156,10 +152,8 @@ export interface Html {
   };
   component: {
     tag: Settings;
-    punctuation: Settings;
   };
   directive: Settings;
-  expressionPunctuation: Settings;
 }
 
 // Javascript
@@ -174,17 +168,8 @@ export interface Json {
 
 // Markdown
 export interface Markdown {
-  puntuaction: {
-    heading: Settings;
-    bold: Settings;
-    italic: Settings;
-    quote: Settings;
-    list: Settings;
-    separator: Settings;
-  };
   link: {
     title: Settings;
-    puntuaction: Settings;
   };
 }
 
@@ -196,15 +181,8 @@ export interface Sql {
 // YAML
 export interface Yaml {
   document: Settings;
-  directive: {
-    puntuaction: Settings;
-  };
   anchor: {
     name: Settings;
-    puntuaction: Settings;
-  };
-  sequence: {
-    puntuaction: Settings;
   };
   constant: Settings;
 }
@@ -222,7 +200,7 @@ export interface Tokens {
   text: Settings;
   tag: Tag;
   markup: Markup;
-  puntuaction: Puntuaction;
+  punctuation: Punctuation;
   invalid: Invalid;
   comment: Settings;
   config: Config;
@@ -238,5 +216,5 @@ export interface Tokens {
 
 export interface Settings {
   foreground?: string;
-  fontStyle?: 'italic' | 'bold' | 'underline' | '';
+  fontStyle?: 'normal' | 'italic' | 'bold' | 'underline' | '';
 }

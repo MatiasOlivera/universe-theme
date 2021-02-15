@@ -64,13 +64,13 @@ const commonColors: SyntaxColors = (tokens) => {
      * Objects
      */
     {
-      name: 'Access to object property',
-      scope: 'variable.other.property',
-      settings: tokens.variable.default
-    },
-    {
       name: 'Object property',
-      scope: ['meta.object-literal.key', 'variable.object.property'],
+      scope: [
+        'meta.object-literal.key',
+        'variable.object.property',
+        'support.variable.property',
+        'variable.other.property'
+      ],
       settings: tokens.object.property
     },
 
@@ -203,7 +203,7 @@ const commonColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Comment',
-      scope: 'comment',
+      scope: ['comment', 'punctuation.definition.comment'],
       settings: tokens.comment
     },
 
@@ -222,17 +222,12 @@ const commonColors: SyntaxColors = (tokens) => {
     },
 
     /**
-     * Punctuation
+     * Punctuation marks
      */
     {
-      name: 'Symbols',
+      name: 'Punctuation marks',
       scope: 'punctuation',
-      settings: tokens.puntuaction.default
-    },
-    {
-      name: 'Punctuation for embedded section (eg: interpolated strings)',
-      scope: 'punctuation.section.embedded',
-      settings: tokens.puntuaction.embedded
+      settings: tokens.punctuation.default
     }
   ];
 };

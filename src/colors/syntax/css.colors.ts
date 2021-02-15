@@ -26,14 +26,6 @@ const cssColors: SyntaxColors = (tokens) => {
       settings: tokens.css.attribute.name
     },
     {
-      name: 'Attribute punctuation. []',
-      scope: [
-        'punctuation.definition.entity.begin.bracket.square.css',
-        'punctuation.definition.entity.end.bracket.square.css'
-      ],
-      settings: tokens.css.attribute.punctuation
-    },
-    {
       name: 'Pseudo-class',
       scope: 'entity.other.attribute-name.pseudo-class.css',
       settings: tokens.css.pseudoClass

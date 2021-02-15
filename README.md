@@ -168,18 +168,17 @@ The colors used for the syntax highlighting are from **Material Design**.
 *Frequently Asked Questions.*
 
 #### Which font is used in the preview image?
-It's [Iosevka](https://typeof.net/Iosevka/)
+It's Operator Mono.
 
 #### Which icons do you recommend to use?
-I love `Monokai pro` icons. You need to install the `Monokai pro theme`
+I love [Quill icons](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons).
 
 #### What are the recommended editor settings?
 
 ```json
-"workbench.colorTheme": "Universe",
-"workbench.iconTheme": "Monokai Pro Icons",
-"editor.fontFamily": "Iosevka",
-"editor.fontWeight": "500",
+"workbench.colorTheme": "Universe Purple",
+"workbench.iconTheme": "quill-icons",
+"editor.fontFamily": "Operator Mono",
 "window.titleBarStyle": "custom",
 "editor.scrollBeyondLastLine": false,
 ```

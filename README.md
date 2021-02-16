@@ -14,6 +14,8 @@
   
   ![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.jpg?raw=true)
 
+  ![Universe Gray](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-gray.jpg?raw=true)
+
   *Universe includes normal and italic variants.*
 
   [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)

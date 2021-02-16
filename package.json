@@ -2,7 +2,7 @@
   "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#0E1729",
@@ -51,6 +51,16 @@
         "label": "Universe Purple Italic",
         "uiTheme": "vs-dark",
         "path": "./theme/universe.purple.italic.json"
+      },
+      {
+        "label": "Universe Gray",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.gray.json"
+      },
+      {
+        "label": "Universe Gray Italic",
+        "uiTheme": "vs-dark",
+        "path": "./theme/universe.gray.italic.json"
       }
     ]
   },

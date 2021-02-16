@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.0] 2021-02-15
+
+### UI
+
+- Add Universe Gray variant
+
 ## [1.7.0] 2021-02-15
 
 ### Syntax highlight

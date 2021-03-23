@@ -624,7 +624,7 @@
     {
       "name": "Component directives",
       "scope": "meta.attribute.unrecognized",
-      "settings": { "foreground": "#FFA2A2", "fontStyle": "italic" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "Object property",
@@ -866,7 +866,7 @@
     {
       "name": "Vue directive",
       "scope": "meta.directive.vue entity.other.attribute-name.html",
-      "settings": { "foreground": "#FFA2A2", "fontStyle": "italic" }
+      "settings": { "foreground": "#C1A2FF", "fontStyle": "italic" }
     },
     {
       "name": "YAML: Document",

@@ -270,7 +270,7 @@ export const html: Html = {
    foreground: orange[4]
   },
   directive: {
-    foreground: red[4]
+    foreground: deepPurple[4]
   }
 };
 

@@ -19,7 +19,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Text',
-      scope: ['meta.jsx.children.js.jsx', 'JSXNested', 'meta.jsx.children.tsx'],
+      scope: ['meta.jsx.children.js', 'JSXNested', 'meta.jsx.children.tsx'],
       settings: tokens.text
     }
   ];

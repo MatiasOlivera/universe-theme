@@ -247,9 +247,6 @@ export const tag: Tag = {
   },
   value: {
     foreground: green[4]
-  },
-  punctuation: {
-    foreground: cyan[5]
   }
 };
 

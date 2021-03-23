@@ -464,14 +464,6 @@
       "settings": { "foreground": "#92D8E6" }
     },
     {
-      "name": "Tag angle brackets",
-      "scope": [
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end"
-      ],
-      "settings": { "foreground": "#6EB4C2" }
-    },
-    {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#758096" }

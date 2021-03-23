@@ -73,7 +73,6 @@ export interface Tag {
   name: Settings; // entity.name.tag
   attribute: Settings; // entity.other.attribute-name
   value: Settings;
-  punctuation: Settings;
 }
 
 // Markup

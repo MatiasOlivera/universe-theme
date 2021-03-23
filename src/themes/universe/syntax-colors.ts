@@ -240,7 +240,7 @@ export const config: Config = {
  */
 export const tag: Tag = {
   name: {
-    foreground: cyan[4]
+    foreground: red[4]
   },
   attribute: {
     foreground: blue[4]

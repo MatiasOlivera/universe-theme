@@ -461,7 +461,7 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Comment",
@@ -501,7 +501,7 @@
     {
       "name": "Tag",
       "scope": ["entity.name.tag.css", "meta.selector.css"],
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "ID",
@@ -599,7 +599,7 @@
     {
       "name": "HTML: Tag",
       "scope": "entity.name.tag.html",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "HTML: Attribute",
@@ -761,12 +761,12 @@
     {
       "name": "Constant",
       "scope": "constant",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Pug: Tag",
       "scope": ["meta.tag.sgml.doctype.html", "entity.name.tag.pug"],
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Pug: Attribute",
@@ -889,7 +889,7 @@
     {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "YAML: Constant",

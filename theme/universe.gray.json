@@ -626,7 +626,7 @@
     },
     {
       "name": "Component tag",
-      "scope": "entity.name.tag.other.html",
+      "scope": ["entity.name.tag.other.html", "support.class.component"],
       "settings": { "foreground": "#F2B09A" }
     },
     {
@@ -687,16 +687,6 @@
       "name": "Property name",
       "scope": "support.type.property-name.json",
       "settings": { "foreground": "#C1A2FF" }
-    },
-    {
-      "name": "JSX: Component tag",
-      "scope": [
-        "support.class.component.js.jsx",
-        "support.class.component.open.jsx",
-        "support.class.component.close.jsx",
-        "support.class.component.tsx"
-      ],
-      "settings": { "foreground": "#F2B09A" }
     },
     {
       "name": "JSX: Attribute",

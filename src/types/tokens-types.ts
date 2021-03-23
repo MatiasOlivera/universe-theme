@@ -150,9 +150,7 @@ export interface Html {
     attribute: Settings;
     value: Settings;
   };
-  component: {
-    tag: Settings;
-  };
+  component: Settings;
   directive: Settings;
 }
 

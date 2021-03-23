@@ -28,8 +28,8 @@ const htmlColors: SyntaxColors = (tokens) => {
      */
     {
       name: 'Component tag',
-      scope: 'entity.name.tag.other.html',
-      settings: tokens.html.component.tag
+      scope: ['entity.name.tag.other.html', 'support.class.component'],
+      settings: tokens.html.component
     },
     {
       name: 'Component directives',

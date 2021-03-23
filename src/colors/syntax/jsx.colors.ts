@@ -4,10 +4,7 @@ const jsxColors: SyntaxColors = (tokens) => {
   return [
     {
       name: 'JSX: Attribute',
-      scope: [
-        'entity.other.attribute-name.js.jsx',
-        'entity.other.attribute-name.jsx'
-      ],
+      scope: 'entity.other.attribute-name',
       // Pink is used in variables and method arguments
       settings: tokens.tag.attribute
     },

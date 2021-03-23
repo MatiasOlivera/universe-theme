@@ -682,10 +682,7 @@
     },
     {
       "name": "JSX: Attribute",
-      "scope": [
-        "entity.other.attribute-name.js.jsx",
-        "entity.other.attribute-name.jsx"
-      ],
+      "scope": "entity.other.attribute-name",
       "settings": { "foreground": "#9AC6F2" }
     },
     {

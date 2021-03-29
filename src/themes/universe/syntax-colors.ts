@@ -240,16 +240,13 @@ export const config: Config = {
  */
 export const tag: Tag = {
   name: {
-    foreground: cyan[4]
+    foreground: red[4]
   },
   attribute: {
     foreground: blue[4]
   },
   value: {
     foreground: green[4]
-  },
-  punctuation: {
-    foreground: cyan[5]
   }
 };
 
@@ -270,12 +267,10 @@ export const html: Html = {
     value: tag.value
   },
   component: {
-    tag: {
-      foreground: orange[4]
-    }
+   foreground: orange[4]
   },
   directive: {
-    foreground: red[4]
+    foreground: deepPurple[4]
   }
 };
 

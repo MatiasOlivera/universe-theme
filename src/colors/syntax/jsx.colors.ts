@@ -3,21 +3,8 @@ import { SyntaxColors } from '../../types/colors-types';
 const jsxColors: SyntaxColors = (tokens) => {
   return [
     {
-      name: 'JSX: Component tag',
-      scope: [
-        'support.class.component.js.jsx',
-        'support.class.component.open.jsx',
-        'support.class.component.close.jsx',
-        'support.class.component.tsx'
-      ],
-      settings: tokens.html.component.tag
-    },
-    {
       name: 'JSX: Attribute',
-      scope: [
-        'entity.other.attribute-name.js.jsx',
-        'entity.other.attribute-name.jsx'
-      ],
+      scope: 'entity.other.attribute-name',
       // Pink is used in variables and method arguments
       settings: tokens.tag.attribute
     },
@@ -29,7 +16,7 @@ const jsxColors: SyntaxColors = (tokens) => {
     },
     {
       name: 'JSX: Text',
-      scope: ['meta.jsx.children.js.jsx', 'JSXNested', 'meta.jsx.children.tsx'],
+      scope: ['meta.jsx.children.js', 'JSXNested', 'meta.jsx.children.tsx'],
       settings: tokens.text
     }
   ];

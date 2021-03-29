@@ -461,15 +461,7 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#92D8E6" }
-    },
-    {
-      "name": "Tag angle brackets",
-      "scope": [
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end"
-      ],
-      "settings": { "foreground": "#6EB4C2" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Comment",
@@ -509,7 +501,7 @@
     {
       "name": "Tag",
       "scope": ["entity.name.tag.css", "meta.selector.css"],
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "ID",
@@ -607,7 +599,7 @@
     {
       "name": "HTML: Tag",
       "scope": "entity.name.tag.html",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "HTML: Attribute",
@@ -626,13 +618,13 @@
     },
     {
       "name": "Component tag",
-      "scope": "entity.name.tag.other.html",
+      "scope": ["entity.name.tag.other.html", "support.class.component"],
       "settings": { "foreground": "#F2B09A" }
     },
     {
       "name": "Component directives",
       "scope": "meta.attribute.unrecognized",
-      "settings": { "foreground": "#FFA2A2" }
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "Object property",
@@ -689,21 +681,8 @@
       "settings": { "foreground": "#C1A2FF" }
     },
     {
-      "name": "JSX: Component tag",
-      "scope": [
-        "support.class.component.js.jsx",
-        "support.class.component.open.jsx",
-        "support.class.component.close.jsx",
-        "support.class.component.tsx"
-      ],
-      "settings": { "foreground": "#F2B09A" }
-    },
-    {
       "name": "JSX: Attribute",
-      "scope": [
-        "entity.other.attribute-name.js.jsx",
-        "entity.other.attribute-name.jsx"
-      ],
+      "scope": "entity.other.attribute-name",
       "settings": { "foreground": "#9AC6F2" }
     },
     {
@@ -713,11 +692,7 @@
     },
     {
       "name": "JSX: Text",
-      "scope": [
-        "meta.jsx.children.js.jsx",
-        "JSXNested",
-        "meta.jsx.children.tsx"
-      ],
+      "scope": ["meta.jsx.children.js", "JSXNested", "meta.jsx.children.tsx"],
       "settings": { "foreground": "#D6D9E0" }
     },
     {
@@ -786,12 +761,12 @@
     {
       "name": "Constant",
       "scope": "constant",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Pug: Tag",
       "scope": ["meta.tag.sgml.doctype.html", "entity.name.tag.pug"],
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "Pug: Attribute",
@@ -891,7 +866,7 @@
     {
       "name": "Vue directive",
       "scope": "meta.directive.vue entity.other.attribute-name.html",
-      "settings": { "foreground": "#FFA2A2" }
+      "settings": { "foreground": "#C1A2FF" }
     },
     {
       "name": "YAML: Document",
@@ -914,7 +889,7 @@
     {
       "name": "Property name",
       "scope": "entity.name.tag.yaml",
-      "settings": { "foreground": "#92D8E6" }
+      "settings": { "foreground": "#FFA2A2" }
     },
     {
       "name": "YAML: Constant",

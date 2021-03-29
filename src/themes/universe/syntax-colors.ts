@@ -120,7 +120,7 @@ export const variable: Variable = {
  */
 export const object: ObjectType = {
   property: {
-    foreground: neutral[2]
+    foreground: neutral[1]
   }
 };
 

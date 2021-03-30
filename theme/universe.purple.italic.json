@@ -449,8 +449,8 @@
       "settings": { "foreground": "#89D9D2" }
     },
     {
-      "name": "Other constant",
-      "scope": ["constant.other", "support.other"],
+      "name": "Constant",
+      "scope": ["constant.other", "support.other", "variable.other.constant"],
       "settings": { "foreground": "#89D9D2" }
     },
     {

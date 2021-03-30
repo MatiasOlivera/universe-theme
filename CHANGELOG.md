@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Syntax highlight
 
+#### Changed
+
+- Use lighter neutral color for object properties
+- Use different color for intermediate properties
+- Use default color for constant name
+
 #### Fixed
 
 - Use red for tags. It has better contrast next to attributes and functions

@@ -74,6 +74,12 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.object.property
     },
 
+    {
+      name: 'Intermediate object property',
+      scope: 'variable.other.object.property',
+      settings: tokens.object.intermediateProperty
+    },
+
     /**
      * Functions
      */

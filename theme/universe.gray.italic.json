@@ -368,6 +368,11 @@
       "settings": { "foreground": "#D6D9E0" }
     },
     {
+      "name": "Intermediate object property",
+      "scope": "variable.other.object.property",
+      "settings": { "foreground": "#BAE9F2" }
+    },
+    {
       "name": "Function definition",
       "scope": "entity.name.function",
       "settings": { "foreground": "#9AC6F2" }

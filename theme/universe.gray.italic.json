@@ -365,7 +365,12 @@
         "support.variable.property",
         "variable.other.property"
       ],
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
+    },
+    {
+      "name": "Intermediate object property",
+      "scope": "variable.other.object.property",
+      "settings": { "foreground": "#BAE9F2" }
     },
     {
       "name": "Function definition",
@@ -444,8 +449,8 @@
       "settings": { "foreground": "#89D9D2" }
     },
     {
-      "name": "Other constant",
-      "scope": ["constant.other", "support.other"],
+      "name": "Constant",
+      "scope": ["constant.other", "support.other", "variable.other.constant"],
       "settings": { "foreground": "#89D9D2" }
     },
     {
@@ -534,12 +539,12 @@
         "support.type.property-name.css",
         "support.type.property-name.media.css"
       ],
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Vendor property name",
       "scope": "support.type.vendored.property-name.css",
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Property value",
@@ -569,12 +574,12 @@
     {
       "name": "GraphQL: Object property",
       "scope": "meta.type.object.graphql variable.graphql",
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "GraphQL: Selection set property",
       "scope": "meta.selectionset.graphql variable.graphql",
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "GraphQL: Fragment",
@@ -629,7 +634,7 @@
     {
       "name": "Object property",
       "scope": "string.unquoted.js",
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Javascript: Language variables",
@@ -843,7 +848,7 @@
     {
       "name": "Typescript: Enum member",
       "scope": "variable.other.enummember.ts",
-      "settings": { "foreground": "#BBC1CD" }
+      "settings": { "foreground": "#D6D9E0" }
     },
     {
       "name": "Arrow function. =>",

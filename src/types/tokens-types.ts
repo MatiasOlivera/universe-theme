@@ -36,6 +36,7 @@ export interface Variable {
 // Objects
 export interface ObjectType {
   property: Settings;
+  intermediateProperty: Settings;
 }
 
 // Functions

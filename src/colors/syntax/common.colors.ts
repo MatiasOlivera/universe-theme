@@ -74,6 +74,12 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.object.property
     },
 
+    {
+      name: 'Intermediate object property',
+      scope: 'variable.other.object.property',
+      settings: tokens.object.intermediateProperty
+    },
+
     /**
      * Functions
      */
@@ -162,8 +168,8 @@ const commonColors: SyntaxColors = (tokens) => {
       settings: tokens.type.constant.library
     },
     {
-      name: 'Other constant',
-      scope: ['constant.other', 'support.other'],
+      name: 'Constant',
+      scope: ['constant.other', 'support.other', 'variable.other.constant'],
       settings: tokens.type.other
     },
     {

@@ -1,24 +1,25 @@
 <div align="center">
   <img alt="icon" src="https://github.com/MatiasOlivera/universe-theme/blob/master/static/icon.png?raw=true"/>
 
-  # Universe theme
+# Universe theme
 
-  A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code.
+A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code.
 
-  [![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
-  [![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
-  [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
-  ![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=0E1729&color=1B273E)
+[![Version](https://vsmarketplacebadge.apphb.com/version/MatiasOlivera.universe.svg?subject=Version&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/MatiasOlivera.universe.svg?subject=Installs&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/MatiasOlivera.universe.svg?subject=Rating&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe#review-details)
+![Licence](https://img.shields.io/github/license/MatiasOlivera/universe-theme.svg?subject=Licence&style=for-the-badge&labelColor=0E1729&color=1B273E)
 
-  ![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.jpg?raw=true)
-  
-  ![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.jpg?raw=true)
+![Universe](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-blue.webp?raw=true)
 
-  ![Universe Gray](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-gray.jpg?raw=true)
+![Universe Purple](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-purple.webp?raw=true)
 
-  *Universe includes normal and italic variants.*
+![Universe Gray](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/universe-gray.webp?raw=true)
 
-  [![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+_Universe includes normal and italic variants._
+
+[![Download](https://img.shields.io/static/v1.svg?label=Download&message=VS%20Code&style=for-the-badge&labelColor=0E1729&color=1B273E)](https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe)
+
 </div>
 
 ---
@@ -43,20 +44,20 @@ If you want to learn more, check this [guide](https://usecontrast.com/guide)
 ## ☄️ Support
 
 | Description  | Extensions          | Support |
-|--------------|---------------------|---------|
-| Config files | .ini, .editorconfig | ✅       |
-| CSS          | .css                | ✅       |
-| Elixir       | .ex, .exs           | ✅       |
-| GraphQL      | .gql, .graphql      | ✅       |
-| HTML         | .html               | ✅       |
-| Javascript   | .js                 | ✅       |
-| JSON         | .json               | ✅       |
-| Markdown     | .md                 | ✅       |
-| Pug          | .pug                | ✅       |
-| React (JSX)  | .jsx                | ✅       |
-| Typescript   | .ts                 | ✅       |
-| Vue          | .vue                | ✅       |
-| YAML         | .yml                | ✅       |
+| ------------ | ------------------- | ------- |
+| Config files | .ini, .editorconfig | ✅      |
+| CSS          | .css                | ✅      |
+| Elixir       | .ex, .exs           | ✅      |
+| GraphQL      | .gql, .graphql      | ✅      |
+| HTML         | .html               | ✅      |
+| Javascript   | .js                 | ✅      |
+| JSON         | .json               | ✅      |
+| Markdown     | .md                 | ✅      |
+| Pug          | .pug                | ✅      |
+| React (JSX)  | .jsx                | ✅      |
+| Typescript   | .ts                 | ✅      |
+| Vue          | .vue                | ✅      |
+| YAML         | .yml                | ✅      |
 
 If you want support for another `language` / `library` / `framework`, please open an issue and let me know
 
@@ -66,57 +67,36 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 #### Folder
 
-![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.jpg?raw=true)
+![Folder](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/folder.webp?raw=true)
 
 #### Settings
 
-![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.jpg?raw=true)
+![Settings](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/ui/settings.webp?raw=true)
 
 ### Syntax highlight
 
-#### CSS
-![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.jpg?raw=true)
-
-#### Elixir
-![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.jpg?raw=true)
-
-#### GraphQL
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql.jpg?raw=true)
-
 #### HTML
-![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.jpg?raw=true)
+
+![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.webp?raw=true)
+
+#### CSS
+
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.webp?raw=true)
 
 #### Javascript
-![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.jpg?raw=true)
 
-#### JSON
-![JSON](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/json.jpg?raw=true)
-
-#### Markdown
-![Markdown](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/markdown.jpg?raw=true)
-
-#### Pug
-![Pug](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/pug.jpg?raw=true)
+![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.webp?raw=true)
 
 #### React
-![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.jpg?raw=true)
 
-#### Typescript
-![Typescript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/typescript.jpg?raw=true)
-
-
-#### Vue
-![Vue](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/vue.jpg?raw=true)
-
-#### YAML
-![YAML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/yaml.jpg?raw=true)
-
+![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.webp?raw=true)
 
 ## ✨ Color reference
 
 ### User interface
+
 | Usage             | Universe                                                                  | Universe Purple                                                             |
-|-------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| ----------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | editor background | deep blue 5 - ![#0E1729](https://placehold.it/15/0E1729/0E1729) `#0E1729` | deep purple 5 - ![#150E29](https://placehold.it/15/150E29/150E29) `#150E29` |
 | editor foreground | neutral 1 - ![#D6D9E0](https://placehold.it/15/D6D9E0/D6D9E0) `#D6D9E0`   | neutral 1 - ![#D8D5DF](https://placehold.it/15/D8D5DF/D8D5DF) `#D8D5DF`     |
 
@@ -127,7 +107,7 @@ The colors used for the syntax highlighting are from **Material Design**.
 #### Data types
 
 | Usage                          | Color    | Hex color                                                   |
-|--------------------------------|----------|-------------------------------------------------------------|
+| ------------------------------ | -------- | ----------------------------------------------------------- |
 | number                         | orange 4 | ![#F2B09A](https://placehold.it/15/F2B09A/F2B09A) `#F2B09A` |
 | string                         | green 4  | ![#BBD99E](https://placehold.it/15/BBD99E/BBD99E) `#BBD99E` |
 | constant (boolean, null)       | teal 4   | ![#89D9D2](https://placehold.it/15/89D9D2/89D9D2) `#89D9D2` |
@@ -139,13 +119,13 @@ The colors used for the syntax highlighting are from **Material Design**.
 #### Keywords
 
 | Usage   | Color    | Hex color                                                   |
-|---------|----------|-------------------------------------------------------------|
+| ------- | -------- | ----------------------------------------------------------- |
 | keyword | purple 4 | ![#CCB3FF](https://placehold.it/15/CCB3FF/CCB3FF) `#CCB3FF` |
 
 #### Variables, functions & classes
 
 | Usage           | Color    | Hex color                                                   |
-|-----------------|----------|-------------------------------------------------------------|
+| --------------- | -------- | ----------------------------------------------------------- |
 | variable        | pink 4   | ![#FFBAD1](https://placehold.it/15/FFBAD1/FFBAD1) `#FFBAD1` |
 | object property | green 4  | ![#BBD99E](https://placehold.it/15/BBD99E/BBD99E) `#BBD99E` |
 | function name   | blue 4   | ![#9AC6F2](https://placehold.it/15/9AC6F2/9AC6F2) `#9AC6F2` |
@@ -154,25 +134,28 @@ The colors used for the syntax highlighting are from **Material Design**.
 #### Invalid
 
 | Usage      | Color | Hex color                                                   |
-|------------|-------|-------------------------------------------------------------|
+| ---------- | ----- | ----------------------------------------------------------- |
 | deprecated | red 4 | ![#FFA2A2](https://placehold.it/15/FFA2A2/FFA2A2) `#FFA2A2` |
 | illegal    | red 4 | ![#FFA2A2](https://placehold.it/15/FFA2A2/FFA2A2) `#FFA2A2` |
 
 #### Other
 
 | Usage       | Color     | Hex color                                                   |
-|-------------|-----------|-------------------------------------------------------------|
+| ----------- | --------- | ----------------------------------------------------------- |
 | module name | blue 4    | ![#9AC6F2](https://placehold.it/15/9AC6F2/9AC6F2) `#9AC6F2` |
 | text        | neutral 0 | ![#F2F2F2](https://placehold.it/15/F2F2F2/F2F2F2) `#F2F2F2` |
 | comment     | neutral 5 | ![#758096](https://placehold.it/15/758096/758096) `#758096` |
 
 ## 🌌 FAQ
-*Frequently Asked Questions.*
+
+_Frequently Asked Questions._
 
 #### Which font is used in the preview image?
+
 It's Operator Mono.
 
 #### Which icons do you recommend to use?
+
 I love [Quill icons](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill-icons).
 
 #### What are the recommended editor settings?
@@ -212,7 +195,7 @@ I love [Quill icons](https://marketplace.visualstudio.com/items?itemName=cdonohu
 
 ### With feedback
 
-Please open an issue in this repository. Or you just can talk to me on Twitter: @_matiasolivera
+Please open an issue in this repository. Or you just can talk to me on Twitter: @\_matiasolivera
 
 ### With code
 

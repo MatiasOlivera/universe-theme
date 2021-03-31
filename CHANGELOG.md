@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.0] 2021-03-30
+
+### Syntax highlight
+
+#### Changed
+
+- Use lighter neutral color for object properties
+- Use different color for intermediate properties
+- Use default color for constant name
+
+#### Fixed
+
+- Use red for tags. It has better contrast next to attributes and functions
+- Use deep purple for directives to maintain consistency
+
+#### React
+
+- Use orange in the component tag when the language mode is Javascript
+- Use white in the tag's inner text when the language mode is Javascript
+- Use default color (neutral) for punctuation to maintain consistency
+
 ## [1.8.0] 2021-02-15
 
 ### UI
@@ -24,19 +45,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use darker color for text
 
 #### Fixed
+
 - Use object property color (neutral) for native objects properties
 
 #### Javascript
+
 - Use same color when defining or accessing an object property
 
 ## [1.6.2] 2020-03-11
 
 ### Docs
+
 - Improve the wording at "Different syntax highlighting"
 
 ## [1.6.1] 2020-03-11
 
 ### Docs
+
 - How to fix syntax highlighting problems?
 
 ## [1.6.0] 2019-06-16

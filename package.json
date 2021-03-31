@@ -2,7 +2,7 @@
   "name": "universe",
   "displayName": "Universe",
   "description": "A dark theme designed with consistent syntax highlighting, accessible text contrast and distract-free user interface that let you focus on the code. Supports for CSS, Elixir, GraphQL, HTML (Pug), Javascript (Angular, React, Vue.js), JSON, Markdown, Typescript and YAML",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "icon": "static/icon.png",
   "galleryBanner": {
     "color": "#0E1729",
@@ -81,7 +81,7 @@
     "node:watch": "nodemon dist/index.js",
     "ts:build": "tsc",
     "ts:watch": "tsc --watch",
-    "publish": "vsce publish"
+    "publish": "vsce publish minor"
   },
   "devDependencies": {
     "@types/flat": "0.0.28",

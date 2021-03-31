@@ -77,19 +77,19 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 #### HTML
 
-![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.jpg?raw=true)
+![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.webp?raw=true)
 
 #### CSS
 
-![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.jpg?raw=true)
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.webp?raw=true)
 
 #### Javascript
 
-![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.jpg?raw=true)
+![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.webp?raw=true)
 
 #### React
 
-![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.jpg?raw=true)
+![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.webp?raw=true)
 
 ## ✨ Color reference
 

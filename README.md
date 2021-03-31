@@ -75,53 +75,21 @@ If you want support for another `language` / `library` / `framework`, please ope
 
 ### Syntax highlight
 
-#### CSS
-
-![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.jpg?raw=true)
-
-#### Elixir
-
-![Elixir](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/elixir.jpg?raw=true)
-
-#### GraphQL
-
-![GraphQL](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/graphql.jpg?raw=true)
-
 #### HTML
 
 ![HTML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/html.jpg?raw=true)
+
+#### CSS
+
+![CSS](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/css.jpg?raw=true)
 
 #### Javascript
 
 ![Javascript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/javascript.jpg?raw=true)
 
-#### JSON
-
-![JSON](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/json.jpg?raw=true)
-
-#### Markdown
-
-![Markdown](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/markdown.jpg?raw=true)
-
-#### Pug
-
-![Pug](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/pug.jpg?raw=true)
-
 #### React
 
 ![React](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/react.jpg?raw=true)
-
-#### Typescript
-
-![Typescript](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/typescript.jpg?raw=true)
-
-#### Vue
-
-![Vue](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/vue.jpg?raw=true)
-
-#### YAML
-
-![YAML](https://github.com/MatiasOlivera/universe-theme/blob/master/static/screenshots/syntax/yaml.jpg?raw=true)
 
 ## ✨ Color reference
 

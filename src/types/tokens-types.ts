@@ -1,7 +1,9 @@
 // See docs/syntax-highlight.md
 
+import { Dictionary } from './utils-types';
+
 // Data types
-export interface Type {
+export interface Type extends SettingsDict {
   number: Settings; // constant.numeric
   string: Settings; // string
   character: {
@@ -19,7 +21,7 @@ export interface Type {
 }
 
 // Keywords
-export interface Keyword {
+export interface Keyword extends SettingsDict {
   default: Settings;
   control: Settings;
   operator: Settings;
@@ -28,56 +30,56 @@ export interface Keyword {
 }
 
 // Variables
-export interface Variable {
+export interface Variable extends SettingsDict {
   default: Settings;
   other: Settings;
 }
 
 // Objects
-export interface ObjectType {
+export interface ObjectType extends SettingsDict {
   property: Settings;
   intermediateProperty: Settings;
 }
 
 // Functions
-export interface FunctionType {
+export interface FunctionType extends SettingsDict {
   name: Settings; // entity.name.function
   parameter: Settings; // variable.parameter
   library: Settings; // support.function
 }
 
 // Classes
-export interface ClassType {
+export interface ClassType extends SettingsDict {
   name: Settings;
   baseClass: Settings; // entity.other.inherited-class
   library: Settings; // support.class
 }
 
 // Enums
-export interface EnumType {
+export interface EnumType extends SettingsDict {
   member: Settings;
 }
 
 // Modules
-export interface ModuleType {
+export interface ModuleType extends SettingsDict {
   name: Settings;
   path: Settings;
 }
 
 // Sections
-export interface Section {
+export interface Section extends SettingsDict {
   name: Settings; // entity.name.section
 }
 
 // Tags
-export interface Tag {
+export interface Tag extends SettingsDict {
   name: Settings; // entity.name.tag
   attribute: Settings; // entity.other.attribute-name
   value: Settings;
 }
 
 // Markup
-export interface Markup {
+export interface Markup extends SettingsDict {
   link: Settings; // markup.underline.link
 
   // Text
@@ -95,25 +97,25 @@ export interface Markup {
 }
 
 // Punctuation
-export interface Punctuation {
+export interface Punctuation extends SettingsDict {
   default: Settings;
 }
 
 // Invalid
-export interface Invalid {
+export interface Invalid extends SettingsDict {
   illegal: Settings;
   deprecated: Settings;
 }
 
 // Config files
-export interface Config {
+export interface Config extends SettingsDict {
   groupTitle: Settings;
   key: Settings;
   value: Settings;
 }
 
 // CSS
-export interface Css {
+export interface Css extends SettingsDict {
   // Selectors
   tag: Settings;
   id: Settings;
@@ -139,12 +141,12 @@ export interface Css {
 }
 
 // GraphQL
-export interface GraphQL {
+export interface GraphQL extends SettingsDict {
   alias: Settings;
 }
 
 // HTML
-export interface Html {
+export interface Html extends SettingsDict {
   tag: {
     name: Settings;
     attribute: Settings;
@@ -155,29 +157,29 @@ export interface Html {
 }
 
 // Javascript
-export interface Javascript {
+export interface Javascript extends SettingsDict {
   arrowFunction: Settings;
 }
 
 // JSON
-export interface Json {
+export interface Json extends SettingsDict {
   property: Settings;
 }
 
 // Markdown
-export interface Markdown {
+export interface Markdown extends SettingsDict {
   link: {
     title: Settings;
   };
 }
 
 // SQL
-export interface Sql {
+export interface Sql extends SettingsDict {
   keyword: Settings;
 }
 
 // YAML
-export interface Yaml {
+export interface Yaml extends SettingsDict {
   document: Settings;
   anchor: {
     name: Settings;
@@ -185,7 +187,7 @@ export interface Yaml {
   constant: Settings;
 }
 
-export interface Tokens {
+export interface Tokens extends SettingsDict {
   type: Type;
   keyword: Keyword;
   variable: Variable;
@@ -216,3 +218,5 @@ export interface Settings {
   foreground?: string;
   fontStyle?: 'normal' | 'italic' | 'bold' | 'underline' | '';
 }
+
+type SettingsDict = Dictionary<Settings | Dictionary<Settings>>;

@@ -4,13 +4,26 @@ import { join } from 'path';
 import { format, resolveConfig } from 'prettier';
 
 import { editorColors, syntaxColors } from './colors';
-import { ColorPalettes, EditorColors, TokenColor, TokenColors } from './types/colors-types';
+import {
+  ColorPalettes,
+  EditorColors,
+  TokenColor,
+  TokenColors
+} from './types/colors-types';
 import { Tokens } from './types/tokens-types';
 import { Dictionary } from './types/utils-types';
 import { exists, mkdir, writeFile } from './utils/fs-promisify';
 
-interface ThemeVariant {
-  name: string;
+type ThemeColor = 'Purple' | 'Gray';
+type ThemeVariant = 'Italic';
+type ThemeName =
+  | 'Universe'
+  | `Universe ${ThemeVariant}`
+  | `Universe ${ThemeColor}`
+  | `Universe ${ThemeColor} ${ThemeVariant}`;
+
+interface ThemeConfig {
+  name: ThemeName;
   filename: string;
   type: 'dark' | 'light';
   palette: ColorPalettes;
@@ -27,7 +40,7 @@ export async function createThemesDirectory(
   }
 }
 
-export async function buildTheme(theme: ThemeVariant) {
+export async function buildTheme(theme: ThemeConfig) {
   const uiColors = Object.keys(editorColors).map((component) => {
     return editorColors[component](theme.palette);
   });

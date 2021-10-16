@@ -27,7 +27,20 @@ export type ColorPalettes = Record<
   ColorPalette
 >;
 
-export type ColorPalette = Array<string>;
+type HexColor = string;
+
+export type ColorPalette = [
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor,
+  HexColor
+];
 
 export interface EditorColors {
   [key: string]: string | Dictionary<string>;

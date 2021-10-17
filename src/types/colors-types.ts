@@ -5,8 +5,20 @@ export interface UIColors {
   (palette: ColorPalettes): EditorColors;
 }
 
+export interface EditorColors {
+  [key: string]: string | Dictionary<string>;
+}
+
 export interface SyntaxColors {
   (tokens: Tokens): TokenColors;
+}
+
+export type TokenColors = Array<TokenColor>;
+
+export interface TokenColor {
+  name: string;
+  scope: string | Array<string>;
+  settings: Settings;
 }
 
 export type ColorPalettes = Record<
@@ -27,8 +39,6 @@ export type ColorPalettes = Record<
   ColorPalette
 >;
 
-type HexColor = string;
-
 export type ColorPalette = [
   HexColor,
   HexColor,
@@ -42,14 +52,4 @@ export type ColorPalette = [
   HexColor
 ];
 
-export interface EditorColors {
-  [key: string]: string | Dictionary<string>;
-}
-
-export type TokenColors = Array<TokenColor>;
-
-export interface TokenColor {
-  name: string;
-  scope: string | Array<string>;
-  settings: Settings;
-}
+type HexColor = string;

@@ -14,22 +14,6 @@ import { Tokens } from './types/tokens-types';
 import { Dictionary } from './types/utils-types';
 import { exists, mkdir, writeFile } from './utils/fs-promisify';
 
-type ThemeColor = 'Purple' | 'Gray';
-type ThemeVariant = 'Italic';
-type ThemeName =
-  | 'Universe'
-  | `Universe ${ThemeVariant}`
-  | `Universe ${ThemeColor}`
-  | `Universe ${ThemeColor} ${ThemeVariant}`;
-
-interface ThemeConfig {
-  name: ThemeName;
-  filename: string;
-  type: 'dark' | 'light';
-  palette: ColorPalettes;
-  tokens: Tokens;
-}
-
 const themesDirectory: string = join(__dirname, '../theme');
 
 export async function createThemesDirectory(
@@ -40,7 +24,7 @@ export async function createThemesDirectory(
   }
 }
 
-export async function buildTheme(theme: ThemeConfig) {
+export async function buildTheme(theme: UniverseThemeConfig) {
   const uiColors = Object.keys(editorColors).map((component) => {
     return editorColors[component](theme.palette);
   });
@@ -98,6 +82,69 @@ async function createTheme(
     throw error;
   }
 }
+
+type UniverseThemeConfig =
+  | Universe
+  | UniverseItalic
+  | UniversePurple
+  | UniversePurpleItalic
+  | UniverseGray
+  | UniverseGrayItalic;
+
+interface Universe extends ThemeConfig {
+  name: 'Universe';
+  filename: 'universe';
+}
+
+interface UniverseItalic extends ThemeConfig {
+  name: 'Universe Italic';
+  filename: 'universe.italic';
+}
+
+interface UniversePurple extends ThemeConfig {
+  name: 'Universe Purple';
+  filename: 'universe.purple';
+}
+
+interface UniversePurpleItalic extends ThemeConfig {
+  name: 'Universe Purple Italic';
+  filename: 'universe.purple.italic';
+}
+
+interface UniverseGray extends ThemeConfig {
+  name: 'Universe Gray';
+  filename: 'universe.gray';
+}
+
+interface UniverseGrayItalic extends ThemeConfig {
+  name: 'Universe Gray Italic';
+  filename: 'universe.gray.italic';
+}
+
+interface ThemeConfig {
+  name: ThemeNames;
+  filename: ThemeFilenames;
+  type: 'dark';
+  palette: ColorPalettes;
+  tokens: Tokens;
+}
+
+type ThemeName = 'Universe';
+type ThemeColor = 'Purple' | 'Gray';
+type ThemeVariant = 'Italic';
+
+type ThemeNames =
+  | `${ThemeName}`
+  | `${ThemeName} ${ThemeVariant}`
+  | `${ThemeName} ${ThemeColor}`
+  | `${ThemeName} ${ThemeColor} ${ThemeVariant}`;
+
+type ThemeFilenames = Lowercase<
+  | `${ThemeName}`
+  | `${ThemeName}.${ThemeVariant}`
+  | `${ThemeName}.${ThemeColor}`
+  | `${ThemeName}.${ThemeColor}.${ThemeVariant}`
+>;
 
 interface VsCodeTheme {
   name: string;

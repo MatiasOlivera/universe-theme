@@ -270,7 +270,7 @@ export const html: Html = {
     value: tag.value
   },
   component: {
-   foreground: orange[4]
+    foreground: orange[4]
   },
   directive: {
     foreground: deepPurple[4]

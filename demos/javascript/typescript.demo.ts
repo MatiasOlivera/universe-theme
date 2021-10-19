@@ -43,11 +43,11 @@ function bigHorribleAlert(): void {
 
 // The following are equivalent, the same signature will be inferred by the
 // compiler, and same JavaScript will be emitted
-let f1 = function(i: number): number {
+let f1 = function (i: number): number {
   return i * i;
 };
 // Return type inferred
-let f2 = function(i: number) {
+let f2 = function (i: number) {
   return i * i;
 };
 // "Fat arrow" syntax
@@ -86,7 +86,7 @@ interface SearchFunc {
 }
 // Only the parameters' types are important, names are not important.
 let mySearch: SearchFunc;
-mySearch = function(src: string, sub: string) {
+mySearch = function (src: string, sub: string) {
   return src.search(sub) != -1;
 };
 
@@ -167,7 +167,7 @@ interface Pair<T> {
 }
 
 // And functions
-let pairToTuple = function<T>(p: Pair<T>) {
+let pairToTuple = function <T>(p: Pair<T>) {
   return new Tuple(p.item1, p.item2);
 };
 

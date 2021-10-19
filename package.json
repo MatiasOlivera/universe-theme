@@ -85,7 +85,7 @@
   },
   "devDependencies": {
     "@types/flat": "0.0.28",
-    "@types/node": "^11.11.0",
+    "@types/node": "^14.17.27",
     "@types/prettier": "^2.4.1",
     "deepmerge": "^3.2.0",
     "flat": "^4.1.0",

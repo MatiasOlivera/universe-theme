@@ -20,9 +20,8 @@ export const inputTokens = (palette: ColorPalettes): InputTokens => {
 // dialog.
 const inputColors: UIColors = (palette) => {
   const { background, neutral, red, blue, yellow, primary } = palette;
-  const { inputBackground, inputBorder, inputForeground } = inputTokens(
-    palette
-  );
+  const { inputBackground, inputBorder, inputForeground } =
+    inputTokens(palette);
 
   return {
     input: {

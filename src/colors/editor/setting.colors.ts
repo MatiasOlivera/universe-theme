@@ -5,9 +5,8 @@ import { inputTokens } from './input.colors';
 // Preferences: Open Settings (UI) command.
 const settingColors: UIColors = (palette) => {
   const { neutral, secondary } = palette;
-  const { inputBackground, inputBorder, inputForeground } = inputTokens(
-    palette
-  );
+  const { inputBackground, inputBorder, inputForeground } =
+    inputTokens(palette);
 
   return {
     settings: {

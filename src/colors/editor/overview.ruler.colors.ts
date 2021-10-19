@@ -4,16 +4,8 @@ import { opacity_80 } from '../opacity';
 // This ruler is located beneath the scroll bar on the right edge of the editor
 // and gives an overview of the decorations in the editor.
 const overviewRulerColors: UIColors = (palette) => {
-  const {
-    green,
-    background,
-    deepPurple,
-    cyan,
-    red,
-    blue,
-    yellow,
-    orange
-  } = palette;
+  const { green, background, deepPurple, cyan, red, blue, yellow, orange } =
+    palette;
 
   const highlightForeground: string = `${background[0]}${opacity_80}`;
 

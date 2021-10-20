@@ -1,7 +1,6 @@
 import * as deepmerge from 'deepmerge';
 import { flatten } from 'flat';
 import { join } from 'path';
-import { format, resolveConfig } from 'prettier';
 
 import { editorColors, syntaxColors } from './colors';
 import {
@@ -67,17 +66,8 @@ async function createTheme(
   theme: VsCodeTheme
 ): Promise<void> {
   try {
-    const themeJSON = JSON.stringify(theme);
-
-    const prettierConfig = await resolveConfig(__dirname);
-
-    const formattedTheme = format(themeJSON, {
-      filepath: themeFile,
-      parser: 'json',
-      ...prettierConfig
-    });
-
-    await writeFile(themeFile, formattedTheme);
+    const themeJSON = JSON.stringify(theme, null, 2);
+    await writeFile(themeFile, themeJSON);
   } catch (error) {
     throw error;
   }
